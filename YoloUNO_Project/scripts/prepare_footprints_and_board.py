@@ -122,6 +122,26 @@ replace_crtyd_rect(
 )
 print("Tightened 4 self-contained footprint courtyards in YoloUNO.pretty.")
 
+# Ensure KiCad 10 built-in 3D STEP models are linked for the 4 footprints whose default vendor .step is absent in KiCad 10
+BUILTIN_3D_FALLBACKS = {
+    "BarrelJack_CUI_PJ-102AH_Horizontal": (
+        "${KICAD10_3DMODEL_DIR}/Connector_BarrelJack.3dshapes/BarrelJack_Horizontal.step",
+        (0.0, 0.0, 0.0), (1.0, 1.0, 1.0), (0.0, 0.0, -90.0),
+    ),
+    "USB_C_Receptacle_HRO_TYPE-C-31-M-12": (
+        "${KICAD10_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.step",
+        (0.0, 0.0, 0.0), (1.0, 1.0, 1.0), (0.0, 0.0, 0.0),
+    ),
+    "SW_Push_1P1T_XKB_TS-1187A": (
+        "${KICAD10_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG.step",
+        (0.0, 0.0, 0.0), (0.70, 0.82, 0.85), (0.0, 0.0, 0.0),
+    ),
+    "NS-Tech_Grove_1x04_P2mm_Vertical": (
+        "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical.step",
+        (0.0, 0.0, 0.0), (1.0, 1.0, 1.0), (0.0, 0.0, 90.0),
+    ),
+}
+
 
 # ==============================================================================
 # 2. PARSE KICAD NETLIST (YoloUNO.net)
@@ -477,6 +497,18 @@ for ref, cinfo in sorted(components.items()):
     # Sync BOM attribute with schematic (JP1 is in_bom=yes in schematic)
     if ref == "JP1":
         fp.SetExcludedFromBOM(False)
+
+    # Link verified KiCad 10 built-in 3D STEP model if footprint is one of the 4 missing vendor shapes
+    if cinfo["fp_name"] in BUILTIN_3D_FALLBACKS:
+        mpath, off, scl, mrot = BUILTIN_3D_FALLBACKS[cinfo["fp_name"]]
+        models = fp.Models()
+        models.clear()
+        m3d = pcbnew.FP_3DMODEL()
+        m3d.m_Filename = mpath
+        m3d.m_Offset = pcbnew.VECTOR3D(*off)
+        m3d.m_Scale = pcbnew.VECTOR3D(*scl)
+        m3d.m_Rotation = pcbnew.VECTOR3D(*mrot)
+        models.push_back(m3d)
 
     # Sync MPN and LCSC fields for 0 schematic-parity warnings
     for fname, fval in [("MPN", cinfo["mpn"]), ("LCSC", cinfo["lcsc"])]:

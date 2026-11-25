@@ -359,15 +359,15 @@
 		(uuid "e783dde5-f762-4528-9b55-9220820b0b1c")
 	)
 	(embedded_fonts no)
-	(model "${KICAD10_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_HRO_TYPE-C-31-M-12.step"
+	(model "${KICAD10_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0.0 0.0 0.0)
 		)
 		(scale
-			(xyz 1 1 1)
+			(xyz 1.0 1.0 1.0)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz 0.0 0.0 0.0)
 		)
 	)
 )
