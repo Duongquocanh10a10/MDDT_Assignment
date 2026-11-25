@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "YoloUNO")(type "KiCad")(uri "${KIPRJMOD}/libraries/YoloUNO.kicad_sym")(options "")(descr "Yolo UNO Project Self-Contained Symbol Library"))
+)

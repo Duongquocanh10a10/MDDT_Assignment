@@ -1,0 +1,18 @@
+{
+  "model_architecture": "GNN_2Layer_GCN_MultiTask_Head",
+  "epochs": 50,
+  "final_metrics": {
+    "epoch": 50,
+    "loss": 126.96433634296375,
+    "mae_z": 20.332612864176433,
+    "mae_skew": 1.1387967983881633
+  },
+  "benchmark_cases_evaluated": [
+    "HS_CASE_001_USB2_DIFF90",
+    "HS_CASE_002_PCIE_GEN2_DIFF100",
+    "HS_CASE_003_RPD_RETURN_PATH_SPLIT",
+    "HS_CASE_004_PDN_TARGET_IMPEDANCE",
+    "HS_CASE_005_CROSSTALK_3W_GCPW",
+    "HS_CASE_006_THERMAL_STARVATION_PI"
+  ]
+}

@@ -1,0 +1,1842 @@
+[
+  {
+    "type": "WIRE_WIRE",
+    "net1": "BST_FB",
+    "net2": "RTC_INT",
+    "layer": "B.Cu",
+    "clearance": -0.2,
+    "pos": "(93.325,102.8)->(93.325,105.5) vs (89.5,103.5)->(103.0,103.5)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "BST_FB",
+    "net2": "+3V3",
+    "layer": "B.Cu",
+    "clearance": -0.30000000000000004,
+    "pos": "(93.325,102.8)->(93.325,105.5) vs (117.725,104.04)->(76.5,104.04)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "BST_FB",
+    "net2": "RTC_INT",
+    "layer": "B.Cu",
+    "clearance": -0.2,
+    "pos": "(92.5,102.8)->(87.675,102.8) vs (89.5,66.5)->(89.5,103.5)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "BST_FB",
+    "net2": "VBAT_RAW",
+    "layer": "B.Cu",
+    "clearance": 0.024999999999997136,
+    "pos": "(92.5,102.8)->(87.675,102.8) vs (89.05,97.0)->(89.05,102.5)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "BST_FB",
+    "net2": "+3V3",
+    "layer": "B.Cu",
+    "clearance": -0.30000000000000004,
+    "pos": "(87.675,102.8)->(87.675,105.5) vs (117.725,104.04)->(76.5,104.04)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "BST_FB",
+    "net2": "VBAT_RTC",
+    "layer": "B.Cu",
+    "clearance": -0.2,
+    "pos": "(87.675,105.5)->(87.675,109.5) vs (85.35,106.5)->(115.5,106.5)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "GND",
+    "net2": "RTC_INT",
+    "layer": "B.Cu",
+    "clearance": -0.1250000000000057,
+    "pos": "(91.675,105.5)->(91.675,103.6) vs (89.5,103.5)->(103.0,103.5)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "GND",
+    "net2": "+3V3",
+    "layer": "B.Cu",
+    "clearance": -0.325,
+    "pos": "(91.675,105.5)->(91.675,103.6) vs (117.725,104.04)->(76.5,104.04)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "OD_GATE",
+    "net2": "VBAT_RAW",
+    "layer": "B.Cu",
+    "clearance": -0.30000000000000004,
+    "pos": "(98.0,97.55)->(98.0,96.0) vs (74.8,97.0)->(117.5,97.0)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "OD_GATE",
+    "net2": "VBAT_RAW",
+    "layer": "B.Cu",
+    "clearance": -0.30000000000000004,
+    "pos": "(110.5,96.0)->(110.5,98.5) vs (74.8,97.0)->(117.5,97.0)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "OC_GATE",
+    "net2": "VBAT_RAW",
+    "layer": "B.Cu",
+    "clearance": -0.275,
+    "pos": "(97.0,100.2)->(110.5,100.2) vs (99.175,97.0)->(99.175,102.0)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "DW01_CS",
+    "net2": "VBUS",
+    "layer": "F.Cu",
+    "clearance": -0.25,
+    "pos": "(98.8625,98.5)->(96.0,98.5) vs (96.0,93.45)->(96.0,101.25)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "DW01_CS",
+    "net2": "VBAT_RAW",
+    "layer": "B.Cu",
+    "clearance": -0.275,
+    "pos": "(96.0,101.0)->(108.825,101.0) vs (99.175,97.0)->(99.175,102.0)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "B_MINUS",
+    "net2": "+3V3",
+    "layer": "B.Cu",
+    "clearance": -0.35,
+    "pos": "(104.275,103.5)->(121.5,103.5) vs (119.45,104.04)->(119.45,102.0)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "CHRG_ANODE",
+    "net2": "VBUS",
+    "layer": "F.Cu",
+    "clearance": -0.275,
+    "pos": "(89.825,80.1)->(89.825,82.5) vs (95.0,81.5)->(88.175,81.5)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "STDBY_ANODE",
+    "net2": "VBUS",
+    "layer": "F.Cu",
+    "clearance": -0.275,
+    "pos": "(93.825,80.1)->(93.825,82.5) vs (95.0,81.5)->(88.175,81.5)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "CHRG_LED",
+    "net2": "VBUS",
+    "layer": "F.Cu",
+    "clearance": -0.25,
+    "pos": "(90.7,78.8)->(90.7,94.5) vs (95.0,81.5)->(88.175,81.5)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "CHRG_LED",
+    "net2": "VBUS",
+    "layer": "F.Cu",
+    "clearance": -0.25,
+    "pos": "(93.8,94.5)->(93.8,97.865) vs (96.0,96.595)->(92.475,96.595)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "STDBY_LED",
+    "net2": "VBUS",
+    "layer": "F.Cu",
+    "clearance": -0.25,
+    "pos": "(91.3,78.4)->(91.3,94.0) vs (95.0,81.5)->(88.175,81.5)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "STDBY_LED",
+    "net2": "VBUS",
+    "layer": "F.Cu",
+    "clearance": -0.25,
+    "pos": "(94.6,94.0)->(94.6,99.135) vs (96.0,96.595)->(92.475,96.595)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "U1_PROG",
+    "net2": "VBAT_RAW",
+    "layer": "B.Cu",
+    "clearance": -0.30000000000000004,
+    "pos": "(86.2,97.865)->(86.2,96.8) vs (74.8,97.0)->(117.5,97.0)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "U1_PROG",
+    "net2": "SPI_SCK",
+    "layer": "B.Cu",
+    "clearance": 0.09999999999999715,
+    "pos": "(86.2,96.8)->(80.675,96.8) vs (81.6,79.7)->(81.6,96.5)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "U1_PROG",
+    "net2": "SPI_SCK",
+    "layer": "B.Cu",
+    "clearance": 0.09999999999999715,
+    "pos": "(86.2,96.8)->(80.675,96.8) vs (81.6,96.5)->(78.0,96.5)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "U1_PROG",
+    "net2": "LCD_RST",
+    "layer": "B.Cu",
+    "clearance": -0.2,
+    "pos": "(86.2,96.8)->(80.675,96.8) vs (82.2,80.6)->(82.2,97.1)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "U1_PROG",
+    "net2": "LCD_RST",
+    "layer": "B.Cu",
+    "clearance": 0.09999999999999715,
+    "pos": "(86.2,96.8)->(80.675,96.8) vs (82.2,97.1)->(78.6,97.1)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "U1_PROG",
+    "net2": "LCD_CS",
+    "layer": "B.Cu",
+    "clearance": -0.2,
+    "pos": "(86.2,96.8)->(80.675,96.8) vs (82.8,81.5)->(82.8,97.7)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "U1_PROG",
+    "net2": "VBAT_RTC",
+    "layer": "B.Cu",
+    "clearance": -0.2,
+    "pos": "(86.2,96.8)->(80.675,96.8) vs (85.35,94.5)->(85.35,106.5)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "U1_PROG",
+    "net2": "VBAT_RAW",
+    "layer": "B.Cu",
+    "clearance": -0.0999999999999972,
+    "pos": "(86.2,96.8)->(80.675,96.8) vs (74.8,97.0)->(117.5,97.0)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "U1_PROG",
+    "net2": "SPI_SCK",
+    "layer": "B.Cu",
+    "clearance": 0.09999999999999715,
+    "pos": "(80.675,96.8)->(80.675,98.5) vs (81.6,96.5)->(78.0,96.5)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "U1_PROG",
+    "net2": "LCD_RST",
+    "layer": "B.Cu",
+    "clearance": -0.2,
+    "pos": "(80.675,96.8)->(80.675,98.5) vs (82.2,97.1)->(78.6,97.1)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "U1_PROG",
+    "net2": "LCD_CS",
+    "layer": "B.Cu",
+    "clearance": -0.2,
+    "pos": "(80.675,96.8)->(80.675,98.5) vs (82.8,97.7)->(79.2,97.7)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "U1_PROG",
+    "net2": "VBAT_RAW",
+    "layer": "B.Cu",
+    "clearance": -0.30000000000000004,
+    "pos": "(80.675,96.8)->(80.675,98.5) vs (74.8,97.0)->(117.5,97.0)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "CC1",
+    "net2": "VBUS",
+    "layer": "F.Cu",
+    "clearance": -0.0999999999999972,
+    "pos": "(82.2,90.25)->(82.2,87.0) vs (80.545,89.05)->(82.0,89.05)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "CC2",
+    "net2": "VBUS",
+    "layer": "F.Cu",
+    "clearance": -0.0999999999999972,
+    "pos": "(82.2,93.25)->(82.2,96.0) vs (80.545,93.95)->(82.0,93.95)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "USB_D-",
+    "net2": "VBUS",
+    "layer": "B.Cu",
+    "clearance": -0.30000000000000004,
+    "pos": "(84.5,90.0)->(84.5,92.25) vs (82.0,91.5)->(86.55,91.5)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "USB_D-",
+    "net2": "VBUS",
+    "layer": "B.Cu",
+    "clearance": -0.30000000000000004,
+    "pos": "(84.5,92.25)->(85.25,91.5) vs (82.0,91.5)->(86.55,91.5)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "USB_D-",
+    "net2": "RTC_INT",
+    "layer": "B.Cu",
+    "clearance": -0.2,
+    "pos": "(85.25,91.5)->(92.0,91.5) vs (89.5,66.5)->(89.5,103.5)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "USB_D-",
+    "net2": "VBUS",
+    "layer": "B.Cu",
+    "clearance": -0.30000000000000004,
+    "pos": "(85.25,91.5)->(92.0,91.5) vs (82.0,91.5)->(86.55,91.5)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "USB_D-",
+    "net2": "VBUS",
+    "layer": "B.Cu",
+    "clearance": -0.30000000000000004,
+    "pos": "(85.25,91.5)->(92.0,91.5) vs (86.55,91.5)->(95.0,91.5)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "USB_D+",
+    "net2": "RTC_INT",
+    "layer": "B.Cu",
+    "clearance": -0.2,
+    "pos": "(85.5,90.0)->(94.0,90.0) vs (89.5,66.5)->(89.5,103.5)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "CP_VDD",
+    "net2": "VBUS",
+    "layer": "F.Cu",
+    "clearance": -0.04999999999999716,
+    "pos": "(95.8,92.0)->(95.8,93.6) vs (96.55,93.45)->(96.0,93.45)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "CP_VDD",
+    "net2": "VBUS",
+    "layer": "F.Cu",
+    "clearance": -0.04999999999999716,
+    "pos": "(95.8,92.0)->(95.8,93.6) vs (96.0,93.45)->(96.0,101.25)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "CP_VDD",
+    "net2": "VBUS",
+    "layer": "F.Cu",
+    "clearance": -2.831068712794149e-15,
+    "pos": "(95.8,93.6)->(93.225,93.6) vs (96.55,93.45)->(96.0,93.45)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "CP_VDD",
+    "net2": "VBUS",
+    "layer": "F.Cu",
+    "clearance": -0.04999999999999716,
+    "pos": "(95.8,93.6)->(93.225,93.6) vs (96.0,93.45)->(96.0,101.25)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "CP_VDD",
+    "net2": "VBUS",
+    "layer": "B.Cu",
+    "clearance": -0.12500000000000855,
+    "pos": "(95.8,93.6)->(103.225,93.6) vs (95.0,93.45)->(96.55,93.45)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "TX0",
+    "net2": "SPI_SCK",
+    "layer": "F.Cu",
+    "clearance": 2.831068712794149e-15,
+    "pos": "(112.2,87.5)->(112.2,61.56) vs (108.75,67.91)->(112.0,67.91)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "TX0",
+    "net2": "SPI_SCK",
+    "layer": "F.Cu",
+    "clearance": 2.831068712794149e-15,
+    "pos": "(112.2,87.5)->(112.2,61.56) vs (112.0,67.91)->(112.0,79.7)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "TX0",
+    "net2": "I2C_SDA",
+    "layer": "F.Cu",
+    "clearance": -0.2,
+    "pos": "(112.2,87.5)->(112.2,61.56) vs (111.5,70.1)->(113.175,70.1)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "TX0",
+    "net2": "ONEWIRE_TEMP",
+    "layer": "F.Cu",
+    "clearance": -0.2,
+    "pos": "(112.2,87.5)->(112.2,61.56) vs (108.75,72.99)->(116.5,72.99)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "TX0",
+    "net2": "VBAT_SW",
+    "layer": "F.Cu",
+    "clearance": -0.25,
+    "pos": "(112.2,87.5)->(112.2,61.56) vs (112.0,83.2)->(113.675,83.2)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "TX0",
+    "net2": "VBAT_SW",
+    "layer": "B.Cu",
+    "clearance": -0.275,
+    "pos": "(112.2,74.58)->(121.0,74.58) vs (120.5,55.5)->(120.5,83.2)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "RX0",
+    "net2": "SPI_SCK",
+    "layer": "F.Cu",
+    "clearance": -0.2,
+    "pos": "(111.4,84.8)->(111.4,62.83) vs (108.75,67.91)->(112.0,67.91)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "RX0",
+    "net2": "LCD_CS",
+    "layer": "F.Cu",
+    "clearance": -0.2,
+    "pos": "(111.4,84.8)->(111.4,62.83) vs (108.75,69.18)->(111.4,69.18)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "RX0",
+    "net2": "LCD_CS",
+    "layer": "F.Cu",
+    "clearance": -0.2,
+    "pos": "(111.4,84.8)->(111.4,62.83) vs (111.4,69.18)->(111.4,81.5)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "RX0",
+    "net2": "I2C_SDA",
+    "layer": "F.Cu",
+    "clearance": -0.2,
+    "pos": "(111.4,84.8)->(111.4,62.83) vs (108.75,64.1)->(111.5,64.1)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "RX0",
+    "net2": "I2C_SDA",
+    "layer": "F.Cu",
+    "clearance": -0.1000000000000057,
+    "pos": "(111.4,84.8)->(111.4,62.83) vs (111.5,64.1)->(111.5,70.1)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "RX0",
+    "net2": "I2C_SDA",
+    "layer": "F.Cu",
+    "clearance": -0.1000000000000057,
+    "pos": "(111.4,84.8)->(111.4,62.83) vs (111.5,70.1)->(113.175,70.1)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "RX0",
+    "net2": "ONEWIRE_TEMP",
+    "layer": "F.Cu",
+    "clearance": -0.2,
+    "pos": "(111.4,84.8)->(111.4,62.83) vs (108.75,72.99)->(116.5,72.99)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "RX0",
+    "net2": "GPS_TX",
+    "layer": "B.Cu",
+    "clearance": 2.831068712794149e-15,
+    "pos": "(111.4,77.12)->(121.0,77.12) vs (111.2,69.25)->(111.2,80.2)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "RX0",
+    "net2": "VBAT_SW",
+    "layer": "B.Cu",
+    "clearance": -0.275,
+    "pos": "(111.4,77.12)->(121.0,77.12) vs (120.5,55.5)->(120.5,83.2)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "IO0",
+    "net2": "LCD_RST",
+    "layer": "F.Cu",
+    "clearance": 2.831068712794149e-15,
+    "pos": "(110.6,88.2)->(110.6,74.26) vs (110.8,70.45)->(110.8,80.6)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "IO0",
+    "net2": "LCD_DC",
+    "layer": "F.Cu",
+    "clearance": -0.2,
+    "pos": "(110.6,74.26)->(108.75,74.26) vs (110.2,71.72)->(110.2,78.8)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "IO0",
+    "net2": "LCD_RST",
+    "layer": "F.Cu",
+    "clearance": 2.831068712794149e-15,
+    "pos": "(110.6,74.26)->(108.75,74.26) vs (110.8,70.45)->(110.8,80.6)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "IO0",
+    "net2": "SPI_SCK",
+    "layer": "B.Cu",
+    "clearance": -0.15999999999999376,
+    "pos": "(110.6,79.66)->(121.0,79.66) vs (112.0,79.7)->(81.6,79.7)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "IO0",
+    "net2": "GPS_TX",
+    "layer": "B.Cu",
+    "clearance": -0.2,
+    "pos": "(110.6,79.66)->(121.0,79.66) vs (111.2,69.25)->(111.2,80.2)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "IO0",
+    "net2": "GPS_RX",
+    "layer": "B.Cu",
+    "clearance": -0.01132037735887384,
+    "pos": "(110.6,79.66)->(121.0,79.66) vs (94.0,79.5)->(110.5,79.5)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "IO0",
+    "net2": "GPS_RX",
+    "layer": "B.Cu",
+    "clearance": -0.01132037735887384,
+    "pos": "(110.6,79.66)->(121.0,79.66) vs (110.5,79.5)->(110.5,70.35)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "IO0",
+    "net2": "VBAT_SW",
+    "layer": "B.Cu",
+    "clearance": -0.275,
+    "pos": "(110.6,79.66)->(121.0,79.66) vs (120.5,55.5)->(120.5,83.2)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "CHIP_PU",
+    "net2": "BAT_MONITOR",
+    "layer": "B.Cu",
+    "clearance": 0.09999999999999715,
+    "pos": "(89.8,60.29)->(89.8,61.5) vs (89.5,62.83)->(89.5,57.0)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "CHIP_PU",
+    "net2": "BAT_MONITOR",
+    "layer": "B.Cu",
+    "clearance": -0.2,
+    "pos": "(89.8,61.5)->(76.5,61.5) vs (89.5,62.83)->(89.5,57.0)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "CHIP_PU",
+    "net2": "VBAT_SW",
+    "layer": "F.Cu",
+    "clearance": -0.30000000000000004,
+    "pos": "(76.5,61.5)->(76.5,83.5) vs (80.75,72.5)->(73.8,72.5)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "CHIP_PU",
+    "net2": "VBAT_RAW",
+    "layer": "F.Cu",
+    "clearance": -0.30000000000000004,
+    "pos": "(76.5,61.5)->(76.5,83.5) vs (79.25,71.0)->(74.8,71.0)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "CHIP_PU",
+    "net2": "SPI_SCK",
+    "layer": "B.Cu",
+    "clearance": -0.2,
+    "pos": "(76.5,83.5)->(100.2,83.5) vs (81.6,79.7)->(81.6,96.5)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "CHIP_PU",
+    "net2": "LCD_RST",
+    "layer": "B.Cu",
+    "clearance": -0.2,
+    "pos": "(76.5,83.5)->(100.2,83.5) vs (82.2,80.6)->(82.2,97.1)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "CHIP_PU",
+    "net2": "LCD_CS",
+    "layer": "B.Cu",
+    "clearance": -0.2,
+    "pos": "(76.5,83.5)->(100.2,83.5) vs (82.8,81.5)->(82.8,97.7)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "CHIP_PU",
+    "net2": "RTC_INT",
+    "layer": "B.Cu",
+    "clearance": -0.2,
+    "pos": "(76.5,83.5)->(100.2,83.5) vs (89.5,66.5)->(89.5,103.5)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "CHIP_PU",
+    "net2": "VBUS",
+    "layer": "B.Cu",
+    "clearance": -0.275,
+    "pos": "(76.5,83.5)->(100.2,83.5) vs (95.0,91.5)->(95.0,81.5)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "CHIP_PU",
+    "net2": "SPI_SCK",
+    "layer": "B.Cu",
+    "clearance": -0.07500000000000001,
+    "pos": "(81.725,83.5)->(81.725,81.5) vs (81.6,79.7)->(81.6,96.5)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "CHIP_PU",
+    "net2": "LCD_CS",
+    "layer": "B.Cu",
+    "clearance": -0.2,
+    "pos": "(100.2,83.5)->(100.2,81.0) vs (111.4,81.5)->(82.8,81.5)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "CHIP_PU",
+    "net2": "VBAT_SW",
+    "layer": "B.Cu",
+    "clearance": -0.275,
+    "pos": "(100.2,81.0)->(121.0,81.0) vs (120.5,55.5)->(120.5,83.2)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "PH_OFFSET",
+    "net2": "LCD_LED_K",
+    "layer": "B.Cu",
+    "clearance": -0.225,
+    "pos": "(97.66,118.5)->(97.66,114.0) vs (118.4125,118.0)->(76.5,118.0)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "PH_ADC",
+    "net2": "SPI_MOSI",
+    "layer": "F.Cu",
+    "clearance": 2.831068712794149e-15,
+    "pos": "(73.8,64.1)->(73.8,121.0) vs (74.0,55.5)->(74.0,109.12)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "PH_ADC",
+    "net2": "SPI_MOSI",
+    "layer": "F.Cu",
+    "clearance": -0.024999999999997163,
+    "pos": "(73.8,64.1)->(73.8,121.0) vs (74.0,109.12)->(76.5,109.12)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "PH_ADC",
+    "net2": "VBAT_SW",
+    "layer": "F.Cu",
+    "clearance": -0.30000000000000004,
+    "pos": "(73.8,64.1)->(73.8,121.0) vs (80.75,72.5)->(73.8,72.5)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "PH_ADC",
+    "net2": "VBAT_SW",
+    "layer": "F.Cu",
+    "clearance": -0.35,
+    "pos": "(73.8,64.1)->(73.8,121.0) vs (73.8,72.5)->(73.8,98.5)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "PH_ADC",
+    "net2": "VBAT_SW",
+    "layer": "F.Cu",
+    "clearance": -0.35,
+    "pos": "(73.8,64.1)->(73.8,121.0) vs (73.8,98.5)->(78.8,98.5)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "PH_ADC",
+    "net2": "VBAT_SW",
+    "layer": "F.Cu",
+    "clearance": -0.275,
+    "pos": "(73.8,64.1)->(73.8,121.0) vs (73.8,72.5)->(73.8,55.5)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "PH_ADC",
+    "net2": "LCD_DC",
+    "layer": "B.Cu",
+    "clearance": -0.2,
+    "pos": "(73.8,113.0)->(84.225,113.0) vs (74.0,78.8)->(74.0,114.2)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "PH_ADC",
+    "net2": "LCD_CS",
+    "layer": "B.Cu",
+    "clearance": -0.2,
+    "pos": "(73.8,113.0)->(84.225,113.0) vs (79.2,97.7)->(79.2,116.74)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "TDS_PROBE_DRIVE",
+    "net2": "RTC_INT",
+    "layer": "F.Cu",
+    "clearance": -0.10500000000000115,
+    "pos": "(106.4375,114.5)->(101.5,114.5) vs (103.0,103.5)->(103.0,114.405)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "TDS_ADC",
+    "net2": "ONEWIRE_TEMP",
+    "layer": "B.Cu",
+    "clearance": -0.09999999999999859,
+    "pos": "(92.5,62.4)->(123.6,62.4) vs (116.5,62.5)->(124.4,62.5)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "TDS_ADC",
+    "net2": "VBAT_SW",
+    "layer": "B.Cu",
+    "clearance": -0.275,
+    "pos": "(92.5,62.4)->(123.6,62.4) vs (120.5,55.5)->(120.5,83.2)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "TDS_ADC",
+    "net2": "LCD_BL_PWM",
+    "layer": "F.Cu",
+    "clearance": 2.831068712794149e-15,
+    "pos": "(123.6,62.4)->(123.6,119.0) vs (123.8,54.5)->(123.8,120.5)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "TDS_ADC",
+    "net2": "ONEWIRE_TEMP",
+    "layer": "F.Cu",
+    "clearance": -0.2,
+    "pos": "(123.6,62.4)->(123.6,119.0) vs (124.4,110.2)->(114.675,110.2)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "TDS_ADC",
+    "net2": "+3V3",
+    "layer": "B.Cu",
+    "clearance": -0.275,
+    "pos": "(123.6,119.0)->(111.0,119.0) vs (117.725,111.5)->(117.725,121.5)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "TDS_PWR_CTRL",
+    "net2": "VBAT_SW",
+    "layer": "B.Cu",
+    "clearance": -0.275,
+    "pos": "(94.0,63.0)->(123.0,63.0) vs (120.5,55.5)->(120.5,83.2)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "TDS_PWR_CTRL",
+    "net2": "ONEWIRE_TEMP",
+    "layer": "F.Cu",
+    "clearance": -0.2,
+    "pos": "(123.0,63.0)->(123.0,118.2) vs (124.4,110.2)->(114.675,110.2)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "TDS_PWR_CTRL",
+    "net2": "LCD_LED_K",
+    "layer": "B.Cu",
+    "clearance": 2.831068712794149e-15,
+    "pos": "(123.0,118.2)->(105.675,118.2) vs (118.4125,118.0)->(76.5,118.0)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "TDS_PWR_CTRL",
+    "net2": "+3V3",
+    "layer": "B.Cu",
+    "clearance": -0.275,
+    "pos": "(123.0,118.2)->(105.675,118.2) vs (117.725,111.5)->(117.725,121.5)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "TDS_PWR_CTRL",
+    "net2": "LCD_LED_K",
+    "layer": "B.Cu",
+    "clearance": 2.831068712794149e-15,
+    "pos": "(105.675,118.2)->(105.675,119.5) vs (118.4125,118.0)->(76.5,118.0)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "LCD_BL_PWM",
+    "net2": "RTC_INT",
+    "layer": "F.Cu",
+    "clearance": -0.2,
+    "pos": "(91.25,66.64)->(88.5,66.64) vs (88.825,67.91)->(88.825,66.5)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "LCD_BL_PWM",
+    "net2": "RTC_INT",
+    "layer": "F.Cu",
+    "clearance": 0.12500000000000283,
+    "pos": "(88.5,66.64)->(88.5,54.5) vs (88.825,67.91)->(88.825,66.5)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "LCD_BL_PWM",
+    "net2": "VBAT_SW",
+    "layer": "F.Cu",
+    "clearance": -0.275,
+    "pos": "(88.5,66.64)->(88.5,54.5) vs (73.8,55.5)->(120.5,55.5)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "LCD_BL_PWM",
+    "net2": "ONEWIRE_TEMP",
+    "layer": "F.Cu",
+    "clearance": -0.2,
+    "pos": "(123.8,54.5)->(123.8,120.5) vs (124.4,110.2)->(114.675,110.2)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "LCD_BL_PWM",
+    "net2": "ONEWIRE_TEMP",
+    "layer": "B.Cu",
+    "clearance": -0.2,
+    "pos": "(123.8,120.5)->(114.675,120.5) vs (124.4,120.5)->(112.5,120.5)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "LCD_BL_PWM",
+    "net2": "+3V3",
+    "layer": "B.Cu",
+    "clearance": -0.275,
+    "pos": "(123.8,120.5)->(114.675,120.5) vs (117.725,111.5)->(117.725,121.5)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "SPI_MOSI",
+    "net2": "VBAT_SW",
+    "layer": "F.Cu",
+    "clearance": -0.275,
+    "pos": "(110.0,59.02)->(110.0,55.5) vs (73.8,55.5)->(120.5,55.5)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "SPI_MOSI",
+    "net2": "VBAT_SW",
+    "layer": "F.Cu",
+    "clearance": -0.30000000000000004,
+    "pos": "(74.0,55.5)->(74.0,109.12) vs (80.75,72.5)->(73.8,72.5)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "SPI_MOSI",
+    "net2": "VBAT_SW",
+    "layer": "F.Cu",
+    "clearance": -0.14999999999999714,
+    "pos": "(74.0,55.5)->(74.0,109.12) vs (73.8,72.5)->(73.8,98.5)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "SPI_MOSI",
+    "net2": "VBAT_SW",
+    "layer": "F.Cu",
+    "clearance": -0.35,
+    "pos": "(74.0,55.5)->(74.0,109.12) vs (73.8,98.5)->(78.8,98.5)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "SPI_MOSI",
+    "net2": "VBAT_SW",
+    "layer": "F.Cu",
+    "clearance": -0.07499999999999718,
+    "pos": "(74.0,55.5)->(74.0,109.12) vs (73.8,72.5)->(73.8,55.5)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "SPI_MOSI",
+    "net2": "VBAT_SW",
+    "layer": "F.Cu",
+    "clearance": -0.275,
+    "pos": "(74.0,55.5)->(74.0,109.12) vs (73.8,55.5)->(120.5,55.5)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "LCD_LED_K",
+    "net2": "+3V3",
+    "layer": "B.Cu",
+    "clearance": -0.275,
+    "pos": "(118.4125,118.0)->(76.5,118.0) vs (117.725,111.5)->(117.725,121.5)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "LCD_DC",
+    "net2": "ONEWIRE_TEMP",
+    "layer": "F.Cu",
+    "clearance": -0.2,
+    "pos": "(110.2,71.72)->(110.2,78.8) vs (108.75,72.99)->(116.5,72.99)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "LCD_DC",
+    "net2": "GPS_RX",
+    "layer": "B.Cu",
+    "clearance": -0.2,
+    "pos": "(110.2,78.8)->(74.0,78.8) vs (94.0,72.99)->(94.0,79.5)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "LCD_DC",
+    "net2": "GPS_RX",
+    "layer": "B.Cu",
+    "clearance": 0.09999999999999715,
+    "pos": "(110.2,78.8)->(74.0,78.8) vs (110.5,79.5)->(110.5,70.35)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "LCD_DC",
+    "net2": "RTC_INT",
+    "layer": "B.Cu",
+    "clearance": -0.2,
+    "pos": "(110.2,78.8)->(74.0,78.8) vs (89.5,66.5)->(89.5,103.5)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "LCD_DC",
+    "net2": "VBAT_RAW",
+    "layer": "B.Cu",
+    "clearance": -0.30000000000000004,
+    "pos": "(110.2,78.8)->(74.0,78.8) vs (74.8,71.0)->(74.8,97.0)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "SPI_SCK",
+    "net2": "I2C_SDA",
+    "layer": "F.Cu",
+    "clearance": -0.2,
+    "pos": "(108.75,67.91)->(112.0,67.91) vs (111.5,64.1)->(111.5,70.1)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "SPI_SCK",
+    "net2": "I2C_SDA",
+    "layer": "F.Cu",
+    "clearance": -0.2,
+    "pos": "(112.0,67.91)->(112.0,79.7) vs (111.5,70.1)->(113.175,70.1)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "SPI_SCK",
+    "net2": "ONEWIRE_TEMP",
+    "layer": "F.Cu",
+    "clearance": -0.2,
+    "pos": "(112.0,67.91)->(112.0,79.7) vs (108.75,72.99)->(116.5,72.99)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "SPI_SCK",
+    "net2": "GPS_TX",
+    "layer": "B.Cu",
+    "clearance": -0.2,
+    "pos": "(112.0,79.7)->(81.6,79.7) vs (111.2,69.25)->(111.2,80.2)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "SPI_SCK",
+    "net2": "GPS_RX",
+    "layer": "B.Cu",
+    "clearance": 2.831068712794149e-15,
+    "pos": "(112.0,79.7)->(81.6,79.7) vs (94.0,72.99)->(94.0,79.5)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "SPI_SCK",
+    "net2": "GPS_RX",
+    "layer": "B.Cu",
+    "clearance": 2.831068712794149e-15,
+    "pos": "(112.0,79.7)->(81.6,79.7) vs (94.0,79.5)->(110.5,79.5)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "SPI_SCK",
+    "net2": "GPS_RX",
+    "layer": "B.Cu",
+    "clearance": 2.831068712794149e-15,
+    "pos": "(112.0,79.7)->(81.6,79.7) vs (110.5,79.5)->(110.5,70.35)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "SPI_SCK",
+    "net2": "RTC_INT",
+    "layer": "B.Cu",
+    "clearance": -0.2,
+    "pos": "(112.0,79.7)->(81.6,79.7) vs (89.5,66.5)->(89.5,103.5)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "SPI_SCK",
+    "net2": "VBUS",
+    "layer": "B.Cu",
+    "clearance": 0.10000000000000564,
+    "pos": "(81.6,79.7)->(81.6,96.5) vs (82.0,89.05)->(82.0,93.95)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "SPI_SCK",
+    "net2": "VBUS",
+    "layer": "B.Cu",
+    "clearance": 0.10000000000000564,
+    "pos": "(81.6,79.7)->(81.6,96.5) vs (82.0,91.5)->(86.55,91.5)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "SPI_SCK",
+    "net2": "VBAT_RAW",
+    "layer": "B.Cu",
+    "clearance": -0.30000000000000004,
+    "pos": "(78.0,96.5)->(78.0,106.58) vs (74.8,97.0)->(117.5,97.0)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "SPI_SCK",
+    "net2": "+3V3",
+    "layer": "B.Cu",
+    "clearance": -0.30000000000000004,
+    "pos": "(78.0,96.5)->(78.0,106.58) vs (117.725,104.04)->(76.5,104.04)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "LCD_RST",
+    "net2": "ONEWIRE_TEMP",
+    "layer": "F.Cu",
+    "clearance": -0.2,
+    "pos": "(110.8,70.45)->(110.8,80.6) vs (108.75,72.99)->(116.5,72.99)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "LCD_RST",
+    "net2": "RTC_INT",
+    "layer": "B.Cu",
+    "clearance": -0.2,
+    "pos": "(110.8,80.6)->(82.2,80.6) vs (89.5,66.5)->(89.5,103.5)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "LCD_RST",
+    "net2": "VBAT_RAW",
+    "layer": "B.Cu",
+    "clearance": -0.30000000000000004,
+    "pos": "(82.2,80.6)->(82.2,97.1) vs (74.8,97.0)->(117.5,97.0)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "LCD_RST",
+    "net2": "VBUS",
+    "layer": "B.Cu",
+    "clearance": -0.0999999999999972,
+    "pos": "(82.2,80.6)->(82.2,97.1) vs (82.0,89.05)->(82.0,93.95)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "LCD_RST",
+    "net2": "VBUS",
+    "layer": "B.Cu",
+    "clearance": -0.30000000000000004,
+    "pos": "(82.2,80.6)->(82.2,97.1) vs (82.0,91.5)->(86.55,91.5)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "LCD_RST",
+    "net2": "VBAT_RAW",
+    "layer": "B.Cu",
+    "clearance": -0.20000000000000573,
+    "pos": "(82.2,97.1)->(78.6,97.1) vs (74.8,97.0)->(117.5,97.0)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "LCD_RST",
+    "net2": "VBAT_RAW",
+    "layer": "B.Cu",
+    "clearance": -0.20000000000000573,
+    "pos": "(78.6,97.1)->(78.6,111.66) vs (74.8,97.0)->(117.5,97.0)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "LCD_RST",
+    "net2": "+3V3",
+    "layer": "B.Cu",
+    "clearance": -0.30000000000000004,
+    "pos": "(78.6,97.1)->(78.6,111.66) vs (117.725,104.04)->(76.5,104.04)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "LCD_CS",
+    "net2": "I2C_SDA",
+    "layer": "F.Cu",
+    "clearance": -0.1000000000000057,
+    "pos": "(108.75,69.18)->(111.4,69.18) vs (111.5,64.1)->(111.5,70.1)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "LCD_CS",
+    "net2": "I2C_SDA",
+    "layer": "F.Cu",
+    "clearance": -0.1000000000000057,
+    "pos": "(111.4,69.18)->(111.4,81.5) vs (111.5,64.1)->(111.5,70.1)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "LCD_CS",
+    "net2": "I2C_SDA",
+    "layer": "F.Cu",
+    "clearance": -0.1000000000000057,
+    "pos": "(111.4,69.18)->(111.4,81.5) vs (111.5,70.1)->(113.175,70.1)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "LCD_CS",
+    "net2": "ONEWIRE_TEMP",
+    "layer": "F.Cu",
+    "clearance": -0.2,
+    "pos": "(111.4,69.18)->(111.4,81.5) vs (108.75,72.99)->(116.5,72.99)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "LCD_CS",
+    "net2": "RTC_INT",
+    "layer": "B.Cu",
+    "clearance": -0.2,
+    "pos": "(111.4,81.5)->(82.8,81.5) vs (89.5,66.5)->(89.5,103.5)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "LCD_CS",
+    "net2": "VBUS",
+    "layer": "B.Cu",
+    "clearance": -0.275,
+    "pos": "(111.4,81.5)->(82.8,81.5) vs (95.0,91.5)->(95.0,81.5)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "LCD_CS",
+    "net2": "VBAT_RAW",
+    "layer": "B.Cu",
+    "clearance": -0.30000000000000004,
+    "pos": "(82.8,81.5)->(82.8,97.7) vs (74.8,97.0)->(117.5,97.0)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "LCD_CS",
+    "net2": "VBUS",
+    "layer": "B.Cu",
+    "clearance": -0.30000000000000004,
+    "pos": "(82.8,81.5)->(82.8,97.7) vs (82.0,91.5)->(86.55,91.5)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "LCD_CS",
+    "net2": "+3V3",
+    "layer": "B.Cu",
+    "clearance": -0.30000000000000004,
+    "pos": "(79.2,97.7)->(79.2,116.74) vs (117.725,104.04)->(76.5,104.04)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "I2C_SCL",
+    "net2": "VBAT_SW",
+    "layer": "B.Cu",
+    "clearance": -0.275,
+    "pos": "(113.175,63.5)->(123.8,63.5) vs (120.5,55.5)->(120.5,83.2)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "I2C_SCL",
+    "net2": "+3V3",
+    "layer": "B.Cu",
+    "clearance": -0.275,
+    "pos": "(123.8,116.945)->(114.15,116.945) vs (117.725,111.5)->(117.725,121.5)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "I2C_SDA",
+    "net2": "VBAT_SW",
+    "layer": "B.Cu",
+    "clearance": -0.275,
+    "pos": "(111.5,64.3)->(123.2,64.3) vs (120.5,55.5)->(120.5,83.2)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "I2C_SDA",
+    "net2": "+3V3",
+    "layer": "B.Cu",
+    "clearance": -0.275,
+    "pos": "(123.2,115.675)->(114.15,115.675) vs (117.725,111.5)->(117.725,121.5)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "ONEWIRE_TEMP",
+    "net2": "BAT_MONITOR",
+    "layer": "F.Cu",
+    "clearance": -0.2,
+    "pos": "(108.75,72.99)->(116.5,72.99) vs (116.25,57.0)->(116.25,82.0)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "ONEWIRE_TEMP",
+    "net2": "BAT_MONITOR",
+    "layer": "F.Cu",
+    "clearance": 0.04999999999999999,
+    "pos": "(116.5,72.99)->(116.5,62.5) vs (116.25,57.0)->(116.25,82.0)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "ONEWIRE_TEMP",
+    "net2": "VBAT_SW",
+    "layer": "B.Cu",
+    "clearance": -0.275,
+    "pos": "(116.5,62.5)->(124.4,62.5) vs (120.5,55.5)->(120.5,83.2)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "ONEWIRE_TEMP",
+    "net2": "+3V3",
+    "layer": "B.Cu",
+    "clearance": -0.275,
+    "pos": "(124.4,120.5)->(112.5,120.5) vs (117.725,111.5)->(117.725,121.5)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "VBAT_RTC",
+    "net2": "VBAT_RAW",
+    "layer": "B.Cu",
+    "clearance": -0.30000000000000004,
+    "pos": "(85.35,94.5)->(85.35,106.5) vs (74.8,97.0)->(117.5,97.0)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "VBAT_RTC",
+    "net2": "+3V3",
+    "layer": "B.Cu",
+    "clearance": -0.30000000000000004,
+    "pos": "(85.35,94.5)->(85.35,106.5) vs (117.725,104.04)->(76.5,104.04)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "VBAT_RTC",
+    "net2": "+3V3",
+    "layer": "B.Cu",
+    "clearance": -0.25,
+    "pos": "(85.35,106.5)->(115.5,106.5) vs (102.0,104.04)->(102.0,115.675)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "VBAT_RTC",
+    "net2": "+3V3",
+    "layer": "B.Cu",
+    "clearance": -0.25,
+    "pos": "(85.35,106.5)->(115.5,106.5) vs (110.412,104.04)->(110.412,114.5)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "RTC_INT",
+    "net2": "VBAT_RAW",
+    "layer": "B.Cu",
+    "clearance": -0.30000000000000004,
+    "pos": "(89.5,66.5)->(89.5,103.5) vs (74.8,97.0)->(117.5,97.0)"
+  },
+  {
+    "type": "WIRE_WIRE",
+    "net1": "RTC_INT",
+    "net2": "VBUS",
+    "layer": "B.Cu",
+    "clearance": -0.30000000000000004,
+    "pos": "(89.5,66.5)->(89.5,103.5) vs (86.55,91.5)->(95.0,91.5)"
+  },
+  {
+    "type": "VIA_WIRE",
+    "net1": "GND",
+    "net2": "RTC_INT",
+    "layer": "B.Cu",
+    "clearance": -0.3000000000000057,
+    "pos": "Via GND(91.675,103.6) vs Wire RTC_INT B.Cu (89.5,103.5)->(103.0,103.5)"
+  },
+  {
+    "type": "VIA_WIRE",
+    "net1": "GND",
+    "net2": "+3V3",
+    "layer": "B.Cu",
+    "clearance": -0.05999999999998806,
+    "pos": "Via GND(91.675,103.6) vs Wire +3V3 B.Cu (117.725,104.04)->(76.5,104.04)"
+  },
+  {
+    "type": "VIA_WIRE",
+    "net1": "OD_GATE",
+    "net2": "VBAT_RAW",
+    "layer": "B.Cu",
+    "clearance": 0.04999999999999716,
+    "pos": "Via OD_GATE(98.0,97.55) vs Wire VBAT_RAW B.Cu (74.8,97.0)->(117.5,97.0)"
+  },
+  {
+    "type": "VIA_WIRE",
+    "net1": "DW01_CS",
+    "net2": "VBUS",
+    "layer": "F.Cu",
+    "clearance": -0.44999999999999996,
+    "pos": "Via DW01_CS(96.0,98.5) vs Wire VBUS F.Cu (96.0,93.45)->(96.0,101.25)"
+  },
+  {
+    "type": "VIA_WIRE",
+    "net1": "B_MINUS",
+    "net2": "+3V3",
+    "layer": "B.Cu",
+    "clearance": 0.04000000000000625,
+    "pos": "Via B_MINUS(104.275,103.5) vs Wire +3V3 B.Cu (117.725,104.04)->(76.5,104.04)"
+  },
+  {
+    "type": "VIA_WIRE",
+    "net1": "USB_D-",
+    "net2": "VBUS",
+    "layer": "B.Cu",
+    "clearance": -0.5,
+    "pos": "Via USB_D-(92.0,91.5) vs Wire VBUS B.Cu (86.55,91.5)->(95.0,91.5)"
+  },
+  {
+    "type": "VIA_WIRE",
+    "net1": "CP_VDD",
+    "net2": "VBUS",
+    "layer": "B.Cu",
+    "clearance": -0.3250000000000085,
+    "pos": "Via CP_VDD(95.8,93.6) vs Wire VBUS B.Cu (95.0,93.45)->(96.55,93.45)"
+  },
+  {
+    "type": "VIA_WIRE",
+    "net1": "CP_VDD",
+    "net2": "VBUS",
+    "layer": "F.Cu",
+    "clearance": -0.2000000000000028,
+    "pos": "Via CP_VDD(95.8,93.6) vs Wire VBUS F.Cu (96.55,93.45)->(96.0,93.45)"
+  },
+  {
+    "type": "VIA_WIRE",
+    "net1": "CP_VDD",
+    "net2": "VBUS",
+    "layer": "F.Cu",
+    "clearance": -0.2499999999999971,
+    "pos": "Via CP_VDD(95.8,93.6) vs Wire VBUS F.Cu (96.0,93.45)->(96.0,101.25)"
+  },
+  {
+    "type": "VIA_WIRE",
+    "net1": "CP_DTR",
+    "net2": "VBUS",
+    "layer": "B.Cu",
+    "clearance": 0.025000000000000022,
+    "pos": "Via CP_DTR(95.5,85.6) vs Wire VBUS B.Cu (95.0,91.5)->(95.0,81.5)"
+  },
+  {
+    "type": "VIA_WIRE",
+    "net1": "TX0",
+    "net2": "SPI_SCK",
+    "layer": "F.Cu",
+    "clearance": -0.19999999999999718,
+    "pos": "Via TX0(112.2,74.58) vs Wire SPI_SCK F.Cu (112.0,67.91)->(112.0,79.7)"
+  },
+  {
+    "type": "VIA_WIRE",
+    "net1": "RX0",
+    "net2": "LCD_CS",
+    "layer": "F.Cu",
+    "clearance": -0.4,
+    "pos": "Via RX0(111.4,77.12) vs Wire LCD_CS F.Cu (111.4,69.18)->(111.4,81.5)"
+  },
+  {
+    "type": "VIA_WIRE",
+    "net1": "RX0",
+    "net2": "GPS_TX",
+    "layer": "B.Cu",
+    "clearance": -0.19999999999999718,
+    "pos": "Via RX0(111.4,77.12) vs Wire GPS_TX B.Cu (111.2,69.25)->(111.2,80.2)"
+  },
+  {
+    "type": "VIA_WIRE",
+    "net1": "IO0",
+    "net2": "SPI_SCK",
+    "layer": "B.Cu",
+    "clearance": -0.35999999999999377,
+    "pos": "Via IO0(110.6,79.66) vs Wire SPI_SCK B.Cu (112.0,79.7)->(81.6,79.7)"
+  },
+  {
+    "type": "VIA_WIRE",
+    "net1": "IO0",
+    "net2": "LCD_RST",
+    "layer": "F.Cu",
+    "clearance": -0.19999999999999718,
+    "pos": "Via IO0(110.6,79.66) vs Wire LCD_RST F.Cu (110.8,70.45)->(110.8,80.6)"
+  },
+  {
+    "type": "VIA_WIRE",
+    "net1": "IO0",
+    "net2": "GPS_TX",
+    "layer": "B.Cu",
+    "clearance": 0.14000000000000623,
+    "pos": "Via IO0(110.6,79.66) vs Wire GPS_TX B.Cu (111.2,80.2)->(95.56,80.2)"
+  },
+  {
+    "type": "VIA_WIRE",
+    "net1": "IO0",
+    "net2": "GPS_RX",
+    "layer": "B.Cu",
+    "clearance": -0.21132037735887385,
+    "pos": "Via IO0(110.6,79.66) vs Wire GPS_RX B.Cu (94.0,79.5)->(110.5,79.5)"
+  },
+  {
+    "type": "VIA_WIRE",
+    "net1": "IO0",
+    "net2": "GPS_RX",
+    "layer": "B.Cu",
+    "clearance": -0.21132037735887385,
+    "pos": "Via IO0(110.6,79.66) vs Wire GPS_RX B.Cu (110.5,79.5)->(110.5,70.35)"
+  },
+  {
+    "type": "VIA_WIRE",
+    "net1": "CHIP_PU",
+    "net2": "BAT_MONITOR",
+    "layer": "B.Cu",
+    "clearance": -0.10000000000000286,
+    "pos": "Via CHIP_PU(89.8,60.29) vs Wire BAT_MONITOR B.Cu (89.5,62.83)->(89.5,57.0)"
+  },
+  {
+    "type": "VIA_WIRE",
+    "net1": "CHIP_PU",
+    "net2": "SPI_SCK",
+    "layer": "B.Cu",
+    "clearance": -0.275,
+    "pos": "Via CHIP_PU(81.725,81.5) vs Wire SPI_SCK B.Cu (81.6,79.7)->(81.6,96.5)"
+  },
+  {
+    "type": "VIA_WIRE",
+    "net1": "CHIP_PU",
+    "net2": "LCD_RST",
+    "layer": "B.Cu",
+    "clearance": 0.0750000000000085,
+    "pos": "Via CHIP_PU(81.725,81.5) vs Wire LCD_RST B.Cu (82.2,80.6)->(82.2,97.1)"
+  },
+  {
+    "type": "VIA_WIRE",
+    "net1": "PH_ADC",
+    "net2": "SPI_MOSI",
+    "layer": "F.Cu",
+    "clearance": -0.19999999999999718,
+    "pos": "Via PH_ADC(73.8,64.1) vs Wire SPI_MOSI F.Cu (74.0,55.5)->(74.0,109.12)"
+  },
+  {
+    "type": "VIA_WIRE",
+    "net1": "PH_ADC",
+    "net2": "VBAT_SW",
+    "layer": "F.Cu",
+    "clearance": -0.475,
+    "pos": "Via PH_ADC(73.8,64.1) vs Wire VBAT_SW F.Cu (73.8,72.5)->(73.8,55.5)"
+  },
+  {
+    "type": "VIA_WIRE",
+    "net1": "PH_ADC",
+    "net2": "LCD_DC",
+    "layer": "B.Cu",
+    "clearance": -0.19999999999999718,
+    "pos": "Via PH_ADC(73.8,113.0) vs Wire LCD_DC B.Cu (74.0,78.8)->(74.0,114.2)"
+  },
+  {
+    "type": "VIA_WIRE",
+    "net1": "TDS_ADC",
+    "net2": "LCD_BL_PWM",
+    "layer": "F.Cu",
+    "clearance": -0.19999999999999718,
+    "pos": "Via TDS_ADC(123.6,62.4) vs Wire LCD_BL_PWM F.Cu (123.8,54.5)->(123.8,120.5)"
+  },
+  {
+    "type": "VIA_WIRE",
+    "net1": "TDS_ADC",
+    "net2": "ONEWIRE_TEMP",
+    "layer": "B.Cu",
+    "clearance": -0.2999999999999986,
+    "pos": "Via TDS_ADC(123.6,62.4) vs Wire ONEWIRE_TEMP B.Cu (116.5,62.5)->(124.4,62.5)"
+  },
+  {
+    "type": "VIA_WIRE",
+    "net1": "TDS_ADC",
+    "net2": "LCD_BL_PWM",
+    "layer": "F.Cu",
+    "clearance": -0.19999999999999718,
+    "pos": "Via TDS_ADC(123.6,119.0) vs Wire LCD_BL_PWM F.Cu (123.8,54.5)->(123.8,120.5)"
+  },
+  {
+    "type": "VIA_WIRE",
+    "net1": "TDS_PWR_CTRL",
+    "net2": "I2C_SCL",
+    "layer": "B.Cu",
+    "clearance": 0.09999999999999998,
+    "pos": "Via TDS_PWR_CTRL(123.0,63.0) vs Wire I2C_SCL B.Cu (113.175,63.5)->(123.8,63.5)"
+  },
+  {
+    "type": "VIA_WIRE",
+    "net1": "TDS_PWR_CTRL",
+    "net2": "ONEWIRE_TEMP",
+    "layer": "B.Cu",
+    "clearance": 0.09999999999999998,
+    "pos": "Via TDS_PWR_CTRL(123.0,63.0) vs Wire ONEWIRE_TEMP B.Cu (116.5,62.5)->(124.4,62.5)"
+  },
+  {
+    "type": "VIA_WIRE",
+    "net1": "LCD_BL_PWM",
+    "net2": "ONEWIRE_TEMP",
+    "layer": "B.Cu",
+    "clearance": -0.4,
+    "pos": "Via LCD_BL_PWM(123.8,120.5) vs Wire ONEWIRE_TEMP B.Cu (124.4,120.5)->(112.5,120.5)"
+  },
+  {
+    "type": "VIA_WIRE",
+    "net1": "LCD_BL_PWM",
+    "net2": "ONEWIRE_TEMP",
+    "layer": "B.Cu",
+    "clearance": -0.4,
+    "pos": "Via LCD_BL_PWM(114.675,120.5) vs Wire ONEWIRE_TEMP B.Cu (124.4,120.5)->(112.5,120.5)"
+  },
+  {
+    "type": "VIA_WIRE",
+    "net1": "SPI_MOSI",
+    "net2": "VBAT_SW",
+    "layer": "F.Cu",
+    "clearance": -0.475,
+    "pos": "Via SPI_MOSI(110.0,55.5) vs Wire VBAT_SW F.Cu (73.8,55.5)->(120.5,55.5)"
+  },
+  {
+    "type": "VIA_WIRE",
+    "net1": "SPI_MOSI",
+    "net2": "VBAT_SW",
+    "layer": "F.Cu",
+    "clearance": -0.27499999999999714,
+    "pos": "Via SPI_MOSI(74.0,55.5) vs Wire VBAT_SW F.Cu (73.8,72.5)->(73.8,55.5)"
+  },
+  {
+    "type": "VIA_WIRE",
+    "net1": "SPI_MOSI",
+    "net2": "VBAT_SW",
+    "layer": "F.Cu",
+    "clearance": -0.475,
+    "pos": "Via SPI_MOSI(74.0,55.5) vs Wire VBAT_SW F.Cu (73.8,55.5)->(120.5,55.5)"
+  },
+  {
+    "type": "VIA_WIRE",
+    "net1": "LCD_LED_K",
+    "net2": "TDS_PWR_CTRL",
+    "layer": "B.Cu",
+    "clearance": -0.19999999999999718,
+    "pos": "Via LCD_LED_K(118.4125,118.0) vs Wire TDS_PWR_CTRL B.Cu (123.0,118.2)->(105.675,118.2)"
+  },
+  {
+    "type": "VIA_WIRE",
+    "net1": "LCD_DC",
+    "net2": "IO0",
+    "layer": "F.Cu",
+    "clearance": -8.548717289613705e-15,
+    "pos": "Via LCD_DC(110.2,78.8) vs Wire IO0 F.Cu (110.6,88.2)->(110.6,74.26)"
+  },
+  {
+    "type": "VIA_WIRE",
+    "net1": "LCD_DC",
+    "net2": "GPS_RX",
+    "layer": "B.Cu",
+    "clearance": -0.10000000000000286,
+    "pos": "Via LCD_DC(110.2,78.8) vs Wire GPS_RX B.Cu (110.5,79.5)->(110.5,70.35)"
+  },
+  {
+    "type": "VIA_WIRE",
+    "net1": "SPI_SCK",
+    "net2": "TX0",
+    "layer": "F.Cu",
+    "clearance": -0.19999999999999718,
+    "pos": "Via SPI_SCK(112.0,79.7) vs Wire TX0 F.Cu (112.2,87.5)->(112.2,61.56)"
+  },
+  {
+    "type": "VIA_WIRE",
+    "net1": "SPI_SCK",
+    "net2": "IO0",
+    "layer": "B.Cu",
+    "clearance": -0.35999999999999377,
+    "pos": "Via SPI_SCK(112.0,79.7) vs Wire IO0 B.Cu (110.6,79.66)->(121.0,79.66)"
+  },
+  {
+    "type": "VIA_WIRE",
+    "net1": "LCD_RST",
+    "net2": "IO0",
+    "layer": "F.Cu",
+    "clearance": -0.19999999999999718,
+    "pos": "Via LCD_RST(110.8,80.6) vs Wire IO0 F.Cu (110.6,88.2)->(110.6,74.26)"
+  },
+  {
+    "type": "VIA_WIRE",
+    "net1": "LCD_RST",
+    "net2": "CHIP_PU",
+    "layer": "B.Cu",
+    "clearance": 5.662137425588298e-15,
+    "pos": "Via LCD_RST(110.8,80.6) vs Wire CHIP_PU B.Cu (100.2,81.0)->(121.0,81.0)"
+  },
+  {
+    "type": "VIA_WIRE",
+    "net1": "LCD_RST",
+    "net2": "GPS_TX",
+    "layer": "B.Cu",
+    "clearance": -8.548717289613705e-15,
+    "pos": "Via LCD_RST(110.8,80.6) vs Wire GPS_TX B.Cu (111.2,80.2)->(95.56,80.2)"
+  },
+  {
+    "type": "VIA_WIRE",
+    "net1": "LCD_CS",
+    "net2": "RX0",
+    "layer": "F.Cu",
+    "clearance": -0.4,
+    "pos": "Via LCD_CS(111.4,81.5) vs Wire RX0 F.Cu (111.4,84.8)->(111.4,62.83)"
+  },
+  {
+    "type": "VIA_WIRE",
+    "net1": "LCD_CS",
+    "net2": "CHIP_PU",
+    "layer": "B.Cu",
+    "clearance": 0.09999999999999998,
+    "pos": "Via LCD_CS(111.4,81.5) vs Wire CHIP_PU B.Cu (100.2,81.0)->(121.0,81.0)"
+  },
+  {
+    "type": "VIA_WIRE",
+    "net1": "GPS_TX",
+    "net2": "SPI_SCK",
+    "layer": "B.Cu",
+    "clearance": 0.09999999999999998,
+    "pos": "Via GPS_TX(95.56,80.2) vs Wire SPI_SCK B.Cu (112.0,79.7)->(81.6,79.7)"
+  },
+  {
+    "type": "VIA_WIRE",
+    "net1": "GPS_TX",
+    "net2": "LCD_RST",
+    "layer": "B.Cu",
+    "clearance": -8.548717289613705e-15,
+    "pos": "Via GPS_TX(95.56,80.2) vs Wire LCD_RST B.Cu (110.8,80.6)->(82.2,80.6)"
+  },
+  {
+    "type": "VIA_WIRE",
+    "net1": "I2C_SCL",
+    "net2": "TDS_PWR_CTRL",
+    "layer": "B.Cu",
+    "clearance": 0.09999999999999998,
+    "pos": "Via I2C_SCL(113.175,63.5) vs Wire TDS_PWR_CTRL B.Cu (94.0,63.0)->(123.0,63.0)"
+  },
+  {
+    "type": "VIA_WIRE",
+    "net1": "I2C_SDA",
+    "net2": "RX0",
+    "layer": "F.Cu",
+    "clearance": -0.3000000000000057,
+    "pos": "Via I2C_SDA(111.5,64.3) vs Wire RX0 F.Cu (111.4,84.8)->(111.4,62.83)"
+  },
+  {
+    "type": "VIA_WIRE",
+    "net1": "ONEWIRE_TEMP",
+    "net2": "TDS_ADC",
+    "layer": "B.Cu",
+    "clearance": -0.2999999999999986,
+    "pos": "Via ONEWIRE_TEMP(116.5,62.5) vs Wire TDS_ADC B.Cu (92.5,62.4)->(123.6,62.4)"
+  },
+  {
+    "type": "VIA_WIRE",
+    "net1": "ONEWIRE_TEMP",
+    "net2": "TDS_PWR_CTRL",
+    "layer": "B.Cu",
+    "clearance": 0.09999999999999998,
+    "pos": "Via ONEWIRE_TEMP(116.5,62.5) vs Wire TDS_PWR_CTRL B.Cu (94.0,63.0)->(123.0,63.0)"
+  },
+  {
+    "type": "VIA_WIRE",
+    "net1": "ONEWIRE_TEMP",
+    "net2": "BAT_MONITOR",
+    "layer": "F.Cu",
+    "clearance": -0.15000000000000002,
+    "pos": "Via ONEWIRE_TEMP(116.5,62.5) vs Wire BAT_MONITOR F.Cu (116.25,57.0)->(116.25,82.0)"
+  },
+  {
+    "type": "VIA_WIRE",
+    "net1": "RTC_INT",
+    "net2": "LCD_BL_PWM",
+    "layer": "F.Cu",
+    "clearance": -0.25999999999999945,
+    "pos": "Via RTC_INT(88.825,66.5) vs Wire LCD_BL_PWM F.Cu (91.25,66.64)->(88.5,66.64)"
+  },
+  {
+    "type": "VIA_WIRE",
+    "net1": "RTC_INT",
+    "net2": "LCD_BL_PWM",
+    "layer": "F.Cu",
+    "clearance": -0.07499999999999718,
+    "pos": "Via RTC_INT(88.825,66.5) vs Wire LCD_BL_PWM F.Cu (88.5,66.64)->(88.5,54.5)"
+  },
+  {
+    "type": "VIA_WIRE",
+    "net1": "RTC_INT",
+    "net2": "+3V3",
+    "layer": "B.Cu",
+    "clearance": 0.04000000000000625,
+    "pos": "Via RTC_INT(103.0,103.5) vs Wire +3V3 B.Cu (117.725,104.04)->(76.5,104.04)"
+  },
+  {
+    "type": "VIA_WIRE",
+    "net1": "RTC_INT",
+    "net2": "TDS_PROBE_DRIVE",
+    "layer": "F.Cu",
+    "clearance": -0.30500000000000116,
+    "pos": "Via RTC_INT(103.0,114.405) vs Wire TDS_PROBE_DRIVE F.Cu (106.4375,114.5)->(101.5,114.5)"
+  },
+  {
+    "type": "VIA_WIRE",
+    "net1": "VBAT_SW",
+    "net2": "TX0",
+    "layer": "F.Cu",
+    "clearance": -0.19999999999999718,
+    "pos": "Via VBAT_SW(112.0,83.2) vs Wire TX0 F.Cu (112.2,87.5)->(112.2,61.56)"
+  },
+  {
+    "type": "VIA_WIRE",
+    "net1": "VBAT_RAW",
+    "net2": "BST_FB",
+    "layer": "B.Cu",
+    "clearance": -0.10000000000000286,
+    "pos": "Via VBAT_RAW(89.05,102.5) vs Wire BST_FB B.Cu (92.5,102.8)->(87.675,102.8)"
+  },
+  {
+    "type": "VIA_WIRE",
+    "net1": "VBAT_RAW",
+    "net2": "RTC_INT",
+    "layer": "B.Cu",
+    "clearance": 0.05000000000000282,
+    "pos": "Via VBAT_RAW(89.05,102.5) vs Wire RTC_INT B.Cu (89.5,66.5)->(89.5,103.5)"
+  },
+  {
+    "type": "VIA_WIRE",
+    "net1": "VBUS",
+    "net2": "CC1",
+    "layer": "F.Cu",
+    "clearance": -0.19999999999999718,
+    "pos": "Via VBUS(82.0,89.05) vs Wire CC1 F.Cu (82.2,90.25)->(82.2,87.0)"
+  },
+  {
+    "type": "VIA_WIRE",
+    "net1": "VBUS",
+    "net2": "SPI_SCK",
+    "layer": "B.Cu",
+    "clearance": 5.662137425588298e-15,
+    "pos": "Via VBUS(82.0,89.05) vs Wire SPI_SCK B.Cu (81.6,79.7)->(81.6,96.5)"
+  },
+  {
+    "type": "VIA_WIRE",
+    "net1": "VBUS",
+    "net2": "LCD_RST",
+    "layer": "B.Cu",
+    "clearance": -0.19999999999999718,
+    "pos": "Via VBUS(82.0,89.05) vs Wire LCD_RST B.Cu (82.2,80.6)->(82.2,97.1)"
+  },
+  {
+    "type": "VIA_WIRE",
+    "net1": "VBUS",
+    "net2": "CC2",
+    "layer": "F.Cu",
+    "clearance": -0.19999999999999718,
+    "pos": "Via VBUS(82.0,93.95) vs Wire CC2 F.Cu (82.2,93.25)->(82.2,96.0)"
+  },
+  {
+    "type": "VIA_WIRE",
+    "net1": "VBUS",
+    "net2": "SPI_SCK",
+    "layer": "B.Cu",
+    "clearance": 5.662137425588298e-15,
+    "pos": "Via VBUS(82.0,93.95) vs Wire SPI_SCK B.Cu (81.6,79.7)->(81.6,96.5)"
+  },
+  {
+    "type": "VIA_WIRE",
+    "net1": "VBUS",
+    "net2": "LCD_RST",
+    "layer": "B.Cu",
+    "clearance": -0.19999999999999718,
+    "pos": "Via VBUS(82.0,93.95) vs Wire LCD_RST B.Cu (82.2,80.6)->(82.2,97.1)"
+  },
+  {
+    "type": "VIA_WIRE",
+    "net1": "VBUS",
+    "net2": "USB_D-",
+    "layer": "B.Cu",
+    "clearance": -0.4,
+    "pos": "Via VBUS(86.55,91.5) vs Wire USB_D- B.Cu (85.25,91.5)->(92.0,91.5)"
+  },
+  {
+    "type": "VIA_WIRE",
+    "net1": "VBUS",
+    "net2": "LCD_CS",
+    "layer": "B.Cu",
+    "clearance": -0.4,
+    "pos": "Via VBUS(95.0,81.5) vs Wire LCD_CS B.Cu (111.4,81.5)->(82.8,81.5)"
+  },
+  {
+    "type": "VIA_WIRE",
+    "net1": "VBUS",
+    "net2": "CP_VDD",
+    "layer": "B.Cu",
+    "clearance": -0.25000000000000855,
+    "pos": "Via VBUS(96.55,93.45) vs Wire CP_VDD B.Cu (95.8,93.6)->(103.225,93.6)"
+  },
+  {
+    "type": "VIA_WIRE",
+    "net1": "+3V3",
+    "net2": "B_MINUS",
+    "layer": "B.Cu",
+    "clearance": 0.06500000000000627,
+    "pos": "Via +3V3(117.725,104.04) vs Wire B_MINUS B.Cu (104.275,103.5)->(121.5,103.5)"
+  },
+  {
+    "type": "VIA_WIRE",
+    "net1": "+3V3",
+    "net2": "B_MINUS",
+    "layer": "B.Cu",
+    "clearance": 0.025000000000000022,
+    "pos": "Via +3V3(117.725,103.0) vs Wire B_MINUS B.Cu (104.275,103.5)->(121.5,103.5)"
+  }
+]

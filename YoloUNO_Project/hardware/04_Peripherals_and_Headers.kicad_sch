@@ -1,0 +1,10587 @@
+(kicad_sch
+	(version 20250610)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "734999bc-76df-506e-8a24-9c9ffbf75853")
+	(paper "A3")
+	(title_block
+		(title "Peripherals: UNO R3, 12x Grove, QWIIC, I2C & 4x Servo")
+		(date "2026-11-25")
+		(rev "1.0")
+		(company "HCMUT - CO2037 Electronic Devices & Circuits")
+		(comment 1 "Board: Yolo UNO Redesign (ESP32-S3-WROOM-1-N16R8, 4-Layer IPC-2221)")
+		(comment 2 "12x Grove (3.3V) | QWIIC | 4x Servo GVS | USB-C + 6-12V DC Power-Mux")
+	)
+	(lib_symbols
+		(symbol "YoloUNO:UNO_Header_1x08"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x08"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "YoloUNO:PinSocket_1x08_P2.54mm_Vertical"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "UNO_Header_1x08_1_1"
+				(rectangle
+					(start -1.27 8.89)
+					(end 1.27 -11.43)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 7.747)
+					(end 0 7.493)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -10.033)
+					(end 0 -10.287)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 7.62 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -10.16 0)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "YoloUNO:+3V3"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27)
+						(xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54)
+						(xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0)
+						(xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "YoloUNO:+5V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27)
+						(xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54)
+						(xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0)
+						(xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "YoloUNO:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0)
+						(xy 0 -1.27)
+						(xy 1.27 -1.27)
+						(xy 0 -2.54)
+						(xy -1.27 -1.27)
+						(xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "YoloUNO:UNO_Header_1x06"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x06"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "YoloUNO:PinSocket_1x06_P2.54mm_Vertical"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "UNO_Header_1x06_1_1"
+				(rectangle
+					(start -1.27 6.35)
+					(end 1.27 -8.89)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "YoloUNO:UNO_Header_1x10"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x10"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "YoloUNO:PinSocket_1x10_P2.54mm_Vertical"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "UNO_Header_1x10_1_1"
+				(rectangle
+					(start -1.27 11.43)
+					(end 1.27 -13.97)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 10.287)
+					(end 0 10.033)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 7.747)
+					(end 0 7.493)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -10.033)
+					(end 0 -10.287)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -12.573)
+					(end 0 -12.827)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 10.16 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 7.62 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -10.16 0)
+					(length 3.81)
+					(name "Pin_9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -12.7 0)
+					(length 3.81)
+					(name "Pin_10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "YoloUNO:SolderJumper_3_Bridged12"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "JP"
+				(at -2.54 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_3_Bridged12"
+				(at 0 2.794 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "YoloUNO:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Solder Jumper SPDT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Bridged12*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SolderJumper_3_Bridged12_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0)
+						(xy -2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.016)
+						(xy -1.016 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.016 0.508)
+					(end -0.508 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start -1.016 -1.016)
+					(mid -2.0276 0)
+					(end -1.016 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -0.508 1.016)
+					(end 0.508 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27)
+						(xy 0 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.016 1.016)
+					(mid 2.0276 0)
+					(end 1.016 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.016)
+						(xy 1.016 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0)
+						(xy 2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SolderJumper_3_Bridged12_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "YoloUNO:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "YoloUNO:R_0603_1608Metric"
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "YoloUNO:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "YoloUNO:C_0603_1608Metric"
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762)
+						(xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762)
+						(xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "YoloUNO:Grove_1x04"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "YoloUNO:NS-Tech_Grove_1x04_P2mm_Vertical"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Grove_1x04_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "YoloUNO:QWIIC_JST_SH_1x04"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04_MountingPin"
+				(at 1.27 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "YoloUNO:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connectable mounting pin connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??-1MP*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "QWIIC_JST_SH_1x04_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -7.112)
+						(xy 1.016 -7.112)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "Mounting"
+					(at 0 -6.731 0)
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 90)
+					(length 3.048)
+					(name "MountPin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "YoloUNO:C_Polarized"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "YoloUNO:CP_Elec_6.3x5.4"
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Polarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_Polarized_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286)
+						(xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794)
+						(xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "C_Polarized_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "YoloUNO:Servo_GVS_1x03"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "YoloUNO:PinHeader_1x03_P2.54mm_Vertical"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Servo_GVS_1x03_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 15.24 17.78)
+		(end 129.54 175.26)
+		(stroke
+			(width 0.2)
+			(type dash)
+			(color 0 90 160 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "117e0a09-63b5-54f2-9519-77b84076a5df")
+	)
+	(rectangle
+		(start 15.24 182.88)
+		(end 129.54 266.7)
+		(stroke
+			(width 0.2)
+			(type dash)
+			(color 0 90 160 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "c2038c7e-1dfd-5114-a4b4-a2455cb3bf7a")
+	)
+	(rectangle
+		(start 134.62 17.78)
+		(end 406.4 187.96)
+		(stroke
+			(width 0.2)
+			(type dash)
+			(color 0 90 160 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "d8ee9da2-dd2f-5ab8-920e-482ae97ada5e")
+	)
+	(rectangle
+		(start 134.62 195.58)
+		(end 251.46 266.7)
+		(stroke
+			(width 0.2)
+			(type dash)
+			(color 0 90 160 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "ddd3922c-d6f8-5e6d-a7d2-50eabed67e1c")
+	)
+	(rectangle
+		(start 256.54 195.58)
+		(end 406.4 266.7)
+		(stroke
+			(width 0.2)
+			(type dash)
+			(color 0 90 160 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "a29208f3-3ed4-571c-b5d1-95a7ad493e44")
+	)
+	(text "4.8A ARDUINO UNO R3 HEADERS"
+		(exclude_from_sim no)
+		(at 17.78 21.98 0)
+		(effects
+			(font
+				(size 1.9 1.9)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "cbd8b0f6-d746-5e47-9603-6025f14ff235")
+	)
+	(text "4.8B A0 0-5V CONDITIONING (Q[10])"
+		(exclude_from_sim no)
+		(at 17.78 187.08 0)
+		(effects
+			(font
+				(size 1.9 1.9)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "9b87aa4f-ca91-557f-888f-5faac80b1afe")
+	)
+	(text "4.8C 12x GROVE 2.0mm PORTS (4x ANALOG YELLOW, 4x DIGITAL WHITE, 4x I2C RED - VCC=+3V3)"
+		(exclude_from_sim no)
+		(at 137.16 21.98 0)
+		(effects
+			(font
+				(size 1.9 1.9)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "266457c0-34e3-5fe4-9d2a-bc17321b3d30")
+	)
+	(text "4.8D I2C PULL-UPS (1.5k) & QWIIC"
+		(exclude_from_sim no)
+		(at 137.16 199.78 0)
+		(effects
+			(font
+				(size 1.9 1.9)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "aced9e68-cb79-5a15-9c8b-beda044c0389")
+	)
+	(text "4.8E 4x SERVO GVS HEADERS (+5V) & 470uF BULK CAPACITOR"
+		(exclude_from_sim no)
+		(at 259.08 199.78 0)
+		(effects
+			(font
+				(size 1.9 1.9)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "f5e1c37d-9f2a-53f9-951e-3a3daaec540f")
+	)
+	(wire
+		(pts
+			(xy 46.99 43.18)
+			(xy 53.34 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9a53bd4-8867-5e41-8bba-3086cacd5995")
+	)
+	(wire
+		(pts
+			(xy 44.45 45.72)
+			(xy 53.34 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bb384c1-a9be-5668-9f62-615332be3d4b")
+	)
+	(wire
+		(pts
+			(xy 39.37 48.26)
+			(xy 53.34 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e0e1e12-e8aa-5b72-bcf3-1553a9e0bc14")
+	)
+	(wire
+		(pts
+			(xy 46.99 50.8)
+			(xy 53.34 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e643086-7970-5e91-b1c9-8b67ce71cca1")
+	)
+	(wire
+		(pts
+			(xy 39.37 53.34)
+			(xy 53.34 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "866a7f98-4202-5112-b328-aa2a371cf22e")
+	)
+	(wire
+		(pts
+			(xy 46.99 55.88)
+			(xy 53.34 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2c0b7f2-2a91-5941-9f6a-ee61f9388ac8")
+	)
+	(wire
+		(pts
+			(xy 44.45 58.42)
+			(xy 53.34 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a684d001-cedc-59ce-827b-6bb84a172be7")
+	)
+	(wire
+		(pts
+			(xy 41.91 99.06)
+			(xy 53.34 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2a8d1c7-1548-5e7c-bcac-0f94c303b467")
+	)
+	(wire
+		(pts
+			(xy 44.45 101.6)
+			(xy 53.34 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "381c4f15-8800-570e-8cd8-178a7cda4fa1")
+	)
+	(wire
+		(pts
+			(xy 44.45 104.14)
+			(xy 53.34 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abd4d11e-a53e-5cea-961a-08ade331388a")
+	)
+	(wire
+		(pts
+			(xy 44.45 106.68)
+			(xy 53.34 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd331e1b-49c2-5c3b-b99b-9dc4446c1d87")
+	)
+	(wire
+		(pts
+			(xy 44.45 109.22)
+			(xy 53.34 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d211b972-fc16-50f2-a212-aa721b3077aa")
+	)
+	(wire
+		(pts
+			(xy 44.45 111.76)
+			(xy 53.34 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "959c6bde-35f3-55e4-b374-396529ab7e6e")
+	)
+	(wire
+		(pts
+			(xy 100.33 43.18)
+			(xy 109.22 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e4895be-d7ae-51a2-b218-a94605345282")
+	)
+	(wire
+		(pts
+			(xy 100.33 45.72)
+			(xy 109.22 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5eae6f2a-eba2-5143-a5e2-b2407f20a4da")
+	)
+	(wire
+		(pts
+			(xy 100.33 48.26)
+			(xy 109.22 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e680a51-adf9-516b-889e-9146449fc7cb")
+	)
+	(wire
+		(pts
+			(xy 100.33 50.8)
+			(xy 109.22 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "587343b0-47c6-590f-83f5-077eaf6429aa")
+	)
+	(wire
+		(pts
+			(xy 100.33 53.34)
+			(xy 109.22 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17793bc2-50ff-5f56-a511-5559f712e6e4")
+	)
+	(wire
+		(pts
+			(xy 100.33 55.88)
+			(xy 109.22 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3248790f-41ca-5504-88b5-a8498289176d")
+	)
+	(wire
+		(pts
+			(xy 102.87 58.42)
+			(xy 109.22 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bdba885-042b-530b-abc9-c7c0453f9a49")
+	)
+	(wire
+		(pts
+			(xy 95.25 60.96)
+			(xy 109.22 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23f43738-c2ec-568d-a2c1-bada155fb9db")
+	)
+	(wire
+		(pts
+			(xy 100.33 63.5)
+			(xy 109.22 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a05b471-b274-5aa9-abd1-2d6f66316a83")
+	)
+	(wire
+		(pts
+			(xy 100.33 66.04)
+			(xy 109.22 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11f1a6f4-f570-5f47-97ce-5447c3f787bc")
+	)
+	(wire
+		(pts
+			(xy 100.33 114.3)
+			(xy 109.22 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cefa2469-cc2b-5743-be66-ddff9d65bb54")
+	)
+	(wire
+		(pts
+			(xy 100.33 116.84)
+			(xy 109.22 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d670fc9-8f08-50be-aa73-cd0c214179de")
+	)
+	(wire
+		(pts
+			(xy 100.33 119.38)
+			(xy 109.22 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a340350-7719-55e3-a937-afdca25bd6f2")
+	)
+	(wire
+		(pts
+			(xy 100.33 121.92)
+			(xy 109.22 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63520cc4-75b8-5773-a869-240ece848a58")
+	)
+	(wire
+		(pts
+			(xy 100.33 124.46)
+			(xy 109.22 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38d73baa-3fa2-54a1-820e-a5026721cacc")
+	)
+	(wire
+		(pts
+			(xy 100.33 127)
+			(xy 109.22 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3f75a20-f281-54c8-90d8-1ca2fd36769d")
+	)
+	(wire
+		(pts
+			(xy 100.33 129.54)
+			(xy 109.22 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c774d1d1-5111-58f0-aed1-1f5d5c7fe987")
+	)
+	(wire
+		(pts
+			(xy 100.33 132.08)
+			(xy 109.22 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfffe080-1277-55bf-b300-d3e9dec4ba94")
+	)
+	(wire
+		(pts
+			(xy 27.94 208.28)
+			(xy 58.42 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97bc7574-52b1-5d3e-a9b5-1d484c76665b")
+	)
+	(wire
+		(pts
+			(xy 43.18 208.28)
+			(xy 43.18 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1f2c0a5-89f4-58ae-8e06-0a7aa866b58c")
+	)
+	(wire
+		(pts
+			(xy 43.18 195.58)
+			(xy 96.52 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f2d1dfd-251c-5236-9ee3-5cd69524d734")
+	)
+	(wire
+		(pts
+			(xy 96.52 203.2)
+			(xy 96.52 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd604cbe-d161-5ce6-a8bc-6293d5484310")
+	)
+	(wire
+		(pts
+			(xy 68.58 208.28)
+			(xy 96.52 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86ebfc10-d5bd-5986-8bff-37bd25531674")
+	)
+	(wire
+		(pts
+			(xy 96.52 220.98)
+			(xy 96.52 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1911aae1-bbdf-522f-a4a8-cb4ecb26d9bd")
+	)
+	(wire
+		(pts
+			(xy 63.5 212.09)
+			(xy 63.5 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ca2a5d6-6822-55fa-8c07-a3305f582b8e")
+	)
+	(wire
+		(pts
+			(xy 63.5 226.06)
+			(xy 81.28 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cff8a27-c558-5466-9514-94dff278fdb9")
+	)
+	(wire
+		(pts
+			(xy 63.5 226.06)
+			(xy 63.5 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e8f359f-8881-565d-a231-a009eb8806a5")
+	)
+	(wire
+		(pts
+			(xy 63.5 242.57)
+			(xy 63.5 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51c62106-b500-56c1-8e6c-bd97a68fc273")
+	)
+	(wire
+		(pts
+			(xy 161.29 45.72)
+			(xy 170.18 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ebc7d13-ecab-5b2a-a974-1877c4ada96d")
+	)
+	(wire
+		(pts
+			(xy 161.29 48.26)
+			(xy 170.18 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "032ea605-31e9-5dc3-ad35-e9c488ab51cf")
+	)
+	(wire
+		(pts
+			(xy 163.83 50.8)
+			(xy 170.18 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5849092e-e5a3-5f33-842c-76293db97332")
+	)
+	(wire
+		(pts
+			(xy 156.21 53.34)
+			(xy 170.18 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba10d352-9488-5dcf-a775-ea417d9e9454")
+	)
+	(wire
+		(pts
+			(xy 227.33 45.72)
+			(xy 236.22 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92a12a7e-d04e-54ee-9b50-3d784f9e9c82")
+	)
+	(wire
+		(pts
+			(xy 227.33 48.26)
+			(xy 236.22 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3afcee7f-7a7b-57db-bfda-874a5e7c751c")
+	)
+	(wire
+		(pts
+			(xy 229.87 50.8)
+			(xy 236.22 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "540e22f8-4b6f-5017-b4f9-59215ec6816b")
+	)
+	(wire
+		(pts
+			(xy 222.25 53.34)
+			(xy 236.22 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af3565bf-f9cc-5111-8feb-9610c2c02862")
+	)
+	(wire
+		(pts
+			(xy 293.37 45.72)
+			(xy 302.26 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f22ac0d3-5540-5b4d-bc5d-9343bcf096ef")
+	)
+	(wire
+		(pts
+			(xy 293.37 48.26)
+			(xy 302.26 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5073836c-25d3-5497-a0d9-e6a60304eb27")
+	)
+	(wire
+		(pts
+			(xy 295.91 50.8)
+			(xy 302.26 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4761ce6-3ef7-5d67-a4f5-cffd63b15885")
+	)
+	(wire
+		(pts
+			(xy 288.29 53.34)
+			(xy 302.26 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec4a7a79-462f-5322-b7f6-f26dac3a2f98")
+	)
+	(wire
+		(pts
+			(xy 356.87 45.72)
+			(xy 368.3 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "014faa3a-97aa-5c57-b449-e4b90bf9dab5")
+	)
+	(wire
+		(pts
+			(xy 359.41 48.26)
+			(xy 368.3 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bb3f153-0962-56ae-8d5f-083e954befc8")
+	)
+	(wire
+		(pts
+			(xy 361.95 50.8)
+			(xy 368.3 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0940eafe-4ab1-5b11-88af-5cfd1c8372ab")
+	)
+	(wire
+		(pts
+			(xy 354.33 53.34)
+			(xy 368.3 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4322174d-03cf-5b9f-8f1e-6a5191a56b66")
+	)
+	(wire
+		(pts
+			(xy 161.29 101.6)
+			(xy 170.18 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f25920c-00ec-59f6-807f-e348ea034236")
+	)
+	(wire
+		(pts
+			(xy 161.29 104.14)
+			(xy 170.18 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ea3b62f-768f-5eb8-b665-7a6b4ea1ef6a")
+	)
+	(wire
+		(pts
+			(xy 163.83 106.68)
+			(xy 170.18 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e51ac35-f74c-53eb-a0ec-1d6b1bd91af7")
+	)
+	(wire
+		(pts
+			(xy 156.21 109.22)
+			(xy 170.18 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdefe5ba-96b3-56b6-9fe1-fc0f540f2d00")
+	)
+	(wire
+		(pts
+			(xy 227.33 101.6)
+			(xy 236.22 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46a17ac8-4b47-570a-ac80-dbba82c7f880")
+	)
+	(wire
+		(pts
+			(xy 227.33 104.14)
+			(xy 236.22 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d48719d-7d3a-5bcf-8b50-06c960142f8c")
+	)
+	(wire
+		(pts
+			(xy 229.87 106.68)
+			(xy 236.22 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cc8b925-bd27-556e-9d4a-fabdf1e8d06b")
+	)
+	(wire
+		(pts
+			(xy 222.25 109.22)
+			(xy 236.22 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a148e287-4b08-5ac1-9363-220831a589f4")
+	)
+	(wire
+		(pts
+			(xy 293.37 101.6)
+			(xy 302.26 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c2110fe-e605-5dfb-ba71-d2c40a23d075")
+	)
+	(wire
+		(pts
+			(xy 293.37 104.14)
+			(xy 302.26 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e2f82ce-8d43-5cde-a104-d6754e06aeb0")
+	)
+	(wire
+		(pts
+			(xy 295.91 106.68)
+			(xy 302.26 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c465035-4713-53e3-9039-56d0c41c21b4")
+	)
+	(wire
+		(pts
+			(xy 288.29 109.22)
+			(xy 302.26 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c08ddf2-5c51-50fa-9d04-0a86b7bcfe43")
+	)
+	(wire
+		(pts
+			(xy 359.41 101.6)
+			(xy 368.3 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ca5df28-3edb-5287-a67d-d20dc794e273")
+	)
+	(wire
+		(pts
+			(xy 359.41 104.14)
+			(xy 368.3 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcdc79ec-d529-56d5-b9b2-f5dacdaa082c")
+	)
+	(wire
+		(pts
+			(xy 361.95 106.68)
+			(xy 368.3 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26d338e5-d54d-5076-987a-2d0902c74620")
+	)
+	(wire
+		(pts
+			(xy 354.33 109.22)
+			(xy 368.3 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15ef7c3c-ec9b-58d7-88a2-b203198ddd2f")
+	)
+	(wire
+		(pts
+			(xy 161.29 157.48)
+			(xy 170.18 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c28e36e-9f58-5a53-9eab-2c703419488d")
+	)
+	(wire
+		(pts
+			(xy 161.29 160.02)
+			(xy 170.18 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8ea7bba-9710-5b47-b987-aa3e1a3d0187")
+	)
+	(wire
+		(pts
+			(xy 163.83 162.56)
+			(xy 170.18 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c0bdd64-9352-5db5-8383-7013a85a0567")
+	)
+	(wire
+		(pts
+			(xy 156.21 165.1)
+			(xy 170.18 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7c5fcd5-ec04-5fd2-afb9-380266e1306c")
+	)
+	(wire
+		(pts
+			(xy 227.33 157.48)
+			(xy 236.22 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3ac3f4e-9a02-59e1-98bd-b45f02aa9619")
+	)
+	(wire
+		(pts
+			(xy 227.33 160.02)
+			(xy 236.22 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7864f667-4e72-535f-820c-a01a4c931fa7")
+	)
+	(wire
+		(pts
+			(xy 229.87 162.56)
+			(xy 236.22 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24dcf089-6ca9-5dac-b649-4482bde18307")
+	)
+	(wire
+		(pts
+			(xy 222.25 165.1)
+			(xy 236.22 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18435ec9-1e72-55db-99cf-e8f87ad0f723")
+	)
+	(wire
+		(pts
+			(xy 293.37 157.48)
+			(xy 302.26 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a907c20d-8975-594a-8f7f-ee134c67c096")
+	)
+	(wire
+		(pts
+			(xy 293.37 160.02)
+			(xy 302.26 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f083c86-d1fe-558b-ad1c-a23e2e249a77")
+	)
+	(wire
+		(pts
+			(xy 295.91 162.56)
+			(xy 302.26 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "515ef034-d327-5040-89ad-bcdc02ba5719")
+	)
+	(wire
+		(pts
+			(xy 288.29 165.1)
+			(xy 302.26 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba373391-30dc-5dc0-a920-ee1c10f3bbe6")
+	)
+	(wire
+		(pts
+			(xy 359.41 157.48)
+			(xy 368.3 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "002476d8-74a8-52ab-947e-6e0082b6d8d5")
+	)
+	(wire
+		(pts
+			(xy 359.41 160.02)
+			(xy 368.3 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e87ecc3-b7a3-5263-a9ab-3621306164f9")
+	)
+	(wire
+		(pts
+			(xy 361.95 162.56)
+			(xy 368.3 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f12c8433-1300-5c7e-872a-95286bcdd4f2")
+	)
+	(wire
+		(pts
+			(xy 354.33 165.1)
+			(xy 368.3 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1710335a-91cf-5a96-be8b-eef81861e90d")
+	)
+	(wire
+		(pts
+			(xy 152.4 214.63)
+			(xy 175.26 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25576379-0787-5bb2-855a-a3a39205095b")
+	)
+	(wire
+		(pts
+			(xy 152.4 214.63)
+			(xy 152.4 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "306b947b-c34f-5711-beb9-b237ee372bd6")
+	)
+	(wire
+		(pts
+			(xy 175.26 214.63)
+			(xy 175.26 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f6e4571-a699-51ec-996e-3bd59ccf5fb3")
+	)
+	(wire
+		(pts
+			(xy 163.83 214.63)
+			(xy 163.83 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2be7c241-c79d-56e9-8698-547d4947a25c")
+	)
+	(wire
+		(pts
+			(xy 219.71 228.6)
+			(xy 226.06 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3f38b66-5cdf-5f0b-ae0c-21343972b81c")
+	)
+	(wire
+		(pts
+			(xy 212.09 231.14)
+			(xy 226.06 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf37584f-f882-5a77-97e2-8d367fca8dfb")
+	)
+	(wire
+		(pts
+			(xy 152.4 227.33)
+			(xy 152.4 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "615ef751-d791-5164-9b3a-65e6a7bd55c9")
+	)
+	(wire
+		(pts
+			(xy 152.4 233.68)
+			(xy 226.06 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94f97467-78c1-533b-a4e9-439c41177585")
+	)
+	(wire
+		(pts
+			(xy 144.78 233.68)
+			(xy 152.4 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50300b94-dfa4-589a-9aa9-4dc49ee904f1")
+	)
+	(wire
+		(pts
+			(xy 175.26 227.33)
+			(xy 175.26 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4af325e2-2624-5a73-8231-53fe1ab5c0fb")
+	)
+	(wire
+		(pts
+			(xy 175.26 236.22)
+			(xy 226.06 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0eda1120-027b-54a3-87f1-927c74eed75c")
+	)
+	(wire
+		(pts
+			(xy 144.78 236.22)
+			(xy 175.26 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46104a8d-175f-50e8-af87-5d367f93c7e6")
+	)
+	(wire
+		(pts
+			(xy 231.14 241.3)
+			(xy 231.14 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "151c76f8-7fe6-54a1-b4ee-862db9b55520")
+	)
+	(wire
+		(pts
+			(xy 269.24 227.33)
+			(xy 269.24 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f7a6daa-8abd-5bb4-b0ad-ccc6b51e7cb4")
+	)
+	(wire
+		(pts
+			(xy 269.24 234.95)
+			(xy 269.24 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7b7647d-1189-5bfa-a604-a75aafbdc02f")
+	)
+	(wire
+		(pts
+			(xy 311.15 218.44)
+			(xy 317.5 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55abbc59-6205-561b-8ea5-80ea49657b02")
+	)
+	(wire
+		(pts
+			(xy 303.53 220.98)
+			(xy 317.5 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb0d9685-2499-59ac-9e92-51d323fa4229")
+	)
+	(wire
+		(pts
+			(xy 308.61 223.52)
+			(xy 317.5 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0020fb58-f18a-5687-97c0-eec22870aa94")
+	)
+	(wire
+		(pts
+			(xy 369.57 218.44)
+			(xy 375.92 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d305c655-5130-5282-80c3-651eb10df7b2")
+	)
+	(wire
+		(pts
+			(xy 361.95 220.98)
+			(xy 375.92 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc2edc97-471a-5d7b-8a3f-edffc0cd001d")
+	)
+	(wire
+		(pts
+			(xy 367.03 223.52)
+			(xy 375.92 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef8ec9ac-388b-5e99-8723-ec65f4b68abf")
+	)
+	(wire
+		(pts
+			(xy 311.15 246.38)
+			(xy 317.5 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "343b2db1-8450-5a3a-bd0d-c0f7244e9081")
+	)
+	(wire
+		(pts
+			(xy 303.53 248.92)
+			(xy 317.5 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d61a137-656f-54d5-9099-17474c1b7d83")
+	)
+	(wire
+		(pts
+			(xy 308.61 251.46)
+			(xy 317.5 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82556fe1-2170-5359-b4e4-f66897070f90")
+	)
+	(wire
+		(pts
+			(xy 369.57 246.38)
+			(xy 375.92 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d05da70f-e91b-50d9-91eb-eaea0c3ff639")
+	)
+	(wire
+		(pts
+			(xy 361.95 248.92)
+			(xy 375.92 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "586bdebe-1768-5dea-b98f-528a56c533a2")
+	)
+	(wire
+		(pts
+			(xy 367.03 251.46)
+			(xy 375.92 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d630620-96c8-59e5-afd7-d1a6e040be79")
+	)
+	(junction
+		(at 43.18 208.28)
+		(diameter 1.016)
+		(color 0 0 0 0)
+		(uuid "260e6e95-e511-55ef-bf5c-1473b88b6953")
+	)
+	(junction
+		(at 96.52 208.28)
+		(diameter 1.016)
+		(color 0 0 0 0)
+		(uuid "56c9c4ea-0bc0-590e-8974-321165e79219")
+	)
+	(junction
+		(at 63.5 226.06)
+		(diameter 1.016)
+		(color 0 0 0 0)
+		(uuid "7e48429c-332d-5844-b3d3-6a8f6ad1b379")
+	)
+	(junction
+		(at 163.83 214.63)
+		(diameter 1.016)
+		(color 0 0 0 0)
+		(uuid "290952d1-1e89-591d-9ebd-2313491323cb")
+	)
+	(junction
+		(at 152.4 233.68)
+		(diameter 1.016)
+		(color 0 0 0 0)
+		(uuid "9a468d51-5b5a-53b6-bcb6-1b2167f79c59")
+	)
+	(junction
+		(at 175.26 236.22)
+		(diameter 1.016)
+		(color 0 0 0 0)
+		(uuid "827bdfc3-6216-5791-a529-9181ff285d5c")
+	)
+	(no_connect
+		(at 53.34 40.64)
+		(uuid "8706cdba-423b-54af-9e3b-467748f67cf1")
+	)
+	(label "A0_RAW"
+		(at 41.91 99.06 0)
+		(effects
+			(font
+				(size 1.2 1.2)
+			)
+			(justify left bottom)
+		)
+		(uuid "7b1f7780-a1fc-5c23-8eae-a9792f3570a9")
+	)
+	(label "A0_RAW"
+		(at 27.94 208.28 0)
+		(effects
+			(font
+				(size 1.2 1.2)
+			)
+			(justify left bottom)
+		)
+		(uuid "7c6e3a75-e4ff-59db-a9df-e38f8b6ec03f")
+	)
+	(label "A0_RAW"
+		(at 356.87 45.72 0)
+		(effects
+			(font
+				(size 1.2 1.2)
+			)
+			(justify left bottom)
+		)
+		(uuid "34e1152c-63bb-5da8-9554-eb8215a90f33")
+	)
+	(global_label "MCU_EN"
+		(shape bidirectional)
+		(at 44.45 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2 1.2)
+			)
+			(justify right)
+		)
+		(uuid "4a68e18d-e21c-5310-ab11-6014e6d69865")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 49.53 45.72 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "VIN_PROT"
+		(shape input)
+		(at 44.45 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2 1.2)
+			)
+			(justify right)
+		)
+		(uuid "0a0778e0-508f-5b38-bbef-93f1626f7a0c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 49.53 58.42 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "A1"
+		(shape bidirectional)
+		(at 44.45 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2 1.2)
+			)
+			(justify right)
+		)
+		(uuid "9ecf95a7-4414-5383-8af1-453b95ed0307")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 49.53 101.6 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "A2"
+		(shape bidirectional)
+		(at 44.45 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2 1.2)
+			)
+			(justify right)
+		)
+		(uuid "e6c9c3af-b107-59ac-8ead-193b8fbbe284")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 49.53 104.14 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "A3"
+		(shape bidirectional)
+		(at 44.45 106.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2 1.2)
+			)
+			(justify right)
+		)
+		(uuid "889c18c6-2e7d-5e23-9d24-5f7b324f3e63")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 49.53 106.68 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "I2C_SDA"
+		(shape bidirectional)
+		(at 44.45 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2 1.2)
+			)
+			(justify right)
+		)
+		(uuid "411ed965-4dd6-5ff0-b15f-e14fb0cea927")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 49.53 109.22 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "I2C_SCL"
+		(shape bidirectional)
+		(at 44.45 111.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2 1.2)
+			)
+			(justify right)
+		)
+		(uuid "874a5e2d-ccd4-54c1-a938-f540ecf3215d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 49.53 111.76 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "D8"
+		(shape bidirectional)
+		(at 100.33 43.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2 1.2)
+			)
+			(justify right)
+		)
+		(uuid "9162c4ac-0717-5faf-b931-06944d3ac49f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.41 43.18 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "D9"
+		(shape bidirectional)
+		(at 100.33 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2 1.2)
+			)
+			(justify right)
+		)
+		(uuid "717f4a4c-fe77-5e4c-a6f5-a3afd50c50c7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.41 45.72 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "D10"
+		(shape bidirectional)
+		(at 100.33 48.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2 1.2)
+			)
+			(justify right)
+		)
+		(uuid "fe5dfcba-9a33-5e4e-8edc-538dcaf1b577")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.41 48.26 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "D11"
+		(shape bidirectional)
+		(at 100.33 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2 1.2)
+			)
+			(justify right)
+		)
+		(uuid "91095a51-4d2d-567f-82e9-705c0b04c55b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.41 50.8 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "D12"
+		(shape bidirectional)
+		(at 100.33 53.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2 1.2)
+			)
+			(justify right)
+		)
+		(uuid "0aa037c6-77a7-52e2-b650-641e8d0e2c96")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.41 53.34 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "D13"
+		(shape bidirectional)
+		(at 100.33 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2 1.2)
+			)
+			(justify right)
+		)
+		(uuid "594bb851-16a5-5d68-ae68-3b54bd1131cd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.41 55.88 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "I2C_SDA"
+		(shape bidirectional)
+		(at 100.33 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2 1.2)
+			)
+			(justify right)
+		)
+		(uuid "16056a9f-03a4-518d-bdb3-c7a079a5af5e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.41 63.5 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "I2C_SCL"
+		(shape bidirectional)
+		(at 100.33 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2 1.2)
+			)
+			(justify right)
+		)
+		(uuid "aab8c9ff-7748-52aa-afe1-c75e530d4abe")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.41 66.04 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "D0_RX"
+		(shape bidirectional)
+		(at 100.33 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2 1.2)
+			)
+			(justify right)
+		)
+		(uuid "b3b6f1e9-d60d-5681-b9c5-d478b53c782f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.41 114.3 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "D1_TX"
+		(shape bidirectional)
+		(at 100.33 116.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2 1.2)
+			)
+			(justify right)
+		)
+		(uuid "936caf84-4de7-5026-ad2a-3bfc022d6373")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.41 116.84 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "D2"
+		(shape bidirectional)
+		(at 100.33 119.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2 1.2)
+			)
+			(justify right)
+		)
+		(uuid "327dd2e1-d906-5c13-aa13-fda17576e547")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.41 119.38 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "D3"
+		(shape bidirectional)
+		(at 100.33 121.92 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2 1.2)
+			)
+			(justify right)
+		)
+		(uuid "b493d208-038a-57b5-8875-4ee37a47c945")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.41 121.92 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "D4"
+		(shape bidirectional)
+		(at 100.33 124.46 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2 1.2)
+			)
+			(justify right)
+		)
+		(uuid "ef94def2-3596-555b-bd8c-35cddddfd5a3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.41 124.46 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "D5"
+		(shape bidirectional)
+		(at 100.33 127 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2 1.2)
+			)
+			(justify right)
+		)
+		(uuid "d69a7151-0a07-50a7-94af-7991351a37a5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.41 127 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "D6"
+		(shape bidirectional)
+		(at 100.33 129.54 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2 1.2)
+			)
+			(justify right)
+		)
+		(uuid "e3ff4400-7955-5ffd-a83e-fb8168fc5d22")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.41 129.54 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "D7"
+		(shape bidirectional)
+		(at 100.33 132.08 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2 1.2)
+			)
+			(justify right)
+		)
+		(uuid "b48afbdc-d26d-5943-a4d6-7a5a12b34668")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.41 132.08 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "A0_ADC"
+		(shape output)
+		(at 81.28 226.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2 1.2)
+			)
+			(justify left)
+		)
+		(uuid "8ffff238-d9aa-585d-bd71-106548cf97a3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 86.36 226.06 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "A3"
+		(shape bidirectional)
+		(at 161.29 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2 1.2)
+			)
+			(justify right)
+		)
+		(uuid "56eed989-5e33-5c27-91ae-58355122e509")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 166.37 45.72 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "A6"
+		(shape bidirectional)
+		(at 161.29 48.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2 1.2)
+			)
+			(justify right)
+		)
+		(uuid "f31bc15c-6ddb-5005-a5d2-d980947afc3a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 166.37 48.26 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "A2"
+		(shape bidirectional)
+		(at 227.33 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2 1.2)
+			)
+			(justify right)
+		)
+		(uuid "40a0bbc8-5423-5f04-8c3d-afa66909bc37")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 232.41 45.72 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "A3"
+		(shape bidirectional)
+		(at 227.33 48.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2 1.2)
+			)
+			(justify right)
+		)
+		(uuid "6a763c6d-d14c-5ac0-b914-0228d8b2c50a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 232.41 48.26 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "A1"
+		(shape bidirectional)
+		(at 293.37 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2 1.2)
+			)
+			(justify right)
+		)
+		(uuid "72049927-beff-5415-83ae-15243e38d09a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 298.45 45.72 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "A2"
+		(shape bidirectional)
+		(at 293.37 48.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2 1.2)
+			)
+			(justify right)
+		)
+		(uuid "a2d807f6-f116-5c42-a874-03d114d6e536")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 298.45 48.26 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "A1"
+		(shape bidirectional)
+		(at 359.41 48.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2 1.2)
+			)
+			(justify right)
+		)
+		(uuid "42bfbdc1-6e75-5f79-93f7-3b11aee12f08")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 364.49 48.26 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "D9"
+		(shape bidirectional)
+		(at 161.29 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2 1.2)
+			)
+			(justify right)
+		)
+		(uuid "bca96bac-5595-5c89-b84d-d2ea295d0185")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 166.37 101.6 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "D10"
+		(shape bidirectional)
+		(at 161.29 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2 1.2)
+			)
+			(justify right)
+		)
+		(uuid "d9443017-82e2-5f39-8b6f-e5e0a688bc45")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 166.37 104.14 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "D7"
+		(shape bidirectional)
+		(at 227.33 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2 1.2)
+			)
+			(justify right)
+		)
+		(uuid "0d40045d-3953-5532-baaf-f503aab13b49")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 232.41 101.6 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "D8"
+		(shape bidirectional)
+		(at 227.33 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2 1.2)
+			)
+			(justify right)
+		)
+		(uuid "590273a9-fea2-5fed-bf03-481928b852eb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 232.41 104.14 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "D5"
+		(shape bidirectional)
+		(at 293.37 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2 1.2)
+			)
+			(justify right)
+		)
+		(uuid "e70a17b8-25e0-5cae-bf8c-f6a934d1b89b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 298.45 101.6 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "D6"
+		(shape bidirectional)
+		(at 293.37 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2 1.2)
+			)
+			(justify right)
+		)
+		(uuid "c702f7d9-f83f-5290-88df-2d9c520a46b3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 298.45 104.14 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "D3"
+		(shape bidirectional)
+		(at 359.41 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2 1.2)
+			)
+			(justify right)
+		)
+		(uuid "7a9e1e9a-3383-587b-b1ab-85add84eb1ee")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 364.49 101.6 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "D4"
+		(shape bidirectional)
+		(at 359.41 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2 1.2)
+			)
+			(justify right)
+		)
+		(uuid "ca508eab-b21d-5c7e-b622-186a0fb1c43f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 364.49 104.14 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "I2C_SCL"
+		(shape bidirectional)
+		(at 161.29 157.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2 1.2)
+			)
+			(justify right)
+		)
+		(uuid "71fc23d6-437c-507e-bd5e-f3deb031bbf0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 166.37 157.48 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "I2C_SDA"
+		(shape bidirectional)
+		(at 161.29 160.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2 1.2)
+			)
+			(justify right)
+		)
+		(uuid "307bec95-6966-541b-893f-da5aaf74a89c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 166.37 160.02 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "I2C_SCL"
+		(shape bidirectional)
+		(at 227.33 157.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2 1.2)
+			)
+			(justify right)
+		)
+		(uuid "0ecdcbce-539e-5391-9ae0-b84cd9fc9328")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 232.41 157.48 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "I2C_SDA"
+		(shape bidirectional)
+		(at 227.33 160.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2 1.2)
+			)
+			(justify right)
+		)
+		(uuid "84b4e2ed-3446-55f2-a9b3-162af30fa981")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 232.41 160.02 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "I2C_SCL"
+		(shape bidirectional)
+		(at 293.37 157.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2 1.2)
+			)
+			(justify right)
+		)
+		(uuid "05723886-d051-5b8f-b881-b5efcdee74ce")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 298.45 157.48 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "I2C_SDA"
+		(shape bidirectional)
+		(at 293.37 160.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2 1.2)
+			)
+			(justify right)
+		)
+		(uuid "6508b1bd-a5df-5d50-8f09-6f954b8961e9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 298.45 160.02 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "I2C_SCL"
+		(shape bidirectional)
+		(at 359.41 157.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2 1.2)
+			)
+			(justify right)
+		)
+		(uuid "7a624007-475f-5881-b267-05e1d938da49")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 364.49 157.48 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "I2C_SDA"
+		(shape bidirectional)
+		(at 359.41 160.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2 1.2)
+			)
+			(justify right)
+		)
+		(uuid "1ac42959-6a4b-5dea-add2-2de36288e7b0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 364.49 160.02 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "I2C_SDA"
+		(shape bidirectional)
+		(at 144.78 233.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2 1.2)
+			)
+			(justify right)
+		)
+		(uuid "3afea3bc-f58f-5a32-aafe-4ac9cb7caad6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 149.86 233.68 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "I2C_SCL"
+		(shape bidirectional)
+		(at 144.78 236.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2 1.2)
+			)
+			(justify right)
+		)
+		(uuid "28f1c66d-587e-53ca-a665-22d278d12fa2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 149.86 236.22 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "D2"
+		(shape bidirectional)
+		(at 308.61 223.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2 1.2)
+			)
+			(justify right)
+		)
+		(uuid "93d5ca76-aed7-5a88-9ea7-743cf048db45")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 313.69 223.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "D13"
+		(shape bidirectional)
+		(at 367.03 223.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2 1.2)
+			)
+			(justify right)
+		)
+		(uuid "29dbb32a-c5a8-55f2-9440-c7e6d8d72b7c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 372.11 223.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "D12"
+		(shape bidirectional)
+		(at 308.61 251.46 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2 1.2)
+			)
+			(justify right)
+		)
+		(uuid "c29efd31-198f-55fe-aee5-09c548e20ec3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 313.69 251.46 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "D11"
+		(shape bidirectional)
+		(at 367.03 251.46 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2 1.2)
+			)
+			(justify right)
+		)
+		(uuid "63fcf55b-41ec-5a49-999e-5cda2deca57e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 372.11 251.46 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoloUNO:UNO_Header_1x08")
+		(at 58.42 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "024e418b-d72a-5562-8511-e4fc8d14eb4e")
+		(property "Reference" "J17"
+			(at 55.88 38.1 0)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "UNO_PWR_1x08"
+			(at 55.88 62.23 0)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "YoloUNO:PinSocket_1x08_P2.54mm_Vertical"
+			(at 58.42 48.26 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 48.26 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "FH-254-1x08"
+			(at 58.42 48.26 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C49661"
+			(at 58.42 48.26 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "373173d0-a9d7-5e1d-b523-4a6f04e4346f")
+		)
+		(pin "2"
+			(uuid "83439a07-a9d4-56b6-9026-e731ed7554db")
+		)
+		(pin "3"
+			(uuid "29a06e24-45a5-57c4-8552-c0581ee7f2fd")
+		)
+		(pin "4"
+			(uuid "8670c24a-4279-5264-8a17-365be28271f6")
+		)
+		(pin "5"
+			(uuid "79f9ad1e-f0c1-5a8d-9b4c-8c0b6c78b808")
+		)
+		(pin "6"
+			(uuid "2853ef23-8119-5121-94fe-b8aabc71b077")
+		)
+		(pin "7"
+			(uuid "a50b6af8-07c1-56af-a093-bd4d3c1a5e2e")
+		)
+		(pin "8"
+			(uuid "31ed9ace-3f40-53ce-80cc-411e31017adf")
+		)
+		(instances
+			(project "YoloUNO"
+				(path "/4e8f8cd7-8127-5740-a54c-43793ec71117/43b0716e-8b3b-577d-9603-d2c20d40e6ac"
+					(reference "J17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoloUNO:+3V3")
+		(at 46.99 43.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "a562da14-ce61-5980-a80c-49584fea856f")
+		(property "Reference" "#PWR0153"
+			(at 44.45 38.735 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 43.815 43.18 0)
+			(effects
+				(font
+					(size 1.0 1.0)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 43.18 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 43.18 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e49bd5d5-8d56-57ec-8e0d-b17ec94d1661")
+		)
+		(instances
+			(project "YoloUNO"
+				(path "/4e8f8cd7-8127-5740-a54c-43793ec71117/43b0716e-8b3b-577d-9603-d2c20d40e6ac"
+					(reference "#PWR0153")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoloUNO:+3V3")
+		(at 39.37 48.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "49b4261e-65a8-550b-84a0-6ba82f18a7e3")
+		(property "Reference" "#PWR0154"
+			(at 36.83 43.815 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 36.195 48.26 0)
+			(effects
+				(font
+					(size 1.0 1.0)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 48.26 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 48.26 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "307791f6-fb6f-5f80-bc8d-2746f8d84f7a")
+		)
+		(instances
+			(project "YoloUNO"
+				(path "/4e8f8cd7-8127-5740-a54c-43793ec71117/43b0716e-8b3b-577d-9603-d2c20d40e6ac"
+					(reference "#PWR0154")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoloUNO:+5V")
+		(at 46.99 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "6fdd5fcf-0226-5933-ac33-7277f1b10f9f")
+		(property "Reference" "#PWR0155"
+			(at 44.45 46.355 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "+5V"
+			(at 43.815 50.8 0)
+			(effects
+				(font
+					(size 1.0 1.0)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 50.8 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 50.8 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "814ce81f-bf12-5707-9427-c917f7ee4b7f")
+		)
+		(instances
+			(project "YoloUNO"
+				(path "/4e8f8cd7-8127-5740-a54c-43793ec71117/43b0716e-8b3b-577d-9603-d2c20d40e6ac"
+					(reference "#PWR0155")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoloUNO:GND")
+		(at 39.37 53.34 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "5967e193-4ffe-5647-8723-9f671f9ba7a9")
+		(property "Reference" "#PWR0156"
+			(at 36.83 48.895 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GND"
+			(at 36.195 53.34 0)
+			(effects
+				(font
+					(size 1.0 1.0)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 53.34 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 53.34 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "de01b63b-8cc1-527b-b094-3a7a3c5408d5")
+		)
+		(instances
+			(project "YoloUNO"
+				(path "/4e8f8cd7-8127-5740-a54c-43793ec71117/43b0716e-8b3b-577d-9603-d2c20d40e6ac"
+					(reference "#PWR0156")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoloUNO:GND")
+		(at 46.99 55.88 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "20bf057a-c504-5666-838e-5c9ee634b577")
+		(property "Reference" "#PWR0157"
+			(at 44.45 51.435 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GND"
+			(at 43.815 55.88 0)
+			(effects
+				(font
+					(size 1.0 1.0)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 55.88 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 55.88 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cbd07c56-789c-55f6-81f8-7302d01c7885")
+		)
+		(instances
+			(project "YoloUNO"
+				(path "/4e8f8cd7-8127-5740-a54c-43793ec71117/43b0716e-8b3b-577d-9603-d2c20d40e6ac"
+					(reference "#PWR0157")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoloUNO:UNO_Header_1x06")
+		(at 58.42 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "8cfcb692-b321-5249-a577-afc2e5520dca")
+		(property "Reference" "J18"
+			(at 55.88 96.52 0)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "UNO_ANALOG_1x06"
+			(at 55.88 115.57 0)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "YoloUNO:PinSocket_1x06_P2.54mm_Vertical"
+			(at 58.42 104.14 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 104.14 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "FH-254-1x06"
+			(at 58.42 104.14 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C49659"
+			(at 58.42 104.14 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "54505bd4-8066-5867-bad2-5f63b1a9839d")
+		)
+		(pin "2"
+			(uuid "c0b6b839-e91c-528a-a04f-1236d3ec209e")
+		)
+		(pin "3"
+			(uuid "978ce4c4-a524-5be7-b973-a58f033db4f6")
+		)
+		(pin "4"
+			(uuid "924aa9e1-b447-505f-aede-72b1891fceae")
+		)
+		(pin "5"
+			(uuid "422d09e6-11e4-5d08-bfdc-defcff5d2d25")
+		)
+		(pin "6"
+			(uuid "40225c07-542e-572e-8354-365344280387")
+		)
+		(instances
+			(project "YoloUNO"
+				(path "/4e8f8cd7-8127-5740-a54c-43793ec71117/43b0716e-8b3b-577d-9603-d2c20d40e6ac"
+					(reference "J18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoloUNO:UNO_Header_1x10")
+		(at 114.3 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "ec36059b-7be7-54a3-bcb5-3a68f406f4a2")
+		(property "Reference" "J19"
+			(at 111.76 40.64 0)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "UNO_DIGH_1x10"
+			(at 111.76 69.85 0)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "YoloUNO:PinSocket_1x10_P2.54mm_Vertical"
+			(at 114.3 53.34 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 53.34 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "FH-254-1x10"
+			(at 114.3 53.34 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C49663"
+			(at 114.3 53.34 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0c7a588a-02dd-5344-bfdc-14d184e3acee")
+		)
+		(pin "2"
+			(uuid "89625b86-5f34-5b20-b390-ae1fe44aa899")
+		)
+		(pin "3"
+			(uuid "30ab3477-2c8c-57fe-8d34-09d6feb42312")
+		)
+		(pin "4"
+			(uuid "b4930cc9-76f6-5a84-b5f4-8f50395448cb")
+		)
+		(pin "5"
+			(uuid "f5acb569-a719-5694-96fd-65e3c73e4d78")
+		)
+		(pin "6"
+			(uuid "31262399-e6b0-504a-97f8-9c0286290929")
+		)
+		(pin "7"
+			(uuid "efc31395-49ac-520e-8392-30a6c439eec9")
+		)
+		(pin "8"
+			(uuid "f5cd2fd4-1b4f-5d21-863c-76752b4f4c31")
+		)
+		(pin "9"
+			(uuid "ceddcf4a-dba4-5345-ae85-d927dd2a0399")
+		)
+		(pin "10"
+			(uuid "8dd4979e-b0a5-57a8-932d-9f8296823a71")
+		)
+		(instances
+			(project "YoloUNO"
+				(path "/4e8f8cd7-8127-5740-a54c-43793ec71117/43b0716e-8b3b-577d-9603-d2c20d40e6ac"
+					(reference "J19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoloUNO:GND")
+		(at 102.87 58.42 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "523d14e6-dc73-5887-bc2a-ee0abb7b5e66")
+		(property "Reference" "#PWR0158"
+			(at 100.33 53.975 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GND"
+			(at 99.695 58.42 0)
+			(effects
+				(font
+					(size 1.0 1.0)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 58.42 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 58.42 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cd92aff6-3479-52e1-9082-3caaaef8ca13")
+		)
+		(instances
+			(project "YoloUNO"
+				(path "/4e8f8cd7-8127-5740-a54c-43793ec71117/43b0716e-8b3b-577d-9603-d2c20d40e6ac"
+					(reference "#PWR0158")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoloUNO:+3V3")
+		(at 95.25 60.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "bd962a26-5ee1-57fc-abca-cdbc05258c1f")
+		(property "Reference" "#PWR0159"
+			(at 92.71 56.515 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 92.075 60.96 0)
+			(effects
+				(font
+					(size 1.0 1.0)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 60.96 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 60.96 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9c6a9d3e-963c-5c05-b85a-52b8db4e7459")
+		)
+		(instances
+			(project "YoloUNO"
+				(path "/4e8f8cd7-8127-5740-a54c-43793ec71117/43b0716e-8b3b-577d-9603-d2c20d40e6ac"
+					(reference "#PWR0159")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoloUNO:UNO_Header_1x08")
+		(at 114.3 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "ed772153-4de1-502e-936c-b83a2a8dfc79")
+		(property "Reference" "J20"
+			(at 111.76 111.76 0)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "UNO_DIGL_1x08"
+			(at 111.76 135.89 0)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "YoloUNO:PinSocket_1x08_P2.54mm_Vertical"
+			(at 114.3 121.92 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 121.92 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "FH-254-1x08"
+			(at 114.3 121.92 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C49661"
+			(at 114.3 121.92 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d3086050-83d6-5620-a93e-d45130bb8531")
+		)
+		(pin "2"
+			(uuid "40237973-4d6e-5662-8a43-7a89e7b8f7ca")
+		)
+		(pin "3"
+			(uuid "29692909-de60-50f4-951d-26234879b89b")
+		)
+		(pin "4"
+			(uuid "21473c2e-978b-511f-91b9-9e05d3c0a207")
+		)
+		(pin "5"
+			(uuid "00496412-c971-52ab-804a-82ba323d296b")
+		)
+		(pin "6"
+			(uuid "f7aca006-785f-5974-b87b-bde7a137e56f")
+		)
+		(pin "7"
+			(uuid "449afb83-43e2-559f-9261-a1765e1c23d0")
+		)
+		(pin "8"
+			(uuid "923b9977-1ec0-5111-ad20-0bd816c9e8ba")
+		)
+		(instances
+			(project "YoloUNO"
+				(path "/4e8f8cd7-8127-5740-a54c-43793ec71117/43b0716e-8b3b-577d-9603-d2c20d40e6ac"
+					(reference "J20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoloUNO:SolderJumper_3_Bridged12")
+		(at 63.5 208.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "38b3e6bd-11c9-5e00-9cf5-4d223aa16e01")
+		(property "Reference" "JP1"
+			(at 58.42 201.93 0)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "A0_3V3/5V"
+			(at 58.42 204.47 0)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "YoloUNO:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm"
+			(at 63.5 208.28 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 208.28 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SJ-3-1.3MM"
+			(at 63.5 208.28 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "N/A"
+			(at 63.5 208.28 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "20961ea6-6a57-5fe1-a336-5a46e2475e41")
+		)
+		(pin "2"
+			(uuid "bf82fe71-aec8-577c-97f3-ec4b0253a92b")
+		)
+		(pin "3"
+			(uuid "4855589c-2e7b-50d2-a01a-3ea69babb5aa")
+		)
+		(instances
+			(project "YoloUNO"
+				(path "/4e8f8cd7-8127-5740-a54c-43793ec71117/43b0716e-8b3b-577d-9603-d2c20d40e6ac"
+					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoloUNO:R")
+		(at 96.52 199.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "82fab210-e0c4-50f9-96a3-a06f757eb453")
+		(property "Reference" "R16"
+			(at 98.552 198.12 0)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "6.80k 1%"
+			(at 98.552 200.914 0)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "YoloUNO:R_0603_1608Metric"
+			(at 96.52 199.39 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 199.39 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-076K8L"
+			(at 96.52 199.39 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C23212"
+			(at 96.52 199.39 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "948ad269-d4a9-5a58-9565-3030626b6702")
+		)
+		(pin "2"
+			(uuid "ed7118ed-54bd-5f83-912d-b0c7399f370e")
+		)
+		(instances
+			(project "YoloUNO"
+				(path "/4e8f8cd7-8127-5740-a54c-43793ec71117/43b0716e-8b3b-577d-9603-d2c20d40e6ac"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoloUNO:R")
+		(at 96.52 217.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "40dc98fe-8c57-5412-b824-40d48eeb8946")
+		(property "Reference" "R17"
+			(at 98.552 215.9 0)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10.0k 1%"
+			(at 98.552 218.694 0)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "YoloUNO:R_0603_1608Metric"
+			(at 96.52 217.17 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 217.17 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-0710KL"
+			(at 96.52 217.17 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25804"
+			(at 96.52 217.17 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6f0718ed-3d7e-5485-b078-4d4520e24dee")
+		)
+		(pin "2"
+			(uuid "22e28fb8-9087-50ae-bafd-4dc93be0dc8b")
+		)
+		(instances
+			(project "YoloUNO"
+				(path "/4e8f8cd7-8127-5740-a54c-43793ec71117/43b0716e-8b3b-577d-9603-d2c20d40e6ac"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoloUNO:GND")
+		(at 96.52 224.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "ec510db3-b614-5ce7-b618-01a72b6b0e44")
+		(property "Reference" "#PWR0160"
+			(at 98.552 223.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 96.52 228.6 0)
+			(effects
+				(font
+					(size 1.0 1.0)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 224.79 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 224.79 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "88dfc03f-447d-50ed-8d51-bdc57471f0a7")
+		)
+		(instances
+			(project "YoloUNO"
+				(path "/4e8f8cd7-8127-5740-a54c-43793ec71117/43b0716e-8b3b-577d-9603-d2c20d40e6ac"
+					(reference "#PWR0160")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoloUNO:C")
+		(at 63.5 238.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "1e519267-3103-5ea2-9af0-1ebcb5a7a95e")
+		(property "Reference" "C17"
+			(at 65.532 237.49 0)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 65.532 240.284 0)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "YoloUNO:C_0603_1608Metric"
+			(at 63.5 238.76 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 238.76 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL10B104KB8NNNC"
+			(at 63.5 238.76 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1591"
+			(at 63.5 238.76 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8425f73a-3efe-521a-a5f7-433ad1e9474c")
+		)
+		(pin "2"
+			(uuid "a1fadcc2-d75d-5a56-a1c3-9cd9b90b25a7")
+		)
+		(instances
+			(project "YoloUNO"
+				(path "/4e8f8cd7-8127-5740-a54c-43793ec71117/43b0716e-8b3b-577d-9603-d2c20d40e6ac"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoloUNO:GND")
+		(at 63.5 246.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "68a60fbb-22cd-5671-abca-7ebf67129c88")
+		(property "Reference" "#PWR0161"
+			(at 65.532 245.11 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 63.5 250.19 0)
+			(effects
+				(font
+					(size 1.0 1.0)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 246.38 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 246.38 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "58995dc4-1031-5e07-8f6d-b68ce0f5857d")
+		)
+		(instances
+			(project "YoloUNO"
+				(path "/4e8f8cd7-8127-5740-a54c-43793ec71117/43b0716e-8b3b-577d-9603-d2c20d40e6ac"
+					(reference "#PWR0161")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoloUNO:Grove_1x04")
+		(at 175.26 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "65f547e3-4144-5a97-bb80-58193e0a874a")
+		(property "Reference" "J3"
+			(at 172.72 40.64 0)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Grove_A6-A3"
+			(at 172.72 57.15 0)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "YoloUNO:NS-Tech_Grove_1x04_P2mm_Vertical"
+			(at 175.26 48.26 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 48.26 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "110990030"
+			(at 175.26 48.26 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2906423"
+			(at 175.26 48.26 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9e03dcd3-8f37-5a60-8c02-0ec6769e5cd7")
+		)
+		(pin "2"
+			(uuid "cc3f5976-2170-5814-af1e-a5652eda6f55")
+		)
+		(pin "3"
+			(uuid "374e2ea8-85b1-5688-9243-f460c3d272b0")
+		)
+		(pin "4"
+			(uuid "b77b4be8-3c24-55af-b6b5-4031a5c5090e")
+		)
+		(instances
+			(project "YoloUNO"
+				(path "/4e8f8cd7-8127-5740-a54c-43793ec71117/43b0716e-8b3b-577d-9603-d2c20d40e6ac"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoloUNO:+3V3")
+		(at 163.83 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "d35d4257-ab35-5863-b1b2-7a676cac9880")
+		(property "Reference" "#PWR0162"
+			(at 161.29 46.355 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 160.655 50.8 0)
+			(effects
+				(font
+					(size 1.0 1.0)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 50.8 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 50.8 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "31a9659d-f6cc-5c54-afab-7dd4b14c7d1c")
+		)
+		(instances
+			(project "YoloUNO"
+				(path "/4e8f8cd7-8127-5740-a54c-43793ec71117/43b0716e-8b3b-577d-9603-d2c20d40e6ac"
+					(reference "#PWR0162")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoloUNO:GND")
+		(at 156.21 53.34 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "210eee0c-1f17-53d3-a5e0-a3bf59e764e4")
+		(property "Reference" "#PWR0163"
+			(at 153.67 48.895 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GND"
+			(at 153.035 53.34 0)
+			(effects
+				(font
+					(size 1.0 1.0)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 53.34 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 53.34 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c0c33114-f21c-5fe6-8f12-2837f6ca570c")
+		)
+		(instances
+			(project "YoloUNO"
+				(path "/4e8f8cd7-8127-5740-a54c-43793ec71117/43b0716e-8b3b-577d-9603-d2c20d40e6ac"
+					(reference "#PWR0163")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoloUNO:Grove_1x04")
+		(at 241.3 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "7651c182-969b-5c77-883a-418d9c6c3c3d")
+		(property "Reference" "J4"
+			(at 238.76 40.64 0)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Grove_A3-A2"
+			(at 238.76 57.15 0)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "YoloUNO:NS-Tech_Grove_1x04_P2mm_Vertical"
+			(at 241.3 48.26 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 48.26 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "110990030"
+			(at 241.3 48.26 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2906423"
+			(at 241.3 48.26 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "81b5cd52-0046-5811-9b9d-13f106347656")
+		)
+		(pin "2"
+			(uuid "a732ade6-0e82-5dd5-9fb9-77d49d8eb252")
+		)
+		(pin "3"
+			(uuid "b0e937c8-ab4d-56e2-be76-ae890b0e082d")
+		)
+		(pin "4"
+			(uuid "45ee3d3e-afe0-5586-8092-e8be3569e979")
+		)
+		(instances
+			(project "YoloUNO"
+				(path "/4e8f8cd7-8127-5740-a54c-43793ec71117/43b0716e-8b3b-577d-9603-d2c20d40e6ac"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoloUNO:+3V3")
+		(at 229.87 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "bd1c178c-a2c4-5a33-a677-0f0793252e7d")
+		(property "Reference" "#PWR0164"
+			(at 227.33 46.355 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 226.695 50.8 0)
+			(effects
+				(font
+					(size 1.0 1.0)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 50.8 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 50.8 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "da495320-0ef2-50ab-be45-c8a2e15f1744")
+		)
+		(instances
+			(project "YoloUNO"
+				(path "/4e8f8cd7-8127-5740-a54c-43793ec71117/43b0716e-8b3b-577d-9603-d2c20d40e6ac"
+					(reference "#PWR0164")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoloUNO:GND")
+		(at 222.25 53.34 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "14a1ec79-d448-5bf5-a474-2f3559ebb46b")
+		(property "Reference" "#PWR0165"
+			(at 219.71 48.895 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GND"
+			(at 219.075 53.34 0)
+			(effects
+				(font
+					(size 1.0 1.0)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 222.25 53.34 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 53.34 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9481936f-4455-5e12-9afe-d8a81e6b9511")
+		)
+		(instances
+			(project "YoloUNO"
+				(path "/4e8f8cd7-8127-5740-a54c-43793ec71117/43b0716e-8b3b-577d-9603-d2c20d40e6ac"
+					(reference "#PWR0165")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoloUNO:Grove_1x04")
+		(at 307.34 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "3e6345c4-8c58-5845-8e94-fd543ce6c4b5")
+		(property "Reference" "J5"
+			(at 304.8 40.64 0)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Grove_A2-A1"
+			(at 304.8 57.15 0)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "YoloUNO:NS-Tech_Grove_1x04_P2mm_Vertical"
+			(at 307.34 48.26 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 307.34 48.26 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "110990030"
+			(at 307.34 48.26 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2906423"
+			(at 307.34 48.26 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ab195e57-6ba1-5844-bca9-0ed17b30ee3e")
+		)
+		(pin "2"
+			(uuid "cb9b2ab8-193a-5456-b194-6d65be9e90cf")
+		)
+		(pin "3"
+			(uuid "9282c694-7225-50e2-a832-1ee0dcbb1ef7")
+		)
+		(pin "4"
+			(uuid "eee4c9ef-e783-5e8d-aeb6-f7f38c5d3055")
+		)
+		(instances
+			(project "YoloUNO"
+				(path "/4e8f8cd7-8127-5740-a54c-43793ec71117/43b0716e-8b3b-577d-9603-d2c20d40e6ac"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoloUNO:+3V3")
+		(at 295.91 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "fdf97375-31ba-5845-8d57-64e1b4e8b359")
+		(property "Reference" "#PWR0166"
+			(at 293.37 46.355 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 292.735 50.8 0)
+			(effects
+				(font
+					(size 1.0 1.0)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 295.91 50.8 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 295.91 50.8 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0c2d2c3a-a230-52d5-908e-e6a6bba897e9")
+		)
+		(instances
+			(project "YoloUNO"
+				(path "/4e8f8cd7-8127-5740-a54c-43793ec71117/43b0716e-8b3b-577d-9603-d2c20d40e6ac"
+					(reference "#PWR0166")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoloUNO:GND")
+		(at 288.29 53.34 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "9269baac-5157-53f0-b3bb-85013c886a5e")
+		(property "Reference" "#PWR0167"
+			(at 285.75 48.895 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GND"
+			(at 285.115 53.34 0)
+			(effects
+				(font
+					(size 1.0 1.0)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 288.29 53.34 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 288.29 53.34 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5c3f143d-0ab2-5640-9fa3-e869c45f8345")
+		)
+		(instances
+			(project "YoloUNO"
+				(path "/4e8f8cd7-8127-5740-a54c-43793ec71117/43b0716e-8b3b-577d-9603-d2c20d40e6ac"
+					(reference "#PWR0167")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoloUNO:Grove_1x04")
+		(at 373.38 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "243deb1e-440e-521b-9272-4ff224d5805c")
+		(property "Reference" "J6"
+			(at 370.84 40.64 0)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Grove_A1-A0"
+			(at 370.84 57.15 0)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "YoloUNO:NS-Tech_Grove_1x04_P2mm_Vertical"
+			(at 373.38 48.26 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 373.38 48.26 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "110990030"
+			(at 373.38 48.26 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2906423"
+			(at 373.38 48.26 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d28b7ba7-1132-548b-b612-58316513f6eb")
+		)
+		(pin "2"
+			(uuid "7f94943c-b82e-5d4b-815f-8a16ba11fe53")
+		)
+		(pin "3"
+			(uuid "e7abca53-c0f9-5719-b422-eb87459dc9d8")
+		)
+		(pin "4"
+			(uuid "04ab64cc-b047-5226-a8f3-f368545397bc")
+		)
+		(instances
+			(project "YoloUNO"
+				(path "/4e8f8cd7-8127-5740-a54c-43793ec71117/43b0716e-8b3b-577d-9603-d2c20d40e6ac"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoloUNO:+3V3")
+		(at 361.95 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "0222e80d-632d-59ef-a5fa-acb530950508")
+		(property "Reference" "#PWR0168"
+			(at 359.41 46.355 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 358.775 50.8 0)
+			(effects
+				(font
+					(size 1.0 1.0)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 361.95 50.8 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 361.95 50.8 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4ec00b52-1023-5716-b052-c61fc7e1b8cc")
+		)
+		(instances
+			(project "YoloUNO"
+				(path "/4e8f8cd7-8127-5740-a54c-43793ec71117/43b0716e-8b3b-577d-9603-d2c20d40e6ac"
+					(reference "#PWR0168")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoloUNO:GND")
+		(at 354.33 53.34 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "0eebe3d0-01d4-501d-8341-0a6db13daf28")
+		(property "Reference" "#PWR0169"
+			(at 351.79 48.895 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GND"
+			(at 351.155 53.34 0)
+			(effects
+				(font
+					(size 1.0 1.0)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 354.33 53.34 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 354.33 53.34 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "84cfc818-191a-5b24-a5f4-51d0bb7e83ef")
+		)
+		(instances
+			(project "YoloUNO"
+				(path "/4e8f8cd7-8127-5740-a54c-43793ec71117/43b0716e-8b3b-577d-9603-d2c20d40e6ac"
+					(reference "#PWR0169")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoloUNO:Grove_1x04")
+		(at 175.26 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "7c0450e4-3562-5b4d-8f9f-2e3db3445903")
+		(property "Reference" "J7"
+			(at 172.72 96.52 0)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Grove_D10-D9"
+			(at 172.72 113.03 0)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "YoloUNO:NS-Tech_Grove_1x04_P2mm_Vertical"
+			(at 175.26 104.14 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 104.14 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "112060001"
+			(at 175.26 104.14 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C492401"
+			(at 175.26 104.14 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f3649c08-e98f-54e1-9d03-aedd505903e8")
+		)
+		(pin "2"
+			(uuid "eeec310a-513d-523d-9d7e-cf8eaf212ebb")
+		)
+		(pin "3"
+			(uuid "f69ddec7-ae48-588a-ba46-253e2252ed60")
+		)
+		(pin "4"
+			(uuid "3073926f-8e4f-5cd5-9458-9cfa825f4f84")
+		)
+		(instances
+			(project "YoloUNO"
+				(path "/4e8f8cd7-8127-5740-a54c-43793ec71117/43b0716e-8b3b-577d-9603-d2c20d40e6ac"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoloUNO:+3V3")
+		(at 163.83 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "ac7dff0a-0390-5bf9-8b94-2f09a53ab7e8")
+		(property "Reference" "#PWR0170"
+			(at 161.29 102.235 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 160.655 106.68 0)
+			(effects
+				(font
+					(size 1.0 1.0)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 106.68 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 106.68 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1aa17cba-d363-53f5-b18d-f6e1398014ce")
+		)
+		(instances
+			(project "YoloUNO"
+				(path "/4e8f8cd7-8127-5740-a54c-43793ec71117/43b0716e-8b3b-577d-9603-d2c20d40e6ac"
+					(reference "#PWR0170")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoloUNO:GND")
+		(at 156.21 109.22 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "610d7643-3e7b-5201-94b9-fdf894014ee5")
+		(property "Reference" "#PWR0171"
+			(at 153.67 104.775 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GND"
+			(at 153.035 109.22 0)
+			(effects
+				(font
+					(size 1.0 1.0)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 109.22 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 109.22 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fbd26bdf-2bb5-5493-92ad-d41c37832e50")
+		)
+		(instances
+			(project "YoloUNO"
+				(path "/4e8f8cd7-8127-5740-a54c-43793ec71117/43b0716e-8b3b-577d-9603-d2c20d40e6ac"
+					(reference "#PWR0171")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoloUNO:Grove_1x04")
+		(at 241.3 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "64ebc496-5ab4-5c7c-9bae-115b1dfd3601")
+		(property "Reference" "J8"
+			(at 238.76 96.52 0)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Grove_D8-D7"
+			(at 238.76 113.03 0)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "YoloUNO:NS-Tech_Grove_1x04_P2mm_Vertical"
+			(at 241.3 104.14 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 104.14 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "112060001"
+			(at 241.3 104.14 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C492401"
+			(at 241.3 104.14 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fed1bc5e-c005-5040-af36-12ad4b915120")
+		)
+		(pin "2"
+			(uuid "a02c9f35-0a5d-5bc8-a026-63da99ddc638")
+		)
+		(pin "3"
+			(uuid "813ca4dd-3d34-5208-86eb-7baa9369fccf")
+		)
+		(pin "4"
+			(uuid "df94651a-e106-52fb-a90e-f94970a9adab")
+		)
+		(instances
+			(project "YoloUNO"
+				(path "/4e8f8cd7-8127-5740-a54c-43793ec71117/43b0716e-8b3b-577d-9603-d2c20d40e6ac"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoloUNO:+3V3")
+		(at 229.87 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "b23fd784-e20f-5b18-b72c-56cb97ff7228")
+		(property "Reference" "#PWR0172"
+			(at 227.33 102.235 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 226.695 106.68 0)
+			(effects
+				(font
+					(size 1.0 1.0)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 106.68 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 106.68 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cf9d1b2b-4d44-51a3-945f-f2a9e96234a8")
+		)
+		(instances
+			(project "YoloUNO"
+				(path "/4e8f8cd7-8127-5740-a54c-43793ec71117/43b0716e-8b3b-577d-9603-d2c20d40e6ac"
+					(reference "#PWR0172")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoloUNO:GND")
+		(at 222.25 109.22 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "16afe2db-c6e3-53a6-8d9b-9a810b9e11e3")
+		(property "Reference" "#PWR0173"
+			(at 219.71 104.775 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GND"
+			(at 219.075 109.22 0)
+			(effects
+				(font
+					(size 1.0 1.0)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 222.25 109.22 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 109.22 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "85fa15f9-c634-559d-b296-36044b1509dc")
+		)
+		(instances
+			(project "YoloUNO"
+				(path "/4e8f8cd7-8127-5740-a54c-43793ec71117/43b0716e-8b3b-577d-9603-d2c20d40e6ac"
+					(reference "#PWR0173")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoloUNO:Grove_1x04")
+		(at 307.34 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "02d2ea4b-49b5-579c-950e-65b5af531498")
+		(property "Reference" "J9"
+			(at 304.8 96.52 0)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Grove_D6-D5"
+			(at 304.8 113.03 0)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "YoloUNO:NS-Tech_Grove_1x04_P2mm_Vertical"
+			(at 307.34 104.14 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 307.34 104.14 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "112060001"
+			(at 307.34 104.14 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C492401"
+			(at 307.34 104.14 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3bc5d4c1-ffcf-54fa-95af-a2b624cbbfa4")
+		)
+		(pin "2"
+			(uuid "34a92897-1833-5b3b-b6fb-f3adb341dd6f")
+		)
+		(pin "3"
+			(uuid "a5df0a0b-d423-5336-8708-1e4c62e6c1e7")
+		)
+		(pin "4"
+			(uuid "a0135684-b36c-57f4-82b6-e442a3469722")
+		)
+		(instances
+			(project "YoloUNO"
+				(path "/4e8f8cd7-8127-5740-a54c-43793ec71117/43b0716e-8b3b-577d-9603-d2c20d40e6ac"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoloUNO:+3V3")
+		(at 295.91 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "69454f2a-c17e-5b75-8f5f-615866455cdb")
+		(property "Reference" "#PWR0174"
+			(at 293.37 102.235 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 292.735 106.68 0)
+			(effects
+				(font
+					(size 1.0 1.0)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 295.91 106.68 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 295.91 106.68 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bb9ae516-a8e4-57f8-a22a-cb3e1964c9bc")
+		)
+		(instances
+			(project "YoloUNO"
+				(path "/4e8f8cd7-8127-5740-a54c-43793ec71117/43b0716e-8b3b-577d-9603-d2c20d40e6ac"
+					(reference "#PWR0174")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoloUNO:GND")
+		(at 288.29 109.22 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "022189b8-a02d-5267-90d3-a52df331f76b")
+		(property "Reference" "#PWR0175"
+			(at 285.75 104.775 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GND"
+			(at 285.115 109.22 0)
+			(effects
+				(font
+					(size 1.0 1.0)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 288.29 109.22 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 288.29 109.22 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3341ef13-ac75-5675-812e-ccdb47509fba")
+		)
+		(instances
+			(project "YoloUNO"
+				(path "/4e8f8cd7-8127-5740-a54c-43793ec71117/43b0716e-8b3b-577d-9603-d2c20d40e6ac"
+					(reference "#PWR0175")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoloUNO:Grove_1x04")
+		(at 373.38 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "a0b16dfa-556f-5bfa-bd18-c65ca871aa21")
+		(property "Reference" "J10"
+			(at 370.84 96.52 0)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Grove_D4-D3"
+			(at 370.84 113.03 0)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "YoloUNO:NS-Tech_Grove_1x04_P2mm_Vertical"
+			(at 373.38 104.14 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 373.38 104.14 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "112060001"
+			(at 373.38 104.14 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C492401"
+			(at 373.38 104.14 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "92173634-8df6-5660-84f4-d9d7035bd6c7")
+		)
+		(pin "2"
+			(uuid "632e1362-2f5a-5cf6-aaff-4752b275e273")
+		)
+		(pin "3"
+			(uuid "804faec7-3b13-5776-ad70-e29a550e5a64")
+		)
+		(pin "4"
+			(uuid "b84869f3-65e3-5324-9552-87b876c83795")
+		)
+		(instances
+			(project "YoloUNO"
+				(path "/4e8f8cd7-8127-5740-a54c-43793ec71117/43b0716e-8b3b-577d-9603-d2c20d40e6ac"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoloUNO:+3V3")
+		(at 361.95 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "4e397c9c-d096-579b-bf07-bc0720f9a5b9")
+		(property "Reference" "#PWR0176"
+			(at 359.41 102.235 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 358.775 106.68 0)
+			(effects
+				(font
+					(size 1.0 1.0)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 361.95 106.68 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 361.95 106.68 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "552d13fe-2d1d-58d3-adc0-e07611791770")
+		)
+		(instances
+			(project "YoloUNO"
+				(path "/4e8f8cd7-8127-5740-a54c-43793ec71117/43b0716e-8b3b-577d-9603-d2c20d40e6ac"
+					(reference "#PWR0176")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoloUNO:GND")
+		(at 354.33 109.22 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "7d6cd668-b50a-5db6-a8d6-d7f46665e448")
+		(property "Reference" "#PWR0177"
+			(at 351.79 104.775 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GND"
+			(at 351.155 109.22 0)
+			(effects
+				(font
+					(size 1.0 1.0)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 354.33 109.22 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 354.33 109.22 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "06173ec8-f0b4-5ecf-be7e-18eb7d314bdd")
+		)
+		(instances
+			(project "YoloUNO"
+				(path "/4e8f8cd7-8127-5740-a54c-43793ec71117/43b0716e-8b3b-577d-9603-d2c20d40e6ac"
+					(reference "#PWR0177")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoloUNO:Grove_1x04")
+		(at 175.26 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "d13ddaf0-b465-5d9f-92bc-333e1c311395")
+		(property "Reference" "J11"
+			(at 172.72 152.4 0)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Grove_I2C4"
+			(at 172.72 168.91 0)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "YoloUNO:NS-Tech_Grove_1x04_P2mm_Vertical"
+			(at 175.26 160.02 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 160.02 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "110990031"
+			(at 175.26 160.02 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2906424"
+			(at 175.26 160.02 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "04d58fbe-14eb-5925-90ad-f3fc260194e2")
+		)
+		(pin "2"
+			(uuid "5bd73f97-5975-56ee-b7c9-0ea30f804f05")
+		)
+		(pin "3"
+			(uuid "66010894-82a9-53c1-bc9f-b9372304cf53")
+		)
+		(pin "4"
+			(uuid "a04d96a1-4ff3-5aa8-a5a8-4d6a6705c740")
+		)
+		(instances
+			(project "YoloUNO"
+				(path "/4e8f8cd7-8127-5740-a54c-43793ec71117/43b0716e-8b3b-577d-9603-d2c20d40e6ac"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoloUNO:+3V3")
+		(at 163.83 162.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "2791e337-0a5a-5389-a136-543fabed3ebe")
+		(property "Reference" "#PWR0178"
+			(at 161.29 158.115 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 160.655 162.56 0)
+			(effects
+				(font
+					(size 1.0 1.0)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 162.56 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 162.56 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "22a26e66-cb7f-5918-a604-0f93fb62db62")
+		)
+		(instances
+			(project "YoloUNO"
+				(path "/4e8f8cd7-8127-5740-a54c-43793ec71117/43b0716e-8b3b-577d-9603-d2c20d40e6ac"
+					(reference "#PWR0178")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoloUNO:GND")
+		(at 156.21 165.1 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "d2f61486-4e18-5acd-a854-8d593836d94e")
+		(property "Reference" "#PWR0179"
+			(at 153.67 160.655 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GND"
+			(at 153.035 165.1 0)
+			(effects
+				(font
+					(size 1.0 1.0)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 165.1 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 165.1 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a5c4059f-2321-5ac5-86b4-89af060a1ad2")
+		)
+		(instances
+			(project "YoloUNO"
+				(path "/4e8f8cd7-8127-5740-a54c-43793ec71117/43b0716e-8b3b-577d-9603-d2c20d40e6ac"
+					(reference "#PWR0179")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoloUNO:Grove_1x04")
+		(at 241.3 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "cd9c1828-dcd8-5f92-b506-b30492fd22f5")
+		(property "Reference" "J12"
+			(at 238.76 152.4 0)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Grove_I2C3"
+			(at 238.76 168.91 0)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "YoloUNO:NS-Tech_Grove_1x04_P2mm_Vertical"
+			(at 241.3 160.02 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 160.02 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "110990031"
+			(at 241.3 160.02 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2906424"
+			(at 241.3 160.02 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "81c5e63f-a5b6-5e63-a19c-943201698e23")
+		)
+		(pin "2"
+			(uuid "92f39c40-48ef-5126-86d1-86e9b6b35cbd")
+		)
+		(pin "3"
+			(uuid "50c6a4ec-d438-51f9-8c6b-07db833101a4")
+		)
+		(pin "4"
+			(uuid "f811a1ce-e5d5-5154-8dff-6a98c14166b2")
+		)
+		(instances
+			(project "YoloUNO"
+				(path "/4e8f8cd7-8127-5740-a54c-43793ec71117/43b0716e-8b3b-577d-9603-d2c20d40e6ac"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoloUNO:+3V3")
+		(at 229.87 162.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "86b63724-0bd9-5410-a474-697bdd3fde44")
+		(property "Reference" "#PWR0180"
+			(at 227.33 158.115 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 226.695 162.56 0)
+			(effects
+				(font
+					(size 1.0 1.0)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 162.56 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 162.56 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bdec466d-ca00-5d61-8c31-4595fad621d3")
+		)
+		(instances
+			(project "YoloUNO"
+				(path "/4e8f8cd7-8127-5740-a54c-43793ec71117/43b0716e-8b3b-577d-9603-d2c20d40e6ac"
+					(reference "#PWR0180")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoloUNO:GND")
+		(at 222.25 165.1 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "490bf414-af52-54d1-964a-994462f865f5")
+		(property "Reference" "#PWR0181"
+			(at 219.71 160.655 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GND"
+			(at 219.075 165.1 0)
+			(effects
+				(font
+					(size 1.0 1.0)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 222.25 165.1 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 165.1 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7e9f29da-4172-55b2-87f4-9faca9a08356")
+		)
+		(instances
+			(project "YoloUNO"
+				(path "/4e8f8cd7-8127-5740-a54c-43793ec71117/43b0716e-8b3b-577d-9603-d2c20d40e6ac"
+					(reference "#PWR0181")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoloUNO:Grove_1x04")
+		(at 307.34 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "fe994039-8cca-53bc-ad2c-e42056982132")
+		(property "Reference" "J13"
+			(at 304.8 152.4 0)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Grove_I2C2"
+			(at 304.8 168.91 0)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "YoloUNO:NS-Tech_Grove_1x04_P2mm_Vertical"
+			(at 307.34 160.02 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 307.34 160.02 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "110990031"
+			(at 307.34 160.02 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2906424"
+			(at 307.34 160.02 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "363edc2b-430c-58ea-b62e-1536790d6824")
+		)
+		(pin "2"
+			(uuid "d6b7be42-1b69-59c6-8b9e-5d8b7bfaba52")
+		)
+		(pin "3"
+			(uuid "95710558-90f5-520f-ae5e-60d3d9a1c548")
+		)
+		(pin "4"
+			(uuid "3f82f8cb-7f28-564f-83fa-648f3cd4138f")
+		)
+		(instances
+			(project "YoloUNO"
+				(path "/4e8f8cd7-8127-5740-a54c-43793ec71117/43b0716e-8b3b-577d-9603-d2c20d40e6ac"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoloUNO:+3V3")
+		(at 295.91 162.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "ffaaffa1-5316-5217-8a8b-afd830027aaa")
+		(property "Reference" "#PWR0182"
+			(at 293.37 158.115 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 292.735 162.56 0)
+			(effects
+				(font
+					(size 1.0 1.0)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 295.91 162.56 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 295.91 162.56 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c25ecde0-bc35-5af4-91b9-6815daeaa11b")
+		)
+		(instances
+			(project "YoloUNO"
+				(path "/4e8f8cd7-8127-5740-a54c-43793ec71117/43b0716e-8b3b-577d-9603-d2c20d40e6ac"
+					(reference "#PWR0182")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoloUNO:GND")
+		(at 288.29 165.1 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "63129227-aae5-5c6b-a10d-a9e5ea880fe6")
+		(property "Reference" "#PWR0183"
+			(at 285.75 160.655 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GND"
+			(at 285.115 165.1 0)
+			(effects
+				(font
+					(size 1.0 1.0)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 288.29 165.1 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 288.29 165.1 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "54b8f038-bc43-5f8b-bd48-aa97f08ac819")
+		)
+		(instances
+			(project "YoloUNO"
+				(path "/4e8f8cd7-8127-5740-a54c-43793ec71117/43b0716e-8b3b-577d-9603-d2c20d40e6ac"
+					(reference "#PWR0183")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoloUNO:Grove_1x04")
+		(at 373.38 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "696fc6ff-a77a-5398-851e-50622b6ff989")
+		(property "Reference" "J14"
+			(at 370.84 152.4 0)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Grove_I2C1"
+			(at 370.84 168.91 0)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "YoloUNO:NS-Tech_Grove_1x04_P2mm_Vertical"
+			(at 373.38 160.02 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 373.38 160.02 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "110990031"
+			(at 373.38 160.02 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2906424"
+			(at 373.38 160.02 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2c2c5e41-8199-5308-bdca-865ab6e64d7f")
+		)
+		(pin "2"
+			(uuid "03b1b841-bbf9-593a-b778-59b990176ed5")
+		)
+		(pin "3"
+			(uuid "846bbfb8-84b6-57f2-aace-a3de4156f8a9")
+		)
+		(pin "4"
+			(uuid "ee2cf1e9-921b-56df-90be-5ae0d0e84e7f")
+		)
+		(instances
+			(project "YoloUNO"
+				(path "/4e8f8cd7-8127-5740-a54c-43793ec71117/43b0716e-8b3b-577d-9603-d2c20d40e6ac"
+					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoloUNO:+3V3")
+		(at 361.95 162.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "bfef0950-0308-52ea-ae82-05310ad66245")
+		(property "Reference" "#PWR0184"
+			(at 359.41 158.115 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 358.775 162.56 0)
+			(effects
+				(font
+					(size 1.0 1.0)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 361.95 162.56 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 361.95 162.56 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bf5c9257-626e-52f1-844b-43d6baf8909d")
+		)
+		(instances
+			(project "YoloUNO"
+				(path "/4e8f8cd7-8127-5740-a54c-43793ec71117/43b0716e-8b3b-577d-9603-d2c20d40e6ac"
+					(reference "#PWR0184")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoloUNO:GND")
+		(at 354.33 165.1 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "42957e4d-efa0-5287-ae0c-ec8b95ae7010")
+		(property "Reference" "#PWR0185"
+			(at 351.79 160.655 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GND"
+			(at 351.155 165.1 0)
+			(effects
+				(font
+					(size 1.0 1.0)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 354.33 165.1 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 354.33 165.1 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f782a636-711a-55ed-aa53-5dbe912e9f17")
+		)
+		(instances
+			(project "YoloUNO"
+				(path "/4e8f8cd7-8127-5740-a54c-43793ec71117/43b0716e-8b3b-577d-9603-d2c20d40e6ac"
+					(reference "#PWR0185")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoloUNO:R")
+		(at 152.4 223.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "96c9feea-2b6d-53e0-9d29-d82f408fd49b")
+		(property "Reference" "R14"
+			(at 154.432 222.25 0)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.50k 1%"
+			(at 154.432 225.044 0)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "YoloUNO:R_0603_1608Metric"
+			(at 152.4 223.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 223.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-071K5L"
+			(at 152.4 223.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C22843"
+			(at 152.4 223.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cb346179-03ec-5769-b233-9733a5081581")
+		)
+		(pin "2"
+			(uuid "e25a2c1e-c70d-55a0-b6bc-4d1651005d4a")
+		)
+		(instances
+			(project "YoloUNO"
+				(path "/4e8f8cd7-8127-5740-a54c-43793ec71117/43b0716e-8b3b-577d-9603-d2c20d40e6ac"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoloUNO:R")
+		(at 175.26 223.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "29077eb3-a97d-5fc8-b9b0-7cfc922274ad")
+		(property "Reference" "R15"
+			(at 177.292 222.25 0)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.50k 1%"
+			(at 177.292 225.044 0)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "YoloUNO:R_0603_1608Metric"
+			(at 175.26 223.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 223.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-071K5L"
+			(at 175.26 223.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C22843"
+			(at 175.26 223.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "34a1516a-b55d-5a95-a6c6-ade7ef95035c")
+		)
+		(pin "2"
+			(uuid "f0aeaab9-bb59-5f45-9bd7-c75fb46d9e7b")
+		)
+		(instances
+			(project "YoloUNO"
+				(path "/4e8f8cd7-8127-5740-a54c-43793ec71117/43b0716e-8b3b-577d-9603-d2c20d40e6ac"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoloUNO:+3V3")
+		(at 163.83 212.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "0bd36479-4417-5cd5-9814-d4fc5806d9fe")
+		(property "Reference" "#PWR0186"
+			(at 165.862 210.82 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 163.83 208.28 0)
+			(effects
+				(font
+					(size 1.0 1.0)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 212.09 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 212.09 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3c657864-f038-56fc-af41-00f0aeb3a7bd")
+		)
+		(instances
+			(project "YoloUNO"
+				(path "/4e8f8cd7-8127-5740-a54c-43793ec71117/43b0716e-8b3b-577d-9603-d2c20d40e6ac"
+					(reference "#PWR0186")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoloUNO:QWIIC_JST_SH_1x04")
+		(at 231.14 231.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "14dd3ee4-3b78-5854-a0e0-079a68089f73")
+		(property "Reference" "J15"
+			(at 228.6 222.25 0)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "QWIIC_SM04B"
+			(at 228.6 224.79 0)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "YoloUNO:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
+			(at 231.14 231.14 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 231.14 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SM04B-SRSS-TB"
+			(at 231.14 231.14 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C160404"
+			(at 231.14 231.14 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "995d740c-80e2-5294-83b3-3c0860d2a245")
+		)
+		(pin "2"
+			(uuid "2d6e43be-e5e9-56b7-9d42-8ffed8c025f2")
+		)
+		(pin "3"
+			(uuid "910047dd-8419-53e1-b00a-39b5f521e6b0")
+		)
+		(pin "4"
+			(uuid "3d5f1266-9899-5c43-ab11-5d9fa844ca9a")
+		)
+		(pin "MP"
+			(uuid "eda5a67f-b196-5bde-a5ac-43e96f8868b9")
+		)
+		(instances
+			(project "YoloUNO"
+				(path "/4e8f8cd7-8127-5740-a54c-43793ec71117/43b0716e-8b3b-577d-9603-d2c20d40e6ac"
+					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoloUNO:GND")
+		(at 219.71 228.6 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "fea5f08e-c9aa-511b-9374-4b3e1cb1135c")
+		(property "Reference" "#PWR0187"
+			(at 217.17 224.155 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GND"
+			(at 216.535 228.6 0)
+			(effects
+				(font
+					(size 1.0 1.0)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 228.6 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 228.6 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "574c41b4-0acb-5ee0-9a8e-f67b99303e06")
+		)
+		(instances
+			(project "YoloUNO"
+				(path "/4e8f8cd7-8127-5740-a54c-43793ec71117/43b0716e-8b3b-577d-9603-d2c20d40e6ac"
+					(reference "#PWR0187")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoloUNO:+3V3")
+		(at 212.09 231.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "7927896a-babe-57b5-857f-eb22674ec7b3")
+		(property "Reference" "#PWR0188"
+			(at 209.55 226.695 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 208.915 231.14 0)
+			(effects
+				(font
+					(size 1.0 1.0)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 231.14 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 231.14 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "288b74b2-6863-5631-b4c7-70c234208059")
+		)
+		(instances
+			(project "YoloUNO"
+				(path "/4e8f8cd7-8127-5740-a54c-43793ec71117/43b0716e-8b3b-577d-9603-d2c20d40e6ac"
+					(reference "#PWR0188")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoloUNO:GND")
+		(at 231.14 245.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "00596f7d-5ea4-5caa-abce-761f2579b5a1")
+		(property "Reference" "#PWR0189"
+			(at 233.172 243.84 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 231.14 248.92 0)
+			(effects
+				(font
+					(size 1.0 1.0)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 245.11 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 245.11 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e0e00dab-e4e2-53d2-afe7-c58876823f22")
+		)
+		(instances
+			(project "YoloUNO"
+				(path "/4e8f8cd7-8127-5740-a54c-43793ec71117/43b0716e-8b3b-577d-9603-d2c20d40e6ac"
+					(reference "#PWR0189")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoloUNO:C_Polarized")
+		(at 269.24 231.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "96efcb0d-2381-5fd0-b514-90b000356a94")
+		(property "Reference" "C18"
+			(at 271.272 229.87 0)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470uF/10V"
+			(at 271.272 232.664 0)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "YoloUNO:CP_Elec_8x10.5"
+			(at 269.24 231.14 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 231.14 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "EEE-FK1A471P"
+			(at 269.24 231.14 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C134734"
+			(at 269.24 231.14 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d8ac042c-93b5-5c7a-ac40-90eed2bab3fa")
+		)
+		(pin "2"
+			(uuid "4f34baa7-65ca-58ea-b791-efdea10ed225")
+		)
+		(instances
+			(project "YoloUNO"
+				(path "/4e8f8cd7-8127-5740-a54c-43793ec71117/43b0716e-8b3b-577d-9603-d2c20d40e6ac"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoloUNO:+5V")
+		(at 269.24 222.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "334b9c51-7af7-59f5-9aaa-84ca70dd36fa")
+		(property "Reference" "#PWR0190"
+			(at 271.272 220.98 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 269.24 218.44 0)
+			(effects
+				(font
+					(size 1.0 1.0)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 269.24 222.25 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 222.25 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dbcdcc32-b4cc-5623-b47a-87d68064dd29")
+		)
+		(instances
+			(project "YoloUNO"
+				(path "/4e8f8cd7-8127-5740-a54c-43793ec71117/43b0716e-8b3b-577d-9603-d2c20d40e6ac"
+					(reference "#PWR0190")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoloUNO:GND")
+		(at 269.24 240.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "7c0cf733-300f-524e-85b8-75d82ffdb111")
+		(property "Reference" "#PWR0191"
+			(at 271.272 238.76 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 269.24 243.84 0)
+			(effects
+				(font
+					(size 1.0 1.0)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 269.24 240.03 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 240.03 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "92379f24-92af-5734-a93f-b520f3587d84")
+		)
+		(instances
+			(project "YoloUNO"
+				(path "/4e8f8cd7-8127-5740-a54c-43793ec71117/43b0716e-8b3b-577d-9603-d2c20d40e6ac"
+					(reference "#PWR0191")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoloUNO:Servo_GVS_1x03")
+		(at 322.58 220.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "57b24ade-0794-5f28-9450-53aa5c5fb133")
+		(property "Reference" "J21"
+			(at 320.04 212.725 0)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Servo_D2"
+			(at 320.04 215.265 0)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "YoloUNO:PinHeader_1x03_P2.54mm_Vertical"
+			(at 322.58 220.98 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 322.58 220.98 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "X6511WV-1x3"
+			(at 322.58 220.98 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C492405"
+			(at 322.58 220.98 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ea7c5a29-1146-55b6-86c2-10e268fc5803")
+		)
+		(pin "2"
+			(uuid "aa965c45-329d-512a-bee4-955d9d8a1bc3")
+		)
+		(pin "3"
+			(uuid "033f09d8-4369-5cdc-9ff3-b3b1ac9a1bb3")
+		)
+		(instances
+			(project "YoloUNO"
+				(path "/4e8f8cd7-8127-5740-a54c-43793ec71117/43b0716e-8b3b-577d-9603-d2c20d40e6ac"
+					(reference "J21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoloUNO:GND")
+		(at 311.15 218.44 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "819774f8-6005-5819-b513-81f9acf8bdeb")
+		(property "Reference" "#PWR0192"
+			(at 308.61 213.995 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GND"
+			(at 307.975 218.44 0)
+			(effects
+				(font
+					(size 1.0 1.0)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 311.15 218.44 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 311.15 218.44 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4f21d175-7bfe-5006-a2c9-1cf5bae8d9ac")
+		)
+		(instances
+			(project "YoloUNO"
+				(path "/4e8f8cd7-8127-5740-a54c-43793ec71117/43b0716e-8b3b-577d-9603-d2c20d40e6ac"
+					(reference "#PWR0192")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoloUNO:+5V")
+		(at 303.53 220.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "d4ddc104-80fc-5fa6-82b7-a2a2dab4875a")
+		(property "Reference" "#PWR0193"
+			(at 300.99 216.535 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "+5V"
+			(at 300.355 220.98 0)
+			(effects
+				(font
+					(size 1.0 1.0)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 303.53 220.98 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 303.53 220.98 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5dbf26fa-5d03-5d8c-a9c7-539dbce29d88")
+		)
+		(instances
+			(project "YoloUNO"
+				(path "/4e8f8cd7-8127-5740-a54c-43793ec71117/43b0716e-8b3b-577d-9603-d2c20d40e6ac"
+					(reference "#PWR0193")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoloUNO:Servo_GVS_1x03")
+		(at 381 220.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "329e11c8-6745-55e0-998e-672e8284e646")
+		(property "Reference" "J22"
+			(at 378.46 212.725 0)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Servo_D13"
+			(at 378.46 215.265 0)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "YoloUNO:PinHeader_1x03_P2.54mm_Vertical"
+			(at 381 220.98 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 381 220.98 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "X6511WV-1x3"
+			(at 381 220.98 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C492405"
+			(at 381 220.98 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1f2063fd-2fbc-50b0-9579-8f4f48f301d2")
+		)
+		(pin "2"
+			(uuid "5906933b-2494-5627-89c0-6870c70e2668")
+		)
+		(pin "3"
+			(uuid "0dd4cb85-518d-5f91-8eb1-6fa9731e7258")
+		)
+		(instances
+			(project "YoloUNO"
+				(path "/4e8f8cd7-8127-5740-a54c-43793ec71117/43b0716e-8b3b-577d-9603-d2c20d40e6ac"
+					(reference "J22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoloUNO:GND")
+		(at 369.57 218.44 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "28ed1fda-2dc0-57c5-8d80-96411e8c84c3")
+		(property "Reference" "#PWR0194"
+			(at 367.03 213.995 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GND"
+			(at 366.395 218.44 0)
+			(effects
+				(font
+					(size 1.0 1.0)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 369.57 218.44 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 369.57 218.44 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c8cee0ff-ae82-55cc-b51c-bb51c7fd455e")
+		)
+		(instances
+			(project "YoloUNO"
+				(path "/4e8f8cd7-8127-5740-a54c-43793ec71117/43b0716e-8b3b-577d-9603-d2c20d40e6ac"
+					(reference "#PWR0194")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoloUNO:+5V")
+		(at 361.95 220.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "d6136355-120c-57dc-97f9-3de50c06dce2")
+		(property "Reference" "#PWR0195"
+			(at 359.41 216.535 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "+5V"
+			(at 358.775 220.98 0)
+			(effects
+				(font
+					(size 1.0 1.0)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 361.95 220.98 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 361.95 220.98 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c7854b5a-cf98-5593-bd32-52a2a507e28e")
+		)
+		(instances
+			(project "YoloUNO"
+				(path "/4e8f8cd7-8127-5740-a54c-43793ec71117/43b0716e-8b3b-577d-9603-d2c20d40e6ac"
+					(reference "#PWR0195")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoloUNO:Servo_GVS_1x03")
+		(at 322.58 248.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "61876fd4-b1c5-5d4f-bef5-149affe051b7")
+		(property "Reference" "J23"
+			(at 320.04 240.665 0)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Servo_D12"
+			(at 320.04 243.205 0)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "YoloUNO:PinHeader_1x03_P2.54mm_Vertical"
+			(at 322.58 248.92 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 322.58 248.92 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "X6511WV-1x3"
+			(at 322.58 248.92 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C492405"
+			(at 322.58 248.92 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "96515faa-1a59-561f-a7c8-a7f34d5fa20f")
+		)
+		(pin "2"
+			(uuid "37aa3e6b-c964-58ae-8575-855470286e4a")
+		)
+		(pin "3"
+			(uuid "19605165-36c4-5748-b24f-1a29f531f634")
+		)
+		(instances
+			(project "YoloUNO"
+				(path "/4e8f8cd7-8127-5740-a54c-43793ec71117/43b0716e-8b3b-577d-9603-d2c20d40e6ac"
+					(reference "J23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoloUNO:GND")
+		(at 311.15 246.38 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "3d80d38b-7648-59e3-8a7b-76f81b279560")
+		(property "Reference" "#PWR0196"
+			(at 308.61 241.935 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GND"
+			(at 307.975 246.38 0)
+			(effects
+				(font
+					(size 1.0 1.0)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 311.15 246.38 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 311.15 246.38 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3987e5c9-9bb3-551e-b142-f7ca1f5e2fb4")
+		)
+		(instances
+			(project "YoloUNO"
+				(path "/4e8f8cd7-8127-5740-a54c-43793ec71117/43b0716e-8b3b-577d-9603-d2c20d40e6ac"
+					(reference "#PWR0196")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoloUNO:+5V")
+		(at 303.53 248.92 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "cbfacad3-2663-5f17-a2ae-cfa982c84f9b")
+		(property "Reference" "#PWR0197"
+			(at 300.99 244.475 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "+5V"
+			(at 300.355 248.92 0)
+			(effects
+				(font
+					(size 1.0 1.0)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 303.53 248.92 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 303.53 248.92 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9c16edfb-ba39-5bcf-9aa6-e2495d7c7720")
+		)
+		(instances
+			(project "YoloUNO"
+				(path "/4e8f8cd7-8127-5740-a54c-43793ec71117/43b0716e-8b3b-577d-9603-d2c20d40e6ac"
+					(reference "#PWR0197")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoloUNO:Servo_GVS_1x03")
+		(at 381 248.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "9465a0a8-b02f-5d85-b817-4e83a6ec6ef5")
+		(property "Reference" "J24"
+			(at 378.46 240.665 0)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Servo_D11"
+			(at 378.46 243.205 0)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "YoloUNO:PinHeader_1x03_P2.54mm_Vertical"
+			(at 381 248.92 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 381 248.92 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "X6511WV-1x3"
+			(at 381 248.92 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C492405"
+			(at 381 248.92 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5b785f92-e3ef-5b59-ae0f-10734b59fc32")
+		)
+		(pin "2"
+			(uuid "3347e365-b562-5812-ad98-73e7bbb5b9b7")
+		)
+		(pin "3"
+			(uuid "72c99be8-4987-51fd-b817-ab3461ef001c")
+		)
+		(instances
+			(project "YoloUNO"
+				(path "/4e8f8cd7-8127-5740-a54c-43793ec71117/43b0716e-8b3b-577d-9603-d2c20d40e6ac"
+					(reference "J24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoloUNO:GND")
+		(at 369.57 246.38 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "3ca180e6-6713-5b69-8c0a-a90f51f7380a")
+		(property "Reference" "#PWR0198"
+			(at 367.03 241.935 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GND"
+			(at 366.395 246.38 0)
+			(effects
+				(font
+					(size 1.0 1.0)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 369.57 246.38 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 369.57 246.38 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "19445d2c-68ca-5d52-9b5e-6e102237182a")
+		)
+		(instances
+			(project "YoloUNO"
+				(path "/4e8f8cd7-8127-5740-a54c-43793ec71117/43b0716e-8b3b-577d-9603-d2c20d40e6ac"
+					(reference "#PWR0198")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoloUNO:+5V")
+		(at 361.95 248.92 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "9a056b73-708a-557d-b88d-d8ea610dad04")
+		(property "Reference" "#PWR0199"
+			(at 359.41 244.475 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "+5V"
+			(at 358.775 248.92 0)
+			(effects
+				(font
+					(size 1.0 1.0)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 361.95 248.92 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 361.95 248.92 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "72af96e0-b624-55fd-9476-fd4549c2b75b")
+		)
+		(instances
+			(project "YoloUNO"
+				(path "/4e8f8cd7-8127-5740-a54c-43793ec71117/43b0716e-8b3b-577d-9603-d2c20d40e6ac"
+					(reference "#PWR0199")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(embedded_fonts no)
+)

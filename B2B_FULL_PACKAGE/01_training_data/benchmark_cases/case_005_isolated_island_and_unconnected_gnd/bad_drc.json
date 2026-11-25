@@ -1,0 +1,42 @@
+[
+  {
+    "type": "hole_to_hole",
+    "severity": "warning",
+    "item1": "Via [GND] on F.Cu - B.Cu",
+    "item2": "PTH pad 2 [GND] of J_BOOT",
+    "pos1": "(121.5000, 72.0000)",
+    "pos2": "(121.0000, 72.0400)",
+    "clearance": 0.0,
+    "required": 0.25
+  },
+  {
+    "type": "holes_co_located",
+    "severity": "warning",
+    "item1": "Via [GND] on F.Cu - B.Cu",
+    "item2": "Via [GND] on F.Cu - B.Cu",
+    "pos": "(119.6000, 67.1000)",
+    "clearance": 0.0,
+    "required": 0.25
+  },
+  {
+    "type": "unconnected_items",
+    "severity": "error",
+    "item": "R_FB2 pad 2 (GND) on B.Cu",
+    "root_cause": "Isolated GND copper island bounded by BST_FB and +5V horizontal track",
+    "pos": "(88.8250, 107.5000)"
+  },
+  {
+    "type": "unconnected_items",
+    "severity": "error",
+    "item": "U6 pad 15 (GND) on F.Cu",
+    "root_cause": "Missing fanout via to In1.Cu GND plane",
+    "pos": "(94.2900, 75.5100)"
+  },
+  {
+    "type": "unconnected_items",
+    "severity": "error",
+    "item": "R_PROG pad 2 (GND) on B.Cu",
+    "root_cause": "Missing fanout via to In1.Cu GND plane",
+    "pos": "(82.3250, 98.5000)"
+  }
+]

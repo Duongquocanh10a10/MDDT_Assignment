@@ -1,0 +1,23 @@
+--- bad.kicad_pcb
++++ fixed.kicad_pcb
+@@ -28412,10 +28412,18 @@
+ 	(gr_line (start 73 126) (end 73 55) (stroke (width 0.15) (type default)) (layer "Edge.Cuts") (uuid "ec-08"))
+ 	(segment
+ 		(start 85.3500 94.5000)
+-		(end 78.0000 94.5000)
++		(end 85.3500 94.7000)
+ 		(width 0.20)
+ 		(layer "B.Cu")
+ 		(net "VBAT_RTC")
+-		(uuid "75886ec2-8692-4c69-956c-6d5f7e0009ee")
++		(uuid "52dee738-a755-49a9-84f5-7e6f2b193df9")
++	)
++	(segment
++		(start 85.3500 94.7000)
++		(end 78.0000 94.7000)
++		(width 0.20)
++		(layer "B.Cu")
++		(net "VBAT_RTC")
++		(uuid "4f6d5140-8a40-4d54-a3b7-efe42cedda70")
+ 	)
+ )

@@ -1,0 +1,9282 @@
+(export
+	(version "E")
+	(design
+		(source "c:\\Users\\QUOC ANH PC\\Downloads\\MDDT_Assignment\\YoloUNO_Project\\hardware\\YoloUNO.kicad_sch")
+		(date "2026-11-25T09:51:54")
+		(tool "Eeschema 10.0.8")
+		(sheet
+			(number "1")
+			(name "/")
+			(tstamps "/")
+			(title_block
+				(title "Yolo UNO Redesign - System Architecture Overview")
+				(company "HCMUT - CO2037 Electronic Devices & Circuits")
+				(rev "1.0")
+				(date "2026-11-25")
+				(source "YoloUNO.kicad_sch")
+				(comment
+					(number "1")
+					(value "Board: Yolo UNO Redesign (ESP32-S3-WROOM-1-N16R8, 4-Layer IPC-2221)")
+				)
+				(comment
+					(number "2")
+					(value "12x Grove (3.3V) | QWIIC | 4x Servo GVS | USB-C + 6-12V DC Power-Mux")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+		(sheet
+			(number "2")
+			(name "/01_Power_Supply/")
+			(tstamps "/a0b114f4-3594-594e-9331-64186d8537dd/")
+			(title_block
+				(title "Power Supply: Protection, 5V Buck, Power-Mux & 3.3V LDO")
+				(company "HCMUT - CO2037 Electronic Devices & Circuits")
+				(rev "1.0")
+				(date "2026-11-25")
+				(source "01_Power_Supply.kicad_sch")
+				(comment
+					(number "1")
+					(value "Board: Yolo UNO Redesign (ESP32-S3-WROOM-1-N16R8, 4-Layer IPC-2221)")
+				)
+				(comment
+					(number "2")
+					(value "12x Grove (3.3V) | QWIIC | 4x Servo GVS | USB-C + 6-12V DC Power-Mux")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+		(sheet
+			(number "3")
+			(name "/02_MCU_ESP32S3/")
+			(tstamps "/0d274810-01c4-5a01-bc82-708f3b194a99/")
+			(title_block
+				(title "MCU Core: ESP32-S3-WROOM-1, Decoupling & Reset/Boot")
+				(company "HCMUT - CO2037 Electronic Devices & Circuits")
+				(rev "1.0")
+				(date "2026-11-25")
+				(source "02_MCU_ESP32S3.kicad_sch")
+				(comment
+					(number "1")
+					(value "Board: Yolo UNO Redesign (ESP32-S3-WROOM-1-N16R8, 4-Layer IPC-2221)")
+				)
+				(comment
+					(number "2")
+					(value "12x Grove (3.3V) | QWIIC | 4x Servo GVS | USB-C + 6-12V DC Power-Mux")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+		(sheet
+			(number "4")
+			(name "/03_USB_and_LEDs/")
+			(tstamps "/c7155ff2-a5cd-5e8e-9c34-8466f2985f0c/")
+			(title_block
+				(title "USB Type-C + ESD & Display LEDs (D13, NeoPixel)")
+				(company "HCMUT - CO2037 Electronic Devices & Circuits")
+				(rev "1.0")
+				(date "2026-11-25")
+				(source "03_USB_and_LEDs.kicad_sch")
+				(comment
+					(number "1")
+					(value "Board: Yolo UNO Redesign (ESP32-S3-WROOM-1-N16R8, 4-Layer IPC-2221)")
+				)
+				(comment
+					(number "2")
+					(value "12x Grove (3.3V) | QWIIC | 4x Servo GVS | USB-C + 6-12V DC Power-Mux")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+		(sheet
+			(number "5")
+			(name "/04_Peripherals_and_Headers/")
+			(tstamps "/43b0716e-8b3b-577d-9603-d2c20d40e6ac/")
+			(title_block
+				(title "Peripherals: UNO R3, 12x Grove, QWIIC, I2C & 4x Servo")
+				(company "HCMUT - CO2037 Electronic Devices & Circuits")
+				(rev "1.0")
+				(date "2026-11-25")
+				(source "04_Peripherals_and_Headers.kicad_sch")
+				(comment
+					(number "1")
+					(value "Board: Yolo UNO Redesign (ESP32-S3-WROOM-1-N16R8, 4-Layer IPC-2221)")
+				)
+				(comment
+					(number "2")
+					(value "12x Grove (3.3V) | QWIIC | 4x Servo GVS | USB-C + 6-12V DC Power-Mux")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+	)
+	(components
+		(comp
+			(ref "FID1")
+			(value "Fiducial")
+			(footprint "YoloUNO:Fiducial_1mm_Mask2mm")
+			(fields
+				(field
+					(name "MPN") "FIDUCIAL_1MM")
+				(field
+					(name "LCSC") "N/A")
+				(field
+					(name "Footprint") "YoloUNO:Fiducial_1mm_Mask2mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "YoloUNO")
+				(part "Fiducial_1mm")
+				(description "Fiducial Marker")
+			)
+			(property
+				(name "MPN")
+				(value "FIDUCIAL_1MM")
+			)
+			(property
+				(name "LCSC")
+				(value "N/A")
+			)
+			(property
+				(name "Sheetname")
+				(value "YoloUNO")
+			)
+			(property
+				(name "Sheetfile")
+				(value "YoloUNO.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "fiducial marker")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Fiducial*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "6fefe4e8-b915-504c-8edd-36fac39c5976")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "FID2")
+			(value "Fiducial")
+			(footprint "YoloUNO:Fiducial_1mm_Mask2mm")
+			(fields
+				(field
+					(name "MPN") "FIDUCIAL_1MM")
+				(field
+					(name "LCSC") "N/A")
+				(field
+					(name "Footprint") "YoloUNO:Fiducial_1mm_Mask2mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "YoloUNO")
+				(part "Fiducial_1mm")
+				(description "Fiducial Marker")
+			)
+			(property
+				(name "MPN")
+				(value "FIDUCIAL_1MM")
+			)
+			(property
+				(name "LCSC")
+				(value "N/A")
+			)
+			(property
+				(name "Sheetname")
+				(value "YoloUNO")
+			)
+			(property
+				(name "Sheetfile")
+				(value "YoloUNO.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "fiducial marker")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Fiducial*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d5438323-1a81-5100-8690-a8b8ca2571d9")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "FID3")
+			(value "Fiducial")
+			(footprint "YoloUNO:Fiducial_1mm_Mask2mm")
+			(fields
+				(field
+					(name "MPN") "FIDUCIAL_1MM")
+				(field
+					(name "LCSC") "N/A")
+				(field
+					(name "Footprint") "YoloUNO:Fiducial_1mm_Mask2mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "YoloUNO")
+				(part "Fiducial_1mm")
+				(description "Fiducial Marker")
+			)
+			(property
+				(name "MPN")
+				(value "FIDUCIAL_1MM")
+			)
+			(property
+				(name "LCSC")
+				(value "N/A")
+			)
+			(property
+				(name "Sheetname")
+				(value "YoloUNO")
+			)
+			(property
+				(name "Sheetfile")
+				(value "YoloUNO.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "fiducial marker")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Fiducial*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "21218a1e-335f-5054-a578-d30c1fc3e8f6")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "H1")
+			(value "M3_Hole")
+			(footprint "YoloUNO:MountingHole_3.2mm_M3")
+			(fields
+				(field
+					(name "MPN") "M3_NPTH_UNO_R3")
+				(field
+					(name "LCSC") "N/A")
+				(field
+					(name "Footprint") "YoloUNO:MountingHole_3.2mm_M3")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "YoloUNO")
+				(part "MountingHole_M3")
+				(description "Mounting Hole without connection")
+			)
+			(property
+				(name "MPN")
+				(value "M3_NPTH_UNO_R3")
+			)
+			(property
+				(name "LCSC")
+				(value "N/A")
+			)
+			(property
+				(name "Sheetname")
+				(value "YoloUNO")
+			)
+			(property
+				(name "Sheetfile")
+				(value "YoloUNO.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "mounting hole")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "MountingHole*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "a987c000-248a-54ce-973b-341223cb5901")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "H2")
+			(value "M3_Hole")
+			(footprint "YoloUNO:MountingHole_3.2mm_M3")
+			(fields
+				(field
+					(name "MPN") "M3_NPTH_UNO_R3")
+				(field
+					(name "LCSC") "N/A")
+				(field
+					(name "Footprint") "YoloUNO:MountingHole_3.2mm_M3")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "YoloUNO")
+				(part "MountingHole_M3")
+				(description "Mounting Hole without connection")
+			)
+			(property
+				(name "MPN")
+				(value "M3_NPTH_UNO_R3")
+			)
+			(property
+				(name "LCSC")
+				(value "N/A")
+			)
+			(property
+				(name "Sheetname")
+				(value "YoloUNO")
+			)
+			(property
+				(name "Sheetfile")
+				(value "YoloUNO.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "mounting hole")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "MountingHole*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9210572e-a501-57fa-bb01-61bba8718260")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "H3")
+			(value "M3_Hole")
+			(footprint "YoloUNO:MountingHole_3.2mm_M3")
+			(fields
+				(field
+					(name "MPN") "M3_NPTH_UNO_R3")
+				(field
+					(name "LCSC") "N/A")
+				(field
+					(name "Footprint") "YoloUNO:MountingHole_3.2mm_M3")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "YoloUNO")
+				(part "MountingHole_M3")
+				(description "Mounting Hole without connection")
+			)
+			(property
+				(name "MPN")
+				(value "M3_NPTH_UNO_R3")
+			)
+			(property
+				(name "LCSC")
+				(value "N/A")
+			)
+			(property
+				(name "Sheetname")
+				(value "YoloUNO")
+			)
+			(property
+				(name "Sheetfile")
+				(value "YoloUNO.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "mounting hole")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "MountingHole*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "96ecc04f-a0ba-52bd-bfc7-baae74527ebc")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "H4")
+			(value "M3_Hole")
+			(footprint "YoloUNO:MountingHole_3.2mm_M3")
+			(fields
+				(field
+					(name "MPN") "M3_NPTH_UNO_R3")
+				(field
+					(name "LCSC") "N/A")
+				(field
+					(name "Footprint") "YoloUNO:MountingHole_3.2mm_M3")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "YoloUNO")
+				(part "MountingHole_M3")
+				(description "Mounting Hole without connection")
+			)
+			(property
+				(name "MPN")
+				(value "M3_NPTH_UNO_R3")
+			)
+			(property
+				(name "LCSC")
+				(value "N/A")
+			)
+			(property
+				(name "Sheetname")
+				(value "YoloUNO")
+			)
+			(property
+				(name "Sheetfile")
+				(value "YoloUNO.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "mounting hole")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "MountingHole*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "61d703fc-1a87-55a8-ba76-d1299e4b4589")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "C1")
+			(value "47uF/25V")
+			(footprint "YoloUNO:CP_Elec_6.3x5.4")
+			(fields
+				(field
+					(name "MPN") "EEE-FK1E470P")
+				(field
+					(name "LCSC") "C72485")
+				(field
+					(name "Footprint") "YoloUNO:CP_Elec_6.3x5.4")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "YoloUNO")
+				(part "C_Polarized")
+				(description "Polarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "EEE-FK1E470P")
+			)
+			(property
+				(name "LCSC")
+				(value "C72485")
+			)
+			(property
+				(name "Sheetname")
+				(value "01_Power_Supply")
+			)
+			(property
+				(name "Sheetfile")
+				(value "01_Power_Supply.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "CP_*")
+			)
+			(sheetpath
+				(names "/01_Power_Supply/")
+				(tstamps "/a0b114f4-3594-594e-9331-64186d8537dd/")
+			)
+			(tstamps "366cafd6-8a10-57b0-9d95-469757b29293")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C2")
+			(value "100nF")
+			(footprint "YoloUNO:C_0603_1608Metric")
+			(fields
+				(field
+					(name "MPN") "CL10B104KB8NNNC")
+				(field
+					(name "LCSC") "C1591")
+				(field
+					(name "Footprint") "YoloUNO:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "YoloUNO")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "CL10B104KB8NNNC")
+			)
+			(property
+				(name "LCSC")
+				(value "C1591")
+			)
+			(property
+				(name "Sheetname")
+				(value "01_Power_Supply")
+			)
+			(property
+				(name "Sheetfile")
+				(value "01_Power_Supply.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/01_Power_Supply/")
+				(tstamps "/a0b114f4-3594-594e-9331-64186d8537dd/")
+			)
+			(tstamps "163601d3-cef0-5bb8-9aef-e79ad7289aa5")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C3")
+			(value "10uF/25V")
+			(footprint "YoloUNO:C_0805_2012Metric")
+			(fields
+				(field
+					(name "MPN") "GRM21BR61E106KA73L")
+				(field
+					(name "LCSC") "C15850")
+				(field
+					(name "Footprint") "YoloUNO:C_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "YoloUNO")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "GRM21BR61E106KA73L")
+			)
+			(property
+				(name "LCSC")
+				(value "C15850")
+			)
+			(property
+				(name "Sheetname")
+				(value "01_Power_Supply")
+			)
+			(property
+				(name "Sheetfile")
+				(value "01_Power_Supply.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/01_Power_Supply/")
+				(tstamps "/a0b114f4-3594-594e-9331-64186d8537dd/")
+			)
+			(tstamps "59c92777-01f9-59a5-98be-b369298f373c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C4")
+			(value "100nF")
+			(footprint "YoloUNO:C_0603_1608Metric")
+			(fields
+				(field
+					(name "MPN") "CL10B104KB8NNNC")
+				(field
+					(name "LCSC") "C1591")
+				(field
+					(name "Footprint") "YoloUNO:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "YoloUNO")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "CL10B104KB8NNNC")
+			)
+			(property
+				(name "LCSC")
+				(value "C1591")
+			)
+			(property
+				(name "Sheetname")
+				(value "01_Power_Supply")
+			)
+			(property
+				(name "Sheetfile")
+				(value "01_Power_Supply.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/01_Power_Supply/")
+				(tstamps "/a0b114f4-3594-594e-9331-64186d8537dd/")
+			)
+			(tstamps "cd5b76ad-cf59-5f0b-af29-c3bcf0bdd142")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C5")
+			(value "22uF/16V")
+			(footprint "YoloUNO:C_0805_2012Metric")
+			(fields
+				(field
+					(name "MPN") "GRM21BR61C226ME44L")
+				(field
+					(name "LCSC") "C45783")
+				(field
+					(name "Footprint") "YoloUNO:C_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "YoloUNO")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "GRM21BR61C226ME44L")
+			)
+			(property
+				(name "LCSC")
+				(value "C45783")
+			)
+			(property
+				(name "Sheetname")
+				(value "01_Power_Supply")
+			)
+			(property
+				(name "Sheetfile")
+				(value "01_Power_Supply.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/01_Power_Supply/")
+				(tstamps "/a0b114f4-3594-594e-9331-64186d8537dd/")
+			)
+			(tstamps "a825de58-92db-5e1c-9b08-fb5dafe9bf3b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C6")
+			(value "22uF/16V")
+			(footprint "YoloUNO:C_0805_2012Metric")
+			(fields
+				(field
+					(name "MPN") "GRM21BR61C226ME44L")
+				(field
+					(name "LCSC") "C45783")
+				(field
+					(name "Footprint") "YoloUNO:C_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "YoloUNO")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "GRM21BR61C226ME44L")
+			)
+			(property
+				(name "LCSC")
+				(value "C45783")
+			)
+			(property
+				(name "Sheetname")
+				(value "01_Power_Supply")
+			)
+			(property
+				(name "Sheetfile")
+				(value "01_Power_Supply.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/01_Power_Supply/")
+				(tstamps "/a0b114f4-3594-594e-9331-64186d8537dd/")
+			)
+			(tstamps "4ee2bed6-99cd-5b3c-a217-ec57fd8ec3cc")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C7")
+			(value "10uF/16V")
+			(footprint "YoloUNO:C_0805_2012Metric")
+			(fields
+				(field
+					(name "MPN") "CL21A106KOQNNNE")
+				(field
+					(name "LCSC") "C17024")
+				(field
+					(name "Footprint") "YoloUNO:C_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "YoloUNO")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "CL21A106KOQNNNE")
+			)
+			(property
+				(name "LCSC")
+				(value "C17024")
+			)
+			(property
+				(name "Sheetname")
+				(value "01_Power_Supply")
+			)
+			(property
+				(name "Sheetfile")
+				(value "01_Power_Supply.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/01_Power_Supply/")
+				(tstamps "/a0b114f4-3594-594e-9331-64186d8537dd/")
+			)
+			(tstamps "0fd395a1-c2e6-52f8-97b6-e40517767cae")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C8")
+			(value "10uF/16V")
+			(footprint "YoloUNO:C_0805_2012Metric")
+			(fields
+				(field
+					(name "MPN") "CL21A106KOQNNNE")
+				(field
+					(name "LCSC") "C17024")
+				(field
+					(name "Footprint") "YoloUNO:C_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "YoloUNO")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "CL21A106KOQNNNE")
+			)
+			(property
+				(name "LCSC")
+				(value "C17024")
+			)
+			(property
+				(name "Sheetname")
+				(value "01_Power_Supply")
+			)
+			(property
+				(name "Sheetfile")
+				(value "01_Power_Supply.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/01_Power_Supply/")
+				(tstamps "/a0b114f4-3594-594e-9331-64186d8537dd/")
+			)
+			(tstamps "36db4be0-47ea-5481-a983-ea89bd137922")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C9")
+			(value "22uF/16V")
+			(footprint "YoloUNO:C_0805_2012Metric")
+			(fields
+				(field
+					(name "MPN") "GRM21BR61C226ME44L")
+				(field
+					(name "LCSC") "C45783")
+				(field
+					(name "Footprint") "YoloUNO:C_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "YoloUNO")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "GRM21BR61C226ME44L")
+			)
+			(property
+				(name "LCSC")
+				(value "C45783")
+			)
+			(property
+				(name "Sheetname")
+				(value "01_Power_Supply")
+			)
+			(property
+				(name "Sheetfile")
+				(value "01_Power_Supply.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/01_Power_Supply/")
+				(tstamps "/a0b114f4-3594-594e-9331-64186d8537dd/")
+			)
+			(tstamps "226d4823-46bd-5a5a-b8b1-bad0c3ac5d67")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C10")
+			(value "100nF")
+			(footprint "YoloUNO:C_0603_1608Metric")
+			(fields
+				(field
+					(name "MPN") "CL10B104KB8NNNC")
+				(field
+					(name "LCSC") "C1591")
+				(field
+					(name "Footprint") "YoloUNO:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "YoloUNO")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "CL10B104KB8NNNC")
+			)
+			(property
+				(name "LCSC")
+				(value "C1591")
+			)
+			(property
+				(name "Sheetname")
+				(value "01_Power_Supply")
+			)
+			(property
+				(name "Sheetfile")
+				(value "01_Power_Supply.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/01_Power_Supply/")
+				(tstamps "/a0b114f4-3594-594e-9331-64186d8537dd/")
+			)
+			(tstamps "0df8320d-2eeb-5e80-b18b-a06c2fde83b5")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D1")
+			(value "SMBJ15CA")
+			(footprint "YoloUNO:D_SMB")
+			(fields
+				(field
+					(name "MPN") "SMBJ15CA")
+				(field
+					(name "LCSC") "C123785")
+				(field
+					(name "Footprint") "YoloUNO:D_SMB")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "YoloUNO")
+				(part "SMBJ15CA")
+				(description "Bidirectional transient-voltage-suppression diode")
+			)
+			(property
+				(name "MPN")
+				(value "SMBJ15CA")
+			)
+			(property
+				(name "LCSC")
+				(value "C123785")
+			)
+			(property
+				(name "Sheetname")
+				(value "01_Power_Supply")
+			)
+			(property
+				(name "Sheetfile")
+				(value "01_Power_Supply.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "diode TVS thyrector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "TO-???* *_Diode_* *SingleDiode* D_*")
+			)
+			(sheetpath
+				(names "/01_Power_Supply/")
+				(tstamps "/a0b114f4-3594-594e-9331-64186d8537dd/")
+			)
+			(tstamps "4edbbd38-0c75-5574-bc1a-fa14cd9b9313")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D2")
+			(value "BZT52C10 (10V)")
+			(footprint "YoloUNO:D_SOD-123")
+			(fields
+				(field
+					(name "MPN") "BZT52C10-7-F")
+				(field
+					(name "LCSC") "C81598")
+				(field
+					(name "Footprint") "YoloUNO:D_SOD-123")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "YoloUNO")
+				(part "BZT52C10")
+				(description "Zener diode")
+			)
+			(property
+				(name "MPN")
+				(value "BZT52C10-7-F")
+			)
+			(property
+				(name "LCSC")
+				(value "C81598")
+			)
+			(property
+				(name "Sheetname")
+				(value "01_Power_Supply")
+			)
+			(property
+				(name "Sheetfile")
+				(value "01_Power_Supply.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "TO-???* *_Diode_* *SingleDiode* D_*")
+			)
+			(sheetpath
+				(names "/01_Power_Supply/")
+				(tstamps "/a0b114f4-3594-594e-9331-64186d8537dd/")
+			)
+			(tstamps "5b55afb9-b9f8-5519-91d0-61f0805ba5c2")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D3")
+			(value "PWR_GREEN")
+			(footprint "YoloUNO:LED_0603_1608Metric")
+			(fields
+				(field
+					(name "MPN") "19-217/GHC-YR1S2/3T")
+				(field
+					(name "LCSC") "C72043")
+				(field
+					(name "Footprint") "YoloUNO:LED_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "YoloUNO")
+				(part "LED")
+				(description "Light emitting diode")
+			)
+			(property
+				(name "MPN")
+				(value "19-217/GHC-YR1S2/3T")
+			)
+			(property
+				(name "LCSC")
+				(value "C72043")
+			)
+			(property
+				(name "Sheetname")
+				(value "01_Power_Supply")
+			)
+			(property
+				(name "Sheetfile")
+				(value "01_Power_Supply.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "LED diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED* LED_SMD:* LED_THT:*")
+			)
+			(sheetpath
+				(names "/01_Power_Supply/")
+				(tstamps "/a0b114f4-3594-594e-9331-64186d8537dd/")
+			)
+			(tstamps "f83c0bf2-00ba-596a-bdcd-2a4f95a7268b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J1")
+			(value "PJ-002A (6-12V)")
+			(footprint "YoloUNO:BarrelJack_CUI_PJ-102AH_Horizontal")
+			(fields
+				(field
+					(name "MPN") "PJ-002A")
+				(field
+					(name "LCSC") "C720477")
+				(field
+					(name "Footprint") "YoloUNO:BarrelJack_CUI_PJ-102AH_Horizontal")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "YoloUNO")
+				(part "PJ-002A_BarrelJack")
+				(description "DC Barrel Jack with an internal switch")
+			)
+			(property
+				(name "MPN")
+				(value "PJ-002A")
+			)
+			(property
+				(name "LCSC")
+				(value "C720477")
+			)
+			(property
+				(name "Sheetname")
+				(value "01_Power_Supply")
+			)
+			(property
+				(name "Sheetfile")
+				(value "01_Power_Supply.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "DC power barrel jack connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "BarrelJack*")
+			)
+			(sheetpath
+				(names "/01_Power_Supply/")
+				(tstamps "/a0b114f4-3594-594e-9331-64186d8537dd/")
+			)
+			(tstamps "3b764539-1427-5631-860f-b169c45b2955")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "L1")
+			(value "15uH (SRN6045)")
+			(footprint "YoloUNO:L_Bourns_SRN6045TA")
+			(fields
+				(field
+					(name "MPN") "SRN6045TA-150M")
+				(field
+					(name "LCSC") "C169400")
+				(field
+					(name "Footprint") "YoloUNO:L_Bourns_SRN6045TA")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "YoloUNO")
+				(part "L")
+				(description "Inductor")
+			)
+			(property
+				(name "MPN")
+				(value "SRN6045TA-150M")
+			)
+			(property
+				(name "LCSC")
+				(value "C169400")
+			)
+			(property
+				(name "Sheetname")
+				(value "01_Power_Supply")
+			)
+			(property
+				(name "Sheetfile")
+				(value "01_Power_Supply.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "inductor choke coil reactor magnetic")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Choke_* *Coil* Inductor_* L_*")
+			)
+			(sheetpath
+				(names "/01_Power_Supply/")
+				(tstamps "/a0b114f4-3594-594e-9331-64186d8537dd/")
+			)
+			(tstamps "b9b8ce52-39db-5919-bc06-a233be3a5a42")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "Q1")
+			(value "AO3407A")
+			(footprint "YoloUNO:SOT-23-3")
+			(fields
+				(field
+					(name "MPN") "AO3407A")
+				(field
+					(name "LCSC") "C347475")
+				(field
+					(name "Footprint") "YoloUNO:SOT-23-3")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "YoloUNO")
+				(part "AO3407A")
+				(description "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23")
+			)
+			(property
+				(name "MPN")
+				(value "AO3407A")
+			)
+			(property
+				(name "LCSC")
+				(value "C347475")
+			)
+			(property
+				(name "Sheetname")
+				(value "01_Power_Supply")
+			)
+			(property
+				(name "Sheetfile")
+				(value "01_Power_Supply.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "P-Channel MOSFET")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SOT?23*")
+			)
+			(sheetpath
+				(names "/01_Power_Supply/")
+				(tstamps "/a0b114f4-3594-594e-9331-64186d8537dd/")
+			)
+			(tstamps "0ec7ee02-916f-51da-bfc5-6483b1c0d0f2")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R1")
+			(value "47k")
+			(footprint "YoloUNO:R_0603_1608Metric")
+			(fields
+				(field
+					(name "MPN") "RC0603FR-0747KL")
+				(field
+					(name "LCSC") "C25819")
+				(field
+					(name "Footprint") "YoloUNO:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "YoloUNO")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "RC0603FR-0747KL")
+			)
+			(property
+				(name "LCSC")
+				(value "C25819")
+			)
+			(property
+				(name "Sheetname")
+				(value "01_Power_Supply")
+			)
+			(property
+				(name "Sheetfile")
+				(value "01_Power_Supply.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/01_Power_Supply/")
+				(tstamps "/a0b114f4-3594-594e-9331-64186d8537dd/")
+			)
+			(tstamps "c5858e4d-1fb1-542a-8e16-bcd74e6fbf2a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R2")
+			(value "100k")
+			(footprint "YoloUNO:R_0603_1608Metric")
+			(fields
+				(field
+					(name "MPN") "RC0603FR-07100KL")
+				(field
+					(name "LCSC") "C25803")
+				(field
+					(name "Footprint") "YoloUNO:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "YoloUNO")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "RC0603FR-07100KL")
+			)
+			(property
+				(name "LCSC")
+				(value "C25803")
+			)
+			(property
+				(name "Sheetname")
+				(value "01_Power_Supply")
+			)
+			(property
+				(name "Sheetfile")
+				(value "01_Power_Supply.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/01_Power_Supply/")
+				(tstamps "/a0b114f4-3594-594e-9331-64186d8537dd/")
+			)
+			(tstamps "96652899-f75d-5b0f-8c0b-91ed264a7006")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R3")
+			(value "68.0k 1%")
+			(footprint "YoloUNO:R_0603_1608Metric")
+			(fields
+				(field
+					(name "MPN") "RC0603FR-0768KL")
+				(field
+					(name "LCSC") "C23231")
+				(field
+					(name "Footprint") "YoloUNO:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "YoloUNO")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "RC0603FR-0768KL")
+			)
+			(property
+				(name "LCSC")
+				(value "C23231")
+			)
+			(property
+				(name "Sheetname")
+				(value "01_Power_Supply")
+			)
+			(property
+				(name "Sheetfile")
+				(value "01_Power_Supply.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/01_Power_Supply/")
+				(tstamps "/a0b114f4-3594-594e-9331-64186d8537dd/")
+			)
+			(tstamps "5984bee6-7fd2-5d31-979d-55fd297b8987")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R4")
+			(value "9.10k 1%")
+			(footprint "YoloUNO:R_0603_1608Metric")
+			(fields
+				(field
+					(name "MPN") "RC0603FR-079K1L")
+				(field
+					(name "LCSC") "C23268")
+				(field
+					(name "Footprint") "YoloUNO:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "YoloUNO")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "RC0603FR-079K1L")
+			)
+			(property
+				(name "LCSC")
+				(value "C23268")
+			)
+			(property
+				(name "Sheetname")
+				(value "01_Power_Supply")
+			)
+			(property
+				(name "Sheetfile")
+				(value "01_Power_Supply.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/01_Power_Supply/")
+				(tstamps "/a0b114f4-3594-594e-9331-64186d8537dd/")
+			)
+			(tstamps "a0c6cbe3-7183-5a1a-a5a8-06e75f787dc0")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R5")
+			(value "36.0k 1%")
+			(footprint "YoloUNO:R_0603_1608Metric")
+			(fields
+				(field
+					(name "MPN") "RC0603FR-0736KL")
+				(field
+					(name "LCSC") "C23146")
+				(field
+					(name "Footprint") "YoloUNO:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "YoloUNO")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "RC0603FR-0736KL")
+			)
+			(property
+				(name "LCSC")
+				(value "C23146")
+			)
+			(property
+				(name "Sheetname")
+				(value "01_Power_Supply")
+			)
+			(property
+				(name "Sheetfile")
+				(value "01_Power_Supply.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/01_Power_Supply/")
+				(tstamps "/a0b114f4-3594-594e-9331-64186d8537dd/")
+			)
+			(tstamps "aaa684d9-0450-5676-b1ce-1439c791976e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R6")
+			(value "10.0k 1%")
+			(footprint "YoloUNO:R_0603_1608Metric")
+			(fields
+				(field
+					(name "MPN") "RC0603FR-0710KL")
+				(field
+					(name "LCSC") "C25804")
+				(field
+					(name "Footprint") "YoloUNO:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "YoloUNO")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "RC0603FR-0710KL")
+			)
+			(property
+				(name "LCSC")
+				(value "C25804")
+			)
+			(property
+				(name "Sheetname")
+				(value "01_Power_Supply")
+			)
+			(property
+				(name "Sheetfile")
+				(value "01_Power_Supply.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/01_Power_Supply/")
+				(tstamps "/a0b114f4-3594-594e-9331-64186d8537dd/")
+			)
+			(tstamps "71d7fc77-3924-5f22-9574-6981bd8dd8ed")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R11")
+			(value "470R")
+			(footprint "YoloUNO:R_0603_1608Metric")
+			(fields
+				(field
+					(name "MPN") "RC0603FR-07470RL")
+				(field
+					(name "LCSC") "C23179")
+				(field
+					(name "Footprint") "YoloUNO:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "YoloUNO")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "RC0603FR-07470RL")
+			)
+			(property
+				(name "LCSC")
+				(value "C23179")
+			)
+			(property
+				(name "Sheetname")
+				(value "01_Power_Supply")
+			)
+			(property
+				(name "Sheetfile")
+				(value "01_Power_Supply.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/01_Power_Supply/")
+				(tstamps "/a0b114f4-3594-594e-9331-64186d8537dd/")
+			)
+			(tstamps "d9e4161d-7b10-5f05-80fc-e7a85f213b94")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U1")
+			(value "TPS54202DDCR")
+			(footprint "YoloUNO:SOT-23-6")
+			(fields
+				(field
+					(name "MPN") "TPS54202DDCR")
+				(field
+					(name "LCSC") "C128249")
+				(field
+					(name "Footprint") "YoloUNO:SOT-23-6")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "YoloUNO")
+				(part "TPS54202DDCR")
+				(description "2A, 4.5 to 28V Input, EMI Friendly integrated switch synchronous step-down regulator, pulse-skipping, SOT-23-6")
+			)
+			(property
+				(name "MPN")
+				(value "TPS54202DDCR")
+			)
+			(property
+				(name "LCSC")
+				(value "C128249")
+			)
+			(property
+				(name "Sheetname")
+				(value "01_Power_Supply")
+			)
+			(property
+				(name "Sheetfile")
+				(value "01_Power_Supply.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "switching buck converter power-supply voltage regulator emi spread spectrum")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SOT?23*")
+			)
+			(sheetpath
+				(names "/01_Power_Supply/")
+				(tstamps "/a0b114f4-3594-594e-9331-64186d8537dd/")
+			)
+			(tstamps "cda5c226-0583-5f6d-b9e3-6e01bb1ac8e4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U2")
+			(value "TPS2116DRLR")
+			(footprint "YoloUNO:SOT-583-8")
+			(fields
+				(field
+					(name "MPN") "TPS2116DRLR")
+				(field
+					(name "LCSC") "C2875184")
+				(field
+					(name "Footprint") "YoloUNO:SOT-583-8")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "YoloUNO")
+				(part "TPS2116DRLR")
+				(description "2 Channnels Power Mux with Manual and Priority Switchover, 1.6-5.5V Input Voltage, 2.5A Output Current, Ron 40 mOhm, SOT-583-8")
+			)
+			(property
+				(name "MPN")
+				(value "TPS2116DRLR")
+			)
+			(property
+				(name "LCSC")
+				(value "C2875184")
+			)
+			(property
+				(name "Sheetname")
+				(value "01_Power_Supply")
+			)
+			(property
+				(name "Sheetfile")
+				(value "01_Power_Supply.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Texas-Instruments power-mux switchover")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SOT?5?3*")
+			)
+			(sheetpath
+				(names "/01_Power_Supply/")
+				(tstamps "/a0b114f4-3594-594e-9331-64186d8537dd/")
+			)
+			(tstamps "2cd4e31b-6149-5cd6-a799-8905a8475123")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "8")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U3")
+			(value "AP2114H-3.3TRG1")
+			(footprint "YoloUNO:SOT-223-3_TabPin2")
+			(fields
+				(field
+					(name "MPN") "AP2114H-3.3TRG1")
+				(field
+					(name "LCSC") "C151275")
+				(field
+					(name "Footprint") "YoloUNO:SOT-223-3_TabPin2")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "YoloUNO")
+				(part "AP2114H-3.3TRG1")
+				(description "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223")
+			)
+			(property
+				(name "MPN")
+				(value "AP2114H-3.3TRG1")
+			)
+			(property
+				(name "LCSC")
+				(value "C151275")
+			)
+			(property
+				(name "Sheetname")
+				(value "01_Power_Supply")
+			)
+			(property
+				(name "Sheetfile")
+				(value "01_Power_Supply.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "linear regulator ldo fixed positive")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SOT?223*TabPin2*")
+			)
+			(sheetpath
+				(names "/01_Power_Supply/")
+				(tstamps "/a0b114f4-3594-594e-9331-64186d8537dd/")
+			)
+			(tstamps "495fc37e-f984-5878-9509-c2d50ac4476d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C11")
+			(value "22uF/16V")
+			(footprint "YoloUNO:C_0805_2012Metric")
+			(fields
+				(field
+					(name "MPN") "GRM21BR61C226ME44L")
+				(field
+					(name "LCSC") "C45783")
+				(field
+					(name "Footprint") "YoloUNO:C_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "YoloUNO")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "GRM21BR61C226ME44L")
+			)
+			(property
+				(name "LCSC")
+				(value "C45783")
+			)
+			(property
+				(name "Sheetname")
+				(value "02_MCU_ESP32S3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "02_MCU_ESP32S3.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/02_MCU_ESP32S3/")
+				(tstamps "/0d274810-01c4-5a01-bc82-708f3b194a99/")
+			)
+			(tstamps "de7ab518-8aef-5c9e-a597-19a1d83f47b4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C12")
+			(value "100nF")
+			(footprint "YoloUNO:C_0603_1608Metric")
+			(fields
+				(field
+					(name "MPN") "CL10B104KB8NNNC")
+				(field
+					(name "LCSC") "C1591")
+				(field
+					(name "Footprint") "YoloUNO:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "YoloUNO")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "CL10B104KB8NNNC")
+			)
+			(property
+				(name "LCSC")
+				(value "C1591")
+			)
+			(property
+				(name "Sheetname")
+				(value "02_MCU_ESP32S3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "02_MCU_ESP32S3.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/02_MCU_ESP32S3/")
+				(tstamps "/0d274810-01c4-5a01-bc82-708f3b194a99/")
+			)
+			(tstamps "8edb4e8c-31e8-5269-94bf-aa507ade9ab4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C13")
+			(value "1uF/16V")
+			(footprint "YoloUNO:C_0603_1608Metric")
+			(fields
+				(field
+					(name "MPN") "CL10B105KO8NNNC")
+				(field
+					(name "LCSC") "C15849")
+				(field
+					(name "Footprint") "YoloUNO:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "YoloUNO")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "CL10B105KO8NNNC")
+			)
+			(property
+				(name "LCSC")
+				(value "C15849")
+			)
+			(property
+				(name "Sheetname")
+				(value "02_MCU_ESP32S3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "02_MCU_ESP32S3.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/02_MCU_ESP32S3/")
+				(tstamps "/0d274810-01c4-5a01-bc82-708f3b194a99/")
+			)
+			(tstamps "43a650ad-02d1-538b-bba6-3742bdad596b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R7")
+			(value "10.0k")
+			(footprint "YoloUNO:R_0603_1608Metric")
+			(fields
+				(field
+					(name "MPN") "RC0603FR-0710KL")
+				(field
+					(name "LCSC") "C25804")
+				(field
+					(name "Footprint") "YoloUNO:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "YoloUNO")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "RC0603FR-0710KL")
+			)
+			(property
+				(name "LCSC")
+				(value "C25804")
+			)
+			(property
+				(name "Sheetname")
+				(value "02_MCU_ESP32S3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "02_MCU_ESP32S3.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/02_MCU_ESP32S3/")
+				(tstamps "/0d274810-01c4-5a01-bc82-708f3b194a99/")
+			)
+			(tstamps "a8d3b591-a41b-5239-8923-ef6509047067")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R8")
+			(value "10.0k")
+			(footprint "YoloUNO:R_0603_1608Metric")
+			(fields
+				(field
+					(name "MPN") "RC0603FR-0710KL")
+				(field
+					(name "LCSC") "C25804")
+				(field
+					(name "Footprint") "YoloUNO:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "YoloUNO")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "RC0603FR-0710KL")
+			)
+			(property
+				(name "LCSC")
+				(value "C25804")
+			)
+			(property
+				(name "Sheetname")
+				(value "02_MCU_ESP32S3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "02_MCU_ESP32S3.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/02_MCU_ESP32S3/")
+				(tstamps "/0d274810-01c4-5a01-bc82-708f3b194a99/")
+			)
+			(tstamps "f98c6c8d-78fd-59de-b00d-6b01aaae2052")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW1")
+			(value "RESET")
+			(footprint "YoloUNO:SW_Push_1P1T_XKB_TS-1187A")
+			(fields
+				(field
+					(name "MPN") "TS-1187A-B-A-B")
+				(field
+					(name "LCSC") "C318884")
+				(field
+					(name "Footprint") "YoloUNO:SW_Push_1P1T_XKB_TS-1187A")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "YoloUNO")
+				(part "TS-1187A")
+				(description "Push button switch, generic, two pins")
+			)
+			(property
+				(name "MPN")
+				(value "TS-1187A-B-A-B")
+			)
+			(property
+				(name "LCSC")
+				(value "C318884")
+			)
+			(property
+				(name "Sheetname")
+				(value "02_MCU_ESP32S3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "02_MCU_ESP32S3.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "switch normally-open pushbutton push-button")
+			)
+			(sheetpath
+				(names "/02_MCU_ESP32S3/")
+				(tstamps "/0d274810-01c4-5a01-bc82-708f3b194a99/")
+			)
+			(tstamps "21dfa577-21cb-5182-957a-f1cabf74b301")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW2")
+			(value "BOOT")
+			(footprint "YoloUNO:SW_Push_1P1T_XKB_TS-1187A")
+			(fields
+				(field
+					(name "MPN") "TS-1187A-B-A-B")
+				(field
+					(name "LCSC") "C318884")
+				(field
+					(name "Footprint") "YoloUNO:SW_Push_1P1T_XKB_TS-1187A")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "YoloUNO")
+				(part "TS-1187A")
+				(description "Push button switch, generic, two pins")
+			)
+			(property
+				(name "MPN")
+				(value "TS-1187A-B-A-B")
+			)
+			(property
+				(name "LCSC")
+				(value "C318884")
+			)
+			(property
+				(name "Sheetname")
+				(value "02_MCU_ESP32S3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "02_MCU_ESP32S3.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "switch normally-open pushbutton push-button")
+			)
+			(sheetpath
+				(names "/02_MCU_ESP32S3/")
+				(tstamps "/0d274810-01c4-5a01-bc82-708f3b194a99/")
+			)
+			(tstamps "5a83000b-89c6-5aef-a2e7-135976bba9f5")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U4")
+			(value "ESP32-S3-WROOM-1-N16R8")
+			(footprint "YoloUNO:ESP32-S3-WROOM-1")
+			(fields
+				(field
+					(name "MPN") "ESP32-S3-WROOM-1-N16R8")
+				(field
+					(name "LCSC") "C2913202")
+				(field
+					(name "Footprint") "YoloUNO:ESP32-S3-WROOM-1")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "YoloUNO")
+				(part "ESP32-S3-WROOM-1-N16R8")
+				(description "RF Module, ESP32-S3 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 3.3V, onboard antenna, SMD")
+			)
+			(property
+				(name "MPN")
+				(value "ESP32-S3-WROOM-1-N16R8")
+			)
+			(property
+				(name "LCSC")
+				(value "C2913202")
+			)
+			(property
+				(name "Sheetname")
+				(value "02_MCU_ESP32S3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "02_MCU_ESP32S3.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "RF Radio BT ESP ESP32-S3 Espressif onboard PCB antenna")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "ESP32?S3?WROOM?1*")
+			)
+			(sheetpath
+				(names "/02_MCU_ESP32S3/")
+				(tstamps "/0d274810-01c4-5a01-bc82-708f3b194a99/")
+			)
+			(tstamps "1ea81b3f-51c0-53dd-a90e-0bc180b92700")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "27")
+						)
+						(pin
+							(num "39")
+						)
+						(pin
+							(num "38")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "17")
+						)
+						(pin
+							(num "18")
+						)
+						(pin
+							(num "19")
+						)
+						(pin
+							(num "20")
+						)
+						(pin
+							(num "21")
+						)
+						(pin
+							(num "22")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "41")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "40")
+						)
+						(pin
+							(num "37")
+						)
+						(pin
+							(num "36")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "23")
+						)
+						(pin
+							(num "28")
+						)
+						(pin
+							(num "29")
+						)
+						(pin
+							(num "30")
+						)
+						(pin
+							(num "31")
+						)
+						(pin
+							(num "32")
+						)
+						(pin
+							(num "33")
+						)
+						(pin
+							(num "34")
+						)
+						(pin
+							(num "35")
+						)
+						(pin
+							(num "26")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "24")
+						)
+						(pin
+							(num "25")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C14")
+			(value "100nF")
+			(footprint "YoloUNO:C_0603_1608Metric")
+			(fields
+				(field
+					(name "MPN") "CL10B104KB8NNNC")
+				(field
+					(name "LCSC") "C1591")
+				(field
+					(name "Footprint") "YoloUNO:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "YoloUNO")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "CL10B104KB8NNNC")
+			)
+			(property
+				(name "LCSC")
+				(value "C1591")
+			)
+			(property
+				(name "Sheetname")
+				(value "03_USB_and_LEDs")
+			)
+			(property
+				(name "Sheetfile")
+				(value "03_USB_and_LEDs.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/03_USB_and_LEDs/")
+				(tstamps "/c7155ff2-a5cd-5e8e-9c34-8466f2985f0c/")
+			)
+			(tstamps "d236a74e-3ecb-5b60-b2a1-5cc4b836fc2e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C15")
+			(value "100nF")
+			(footprint "YoloUNO:C_0603_1608Metric")
+			(fields
+				(field
+					(name "MPN") "CL10B104KB8NNNC")
+				(field
+					(name "LCSC") "C1591")
+				(field
+					(name "Footprint") "YoloUNO:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "YoloUNO")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "CL10B104KB8NNNC")
+			)
+			(property
+				(name "LCSC")
+				(value "C1591")
+			)
+			(property
+				(name "Sheetname")
+				(value "03_USB_and_LEDs")
+			)
+			(property
+				(name "Sheetfile")
+				(value "03_USB_and_LEDs.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/03_USB_and_LEDs/")
+				(tstamps "/c7155ff2-a5cd-5e8e-9c34-8466f2985f0c/")
+			)
+			(tstamps "ae0609fa-d705-5615-8d39-71c70b97b0af")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C16")
+			(value "100nF")
+			(footprint "YoloUNO:C_0603_1608Metric")
+			(fields
+				(field
+					(name "MPN") "CL10B104KB8NNNC")
+				(field
+					(name "LCSC") "C1591")
+				(field
+					(name "Footprint") "YoloUNO:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "YoloUNO")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "CL10B104KB8NNNC")
+			)
+			(property
+				(name "LCSC")
+				(value "C1591")
+			)
+			(property
+				(name "Sheetname")
+				(value "03_USB_and_LEDs")
+			)
+			(property
+				(name "Sheetfile")
+				(value "03_USB_and_LEDs.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/03_USB_and_LEDs/")
+				(tstamps "/c7155ff2-a5cd-5e8e-9c34-8466f2985f0c/")
+			)
+			(tstamps "9f06ca19-7b60-561f-a545-95896284340f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D4")
+			(value "D13_RED")
+			(footprint "YoloUNO:LED_0603_1608Metric")
+			(fields
+				(field
+					(name "MPN") "19-217/R6C-AL1M2VY/3T")
+				(field
+					(name "LCSC") "C2286")
+				(field
+					(name "Footprint") "YoloUNO:LED_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "YoloUNO")
+				(part "LED")
+				(description "Light emitting diode")
+			)
+			(property
+				(name "MPN")
+				(value "19-217/R6C-AL1M2VY/3T")
+			)
+			(property
+				(name "LCSC")
+				(value "C2286")
+			)
+			(property
+				(name "Sheetname")
+				(value "03_USB_and_LEDs")
+			)
+			(property
+				(name "Sheetfile")
+				(value "03_USB_and_LEDs.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "LED diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED* LED_SMD:* LED_THT:*")
+			)
+			(sheetpath
+				(names "/03_USB_and_LEDs/")
+				(tstamps "/c7155ff2-a5cd-5e8e-9c34-8466f2985f0c/")
+			)
+			(tstamps "16f48579-c572-5eb7-a599-d0e1621c8c19")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D5")
+			(value "WS2812B-B")
+			(footprint "YoloUNO:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+			(fields
+				(field
+					(name "MPN") "WS2812B-B/W")
+				(field
+					(name "LCSC") "C114586")
+				(field
+					(name "Footprint") "YoloUNO:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "YoloUNO")
+				(part "WS2812B-B")
+				(description "RGB LED with integrated controller")
+			)
+			(property
+				(name "MPN")
+				(value "WS2812B-B/W")
+			)
+			(property
+				(name "LCSC")
+				(value "C114586")
+			)
+			(property
+				(name "Sheetname")
+				(value "03_USB_and_LEDs")
+			)
+			(property
+				(name "Sheetfile")
+				(value "03_USB_and_LEDs.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "RGB LED NeoPixel addressable")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED*WS2812*PLCC*5.0x5.0mm*P3.2mm*")
+			)
+			(sheetpath
+				(names "/03_USB_and_LEDs/")
+				(tstamps "/c7155ff2-a5cd-5e8e-9c34-8466f2985f0c/")
+			)
+			(tstamps "2ff6b56d-1f1d-5596-89de-847ed121fa6d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J2")
+			(value "USB_C_16P")
+			(footprint "YoloUNO:USB_C_Receptacle_HRO_TYPE-C-31-M-12")
+			(fields
+				(field
+					(name "MPN") "TYPE-C-31-M-12")
+				(field
+					(name "LCSC") "C165948")
+				(field
+					(name "Footprint") "YoloUNO:USB_C_Receptacle_HRO_TYPE-C-31-M-12")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "YoloUNO")
+				(part "TYPE-C-31-M-12")
+				(description "USB 2.0-only 16P Type-C Receptacle connector")
+			)
+			(property
+				(name "MPN")
+				(value "TYPE-C-31-M-12")
+			)
+			(property
+				(name "LCSC")
+				(value "C165948")
+			)
+			(property
+				(name "Sheetname")
+				(value "03_USB_and_LEDs")
+			)
+			(property
+				(name "Sheetfile")
+				(value "03_USB_and_LEDs.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "usb universal serial bus type-C USB2.0")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "USB*C*Receptacle*")
+			)
+			(sheetpath
+				(names "/03_USB_and_LEDs/")
+				(tstamps "/c7155ff2-a5cd-5e8e-9c34-8466f2985f0c/")
+			)
+			(tstamps "78f5291e-ddde-5ded-9bc0-24282844ce08")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "SH")
+						)
+						(pin
+							(num "A1")
+						)
+						(pin
+							(num "A12")
+						)
+						(pin
+							(num "B1")
+						)
+						(pin
+							(num "B12")
+						)
+						(pin
+							(num "A4")
+						)
+						(pin
+							(num "A9")
+						)
+						(pin
+							(num "B4")
+						)
+						(pin
+							(num "B9")
+						)
+						(pin
+							(num "A5")
+						)
+						(pin
+							(num "B5")
+						)
+						(pin
+							(num "A7")
+						)
+						(pin
+							(num "B7")
+						)
+						(pin
+							(num "A6")
+						)
+						(pin
+							(num "B6")
+						)
+						(pin
+							(num "A8")
+						)
+						(pin
+							(num "B8")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R9")
+			(value "5.10k 1%")
+			(footprint "YoloUNO:R_0603_1608Metric")
+			(fields
+				(field
+					(name "MPN") "RC0603FR-075K1L")
+				(field
+					(name "LCSC") "C23186")
+				(field
+					(name "Footprint") "YoloUNO:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "YoloUNO")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "RC0603FR-075K1L")
+			)
+			(property
+				(name "LCSC")
+				(value "C23186")
+			)
+			(property
+				(name "Sheetname")
+				(value "03_USB_and_LEDs")
+			)
+			(property
+				(name "Sheetfile")
+				(value "03_USB_and_LEDs.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/03_USB_and_LEDs/")
+				(tstamps "/c7155ff2-a5cd-5e8e-9c34-8466f2985f0c/")
+			)
+			(tstamps "afbdcc33-3804-513d-ae5a-87bac28c14da")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R10")
+			(value "5.10k 1%")
+			(footprint "YoloUNO:R_0603_1608Metric")
+			(fields
+				(field
+					(name "MPN") "RC0603FR-075K1L")
+				(field
+					(name "LCSC") "C23186")
+				(field
+					(name "Footprint") "YoloUNO:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "YoloUNO")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "RC0603FR-075K1L")
+			)
+			(property
+				(name "LCSC")
+				(value "C23186")
+			)
+			(property
+				(name "Sheetname")
+				(value "03_USB_and_LEDs")
+			)
+			(property
+				(name "Sheetfile")
+				(value "03_USB_and_LEDs.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/03_USB_and_LEDs/")
+				(tstamps "/c7155ff2-a5cd-5e8e-9c34-8466f2985f0c/")
+			)
+			(tstamps "bb5c1372-709b-5d23-8da7-a3f2a5be9c48")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R12")
+			(value "270R 1%")
+			(footprint "YoloUNO:R_0603_1608Metric")
+			(fields
+				(field
+					(name "MPN") "RC0603FR-07270RL")
+				(field
+					(name "LCSC") "C22966")
+				(field
+					(name "Footprint") "YoloUNO:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "YoloUNO")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "RC0603FR-07270RL")
+			)
+			(property
+				(name "LCSC")
+				(value "C22966")
+			)
+			(property
+				(name "Sheetname")
+				(value "03_USB_and_LEDs")
+			)
+			(property
+				(name "Sheetfile")
+				(value "03_USB_and_LEDs.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/03_USB_and_LEDs/")
+				(tstamps "/c7155ff2-a5cd-5e8e-9c34-8466f2985f0c/")
+			)
+			(tstamps "fcd1d8a8-79be-598e-91c9-cea7caff81a8")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R13")
+			(value "10.0k (Strap PD)")
+			(footprint "YoloUNO:R_0603_1608Metric")
+			(fields
+				(field
+					(name "MPN") "RC0603FR-0710KL")
+				(field
+					(name "LCSC") "C25804")
+				(field
+					(name "Footprint") "YoloUNO:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "YoloUNO")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "RC0603FR-0710KL")
+			)
+			(property
+				(name "LCSC")
+				(value "C25804")
+			)
+			(property
+				(name "Sheetname")
+				(value "03_USB_and_LEDs")
+			)
+			(property
+				(name "Sheetfile")
+				(value "03_USB_and_LEDs.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/03_USB_and_LEDs/")
+				(tstamps "/c7155ff2-a5cd-5e8e-9c34-8466f2985f0c/")
+			)
+			(tstamps "e5b2791d-2de2-5f2f-8734-47200dc23d43")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U5")
+			(value "USBLC6-2SC6")
+			(footprint "YoloUNO:SOT-23-6")
+			(fields
+				(field
+					(name "MPN") "USBLC6-2SC6")
+				(field
+					(name "LCSC") "C7519")
+				(field
+					(name "Footprint") "YoloUNO:SOT-23-6")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "YoloUNO")
+				(part "USBLC6-2SC6")
+				(description "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6")
+			)
+			(property
+				(name "MPN")
+				(value "USBLC6-2SC6")
+			)
+			(property
+				(name "LCSC")
+				(value "C7519")
+			)
+			(property
+				(name "Sheetname")
+				(value "03_USB_and_LEDs")
+			)
+			(property
+				(name "Sheetfile")
+				(value "03_USB_and_LEDs.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "usb ethernet video")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SOT?23*")
+			)
+			(sheetpath
+				(names "/03_USB_and_LEDs/")
+				(tstamps "/c7155ff2-a5cd-5e8e-9c34-8466f2985f0c/")
+			)
+			(tstamps "678a8e11-244a-5927-994b-0073ad352e5d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U6")
+			(value "SN74LV1T34DBVR")
+			(footprint "YoloUNO:SOT-23-5")
+			(fields
+				(field
+					(name "MPN") "SN74LV1T34DBVR")
+				(field
+					(name "LCSC") "C100018")
+				(field
+					(name "Footprint") "YoloUNO:SOT-23-5")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "YoloUNO")
+				(part "SN74LV1T34DBVR")
+				(description "Single Power Supply, Single Buffer GATE, CMOS Logic, Level Shifter, SOT-23-5")
+			)
+			(property
+				(name "MPN")
+				(value "SN74LV1T34DBVR")
+			)
+			(property
+				(name "LCSC")
+				(value "C100018")
+			)
+			(property
+				(name "Sheetname")
+				(value "03_USB_and_LEDs")
+			)
+			(property
+				(name "Sheetfile")
+				(value "03_USB_and_LEDs.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "single buffer level shift")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SOT?23*")
+			)
+			(sheetpath
+				(names "/03_USB_and_LEDs/")
+				(tstamps "/c7155ff2-a5cd-5e8e-9c34-8466f2985f0c/")
+			)
+			(tstamps "53a970dc-4900-50e3-885f-e2a69e310f9a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C17")
+			(value "100nF")
+			(footprint "YoloUNO:C_0603_1608Metric")
+			(fields
+				(field
+					(name "MPN") "CL10B104KB8NNNC")
+				(field
+					(name "LCSC") "C1591")
+				(field
+					(name "Footprint") "YoloUNO:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "YoloUNO")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "CL10B104KB8NNNC")
+			)
+			(property
+				(name "LCSC")
+				(value "C1591")
+			)
+			(property
+				(name "Sheetname")
+				(value "04_Peripherals_and_Headers")
+			)
+			(property
+				(name "Sheetfile")
+				(value "04_Peripherals_and_Headers.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/04_Peripherals_and_Headers/")
+				(tstamps "/43b0716e-8b3b-577d-9603-d2c20d40e6ac/")
+			)
+			(tstamps "1e519267-3103-5ea2-9af0-1ebcb5a7a95e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C18")
+			(value "470uF/10V")
+			(footprint "YoloUNO:CP_Elec_8x10.5")
+			(fields
+				(field
+					(name "MPN") "EEE-FK1A471P")
+				(field
+					(name "LCSC") "C134734")
+				(field
+					(name "Footprint") "YoloUNO:CP_Elec_8x10.5")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "YoloUNO")
+				(part "C_Polarized")
+				(description "Polarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "EEE-FK1A471P")
+			)
+			(property
+				(name "LCSC")
+				(value "C134734")
+			)
+			(property
+				(name "Sheetname")
+				(value "04_Peripherals_and_Headers")
+			)
+			(property
+				(name "Sheetfile")
+				(value "04_Peripherals_and_Headers.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "CP_*")
+			)
+			(sheetpath
+				(names "/04_Peripherals_and_Headers/")
+				(tstamps "/43b0716e-8b3b-577d-9603-d2c20d40e6ac/")
+			)
+			(tstamps "96efcb0d-2381-5fd0-b514-90b000356a94")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J3")
+			(value "Grove_A6-A3")
+			(footprint "YoloUNO:NS-Tech_Grove_1x04_P2mm_Vertical")
+			(fields
+				(field
+					(name "MPN") "110990030")
+				(field
+					(name "LCSC") "C2906423")
+				(field
+					(name "Footprint") "YoloUNO:NS-Tech_Grove_1x04_P2mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "YoloUNO")
+				(part "Grove_1x04")
+				(description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "MPN")
+				(value "110990030")
+			)
+			(property
+				(name "LCSC")
+				(value "C2906423")
+			)
+			(property
+				(name "Sheetname")
+				(value "04_Peripherals_and_Headers")
+			)
+			(property
+				(name "Sheetfile")
+				(value "04_Peripherals_and_Headers.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/04_Peripherals_and_Headers/")
+				(tstamps "/43b0716e-8b3b-577d-9603-d2c20d40e6ac/")
+			)
+			(tstamps "65f547e3-4144-5a97-bb80-58193e0a874a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J4")
+			(value "Grove_A3-A2")
+			(footprint "YoloUNO:NS-Tech_Grove_1x04_P2mm_Vertical")
+			(fields
+				(field
+					(name "MPN") "110990030")
+				(field
+					(name "LCSC") "C2906423")
+				(field
+					(name "Footprint") "YoloUNO:NS-Tech_Grove_1x04_P2mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "YoloUNO")
+				(part "Grove_1x04")
+				(description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "MPN")
+				(value "110990030")
+			)
+			(property
+				(name "LCSC")
+				(value "C2906423")
+			)
+			(property
+				(name "Sheetname")
+				(value "04_Peripherals_and_Headers")
+			)
+			(property
+				(name "Sheetfile")
+				(value "04_Peripherals_and_Headers.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/04_Peripherals_and_Headers/")
+				(tstamps "/43b0716e-8b3b-577d-9603-d2c20d40e6ac/")
+			)
+			(tstamps "7651c182-969b-5c77-883a-418d9c6c3c3d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J5")
+			(value "Grove_A2-A1")
+			(footprint "YoloUNO:NS-Tech_Grove_1x04_P2mm_Vertical")
+			(fields
+				(field
+					(name "MPN") "110990030")
+				(field
+					(name "LCSC") "C2906423")
+				(field
+					(name "Footprint") "YoloUNO:NS-Tech_Grove_1x04_P2mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "YoloUNO")
+				(part "Grove_1x04")
+				(description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "MPN")
+				(value "110990030")
+			)
+			(property
+				(name "LCSC")
+				(value "C2906423")
+			)
+			(property
+				(name "Sheetname")
+				(value "04_Peripherals_and_Headers")
+			)
+			(property
+				(name "Sheetfile")
+				(value "04_Peripherals_and_Headers.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/04_Peripherals_and_Headers/")
+				(tstamps "/43b0716e-8b3b-577d-9603-d2c20d40e6ac/")
+			)
+			(tstamps "3e6345c4-8c58-5845-8e94-fd543ce6c4b5")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J6")
+			(value "Grove_A1-A0")
+			(footprint "YoloUNO:NS-Tech_Grove_1x04_P2mm_Vertical")
+			(fields
+				(field
+					(name "MPN") "110990030")
+				(field
+					(name "LCSC") "C2906423")
+				(field
+					(name "Footprint") "YoloUNO:NS-Tech_Grove_1x04_P2mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "YoloUNO")
+				(part "Grove_1x04")
+				(description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "MPN")
+				(value "110990030")
+			)
+			(property
+				(name "LCSC")
+				(value "C2906423")
+			)
+			(property
+				(name "Sheetname")
+				(value "04_Peripherals_and_Headers")
+			)
+			(property
+				(name "Sheetfile")
+				(value "04_Peripherals_and_Headers.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/04_Peripherals_and_Headers/")
+				(tstamps "/43b0716e-8b3b-577d-9603-d2c20d40e6ac/")
+			)
+			(tstamps "243deb1e-440e-521b-9272-4ff224d5805c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J7")
+			(value "Grove_D10-D9")
+			(footprint "YoloUNO:NS-Tech_Grove_1x04_P2mm_Vertical")
+			(fields
+				(field
+					(name "MPN") "112060001")
+				(field
+					(name "LCSC") "C492401")
+				(field
+					(name "Footprint") "YoloUNO:NS-Tech_Grove_1x04_P2mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "YoloUNO")
+				(part "Grove_1x04")
+				(description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "MPN")
+				(value "112060001")
+			)
+			(property
+				(name "LCSC")
+				(value "C492401")
+			)
+			(property
+				(name "Sheetname")
+				(value "04_Peripherals_and_Headers")
+			)
+			(property
+				(name "Sheetfile")
+				(value "04_Peripherals_and_Headers.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/04_Peripherals_and_Headers/")
+				(tstamps "/43b0716e-8b3b-577d-9603-d2c20d40e6ac/")
+			)
+			(tstamps "7c0450e4-3562-5b4d-8f9f-2e3db3445903")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J8")
+			(value "Grove_D8-D7")
+			(footprint "YoloUNO:NS-Tech_Grove_1x04_P2mm_Vertical")
+			(fields
+				(field
+					(name "MPN") "112060001")
+				(field
+					(name "LCSC") "C492401")
+				(field
+					(name "Footprint") "YoloUNO:NS-Tech_Grove_1x04_P2mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "YoloUNO")
+				(part "Grove_1x04")
+				(description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "MPN")
+				(value "112060001")
+			)
+			(property
+				(name "LCSC")
+				(value "C492401")
+			)
+			(property
+				(name "Sheetname")
+				(value "04_Peripherals_and_Headers")
+			)
+			(property
+				(name "Sheetfile")
+				(value "04_Peripherals_and_Headers.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/04_Peripherals_and_Headers/")
+				(tstamps "/43b0716e-8b3b-577d-9603-d2c20d40e6ac/")
+			)
+			(tstamps "64ebc496-5ab4-5c7c-9bae-115b1dfd3601")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J9")
+			(value "Grove_D6-D5")
+			(footprint "YoloUNO:NS-Tech_Grove_1x04_P2mm_Vertical")
+			(fields
+				(field
+					(name "MPN") "112060001")
+				(field
+					(name "LCSC") "C492401")
+				(field
+					(name "Footprint") "YoloUNO:NS-Tech_Grove_1x04_P2mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "YoloUNO")
+				(part "Grove_1x04")
+				(description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "MPN")
+				(value "112060001")
+			)
+			(property
+				(name "LCSC")
+				(value "C492401")
+			)
+			(property
+				(name "Sheetname")
+				(value "04_Peripherals_and_Headers")
+			)
+			(property
+				(name "Sheetfile")
+				(value "04_Peripherals_and_Headers.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/04_Peripherals_and_Headers/")
+				(tstamps "/43b0716e-8b3b-577d-9603-d2c20d40e6ac/")
+			)
+			(tstamps "02d2ea4b-49b5-579c-950e-65b5af531498")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J10")
+			(value "Grove_D4-D3")
+			(footprint "YoloUNO:NS-Tech_Grove_1x04_P2mm_Vertical")
+			(fields
+				(field
+					(name "MPN") "112060001")
+				(field
+					(name "LCSC") "C492401")
+				(field
+					(name "Footprint") "YoloUNO:NS-Tech_Grove_1x04_P2mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "YoloUNO")
+				(part "Grove_1x04")
+				(description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "MPN")
+				(value "112060001")
+			)
+			(property
+				(name "LCSC")
+				(value "C492401")
+			)
+			(property
+				(name "Sheetname")
+				(value "04_Peripherals_and_Headers")
+			)
+			(property
+				(name "Sheetfile")
+				(value "04_Peripherals_and_Headers.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/04_Peripherals_and_Headers/")
+				(tstamps "/43b0716e-8b3b-577d-9603-d2c20d40e6ac/")
+			)
+			(tstamps "a0b16dfa-556f-5bfa-bd18-c65ca871aa21")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J11")
+			(value "Grove_I2C4")
+			(footprint "YoloUNO:NS-Tech_Grove_1x04_P2mm_Vertical")
+			(fields
+				(field
+					(name "MPN") "110990031")
+				(field
+					(name "LCSC") "C2906424")
+				(field
+					(name "Footprint") "YoloUNO:NS-Tech_Grove_1x04_P2mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "YoloUNO")
+				(part "Grove_1x04")
+				(description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "MPN")
+				(value "110990031")
+			)
+			(property
+				(name "LCSC")
+				(value "C2906424")
+			)
+			(property
+				(name "Sheetname")
+				(value "04_Peripherals_and_Headers")
+			)
+			(property
+				(name "Sheetfile")
+				(value "04_Peripherals_and_Headers.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/04_Peripherals_and_Headers/")
+				(tstamps "/43b0716e-8b3b-577d-9603-d2c20d40e6ac/")
+			)
+			(tstamps "d13ddaf0-b465-5d9f-92bc-333e1c311395")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J12")
+			(value "Grove_I2C3")
+			(footprint "YoloUNO:NS-Tech_Grove_1x04_P2mm_Vertical")
+			(fields
+				(field
+					(name "MPN") "110990031")
+				(field
+					(name "LCSC") "C2906424")
+				(field
+					(name "Footprint") "YoloUNO:NS-Tech_Grove_1x04_P2mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "YoloUNO")
+				(part "Grove_1x04")
+				(description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "MPN")
+				(value "110990031")
+			)
+			(property
+				(name "LCSC")
+				(value "C2906424")
+			)
+			(property
+				(name "Sheetname")
+				(value "04_Peripherals_and_Headers")
+			)
+			(property
+				(name "Sheetfile")
+				(value "04_Peripherals_and_Headers.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/04_Peripherals_and_Headers/")
+				(tstamps "/43b0716e-8b3b-577d-9603-d2c20d40e6ac/")
+			)
+			(tstamps "cd9c1828-dcd8-5f92-b506-b30492fd22f5")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J13")
+			(value "Grove_I2C2")
+			(footprint "YoloUNO:NS-Tech_Grove_1x04_P2mm_Vertical")
+			(fields
+				(field
+					(name "MPN") "110990031")
+				(field
+					(name "LCSC") "C2906424")
+				(field
+					(name "Footprint") "YoloUNO:NS-Tech_Grove_1x04_P2mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "YoloUNO")
+				(part "Grove_1x04")
+				(description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "MPN")
+				(value "110990031")
+			)
+			(property
+				(name "LCSC")
+				(value "C2906424")
+			)
+			(property
+				(name "Sheetname")
+				(value "04_Peripherals_and_Headers")
+			)
+			(property
+				(name "Sheetfile")
+				(value "04_Peripherals_and_Headers.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/04_Peripherals_and_Headers/")
+				(tstamps "/43b0716e-8b3b-577d-9603-d2c20d40e6ac/")
+			)
+			(tstamps "fe994039-8cca-53bc-ad2c-e42056982132")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J14")
+			(value "Grove_I2C1")
+			(footprint "YoloUNO:NS-Tech_Grove_1x04_P2mm_Vertical")
+			(fields
+				(field
+					(name "MPN") "110990031")
+				(field
+					(name "LCSC") "C2906424")
+				(field
+					(name "Footprint") "YoloUNO:NS-Tech_Grove_1x04_P2mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "YoloUNO")
+				(part "Grove_1x04")
+				(description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "MPN")
+				(value "110990031")
+			)
+			(property
+				(name "LCSC")
+				(value "C2906424")
+			)
+			(property
+				(name "Sheetname")
+				(value "04_Peripherals_and_Headers")
+			)
+			(property
+				(name "Sheetfile")
+				(value "04_Peripherals_and_Headers.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/04_Peripherals_and_Headers/")
+				(tstamps "/43b0716e-8b3b-577d-9603-d2c20d40e6ac/")
+			)
+			(tstamps "696fc6ff-a77a-5398-851e-50622b6ff989")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J15")
+			(value "QWIIC_SM04B")
+			(footprint "YoloUNO:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal")
+			(fields
+				(field
+					(name "MPN") "SM04B-SRSS-TB")
+				(field
+					(name "LCSC") "C160404")
+				(field
+					(name "Footprint") "YoloUNO:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "YoloUNO")
+				(part "QWIIC_JST_SH_1x04")
+				(description "Generic connectable mounting pin connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "MPN")
+				(value "SM04B-SRSS-TB")
+			)
+			(property
+				(name "LCSC")
+				(value "C160404")
+			)
+			(property
+				(name "Sheetname")
+				(value "04_Peripherals_and_Headers")
+			)
+			(property
+				(name "Sheetfile")
+				(value "04_Peripherals_and_Headers.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??-1MP*")
+			)
+			(sheetpath
+				(names "/04_Peripherals_and_Headers/")
+				(tstamps "/43b0716e-8b3b-577d-9603-d2c20d40e6ac/")
+			)
+			(tstamps "14dd3ee4-3b78-5854-a0e0-079a68089f73")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "MP")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J17")
+			(value "UNO_PWR_1x08")
+			(footprint "YoloUNO:PinSocket_1x08_P2.54mm_Vertical")
+			(fields
+				(field
+					(name "MPN") "FH-254-1x08")
+				(field
+					(name "LCSC") "C49661")
+				(field
+					(name "Footprint") "YoloUNO:PinSocket_1x08_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "YoloUNO")
+				(part "UNO_Header_1x08")
+				(description "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "MPN")
+				(value "FH-254-1x08")
+			)
+			(property
+				(name "LCSC")
+				(value "C49661")
+			)
+			(property
+				(name "Sheetname")
+				(value "04_Peripherals_and_Headers")
+			)
+			(property
+				(name "Sheetfile")
+				(value "04_Peripherals_and_Headers.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/04_Peripherals_and_Headers/")
+				(tstamps "/43b0716e-8b3b-577d-9603-d2c20d40e6ac/")
+			)
+			(tstamps "024e418b-d72a-5562-8511-e4fc8d14eb4e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J18")
+			(value "UNO_ANALOG_1x06")
+			(footprint "YoloUNO:PinSocket_1x06_P2.54mm_Vertical")
+			(fields
+				(field
+					(name "MPN") "FH-254-1x06")
+				(field
+					(name "LCSC") "C49659")
+				(field
+					(name "Footprint") "YoloUNO:PinSocket_1x06_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "YoloUNO")
+				(part "UNO_Header_1x06")
+				(description "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "MPN")
+				(value "FH-254-1x06")
+			)
+			(property
+				(name "LCSC")
+				(value "C49659")
+			)
+			(property
+				(name "Sheetname")
+				(value "04_Peripherals_and_Headers")
+			)
+			(property
+				(name "Sheetfile")
+				(value "04_Peripherals_and_Headers.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/04_Peripherals_and_Headers/")
+				(tstamps "/43b0716e-8b3b-577d-9603-d2c20d40e6ac/")
+			)
+			(tstamps "8cfcb692-b321-5249-a577-afc2e5520dca")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J19")
+			(value "UNO_DIGH_1x10")
+			(footprint "YoloUNO:PinSocket_1x10_P2.54mm_Vertical")
+			(fields
+				(field
+					(name "MPN") "FH-254-1x10")
+				(field
+					(name "LCSC") "C49663")
+				(field
+					(name "Footprint") "YoloUNO:PinSocket_1x10_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "YoloUNO")
+				(part "UNO_Header_1x10")
+				(description "Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "MPN")
+				(value "FH-254-1x10")
+			)
+			(property
+				(name "LCSC")
+				(value "C49663")
+			)
+			(property
+				(name "Sheetname")
+				(value "04_Peripherals_and_Headers")
+			)
+			(property
+				(name "Sheetfile")
+				(value "04_Peripherals_and_Headers.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/04_Peripherals_and_Headers/")
+				(tstamps "/43b0716e-8b3b-577d-9603-d2c20d40e6ac/")
+			)
+			(tstamps "ec36059b-7be7-54a3-bcb5-3a68f406f4a2")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "10")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J20")
+			(value "UNO_DIGL_1x08")
+			(footprint "YoloUNO:PinSocket_1x08_P2.54mm_Vertical")
+			(fields
+				(field
+					(name "MPN") "FH-254-1x08")
+				(field
+					(name "LCSC") "C49661")
+				(field
+					(name "Footprint") "YoloUNO:PinSocket_1x08_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "YoloUNO")
+				(part "UNO_Header_1x08")
+				(description "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "MPN")
+				(value "FH-254-1x08")
+			)
+			(property
+				(name "LCSC")
+				(value "C49661")
+			)
+			(property
+				(name "Sheetname")
+				(value "04_Peripherals_and_Headers")
+			)
+			(property
+				(name "Sheetfile")
+				(value "04_Peripherals_and_Headers.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/04_Peripherals_and_Headers/")
+				(tstamps "/43b0716e-8b3b-577d-9603-d2c20d40e6ac/")
+			)
+			(tstamps "ed772153-4de1-502e-936c-b83a2a8dfc79")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J21")
+			(value "Servo_D2")
+			(footprint "YoloUNO:PinHeader_1x03_P2.54mm_Vertical")
+			(fields
+				(field
+					(name "MPN") "X6511WV-1x3")
+				(field
+					(name "LCSC") "C492405")
+				(field
+					(name "Footprint") "YoloUNO:PinHeader_1x03_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "YoloUNO")
+				(part "Servo_GVS_1x03")
+				(description "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "MPN")
+				(value "X6511WV-1x3")
+			)
+			(property
+				(name "LCSC")
+				(value "C492405")
+			)
+			(property
+				(name "Sheetname")
+				(value "04_Peripherals_and_Headers")
+			)
+			(property
+				(name "Sheetfile")
+				(value "04_Peripherals_and_Headers.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/04_Peripherals_and_Headers/")
+				(tstamps "/43b0716e-8b3b-577d-9603-d2c20d40e6ac/")
+			)
+			(tstamps "57b24ade-0794-5f28-9450-53aa5c5fb133")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J22")
+			(value "Servo_D13")
+			(footprint "YoloUNO:PinHeader_1x03_P2.54mm_Vertical")
+			(fields
+				(field
+					(name "MPN") "X6511WV-1x3")
+				(field
+					(name "LCSC") "C492405")
+				(field
+					(name "Footprint") "YoloUNO:PinHeader_1x03_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "YoloUNO")
+				(part "Servo_GVS_1x03")
+				(description "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "MPN")
+				(value "X6511WV-1x3")
+			)
+			(property
+				(name "LCSC")
+				(value "C492405")
+			)
+			(property
+				(name "Sheetname")
+				(value "04_Peripherals_and_Headers")
+			)
+			(property
+				(name "Sheetfile")
+				(value "04_Peripherals_and_Headers.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/04_Peripherals_and_Headers/")
+				(tstamps "/43b0716e-8b3b-577d-9603-d2c20d40e6ac/")
+			)
+			(tstamps "329e11c8-6745-55e0-998e-672e8284e646")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J23")
+			(value "Servo_D12")
+			(footprint "YoloUNO:PinHeader_1x03_P2.54mm_Vertical")
+			(fields
+				(field
+					(name "MPN") "X6511WV-1x3")
+				(field
+					(name "LCSC") "C492405")
+				(field
+					(name "Footprint") "YoloUNO:PinHeader_1x03_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "YoloUNO")
+				(part "Servo_GVS_1x03")
+				(description "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "MPN")
+				(value "X6511WV-1x3")
+			)
+			(property
+				(name "LCSC")
+				(value "C492405")
+			)
+			(property
+				(name "Sheetname")
+				(value "04_Peripherals_and_Headers")
+			)
+			(property
+				(name "Sheetfile")
+				(value "04_Peripherals_and_Headers.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/04_Peripherals_and_Headers/")
+				(tstamps "/43b0716e-8b3b-577d-9603-d2c20d40e6ac/")
+			)
+			(tstamps "61876fd4-b1c5-5d4f-bef5-149affe051b7")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J24")
+			(value "Servo_D11")
+			(footprint "YoloUNO:PinHeader_1x03_P2.54mm_Vertical")
+			(fields
+				(field
+					(name "MPN") "X6511WV-1x3")
+				(field
+					(name "LCSC") "C492405")
+				(field
+					(name "Footprint") "YoloUNO:PinHeader_1x03_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "YoloUNO")
+				(part "Servo_GVS_1x03")
+				(description "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "MPN")
+				(value "X6511WV-1x3")
+			)
+			(property
+				(name "LCSC")
+				(value "C492405")
+			)
+			(property
+				(name "Sheetname")
+				(value "04_Peripherals_and_Headers")
+			)
+			(property
+				(name "Sheetfile")
+				(value "04_Peripherals_and_Headers.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/04_Peripherals_and_Headers/")
+				(tstamps "/43b0716e-8b3b-577d-9603-d2c20d40e6ac/")
+			)
+			(tstamps "9465a0a8-b02f-5d85-b817-4e83a6ec6ef5")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "JP1")
+			(value "A0_3V3/5V")
+			(footprint "YoloUNO:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm")
+			(fields
+				(field
+					(name "MPN") "SJ-3-1.3MM")
+				(field
+					(name "LCSC") "N/A")
+				(field
+					(name "Footprint") "YoloUNO:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "YoloUNO")
+				(part "SolderJumper_3_Bridged12")
+				(description "3-pole Solder Jumper, pins 1+2 closed/bridged")
+			)
+			(property
+				(name "MPN")
+				(value "SJ-3-1.3MM")
+			)
+			(property
+				(name "LCSC")
+				(value "N/A")
+			)
+			(property
+				(name "Sheetname")
+				(value "04_Peripherals_and_Headers")
+			)
+			(property
+				(name "Sheetfile")
+				(value "04_Peripherals_and_Headers.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Solder Jumper SPDT")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SolderJumper*Bridged12*")
+			)
+			(sheetpath
+				(names "/04_Peripherals_and_Headers/")
+				(tstamps "/43b0716e-8b3b-577d-9603-d2c20d40e6ac/")
+			)
+			(tstamps "38b3e6bd-11c9-5e00-9cf5-4d223aa16e01")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R14")
+			(value "1.50k 1%")
+			(footprint "YoloUNO:R_0603_1608Metric")
+			(fields
+				(field
+					(name "MPN") "RC0603FR-071K5L")
+				(field
+					(name "LCSC") "C22843")
+				(field
+					(name "Footprint") "YoloUNO:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "YoloUNO")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "RC0603FR-071K5L")
+			)
+			(property
+				(name "LCSC")
+				(value "C22843")
+			)
+			(property
+				(name "Sheetname")
+				(value "04_Peripherals_and_Headers")
+			)
+			(property
+				(name "Sheetfile")
+				(value "04_Peripherals_and_Headers.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/04_Peripherals_and_Headers/")
+				(tstamps "/43b0716e-8b3b-577d-9603-d2c20d40e6ac/")
+			)
+			(tstamps "96c9feea-2b6d-53e0-9d29-d82f408fd49b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R15")
+			(value "1.50k 1%")
+			(footprint "YoloUNO:R_0603_1608Metric")
+			(fields
+				(field
+					(name "MPN") "RC0603FR-071K5L")
+				(field
+					(name "LCSC") "C22843")
+				(field
+					(name "Footprint") "YoloUNO:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "YoloUNO")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "RC0603FR-071K5L")
+			)
+			(property
+				(name "LCSC")
+				(value "C22843")
+			)
+			(property
+				(name "Sheetname")
+				(value "04_Peripherals_and_Headers")
+			)
+			(property
+				(name "Sheetfile")
+				(value "04_Peripherals_and_Headers.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/04_Peripherals_and_Headers/")
+				(tstamps "/43b0716e-8b3b-577d-9603-d2c20d40e6ac/")
+			)
+			(tstamps "29077eb3-a97d-5fc8-b9b0-7cfc922274ad")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R16")
+			(value "6.80k 1%")
+			(footprint "YoloUNO:R_0603_1608Metric")
+			(fields
+				(field
+					(name "MPN") "RC0603FR-076K8L")
+				(field
+					(name "LCSC") "C23212")
+				(field
+					(name "Footprint") "YoloUNO:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "YoloUNO")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "RC0603FR-076K8L")
+			)
+			(property
+				(name "LCSC")
+				(value "C23212")
+			)
+			(property
+				(name "Sheetname")
+				(value "04_Peripherals_and_Headers")
+			)
+			(property
+				(name "Sheetfile")
+				(value "04_Peripherals_and_Headers.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/04_Peripherals_and_Headers/")
+				(tstamps "/43b0716e-8b3b-577d-9603-d2c20d40e6ac/")
+			)
+			(tstamps "82fab210-e0c4-50f9-96a3-a06f757eb453")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R17")
+			(value "10.0k 1%")
+			(footprint "YoloUNO:R_0603_1608Metric")
+			(fields
+				(field
+					(name "MPN") "RC0603FR-0710KL")
+				(field
+					(name "LCSC") "C25804")
+				(field
+					(name "Footprint") "YoloUNO:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "YoloUNO")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "RC0603FR-0710KL")
+			)
+			(property
+				(name "LCSC")
+				(value "C25804")
+			)
+			(property
+				(name "Sheetname")
+				(value "04_Peripherals_and_Headers")
+			)
+			(property
+				(name "Sheetfile")
+				(value "04_Peripherals_and_Headers.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/04_Peripherals_and_Headers/")
+				(tstamps "/43b0716e-8b3b-577d-9603-d2c20d40e6ac/")
+			)
+			(tstamps "40dc98fe-8c57-5412-b824-40d48eeb8946")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+	)
+	(groups)
+	(variants)
+	(libparts
+		(libpart
+			(lib "YoloUNO")
+			(part "AO3407A")
+			(description "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23")
+			(docs "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf")
+			(footprints
+				(fp "SOT?23*")
+			)
+			(fields
+				(field
+					(name "Reference") "Q")
+				(field
+					(name "Value") "AO3401A")
+				(field
+					(name "Footprint") "YoloUNO:SOT-23-3")
+				(field
+					(name "Datasheet") "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf")
+				(field
+					(name "Description") "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "G")
+					(type "input")
+				)
+				(pin
+					(num "2")
+					(name "S")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "D")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "YoloUNO")
+			(part "AP2114H-3.3TRG1")
+			(description "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223")
+			(docs "http://www.advanced-monolithic.com/pdf/ds1117.pdf")
+			(footprints
+				(fp "SOT?223*TabPin2*")
+			)
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "AMS1117-3.3")
+				(field
+					(name "Footprint") "YoloUNO:SOT-223-3_TabPin2")
+				(field
+					(name "Datasheet") "http://www.advanced-monolithic.com/pdf/ds1117.pdf")
+				(field
+					(name "Description") "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "2")
+					(name "VO")
+					(type "power_out")
+				)
+				(pin
+					(num "3")
+					(name "VI")
+					(type "power_in")
+				)
+			)
+		)
+		(libpart
+			(lib "YoloUNO")
+			(part "BZT52C10")
+			(description "Zener diode")
+			(footprints
+				(fp "TO-???*")
+				(fp "*_Diode_*")
+				(fp "*SingleDiode*")
+				(fp "D_*")
+			)
+			(fields
+				(field
+					(name "Reference") "D")
+				(field
+					(name "Value") "D_Zener")
+				(field
+					(name "Footprint") "YoloUNO:D_SOD-123")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Zener diode")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "K")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "A")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "YoloUNO")
+			(part "C")
+			(description "Unpolarized capacitor")
+			(footprints
+				(fp "C_*")
+			)
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "C")
+				(field
+					(name "Footprint") "YoloUNO:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "YoloUNO")
+			(part "C_Polarized")
+			(description "Polarized capacitor")
+			(footprints
+				(fp "CP_*")
+			)
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "C_Polarized")
+				(field
+					(name "Footprint") "YoloUNO:CP_Elec_6.3x5.4")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Polarized capacitor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "YoloUNO")
+			(part "ESP32-S3-WROOM-1-N16R8")
+			(description "RF Module, ESP32-S3 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 3.3V, onboard antenna, SMD")
+			(docs "https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf")
+			(footprints
+				(fp "ESP32?S3?WROOM?1*")
+			)
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "ESP32-S3-WROOM-1")
+				(field
+					(name "Footprint") "YoloUNO:ESP32-S3-WROOM-1")
+				(field
+					(name "Datasheet") "https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf")
+				(field
+					(name "Description") "RF Module, ESP32-S3 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 3.3V, onboard antenna, SMD")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "2")
+					(name "3V3")
+					(type "power_in")
+				)
+				(pin
+					(num "3")
+					(name "EN")
+					(type "input")
+				)
+				(pin
+					(num "4")
+					(name "IO4")
+					(type "bidirectional")
+				)
+				(pin
+					(num "5")
+					(name "IO5")
+					(type "bidirectional")
+				)
+				(pin
+					(num "6")
+					(name "IO6")
+					(type "bidirectional")
+				)
+				(pin
+					(num "7")
+					(name "IO7")
+					(type "bidirectional")
+				)
+				(pin
+					(num "8")
+					(name "IO15")
+					(type "bidirectional")
+				)
+				(pin
+					(num "9")
+					(name "IO16")
+					(type "bidirectional")
+				)
+				(pin
+					(num "10")
+					(name "IO17")
+					(type "bidirectional")
+				)
+				(pin
+					(num "11")
+					(name "IO18")
+					(type "bidirectional")
+				)
+				(pin
+					(num "12")
+					(name "IO8")
+					(type "bidirectional")
+				)
+				(pin
+					(num "13")
+					(name "USB_D-")
+					(type "bidirectional")
+				)
+				(pin
+					(num "14")
+					(name "USB_D+")
+					(type "bidirectional")
+				)
+				(pin
+					(num "15")
+					(name "IO3")
+					(type "bidirectional")
+				)
+				(pin
+					(num "16")
+					(name "IO46")
+					(type "bidirectional")
+				)
+				(pin
+					(num "17")
+					(name "IO9")
+					(type "bidirectional")
+				)
+				(pin
+					(num "18")
+					(name "IO10")
+					(type "bidirectional")
+				)
+				(pin
+					(num "19")
+					(name "IO11")
+					(type "bidirectional")
+				)
+				(pin
+					(num "20")
+					(name "IO12")
+					(type "bidirectional")
+				)
+				(pin
+					(num "21")
+					(name "IO13")
+					(type "bidirectional")
+				)
+				(pin
+					(num "22")
+					(name "IO14")
+					(type "bidirectional")
+				)
+				(pin
+					(num "23")
+					(name "IO21")
+					(type "bidirectional")
+				)
+				(pin
+					(num "24")
+					(name "IO47")
+					(type "bidirectional")
+				)
+				(pin
+					(num "25")
+					(name "IO48")
+					(type "bidirectional")
+				)
+				(pin
+					(num "26")
+					(name "IO45")
+					(type "bidirectional")
+				)
+				(pin
+					(num "27")
+					(name "IO0")
+					(type "bidirectional")
+				)
+				(pin
+					(num "28")
+					(name "IO35")
+					(type "bidirectional")
+				)
+				(pin
+					(num "29")
+					(name "IO36")
+					(type "bidirectional")
+				)
+				(pin
+					(num "30")
+					(name "IO37")
+					(type "bidirectional")
+				)
+				(pin
+					(num "31")
+					(name "IO38")
+					(type "bidirectional")
+				)
+				(pin
+					(num "32")
+					(name "IO39")
+					(type "bidirectional")
+				)
+				(pin
+					(num "33")
+					(name "IO40")
+					(type "bidirectional")
+				)
+				(pin
+					(num "34")
+					(name "IO41")
+					(type "bidirectional")
+				)
+				(pin
+					(num "35")
+					(name "IO42")
+					(type "bidirectional")
+				)
+				(pin
+					(num "36")
+					(name "RXD0")
+					(type "bidirectional")
+				)
+				(pin
+					(num "37")
+					(name "TXD0")
+					(type "bidirectional")
+				)
+				(pin
+					(num "38")
+					(name "IO2")
+					(type "bidirectional")
+				)
+				(pin
+					(num "39")
+					(name "IO1")
+					(type "bidirectional")
+				)
+				(pin
+					(num "40")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "41")
+					(name "GND")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "YoloUNO")
+			(part "Fiducial_1mm")
+			(description "Fiducial Marker")
+			(footprints
+				(fp "Fiducial*")
+			)
+			(fields
+				(field
+					(name "Reference") "FID")
+				(field
+					(name "Value") "Fiducial")
+				(field
+					(name "Footprint") "YoloUNO:Fiducial_1mm_Mask2mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Fiducial Marker")
+			)
+		)
+		(libpart
+			(lib "YoloUNO")
+			(part "Grove_1x04")
+			(description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			(footprints
+				(fp "Connector*:*_1x??_*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Conn_01x04")
+				(field
+					(name "Footprint") "YoloUNO:NS-Tech_Grove_1x04_P2mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Pin_1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "Pin_2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "Pin_3")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "Pin_4")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "YoloUNO")
+			(part "L")
+			(description "Inductor")
+			(footprints
+				(fp "Choke_*")
+				(fp "*Coil*")
+				(fp "Inductor_*")
+				(fp "L_*")
+			)
+			(fields
+				(field
+					(name "Reference") "L")
+				(field
+					(name "Value") "L")
+				(field
+					(name "Footprint") "YoloUNO:L_Bourns_SRN6045TA")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Inductor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "YoloUNO")
+			(part "LED")
+			(description "Light emitting diode")
+			(footprints
+				(fp "LED*")
+				(fp "LED_SMD:*")
+				(fp "LED_THT:*")
+			)
+			(fields
+				(field
+					(name "Reference") "D")
+				(field
+					(name "Value") "LED")
+				(field
+					(name "Footprint") "YoloUNO:LED_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Light emitting diode")
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "K")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "A")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "YoloUNO")
+			(part "MountingHole_M3")
+			(description "Mounting Hole without connection")
+			(footprints
+				(fp "MountingHole*")
+			)
+			(fields
+				(field
+					(name "Reference") "H")
+				(field
+					(name "Value") "MountingHole")
+				(field
+					(name "Footprint") "YoloUNO:MountingHole_3.2mm_M3")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Mounting Hole without connection")
+			)
+		)
+		(libpart
+			(lib "YoloUNO")
+			(part "PJ-002A_BarrelJack")
+			(description "DC Barrel Jack with an internal switch")
+			(footprints
+				(fp "BarrelJack*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Barrel_Jack_Switch")
+				(field
+					(name "Footprint") "YoloUNO:BarrelJack_CUI_PJ-102AH_Horizontal")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "DC Barrel Jack with an internal switch")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "YoloUNO")
+			(part "QWIIC_JST_SH_1x04")
+			(description "Generic connectable mounting pin connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			(footprints
+				(fp "Connector*:*_1x??-1MP*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Conn_01x04_MountingPin")
+				(field
+					(name "Footprint") "YoloUNO:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connectable mounting pin connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Pin_1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "Pin_2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "Pin_3")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "Pin_4")
+					(type "passive")
+				)
+				(pin
+					(num "MP")
+					(name "MountPin")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "YoloUNO")
+			(part "R")
+			(description "Resistor")
+			(footprints
+				(fp "R_*")
+			)
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "R")
+				(field
+					(name "Footprint") "YoloUNO:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "YoloUNO")
+			(part "SMBJ15CA")
+			(description "Bidirectional transient-voltage-suppression diode")
+			(footprints
+				(fp "TO-???*")
+				(fp "*_Diode_*")
+				(fp "*SingleDiode*")
+				(fp "D_*")
+			)
+			(fields
+				(field
+					(name "Reference") "D")
+				(field
+					(name "Value") "D_TVS")
+				(field
+					(name "Footprint") "YoloUNO:D_SMB")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Bidirectional transient-voltage-suppression diode")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "A1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "A2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "YoloUNO")
+			(part "SN74LV1T34DBVR")
+			(description "Single Power Supply, Single Buffer GATE, CMOS Logic, Level Shifter, SOT-23-5")
+			(docs "https://www.ti.com/lit/ds/symlink/sn74lv1t34.pdf")
+			(footprints
+				(fp "SOT?23*")
+			)
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "SN74LV1T34DBV")
+				(field
+					(name "Footprint") "YoloUNO:SOT-23-5")
+				(field
+					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/sn74lv1t34.pdf")
+				(field
+					(name "Description") "Single Power Supply, Single Buffer GATE, CMOS Logic, Level Shifter, SOT-23-5")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "NC")
+					(type "no_connect")
+				)
+				(pin
+					(num "2")
+					(name "A")
+					(type "input")
+				)
+				(pin
+					(num "3")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "4")
+					(name "Y")
+					(type "output")
+				)
+				(pin
+					(num "5")
+					(name "VCC")
+					(type "power_in")
+				)
+			)
+		)
+		(libpart
+			(lib "YoloUNO")
+			(part "Servo_GVS_1x03")
+			(description "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			(footprints
+				(fp "Connector*:*_1x??_*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Conn_01x03")
+				(field
+					(name "Footprint") "YoloUNO:PinHeader_1x03_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Pin_1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "Pin_2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "Pin_3")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "YoloUNO")
+			(part "SolderJumper_3_Bridged12")
+			(description "3-pole Solder Jumper, pins 1+2 closed/bridged")
+			(footprints
+				(fp "SolderJumper*Bridged12*")
+			)
+			(fields
+				(field
+					(name "Reference") "JP")
+				(field
+					(name "Value") "SolderJumper_3_Bridged12")
+				(field
+					(name "Footprint") "YoloUNO:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "3-pole Solder Jumper, pins 1+2 closed/bridged")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "A")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "C")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "B")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "YoloUNO")
+			(part "TPS2116DRLR")
+			(description "2 Channnels Power Mux with Manual and Priority Switchover, 1.6-5.5V Input Voltage, 2.5A Output Current, Ron 40 mOhm, SOT-583-8")
+			(docs "https://www.ti.com/lit/ds/symlink/tps2116.pdf")
+			(footprints
+				(fp "SOT?5?3*")
+			)
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "TPS2116DRL")
+				(field
+					(name "Footprint") "YoloUNO:SOT-583-8")
+				(field
+					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/tps2116.pdf")
+				(field
+					(name "Description") "2 Channnels Power Mux with Manual and Priority Switchover, 1.6-5.5V Input Voltage, 2.5A Output Current, Ron 40 mOhm, SOT-583-8")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "2")
+					(name "VOUT")
+					(type "power_out")
+				)
+				(pin
+					(num "3")
+					(name "VIN1")
+					(type "power_in")
+				)
+				(pin
+					(num "4")
+					(name "PR1")
+					(type "input")
+				)
+				(pin
+					(num "5")
+					(name "MODE")
+					(type "input")
+				)
+				(pin
+					(num "6")
+					(name "VIN2")
+					(type "power_in")
+				)
+				(pin
+					(num "7")
+					(name "VOUT")
+					(type "passive")
+				)
+				(pin
+					(num "8")
+					(name "ST")
+					(type "open_collector")
+				)
+			)
+		)
+		(libpart
+			(lib "YoloUNO")
+			(part "TPS54202DDCR")
+			(description "2A, 4.5 to 28V Input, EMI Friendly integrated switch synchronous step-down regulator, pulse-skipping, SOT-23-6")
+			(docs "http://www.ti.com/lit/ds/symlink/tps54202.pdf")
+			(footprints
+				(fp "SOT?23*")
+			)
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "TPS54202DDC")
+				(field
+					(name "Footprint") "YoloUNO:SOT-23-6")
+				(field
+					(name "Datasheet") "http://www.ti.com/lit/ds/symlink/tps54202.pdf")
+				(field
+					(name "Description") "2A, 4.5 to 28V Input, EMI Friendly integrated switch synchronous step-down regulator, pulse-skipping, SOT-23-6")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "2")
+					(name "SW")
+					(type "power_out")
+				)
+				(pin
+					(num "3")
+					(name "VIN")
+					(type "power_in")
+				)
+				(pin
+					(num "4")
+					(name "FB")
+					(type "input")
+				)
+				(pin
+					(num "5")
+					(name "EN")
+					(type "input")
+				)
+				(pin
+					(num "6")
+					(name "BOOT")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "YoloUNO")
+			(part "TS-1187A")
+			(description "Push button switch, generic, two pins")
+			(fields
+				(field
+					(name "Reference") "SW")
+				(field
+					(name "Value") "SW_Push")
+				(field
+					(name "Footprint") "YoloUNO:SW_Push_1P1T_XKB_TS-1187A")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Push button switch, generic, two pins")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "YoloUNO")
+			(part "TYPE-C-31-M-12")
+			(description "USB 2.0-only 16P Type-C Receptacle connector")
+			(docs "https://www.usb.org/sites/default/files/documents/usb_type-c.zip")
+			(footprints
+				(fp "USB*C*Receptacle*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "USB_C_Receptacle_USB2.0_16P")
+				(field
+					(name "Footprint") "YoloUNO:USB_C_Receptacle_HRO_TYPE-C-31-M-12")
+				(field
+					(name "Datasheet") "https://www.usb.org/sites/default/files/documents/usb_type-c.zip")
+				(field
+					(name "Description") "USB 2.0-only 16P Type-C Receptacle connector")
+			)
+			(pins
+				(pin
+					(num "A1")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "A4")
+					(name "VBUS")
+					(type "passive")
+				)
+				(pin
+					(num "A5")
+					(name "CC1")
+					(type "bidirectional")
+				)
+				(pin
+					(num "A6")
+					(name "D+")
+					(type "bidirectional")
+				)
+				(pin
+					(num "A7")
+					(name "D-")
+					(type "bidirectional")
+				)
+				(pin
+					(num "A8")
+					(name "SBU1")
+					(type "bidirectional")
+				)
+				(pin
+					(num "A9")
+					(name "VBUS")
+					(type "passive")
+				)
+				(pin
+					(num "A12")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "B1")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "B4")
+					(name "VBUS")
+					(type "passive")
+				)
+				(pin
+					(num "B5")
+					(name "CC2")
+					(type "bidirectional")
+				)
+				(pin
+					(num "B6")
+					(name "D+")
+					(type "bidirectional")
+				)
+				(pin
+					(num "B7")
+					(name "D-")
+					(type "bidirectional")
+				)
+				(pin
+					(num "B8")
+					(name "SBU2")
+					(type "bidirectional")
+				)
+				(pin
+					(num "B9")
+					(name "VBUS")
+					(type "passive")
+				)
+				(pin
+					(num "B12")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "SH")
+					(name "SHIELD")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "YoloUNO")
+			(part "UNO_Header_1x06")
+			(description "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			(footprints
+				(fp "Connector*:*_1x??_*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Conn_01x06")
+				(field
+					(name "Footprint") "YoloUNO:PinSocket_1x06_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Pin_1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "Pin_2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "Pin_3")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "Pin_4")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "Pin_5")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "Pin_6")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "YoloUNO")
+			(part "UNO_Header_1x08")
+			(description "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			(footprints
+				(fp "Connector*:*_1x??_*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Conn_01x08")
+				(field
+					(name "Footprint") "YoloUNO:PinSocket_1x08_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Pin_1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "Pin_2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "Pin_3")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "Pin_4")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "Pin_5")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "Pin_6")
+					(type "passive")
+				)
+				(pin
+					(num "7")
+					(name "Pin_7")
+					(type "passive")
+				)
+				(pin
+					(num "8")
+					(name "Pin_8")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "YoloUNO")
+			(part "UNO_Header_1x10")
+			(description "Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			(footprints
+				(fp "Connector*:*_1x??_*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Conn_01x10")
+				(field
+					(name "Footprint") "YoloUNO:PinSocket_1x10_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Pin_1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "Pin_2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "Pin_3")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "Pin_4")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "Pin_5")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "Pin_6")
+					(type "passive")
+				)
+				(pin
+					(num "7")
+					(name "Pin_7")
+					(type "passive")
+				)
+				(pin
+					(num "8")
+					(name "Pin_8")
+					(type "passive")
+				)
+				(pin
+					(num "9")
+					(name "Pin_9")
+					(type "passive")
+				)
+				(pin
+					(num "10")
+					(name "Pin_10")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "YoloUNO")
+			(part "USBLC6-2SC6")
+			(description "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6")
+			(docs "https://www.st.com/resource/en/datasheet/usblc6-2.pdf")
+			(footprints
+				(fp "SOT?23*")
+			)
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "USBLC6-2SC6")
+				(field
+					(name "Footprint") "YoloUNO:SOT-23-6")
+				(field
+					(name "Datasheet") "https://www.st.com/resource/en/datasheet/usblc6-2.pdf")
+				(field
+					(name "Description") "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "I/O1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "I/O2")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "I/O2")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "VBUS")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "I/O1")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "YoloUNO")
+			(part "WS2812B-B")
+			(description "RGB LED with integrated controller")
+			(docs "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf")
+			(footprints
+				(fp "LED*WS2812*PLCC*5.0x5.0mm*P3.2mm*")
+			)
+			(fields
+				(field
+					(name "Reference") "D")
+				(field
+					(name "Value") "WS2812B")
+				(field
+					(name "Footprint") "YoloUNO:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+				(field
+					(name "Datasheet") "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf")
+				(field
+					(name "Description") "RGB LED with integrated controller")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "VDD")
+					(type "power_in")
+				)
+				(pin
+					(num "2")
+					(name "DOUT")
+					(type "output")
+				)
+				(pin
+					(num "3")
+					(name "VSS")
+					(type "power_in")
+				)
+				(pin
+					(num "4")
+					(name "DIN")
+					(type "input")
+				)
+			)
+		)
+	)
+	(libraries
+		(library
+			(logical "YoloUNO")
+			(uri "${KIPRJMOD}/libraries/YoloUNO.kicad_sym")
+		)
+	)
+	(nets
+		(net
+			(code "1")
+			(name "+3V3")
+			(class "Default")
+			(node
+				(ref "C10")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C11")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C12")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C9")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J10")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "J11")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "J12")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "J13")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "J14")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "J15")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J17")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J17")
+				(pin "4")
+				(pinfunction "Pin_4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "J19")
+				(pin "8")
+				(pinfunction "Pin_8_8")
+				(pintype "passive")
+			)
+			(node
+				(ref "J3")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "J4")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "J5")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "J6")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "J7")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "J8")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "J9")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "R11")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R14")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R15")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R7")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R8")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U3")
+				(pin "2")
+				(pinfunction "VO_2")
+				(pintype "power_out")
+			)
+			(node
+				(ref "U4")
+				(pin "2")
+				(pinfunction "3V3_2")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "2")
+			(name "+5V")
+			(class "Default")
+			(node
+				(ref "C15")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C16")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C18")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C7")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C8")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D5")
+				(pin "1")
+				(pinfunction "VDD_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "J17")
+				(pin "5")
+				(pinfunction "Pin_5_5")
+				(pintype "passive")
+			)
+			(node
+				(ref "J21")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J22")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J23")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J24")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "2")
+				(pinfunction "VOUT_2")
+				(pintype "power_out")
+			)
+			(node
+				(ref "U2")
+				(pin "7")
+				(pinfunction "VOUT_7")
+				(pintype "passive")
+			)
+			(node
+				(ref "U3")
+				(pin "3")
+				(pinfunction "VI_3")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U6")
+				(pin "5")
+				(pinfunction "VCC_5")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "3")
+			(name "/01_Power_Supply/5V_BUCK")
+			(class "Default")
+			(node
+				(ref "C5")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C6")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "L1")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R3")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R5")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "3")
+				(pinfunction "VIN1_3")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U2")
+				(pin "5")
+				(pinfunction "MODE_5")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "4")
+			(name "/01_Power_Supply/VIN_RAW")
+			(class "Default")
+			(node
+				(ref "D1")
+				(pin "2")
+				(pinfunction "A2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q1")
+				(pin "3")
+				(pinfunction "D_3")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "5")
+			(name "/02_MCU_ESP32S3/BOOT_IO0")
+			(class "Default")
+			(node
+				(ref "R8")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW2")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "27")
+				(pinfunction "IO0_27")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "6")
+			(name "/03_USB_and_LEDs/NEO_DIN_5V")
+			(class "Default")
+			(node
+				(ref "D5")
+				(pin "4")
+				(pinfunction "DIN_4")
+				(pintype "input")
+			)
+			(node
+				(ref "U6")
+				(pin "4")
+				(pinfunction "Y_4")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "7")
+			(name "/04_Peripherals_and_Headers/A0_RAW")
+			(class "Default")
+			(node
+				(ref "J18")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J6")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "JP1")
+				(pin "1")
+				(pinfunction "A_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R16")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "8")
+			(name "A0_ADC")
+			(class "Default")
+			(node
+				(ref "C17")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "JP1")
+				(pin "2")
+				(pinfunction "C_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "39")
+				(pinfunction "IO1_39")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "9")
+			(name "A1")
+			(class "Default")
+			(node
+				(ref "J18")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J5")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J6")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "38")
+				(pinfunction "IO2_38")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "10")
+			(name "A2")
+			(class "Default")
+			(node
+				(ref "J18")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "J4")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J5")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "15")
+				(pinfunction "IO3_15")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "11")
+			(name "A3")
+			(class "Default")
+			(node
+				(ref "J18")
+				(pin "4")
+				(pinfunction "Pin_4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "J3")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J4")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "4")
+				(pinfunction "IO4_4")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "12")
+			(name "A6")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "22")
+				(pinfunction "IO14_22")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "13")
+			(name "D0_RX")
+			(class "Default")
+			(node
+				(ref "J20")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "36")
+				(pinfunction "RXD0_36")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "14")
+			(name "D1_TX")
+			(class "Default")
+			(node
+				(ref "J20")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "37")
+				(pinfunction "TXD0_37")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "15")
+			(name "D2")
+			(class "Default")
+			(node
+				(ref "J20")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "J21")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "5")
+				(pinfunction "IO5_5")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "16")
+			(name "D3")
+			(class "Default")
+			(node
+				(ref "J10")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J20")
+				(pin "4")
+				(pinfunction "Pin_4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "6")
+				(pinfunction "IO6_6")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "17")
+			(name "D4")
+			(class "Default")
+			(node
+				(ref "J10")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J20")
+				(pin "5")
+				(pinfunction "Pin_5_5")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "7")
+				(pinfunction "IO7_7")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "18")
+			(name "D5")
+			(class "Default")
+			(node
+				(ref "J20")
+				(pin "6")
+				(pinfunction "Pin_6_6")
+				(pintype "passive")
+			)
+			(node
+				(ref "J9")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "12")
+				(pinfunction "IO8_12")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "19")
+			(name "D6")
+			(class "Default")
+			(node
+				(ref "J20")
+				(pin "7")
+				(pinfunction "Pin_7_7")
+				(pintype "passive")
+			)
+			(node
+				(ref "J9")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "17")
+				(pinfunction "IO9_17")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "20")
+			(name "D7")
+			(class "Default")
+			(node
+				(ref "J20")
+				(pin "8")
+				(pinfunction "Pin_8_8")
+				(pintype "passive")
+			)
+			(node
+				(ref "J8")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "18")
+				(pinfunction "IO10_18")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "21")
+			(name "D8")
+			(class "Default")
+			(node
+				(ref "J19")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J8")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "10")
+				(pinfunction "IO17_10")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "22")
+			(name "D9")
+			(class "Default")
+			(node
+				(ref "J19")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J7")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "11")
+				(pinfunction "IO18_11")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "23")
+			(name "D10")
+			(class "Default")
+			(node
+				(ref "J19")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "J7")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "23")
+				(pinfunction "IO21_23")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "24")
+			(name "D11")
+			(class "Default")
+			(node
+				(ref "J19")
+				(pin "4")
+				(pinfunction "Pin_4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "J24")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "31")
+				(pinfunction "IO38_31")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "25")
+			(name "D12")
+			(class "Default")
+			(node
+				(ref "J19")
+				(pin "5")
+				(pinfunction "Pin_5_5")
+				(pintype "passive")
+			)
+			(node
+				(ref "J23")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "24")
+				(pinfunction "IO47_24")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "26")
+			(name "D13")
+			(class "Default")
+			(node
+				(ref "J19")
+				(pin "6")
+				(pinfunction "Pin_6_6")
+				(pintype "passive")
+			)
+			(node
+				(ref "J22")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "R12")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "25")
+				(pinfunction "IO48_25")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "27")
+			(name "GND")
+			(class "Default")
+			(node
+				(ref "C1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C10")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C11")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C12")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C13")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C14")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C15")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C16")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C17")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C18")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C2")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C3")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C5")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C6")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C7")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C8")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C9")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "D1")
+				(pin "1")
+				(pinfunction "A1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D3")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D4")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D5")
+				(pin "3")
+				(pinfunction "VSS_3")
+				(pintype "power_in")
+			)
+			(node
+				(ref "J1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "3")
+				(pintype "passive")
+			)
+			(node
+				(ref "J10")
+				(pin "4")
+				(pinfunction "Pin_4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "J11")
+				(pin "4")
+				(pinfunction "Pin_4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "J12")
+				(pin "4")
+				(pinfunction "Pin_4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "J13")
+				(pin "4")
+				(pinfunction "Pin_4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "J14")
+				(pin "4")
+				(pinfunction "Pin_4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "J15")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J15")
+				(pin "MP")
+				(pinfunction "MountPin_MP")
+				(pintype "passive")
+			)
+			(node
+				(ref "J17")
+				(pin "6")
+				(pinfunction "Pin_6_6")
+				(pintype "passive")
+			)
+			(node
+				(ref "J17")
+				(pin "7")
+				(pinfunction "Pin_7_7")
+				(pintype "passive")
+			)
+			(node
+				(ref "J19")
+				(pin "7")
+				(pinfunction "Pin_7_7")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "A1")
+				(pinfunction "GND_A1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "A12")
+				(pinfunction "GND_A12")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "B1")
+				(pinfunction "GND_B1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "B12")
+				(pinfunction "GND_B12")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "SH")
+				(pinfunction "SHIELD_SH")
+				(pintype "passive")
+			)
+			(node
+				(ref "J21")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J22")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J23")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J24")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J3")
+				(pin "4")
+				(pinfunction "Pin_4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "J4")
+				(pin "4")
+				(pinfunction "Pin_4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "J5")
+				(pin "4")
+				(pinfunction "Pin_4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "J6")
+				(pin "4")
+				(pinfunction "Pin_4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "J7")
+				(pin "4")
+				(pinfunction "Pin_4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "J8")
+				(pin "4")
+				(pinfunction "Pin_4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "J9")
+				(pin "4")
+				(pinfunction "Pin_4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "R1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R10")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R13")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R17")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R4")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R6")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R9")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW2")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "1")
+				(pinfunction "GND_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U2")
+				(pin "1")
+				(pinfunction "GND_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U3")
+				(pin "1")
+				(pinfunction "GND_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U4")
+				(pin "1")
+				(pinfunction "GND_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U4")
+				(pin "40")
+				(pinfunction "GND_40")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "41")
+				(pinfunction "GND_41")
+				(pintype "passive")
+			)
+			(node
+				(ref "U5")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U6")
+				(pin "3")
+				(pinfunction "GND_3")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "28")
+			(name "I2C_SCL")
+			(class "Default")
+			(node
+				(ref "J11")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J12")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J13")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J14")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J15")
+				(pin "4")
+				(pinfunction "Pin_4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "J18")
+				(pin "6")
+				(pinfunction "Pin_6_6")
+				(pintype "passive")
+			)
+			(node
+				(ref "J19")
+				(pin "10")
+				(pinfunction "Pin_10_10")
+				(pintype "passive")
+			)
+			(node
+				(ref "R15")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "20")
+				(pinfunction "IO12_20")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "29")
+			(name "I2C_SDA")
+			(class "Default")
+			(node
+				(ref "J11")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J12")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J13")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J14")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J15")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "J18")
+				(pin "5")
+				(pinfunction "Pin_5_5")
+				(pintype "passive")
+			)
+			(node
+				(ref "J19")
+				(pin "9")
+				(pinfunction "Pin_9_9")
+				(pintype "passive")
+			)
+			(node
+				(ref "R14")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "19")
+				(pinfunction "IO11_19")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "30")
+			(name "MCU_EN")
+			(class "Default")
+			(node
+				(ref "C13")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J17")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "R7")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW1")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "3")
+				(pinfunction "EN_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "31")
+			(name "NEO_GPIO45")
+			(class "Default")
+			(node
+				(ref "R13")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "26")
+				(pinfunction "IO45_26")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U6")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "32")
+			(name "Net-(D2-A)")
+			(class "Default")
+			(node
+				(ref "D2")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q1")
+				(pin "1")
+				(pinfunction "G_1")
+				(pintype "input")
+			)
+			(node
+				(ref "R1")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "33")
+			(name "Net-(D3-A)")
+			(class "Default")
+			(node
+				(ref "D3")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R11")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "34")
+			(name "Net-(D4-A)")
+			(class "Default")
+			(node
+				(ref "D4")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R12")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "35")
+			(name "Net-(J2-CC1)")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "A5")
+				(pinfunction "CC1_A5")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "R9")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "36")
+			(name "Net-(J2-CC2)")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "B5")
+				(pinfunction "CC2_B5")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "R10")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "37")
+			(name "Net-(J2-D+-PadA6)")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "A6")
+				(pinfunction "D+_A6")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "J2")
+				(pin "B6")
+				(pinfunction "D+_B6")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U5")
+				(pin "3")
+				(pinfunction "I/O2_3")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "38")
+			(name "Net-(J2-D--PadA7)")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "A7")
+				(pinfunction "D-_A7")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "J2")
+				(pin "B7")
+				(pinfunction "D-_B7")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U5")
+				(pin "1")
+				(pinfunction "I/O1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "39")
+			(name "Net-(JP1-B)")
+			(class "Default")
+			(node
+				(ref "JP1")
+				(pin "3")
+				(pinfunction "B_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "R16")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R17")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "40")
+			(name "Net-(U1-BOOT)")
+			(class "Default")
+			(node
+				(ref "C4")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "6")
+				(pinfunction "BOOT_6")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "41")
+			(name "Net-(U1-EN)")
+			(class "Default")
+			(node
+				(ref "R2")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "5")
+				(pinfunction "EN_5")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "42")
+			(name "Net-(U1-FB)")
+			(class "Default")
+			(node
+				(ref "R3")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R4")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "4")
+				(pinfunction "FB_4")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "43")
+			(name "Net-(U1-SW)")
+			(class "Default")
+			(node
+				(ref "C4")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "L1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "2")
+				(pinfunction "SW_2")
+				(pintype "power_out")
+			)
+		)
+		(net
+			(code "44")
+			(name "Net-(U2-PR1)")
+			(class "Default")
+			(node
+				(ref "R5")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R6")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "4")
+				(pinfunction "PR1_4")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "45")
+			(name "USB_DN")
+			(class "Default")
+			(node
+				(ref "U4")
+				(pin "13")
+				(pinfunction "USB_D-_13")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U5")
+				(pin "6")
+				(pinfunction "I/O1_6")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "46")
+			(name "USB_DP")
+			(class "Default")
+			(node
+				(ref "U4")
+				(pin "14")
+				(pinfunction "USB_D+_14")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U5")
+				(pin "4")
+				(pinfunction "I/O2_4")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "47")
+			(name "VBUS")
+			(class "Default")
+			(node
+				(ref "C14")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "A4")
+				(pinfunction "VBUS_A4")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "A9")
+				(pinfunction "VBUS_A9")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "B4")
+				(pinfunction "VBUS_B4")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "B9")
+				(pinfunction "VBUS_B9")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "6")
+				(pinfunction "VIN2_6")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U5")
+				(pin "5")
+				(pinfunction "VBUS_5")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "48")
+			(name "VIN_PROT")
+			(class "Default")
+			(node
+				(ref "C1")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C2")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C3")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D2")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J17")
+				(pin "8")
+				(pinfunction "Pin_8_8")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q1")
+				(pin "2")
+				(pinfunction "S_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R2")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "3")
+				(pinfunction "VIN_3")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "49")
+			(name "unconnected-(D5-DOUT-Pad2)")
+			(class "Default")
+			(node
+				(ref "D5")
+				(pin "2")
+				(pinfunction "DOUT_2")
+				(pintype "output+no_connect")
+			)
+		)
+		(net
+			(code "50")
+			(name "unconnected-(J2-SBU1-PadA8)")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "A8")
+				(pinfunction "SBU1_A8")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "51")
+			(name "unconnected-(J2-SBU2-PadB8)")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "B8")
+				(pinfunction "SBU2_B8")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "52")
+			(name "unconnected-(J17-Pin_1-Pad1)")
+			(class "Default")
+			(node
+				(ref "J17")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "53")
+			(name "unconnected-(U2-ST-Pad8)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "8")
+				(pinfunction "ST_8")
+				(pintype "open_collector+no_connect")
+			)
+		)
+		(net
+			(code "54")
+			(name "unconnected-(U4-IO13-Pad21)")
+			(class "Default")
+			(node
+				(ref "U4")
+				(pin "21")
+				(pinfunction "IO13_21")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "55")
+			(name "unconnected-(U4-IO15-Pad8)")
+			(class "Default")
+			(node
+				(ref "U4")
+				(pin "8")
+				(pinfunction "IO15_8")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "56")
+			(name "unconnected-(U4-IO16-Pad9)")
+			(class "Default")
+			(node
+				(ref "U4")
+				(pin "9")
+				(pinfunction "IO16_9")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "57")
+			(name "unconnected-(U4-IO35-Pad28)")
+			(class "Default")
+			(node
+				(ref "U4")
+				(pin "28")
+				(pinfunction "IO35_28")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "58")
+			(name "unconnected-(U4-IO36-Pad29)")
+			(class "Default")
+			(node
+				(ref "U4")
+				(pin "29")
+				(pinfunction "IO36_29")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "59")
+			(name "unconnected-(U4-IO37-Pad30)")
+			(class "Default")
+			(node
+				(ref "U4")
+				(pin "30")
+				(pinfunction "IO37_30")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "60")
+			(name "unconnected-(U4-IO39-Pad32)")
+			(class "Default")
+			(node
+				(ref "U4")
+				(pin "32")
+				(pinfunction "IO39_32")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "61")
+			(name "unconnected-(U4-IO40-Pad33)")
+			(class "Default")
+			(node
+				(ref "U4")
+				(pin "33")
+				(pinfunction "IO40_33")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "62")
+			(name "unconnected-(U4-IO41-Pad34)")
+			(class "Default")
+			(node
+				(ref "U4")
+				(pin "34")
+				(pinfunction "IO41_34")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "63")
+			(name "unconnected-(U4-IO42-Pad35)")
+			(class "Default")
+			(node
+				(ref "U4")
+				(pin "35")
+				(pinfunction "IO42_35")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "64")
+			(name "unconnected-(U4-IO46-Pad16)")
+			(class "Default")
+			(node
+				(ref "U4")
+				(pin "16")
+				(pinfunction "IO46_16")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "65")
+			(name "unconnected-(U6-NC-Pad1)")
+			(class "Default")
+			(node
+				(ref "U6")
+				(pin "1")
+				(pinfunction "NC_1")
+				(pintype "no_connect")
+			)
+		)
+	)
+)

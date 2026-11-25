@@ -1,0 +1,18 @@
+# KiCad transient / backup / lock files
+*-backups/
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.lck
+~*.lck
+fp-info-cache
+
+# Python & OS caches
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary MS Office lock files
+~$*.docx
+~$*.xlsx

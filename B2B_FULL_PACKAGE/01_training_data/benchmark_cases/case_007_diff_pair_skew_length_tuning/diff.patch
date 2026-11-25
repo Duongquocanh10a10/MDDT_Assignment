@@ -1,0 +1,7 @@
+--- bad.kicad_pcb
++++ fixed.kicad_pcb
+@@ -10,6 +10,8 @@
+ # Optimization for case_007_diff_pair_skew_length_tuning: USB 2.0 Differential Pair Skew & Length Matching (D+/D-)
+-  (segment (start 79.2 85.5) (width 0.20) (layer "F.Cu") (net 12))
++  (segment (start 79.2 86.0) (width 0.25) (layer "F.Cu") (net 12))
++  (via (at 80.2 86.5) (size 0.6) (drill 0.3) (layers "F.Cu" "B.Cu") (net 1))

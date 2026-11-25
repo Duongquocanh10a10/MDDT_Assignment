@@ -1,0 +1,94 @@
+{
+  "dataset_name": "PCB Design Rule Check (DRC) AI Training Dataset & Routing Engines",
+  "version": "1.5.0",
+  "created": "2026-10-12T00:00:00Z",
+  "vendor": "EDA Autonomous Systems Lab",
+  "license": "Commercial B2B \u2014 Dataset for ML Model Training & EDA Automation",
+  "total_benchmark_cases": 12,
+  "total_progression_snapshots": 15,
+  "total_full_board_pairs": 1,
+  "total_routing_verification_engines": 17,
+  "eda_software": "KiCad 8/9/10 CLI",
+  "design_standards": [
+    "IPC-2221 Class 2",
+    "IPC-2141 High-Speed Controlled Impedance"
+  ],
+  "domain_breadth": [
+    "Mixed-Signal 4-Layer Microcontroller Layouts",
+    "High-Speed Differential Pairs (USB 2.0 90-Ohm Skew Tuning)",
+    "Mixed-Signal Grounding (Star Ground Kelvin Bridges)",
+    "Power Integrity & DC Thermal Spoke Starvation",
+    "RF 2.4GHz Antenna Keepout Constraints",
+    "DFM Assembly Yield (QFN-28 Thermal Via Solder Wicking)",
+    "Coplanar Waveguide (GCPW) Shielding"
+  ],
+  "benchmark_cases": [
+    {
+      "id": "case_001",
+      "name": "VBUS 5V Power Trace to Pin 1 Dogleg Routing",
+      "category": "Clearance & DRC Convergence"
+    },
+    {
+      "id": "case_002",
+      "name": "MT3608 Boost Converter Inductor Clearance & S-Pad Corridor",
+      "category": "Power Switching Clearance"
+    },
+    {
+      "id": "case_003",
+      "name": "LCD Bus 8-Pin High-Density Parallel Routing",
+      "category": "Parallel Bus Congestion"
+    },
+    {
+      "id": "case_004",
+      "name": "Sensors, GPS & RTC Multi-Peripheral Layer Distribution",
+      "category": "Multi-Layer Routing"
+    },
+    {
+      "id": "case_005",
+      "name": "Isolated Ground Islands & Zone Pour Stitching",
+      "category": "Copper Balancing & Islands"
+    },
+    {
+      "id": "case_006",
+      "name": "Global Multi-Net Integration & Pin Congestion",
+      "category": "Global Layout Optimization"
+    },
+    {
+      "id": "case_007",
+      "name": "USB 2.0 Differential Pair Skew Length Tuning",
+      "category": "High-Speed Signal Integrity"
+    },
+    {
+      "id": "case_008",
+      "name": "Star Ground Kelvin Bridge Analog-Digital Domain Split",
+      "category": "Mixed-Signal Grounding"
+    },
+    {
+      "id": "case_009",
+      "name": "Thermal Relief Spoke Current Starvation on High-Current Rail",
+      "category": "Power Integrity & Thermal"
+    },
+    {
+      "id": "case_010",
+      "name": "Antenna 2.4GHz RF Keepout Zone Copper Invasion Prevention",
+      "category": "RF & EMI Containment"
+    },
+    {
+      "id": "case_011",
+      "name": "QFN-28 Exposed Pad Thermal Via Solder Wicking & Masking",
+      "category": "DFM & Assembly Yield"
+    },
+    {
+      "id": "case_012",
+      "name": "Grounded Coplanar Waveguide (GCPW) Guard Ring Crosstalk",
+      "category": "Signal Integrity & Crosstalk"
+    }
+  ],
+  "drc_convergence_summary": {
+    "initial_violations": 798,
+    "final_violations": 0,
+    "initial_unconnected": 204,
+    "final_unconnected": 0,
+    "stages_documented": 15
+  }
+}

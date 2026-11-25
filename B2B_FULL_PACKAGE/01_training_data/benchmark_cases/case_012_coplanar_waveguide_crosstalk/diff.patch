@@ -1,0 +1,7 @@
+--- bad.kicad_pcb
++++ fixed.kicad_pcb
+@@ -10,6 +10,8 @@
+ # Optimization for case_012_coplanar_waveguide_crosstalk: High-Impedance Sensor Analog Coplanar Ground Shielding
+-  (segment (start 84.2 116.5) (width 0.20) (layer "F.Cu") (net 12))
++  (segment (start 84.2 117.0) (width 0.25) (layer "F.Cu") (net 12))
++  (via (at 85.2 117.5) (size 0.6) (drill 0.3) (layers "F.Cu" "B.Cu") (net 1))

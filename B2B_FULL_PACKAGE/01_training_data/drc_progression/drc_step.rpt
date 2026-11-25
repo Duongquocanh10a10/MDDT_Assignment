@@ -1,0 +1,52 @@
+** Drc report for WaterSensor.kicad_pcb **
+** Created on 2026-09-23T21:29:49 **
+** Report includes: Errors, Warnings **
+
+** Found 0 DRC violations **
+
+** Found 8 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(108.7500 mm, 70.4500 mm): Track [LCD_RST] on F.Cu, length 3.0500 mm
+    @(79.5000 mm, 139.1600 mm): PTH pad 5 [LCD_RST] of J_LCD
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(108.7500 mm, 71.7200 mm): Track [LCD_DC] on F.Cu, length 2.2500 mm
+    @(79.5000 mm, 141.7000 mm): PTH pad 6 [LCD_DC] of J_LCD
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(108.7500 mm, 69.1800 mm): Track [LCD_CS] on F.Cu, length 1.4500 mm
+    @(79.5000 mm, 144.2400 mm): PTH pad 7 [LCD_CS] of J_LCD
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(80.5450 mm, 103.7500 mm): Track [USB_D+] on F.Cu, length 9.9550 mm
+    @(80.5450 mm, 104.7500 mm): Pad B6 [USB_D+] of J_USB on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(80.5450 mm, 103.7500 mm): Track [USB_D+] on F.Cu, length 9.9550 mm
+    @(97.5500 mm, 98.0000 mm): Pad 4 [USB_D+] of U8 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(80.5450 mm, 103.2500 mm): Pad B7 [USB_D-] of J_USB on F.Cu
+    @(80.5450 mm, 104.2500 mm): Track [USB_D-] on F.Cu, length 10.4550 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(94.0000 mm, 102.5000 mm): Track [USB_D-] on F.Cu, length 3.0000 mm
+    @(80.5450 mm, 104.2500 mm): Track [USB_D-] on F.Cu, length 10.4550 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(97.5500 mm, 99.5000 mm): Track [VBUS] on F.Cu, length 1.3435 mm
+    @(91.5000 mm, 96.8250 mm): Track [VBUS] on F.Cu, length 2.0000 mm
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Via is not connected or connected on only one layer
+    - Track has unconnected end
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

@@ -1,0 +1,180 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://pcb-automation-lab.com/schemas/dataset-catalog-v1.0.json",
+  "title": "PCB DRC AI Training Dataset Catalog",
+  "description": "Schema for PCB Design Rule Check AI training dataset catalog entries",
+  "type": "object",
+  "required": [
+    "dataset_name",
+    "version",
+    "total_entries",
+    "entries"
+  ],
+  "properties": {
+    "dataset_name": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$"
+    },
+    "created": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "vendor": {
+      "type": "string"
+    },
+    "license": {
+      "type": "string"
+    },
+    "total_entries": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "eda_software": {
+      "type": "string"
+    },
+    "design_standard": {
+      "type": "string"
+    },
+    "board_specs": {
+      "type": "object",
+      "required": [
+        "dimensions_mm",
+        "layers",
+        "components",
+        "pads",
+        "nets"
+      ],
+      "properties": {
+        "dimensions_mm": {
+          "type": "string",
+          "pattern": "^\\d+\\.\\d+ x \\d+\\.\\d+$"
+        },
+        "layers": {
+          "type": "integer",
+          "enum": [
+            2,
+            4,
+            6,
+            8
+          ]
+        },
+        "components": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "pads": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "nets": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "clearance_mm": {
+          "type": "number",
+          "minimum": 0.05
+        },
+        "drill_clearance_mm": {
+          "type": "number",
+          "minimum": 0.1
+        },
+        "edge_clearance_mm": {
+          "type": "number",
+          "minimum": 0.1
+        }
+      }
+    },
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "category",
+          "title",
+          "bad_drc_violations",
+          "pair_complete"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^(case_\\d{3}_|progression_|full_board_)"
+          },
+          "category": {
+            "enum": [
+              "benchmark_case",
+              "drc_progression_snapshot",
+              "full_board_pair"
+            ]
+          },
+          "title": {
+            "type": "string",
+            "minLength": 5
+          },
+          "eda_software": {
+            "type": "string"
+          },
+          "file_format": {
+            "type": "string"
+          },
+          "layer_count": {
+            "type": "integer"
+          },
+          "component_count": {
+            "type": "integer"
+          },
+          "complexity": {
+            "enum": [
+              "Low",
+              "Medium",
+              "High",
+              "Very High"
+            ]
+          },
+          "error_types_in_bad": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "bad_drc_violations": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "bad_drc_unconnected": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "fixed_drc_violations": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 0
+          },
+          "fixed_drc_unconnected": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 0
+          },
+          "pair_complete": {
+            "type": "boolean"
+          },
+          "integrity": {
+            "type": "object",
+            "properties": {
+              "verified_by": {
+                "type": "string"
+              },
+              "verified_at": {
+                "type": "string",
+                "format": "date-time"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "case_id": "case_008_star_ground_analog_digital_split",
+  "violations": [
+    {
+      "type": "isolated_island",
+      "net": "AGND",
+      "polygon_area_mm2": 42.5,
+      "severity": "error",
+      "location": [
+        85.0,
+        114.0
+      ]
+    },
+    {
+      "type": "ground_loop_clearance",
+      "nets": [
+        "AGND",
+        "GND"
+      ],
+      "clearance_mm": 0.11,
+      "rule_mm": 0.25,
+      "severity": "error",
+      "location": [
+        89.5,
+        110.2
+      ]
+    }
+  ],
+  "violation_count": 2
+}

@@ -1,0 +1,29 @@
+{
+  "case_id": "case_009_thermal_relief_starvation_high_current",
+  "violations": [
+    {
+      "type": "thermal_relief_insufficient_spokes",
+      "footprint": "L1",
+      "pad": "1",
+      "available_spokes": 1,
+      "required_spokes": 4,
+      "severity": "error",
+      "location": [
+        88.5,
+        98.2
+      ]
+    },
+    {
+      "type": "current_density_overload",
+      "net": "SW_NODE",
+      "trace_width_mm": 0.2,
+      "required_mm": 0.6,
+      "severity": "warning",
+      "location": [
+        89.0,
+        99.0
+      ]
+    }
+  ],
+  "violation_count": 2
+}

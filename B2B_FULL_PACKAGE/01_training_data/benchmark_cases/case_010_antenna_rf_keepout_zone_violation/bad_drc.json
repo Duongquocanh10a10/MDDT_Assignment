@@ -1,0 +1,28 @@
+{
+  "case_id": "case_010_antenna_rf_keepout_zone_violation",
+  "violations": [
+    {
+      "type": "keepout_intrusion",
+      "zone": "Antenna_Keepout",
+      "item": "segment (SPI_CLK)",
+      "penetration_mm": 1.82,
+      "severity": "error",
+      "location": [
+        95.0,
+        55.2
+      ]
+    },
+    {
+      "type": "copper_edge_clearance",
+      "item": "segment (SPI_CLK)",
+      "edge_dist_mm": 0.14,
+      "rule_mm": 0.4,
+      "severity": "error",
+      "location": [
+        96.2,
+        54.8
+      ]
+    }
+  ],
+  "violation_count": 2
+}

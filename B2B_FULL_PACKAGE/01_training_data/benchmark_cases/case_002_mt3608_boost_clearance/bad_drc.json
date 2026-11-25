@@ -1,0 +1,18 @@
+[
+  {
+    "type": "clearance",
+    "net1": "GND",
+    "net2": "BST_FB",
+    "clearance": 0.15,
+    "required": 0.15,
+    "pos": "Via GND(91.675,104.0) vs Wire BST_FB F.Cu (90.6375,104.55)->(92.5,104.55)"
+  },
+  {
+    "type": "clearance",
+    "net1": "SW_NODE",
+    "net2": "U4.6",
+    "clearance": 0.15,
+    "required": 0.15,
+    "pos": "Wire SW_NODE(90.6375,107.1)->(86.25,107.1) vs Pad U4.6"
+  }
+]

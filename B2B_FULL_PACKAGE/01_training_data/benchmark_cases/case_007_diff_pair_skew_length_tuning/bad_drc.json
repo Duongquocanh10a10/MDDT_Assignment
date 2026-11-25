@@ -1,0 +1,33 @@
+{
+  "case_id": "case_007_diff_pair_skew_length_tuning",
+  "violations": [
+    {
+      "type": "length_mismatch",
+      "nets": [
+        "USB_D+",
+        "USB_D-"
+      ],
+      "delta_mm": 4.21,
+      "severity": "error",
+      "location": [
+        79.2,
+        85.5
+      ]
+    },
+    {
+      "type": "differential_clearance",
+      "nets": [
+        "USB_D+",
+        "USB_D-"
+      ],
+      "spacing_mm": 0.12,
+      "rule_mm": 0.2,
+      "severity": "error",
+      "location": [
+        82.1,
+        86.0
+      ]
+    }
+  ],
+  "violation_count": 2
+}

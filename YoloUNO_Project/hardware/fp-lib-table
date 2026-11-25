@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "YoloUNO")(type "KiCad")(uri "${KIPRJMOD}/libraries/YoloUNO.pretty")(options "")(descr "Yolo UNO Project Self-Contained Footprint Library"))
+)

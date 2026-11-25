@@ -1,0 +1,28 @@
+{
+  "case_id": "case_012_coplanar_waveguide_crosstalk",
+  "violations": [
+    {
+      "type": "crosstalk_proximity_violation",
+      "victim": "PH_ANALOG",
+      "aggressor": "I2C_SCL",
+      "coupling_length_mm": 22.4,
+      "clearance_mm": 0.18,
+      "rule_mm": 0.75,
+      "severity": "error",
+      "location": [
+        84.2,
+        116.5
+      ]
+    },
+    {
+      "type": "missing_guard_ring_ground",
+      "net": "PH_ANALOG",
+      "severity": "error",
+      "location": [
+        84.0,
+        115.0
+      ]
+    }
+  ],
+  "violation_count": 2
+}

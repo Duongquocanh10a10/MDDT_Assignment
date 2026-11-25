@@ -1,0 +1,11 @@
+[
+  {
+    "type": "clearance",
+    "net1": "VBUS",
+    "net2": "VBAT_RTC",
+    "clearance": 0.149999,
+    "required": 0.15,
+    "pos": "(80.545, 93.950)",
+    "layer": "B.Cu"
+  }
+]

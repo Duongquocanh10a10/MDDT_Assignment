@@ -1,0 +1,2186 @@
+** Drc report for WaterSensor.kicad_pcb **
+** Created on 2026-10-02T06:58:23 **
+** Report includes: Errors, Warnings, Exclusions **
+
+** Found 523 DRC violations **
+[shorting_items]: Items shorting two nets (nets GND and VBAT_SW)
+    Local override; error
+    @(80.5450 mm, 86.2500 mm): Track [GND] on F.Cu, length 0.1680 mm
+    @(80.7500 mm, 99.5000 mm): Track [VBAT_SW] on F.Cu, length 29.5700 mm
+[shorting_items]: Items shorting two nets (nets VBAT_RAW and GND)
+    Local override; error
+    @(93.9750 mm, 92.5000 mm): Track [VBAT_RAW] on F.Cu, length 3.0950 mm
+    @(93.2750 mm, 90.0000 mm): Track [GND] on F.Cu, length 0.5630 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0623 mm)
+    Local override; error
+    @(110.0000 mm, 105.7500 mm): Via [TDS_SENSE] on F.Cu - B.Cu
+    @(110.4500 mm, 105.0000 mm): Track [+3V3] on B.Cu, length 0.5630 mm
+[shorting_items]: Items shorting two nets (nets CP_DTR and CP_RTS)
+    Local override; error
+    @(94.5500 mm, 82.5500 mm): Track [CP_DTR] on F.Cu, length 0.0500 mm
+    @(94.6750 mm, 82.0000 mm): Pad 1 [CP_RTS] of R_RTS on F.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0582 mm)
+    Local override; error
+    @(92.6000 mm, 71.5500 mm): Via [SPI_SCK] on F.Cu - B.Cu
+    @(91.5000 mm, 70.7250 mm): Pad 2 [GND] of J_ANT on B.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,1231 mm)
+    Local override; error
+    @(104.4250 mm, 61.5000 mm): Via [GND] on F.Cu - B.Cu
+    @(104.9000 mm, 61.6500 mm): Track [SPI_MOSI] on B.Cu, length 0.1500 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0993 mm)
+    Local override; error
+    @(105.5000 mm, 80.2500 mm): Via [IO0] on F.Cu - B.Cu
+    @(105.0500 mm, 80.4000 mm): Track [SPI_MOSI] on B.Cu, length 0.1500 mm
+[shorting_items]: Items shorting two nets (nets CP_DTR and CP_RTS)
+    Local override; error
+    @(94.5000 mm, 82.5500 mm): Track [CP_DTR] on F.Cu, length 0.0500 mm
+    @(94.6750 mm, 82.0000 mm): Pad 1 [CP_RTS] of R_RTS on F.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0993 mm)
+    Local override; error
+    @(89.6000 mm, 86.8500 mm): Track [STDBY_LED] on B.Cu, length 2.1000 mm
+    @(89.4500 mm, 87.3000 mm): Via [CP_VDD] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0993 mm)
+    Local override; error
+    @(111.0500 mm, 75.1500 mm): Track [RX0] on F.Cu, length 0.1500 mm
+    @(110.4500 mm, 75.0000 mm): Via [GPS_RX] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,1000 mm)
+    Local override; error
+    @(81.3500 mm, 74.8500 mm): Via [CHIP_PU] on F.Cu - B.Cu
+    @(80.7500 mm, 99.5000 mm): Track [VBAT_SW] on F.Cu, length 29.5700 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0764 mm)
+    Local override; error
+    @(101.9100 mm, 75.5100 mm): Pad 21 [<no net>] of U6 on F.Cu
+    @(102.6500 mm, 76.5000 mm): Via [RX0] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0458 mm)
+    Local override; error
+    @(120.0000 mm, 83.0000 mm): PTH pad 2 [B_MINUS] of J_BAT
+    @(120.9500 mm, 81.9000 mm): Track [CHIP_PU] on F.Cu, length 0.7500 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,1329 mm)
+    Local override; error
+    @(86.3000 mm, 78.6000 mm): Via [CHIP_PU] on F.Cu - B.Cu
+    @(86.0000 mm, 79.5000 mm): Pad 1 [CC2] of R_CC2 on F.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0250 mm)
+    Local override; error
+    @(84.6500 mm, 109.2000 mm): Via [PH_ADC] on F.Cu - B.Cu
+    @(84.7250 mm, 110.0000 mm): Pad 1 [+5V_ANA] of C_U9_VCC on F.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0250 mm)
+    Local override; error
+    @(106.6500 mm, 108.1750 mm): Pad 15 [I2C_SDA] of U7 on B.Cu
+    @(106.1000 mm, 107.5500 mm): Via [VBAT_RTC] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0993 mm)
+    Local override; error
+    @(86.3000 mm, 95.7000 mm): Via [BST_FB] on F.Cu - B.Cu
+    @(85.8500 mm, 92.2500 mm): Track [PH_ADC] on B.Cu, length 3.3000 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0993 mm)
+    Local override; error
+    @(85.8500 mm, 95.5500 mm): Track [PH_ADC] on B.Cu, length 0.1500 mm
+    @(86.3000 mm, 95.7000 mm): Via [BST_FB] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0250 mm)
+    Local override; error
+    @(86.2750 mm, 110.0000 mm): Pad 2 [GND] of C_U9_VCC on F.Cu
+    @(86.3000 mm, 109.2000 mm): Via [PH_ADC] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0250 mm)
+    Local override; error
+    @(86.2750 mm, 110.0000 mm): Pad 2 [GND] of C_PH_FILT on B.Cu
+    @(86.3000 mm, 109.2000 mm): Via [PH_ADC] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,1397 mm)
+    Local override; error
+    @(109.0875 mm, 104.0000 mm): Pad 1 [TDS_SENSE] of R_TDS_REF on F.Cu
+    @(108.3500 mm, 103.0500 mm): Via [I2C_SCL] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,1397 mm)
+    Local override; error
+    @(110.9125 mm, 104.0000 mm): Pad 2 [+3V3] of R_TDS_REF on F.Cu
+    @(111.6500 mm, 103.0500 mm): Via [I2C_SCL] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,1135 mm)
+    Local override; error
+    @(96.5000 mm, 87.4500 mm): Pad 12 [<no net>] of U8 on F.Cu
+    @(96.8000 mm, 88.2000 mm): Via [RTC_INT] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0517 mm)
+    Local override; error
+    @(95.6000 mm, 88.2000 mm): Via [RTC_INT] on F.Cu - B.Cu
+    @(95.5000 mm, 87.4500 mm): Pad 10 [<no net>] of U8 on F.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,1150 mm)
+    Local override; error
+    @(97.4000 mm, 106.3500 mm): Via [RTC_INT] on F.Cu - B.Cu
+    @(97.3500 mm, 105.6350 mm): Pad 4 [<no net>] of U7 on B.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0576 mm)
+    Local override; error
+    @(104.4500 mm, 105.6000 mm): Via [TDS_PROBE_DRIVE] on F.Cu - B.Cu
+    @(105.1250 mm, 104.9500 mm): Pad 2 [GND] of Q1 on F.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0200 mm)
+    Local override; error
+    @(88.2500 mm, 85.2000 mm): Track [CHRG_ANODE] on F.Cu, length 0.0370 mm
+    @(89.0250 mm, 85.5950 mm): Pad 1 [GND] of U1 on F.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0200 mm)
+    Local override; error
+    @(88.2870 mm, 85.2000 mm): Track [CHRG_ANODE] on F.Cu, length 0.0250 mm
+    @(89.0250 mm, 85.5950 mm): Pad 1 [GND] of U1 on F.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0200 mm)
+    Local override; error
+    @(88.2500 mm, 84.7500 mm): Track [CHRG_ANODE] on F.Cu, length 0.4500 mm
+    @(89.0250 mm, 85.5950 mm): Pad 1 [GND] of U1 on F.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,1100 mm)
+    Local override; error
+    @(90.5500 mm, 92.5000 mm): Pad 1 [VBAT_RAW] of C_BAT_CHG on F.Cu
+    @(89.9000 mm, 91.5000 mm): Via [BST_FB] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0625 mm)
+    Local override; error
+    @(86.3000 mm, 91.5000 mm): Via [BST_FB] on F.Cu - B.Cu
+    @(86.8625 mm, 69.9300 mm): Track [VBAT_SW] on F.Cu, length 22.1200 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,1375 mm)
+    Local override; error
+    @(87.5000 mm, 91.5000 mm): Via [BST_FB] on F.Cu - B.Cu
+    @(86.8625 mm, 69.9300 mm): Track [VBAT_SW] on F.Cu, length 22.1200 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0993 mm)
+    Local override; error
+    @(85.5500 mm, 91.0500 mm): Track [PH_ADC] on B.Cu, length 0.3000 mm
+    @(85.1000 mm, 91.5000 mm): Via [BST_FB] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0993 mm)
+    Local override; error
+    @(103.8500 mm, 85.2000 mm): Track [ONEWIRE_TEMP] on B.Cu, length 0.1500 mm
+    @(104.3000 mm, 85.0500 mm): Via [DW01_CS] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0993 mm)
+    Local override; error
+    @(103.8500 mm, 106.9500 mm): Via [ONEWIRE_TEMP] on F.Cu - B.Cu
+    @(104.3000 mm, 107.4000 mm): Track [TDS_PROBE_DRIVE] on B.Cu, length 0.3000 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0993 mm)
+    Local override; error
+    @(103.8500 mm, 106.9500 mm): Track [ONEWIRE_TEMP] on B.Cu, length 21.7500 mm
+    @(104.3000 mm, 85.0500 mm): Via [DW01_CS] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0993 mm)
+    Local override; error
+    @(96.5000 mm, 82.5000 mm): Track [CP_RTS] on F.Cu, length 0.0500 mm
+    @(96.3500 mm, 82.0500 mm): Via [N_Q4_B] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0993 mm)
+    Local override; error
+    @(97.1000 mm, 82.5000 mm): Track [CP_RTS] on B.Cu, length 0.6000 mm
+    @(96.3500 mm, 82.0500 mm): Via [N_Q4_B] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0471 mm)
+    Local override; error
+    @(96.3500 mm, 82.0500 mm): Track [N_Q4_B] on F.Cu, length 0.0250 mm
+    @(96.5000 mm, 82.5500 mm): Pad 24 [CP_RTS] of U8 on F.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0601 mm)
+    Local override; error
+    @(96.3250 mm, 82.0500 mm): Track [N_Q4_B] on F.Cu, length 0.0500 mm
+    @(96.5000 mm, 82.5500 mm): Pad 24 [CP_RTS] of U8 on F.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0500 mm)
+    Local override; error
+    @(113.6750 mm, 99.5000 mm): Track [VBAT_RAW] on F.Cu, length 22.5000 mm
+    @(114.2000 mm, 83.4000 mm): Via [OD_GATE] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0500 mm)
+    Local override; error
+    @(116.0000 mm, 83.4000 mm): Via [OD_GATE] on F.Cu - B.Cu
+    @(116.1375 mm, 84.0500 mm): Pad 6 [DRAIN_U3] of U3 on F.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0500 mm)
+    Local override; error
+    @(114.2000 mm, 86.5500 mm): Via [OC_GATE] on F.Cu - B.Cu
+    @(113.6750 mm, 99.5000 mm): Track [VBAT_RAW] on F.Cu, length 22.5000 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,1123 mm)
+    Local override; error
+    @(85.2250 mm, 80.0000 mm): Pad 1 [+3V3] of C_MCU_DEC on F.Cu
+    @(85.5500 mm, 79.3500 mm): Track [CC2] on F.Cu, length 0.1500 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,1123 mm)
+    Local override; error
+    @(85.8500 mm, 79.3500 mm): Track [CC2] on F.Cu, length 0.3000 mm
+    @(85.2250 mm, 80.0000 mm): Pad 1 [+3V3] of C_MCU_DEC on F.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0750 mm)
+    Local override; error
+    @(91.1000 mm, 83.8500 mm): Via [CHRG_LED] on F.Cu - B.Cu
+    @(91.2125 mm, 83.0000 mm): Pad 1 [STDBY_LED] of D_STDBY on F.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0750 mm)
+    Local override; error
+    @(92.7875 mm, 83.0000 mm): Pad 2 [STDBY_ANODE] of D_STDBY on F.Cu
+    @(92.6000 mm, 83.8500 mm): Via [CHRG_LED] on F.Cu - B.Cu
+[shorting_items]: Items shorting two nets (nets CHRG_LED and VBAT_SW)
+    Local override; error
+    @(86.7500 mm, 82.9500 mm): Via [CHRG_LED] on F.Cu - B.Cu
+    @(86.8625 mm, 69.9300 mm): Track [VBAT_SW] on F.Cu, length 22.1200 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,1250 mm)
+    Local override; error
+    @(90.5000 mm, 86.8250 mm): Track [VBUS] on F.Cu, length 3.0500 mm
+    @(93.3500 mm, 87.4500 mm): Via [CHRG_LED] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0750 mm)
+    Local override; error
+    @(81.8000 mm, 77.8500 mm): Via [CC1] on F.Cu - B.Cu
+    @(81.6750 mm, 77.0000 mm): Pad 2 [GND] of R_CC1 on F.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0500 mm)
+    Local override; error
+    @(114.2000 mm, 99.0000 mm): Via [LCD_BL_PWM] on F.Cu - B.Cu
+    @(113.6750 mm, 99.5000 mm): Track [VBAT_RAW] on F.Cu, length 22.5000 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0500 mm)
+    Local override; error
+    @(95.0000 mm, 113.4000 mm): Via [PH_OFFSET] on F.Cu - B.Cu
+    @(95.0000 mm, 115.0000 mm): PTH pad 1 [PH_SIGNAL] of J_BNC
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0850 mm)
+    Local override; error
+    @(87.9750 mm, 103.8650 mm): Pad 7 [LM358B_OUT] of U9 on F.Cu
+    @(88.5500 mm, 104.5500 mm): Via [PH_OFFSET] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0500 mm)
+    Local override; error
+    @(95.0000 mm, 113.4000 mm): Via [PH_OFFSET] on F.Cu - B.Cu
+    @(95.0000 mm, 115.0000 mm): PTH pad 1 [PH_SIGNAL] of J_BNC
+[shorting_items]: Items shorting two nets (nets CHRG_ANODE and VBUS)
+    Local override; error
+    @(88.2500 mm, 84.7500 mm): Track [CHRG_ANODE] on F.Cu, length 0.4500 mm
+    @(88.2870 mm, 80.5000 mm): Track [VBUS] on F.Cu, length 6.3250 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0500 mm)
+    Local override; error
+    @(95.0000 mm, 113.4000 mm): Via [PH_OFFSET] on F.Cu - B.Cu
+    @(95.0000 mm, 115.0000 mm): PTH pad 1 [PH_SIGNAL] of J_BNC
+[shorting_items]: Items shorting two nets (nets CP_VDD and VBUS)
+    Local override; error
+    @(89.5000 mm, 87.2750 mm): Pad 1 [CP_VDD] of C_CP_VDD on F.Cu
+    @(89.0250 mm, 86.8250 mm): Track [VBUS] on F.Cu, length 2.5800 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,1258 mm)
+    Local override; error
+    @(93.9500 mm, 86.8650 mm): Track [CHRG_LED] on F.Cu, length 0.0150 mm
+    @(93.5500 mm, 86.8250 mm): Track [VBUS] on F.Cu, length 0.3250 mm
+[shorting_items]: Items shorting two nets (nets USB_D- and VBUS)
+    Local override; error
+    @(93.5500 mm, 85.5000 mm): Pad 5 [USB_D-] of U8 on F.Cu
+    @(93.9750 mm, 85.5950 mm): Track [VBUS] on F.Cu, length 0.5250 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0500 mm)
+    Local override; error
+    @(95.0000 mm, 113.4000 mm): Via [PH_OFFSET] on F.Cu - B.Cu
+    @(95.0000 mm, 115.0000 mm): PTH pad 1 [PH_SIGNAL] of J_BNC
+[shorting_items]: Items shorting two nets (nets CHRG_LED and VBUS)
+    Local override; error
+    @(86.7125 mm, 83.0000 mm): Pad 1 [CHRG_LED] of D_CHRG on F.Cu
+    @(87.0500 mm, 85.4500 mm): Track [VBUS] on F.Cu, length 4.9500 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0750 mm)
+    Local override; error
+    @(93.9500 mm, 86.8650 mm): Track [CHRG_LED] on F.Cu, length 0.0150 mm
+    @(93.5500 mm, 86.5000 mm): Track [VBUS] on F.Cu, length 0.4250 mm
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(80.6000 mm, 81.7500 mm): Track [CC1] on F.Cu, length 0.0550 mm
+    @(80.5450 mm, 80.5500 mm): Track [VBUS] on F.Cu, length 4.9000 mm
+[shorting_items]: Items shorting two nets (nets USB_D- and VBUS)
+    Local override; error
+    @(93.5500 mm, 85.5000 mm): Pad 5 [USB_D-] of U8 on F.Cu
+    @(93.9750 mm, 86.5000 mm): Track [VBUS] on F.Cu, length 0.9050 mm
+[shorting_items]: Items shorting two nets (nets VBUS and GND)
+    Local override; error
+    @(87.0500 mm, 80.5000 mm): Track [VBUS] on F.Cu, length 1.2370 mm
+    @(88.9500 mm, 80.5000 mm): Pad 2 [GND] of C_VBUS on F.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,1258 mm)
+    Local override; error
+    @(90.5000 mm, 86.8250 mm): Track [VBUS] on F.Cu, length 3.0500 mm
+    @(93.9500 mm, 86.8650 mm): Track [CHRG_LED] on F.Cu, length 0.0150 mm
+[shorting_items]: Items shorting two nets (nets VBUS and CP_VDD)
+    Local override; error
+    @(88.2870 mm, 86.8250 mm): Track [VBUS] on F.Cu, length 0.7380 mm
+    @(89.5000 mm, 87.2750 mm): Pad 1 [CP_VDD] of C_CP_VDD on F.Cu
+[shorting_items]: Items shorting two nets (nets VBUS and GND)
+    Local override; error
+    @(89.5000 mm, 89.4050 mm): Track [VBUS] on F.Cu, length 5.6300 mm
+    @(89.5000 mm, 85.7250 mm): Pad 2 [GND] of C_CP_VDD on F.Cu
+[shorting_items]: Items shorting two nets (nets VBUS and GND)
+    Local override; error
+    @(94.5000 mm, 85.5950 mm): Track [VBUS] on F.Cu, length 1.8550 mm
+    @(96.0000 mm, 85.0000 mm): Pad 29 [GND] of U8 on F.Cu
+[shorting_items]: Items shorting two nets (nets VBUS and GND)
+    Local override; error
+    @(90.5000 mm, 83.7750 mm): Track [VBUS] on F.Cu, length 3.0500 mm
+    @(91.5000 mm, 87.5000 mm): Pad 9 [GND] of U1 on F.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0625 mm)
+    Local override; error
+    @(86.3000 mm, 88.3500 mm): Via [USB_D+] on F.Cu - B.Cu
+    @(86.8625 mm, 69.9300 mm): Track [VBAT_SW] on F.Cu, length 22.1200 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,1375 mm)
+    Local override; error
+    @(87.5000 mm, 88.3500 mm): Via [USB_D+] on F.Cu - B.Cu
+    @(86.8625 mm, 69.9300 mm): Track [VBAT_SW] on F.Cu, length 22.1200 mm
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(80.5450 mm, 80.5500 mm): Track [VBUS] on F.Cu, length 4.9000 mm
+    @(80.5450 mm, 83.7000 mm): Track [USB_D+] on F.Cu, length 0.0500 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,1375 mm)
+    Local override; error
+    @(87.5000 mm, 86.1000 mm): Via [USB_D+] on F.Cu - B.Cu
+    @(86.8625 mm, 69.9300 mm): Track [VBAT_SW] on F.Cu, length 22.1200 mm
+[shorting_items]: Items shorting two nets (nets VBUS and USB_D+)
+    Local override; error
+    @(80.5450 mm, 80.5500 mm): Track [VBUS] on F.Cu, length 4.9000 mm
+    @(81.5000 mm, 82.8000 mm): Track [USB_D+] on F.Cu, length 0.9000 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0750 mm)
+    Local override; error
+    @(86.1750 mm, 87.5000 mm): Pad 2 [GND] of R_PROG on B.Cu
+    @(86.3000 mm, 88.3500 mm): Via [USB_D+] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0884 mm)
+    Local override; error
+    @(87.8250 mm, 87.5000 mm): Pad 1 [U1_PROG] of R_PROG on B.Cu
+    @(87.5000 mm, 88.3500 mm): Via [USB_D+] on F.Cu - B.Cu
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(80.5450 mm, 80.5500 mm): Track [VBUS] on F.Cu, length 4.9000 mm
+    @(80.5450 mm, 82.8000 mm): Track [USB_D+] on F.Cu, length 0.0500 mm
+[shorting_items]: Items shorting two nets (nets VBUS and USB_D+)
+    Local override; error
+    @(80.5450 mm, 80.5500 mm): Track [VBUS] on F.Cu, length 4.9000 mm
+    @(83.6000 mm, 83.7000 mm): Track [USB_D+] on F.Cu, length 3.0000 mm
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(80.5450 mm, 83.7500 mm): Track [USB_D+] on F.Cu, length 0.0550 mm
+    @(80.5450 mm, 80.5500 mm): Track [VBUS] on F.Cu, length 4.9000 mm
+[shorting_items]: Items shorting two nets (nets USB_D+ and VBUS)
+    Local override; error
+    @(80.6000 mm, 83.7500 mm): Track [USB_D+] on F.Cu, length 0.0500 mm
+    @(80.5450 mm, 80.5500 mm): Track [VBUS] on F.Cu, length 4.9000 mm
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(80.6000 mm, 83.7000 mm): Track [USB_D+] on F.Cu, length 0.0550 mm
+    @(80.5450 mm, 80.5500 mm): Track [VBUS] on F.Cu, length 4.9000 mm
+[shorting_items]: Items shorting two nets (nets USB_D+ and VBUS)
+    Local override; error
+    @(80.6000 mm, 83.7000 mm): Track [USB_D+] on F.Cu, length 0.9000 mm
+    @(80.5450 mm, 80.5500 mm): Track [VBUS] on F.Cu, length 4.9000 mm
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(80.6000 mm, 82.8000 mm): Track [USB_D+] on F.Cu, length 0.0550 mm
+    @(80.5450 mm, 80.5500 mm): Track [VBUS] on F.Cu, length 4.9000 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,1300 mm)
+    Local override; error
+    @(93.9750 mm, 89.4050 mm): Track [VBAT_RAW] on F.Cu, length 1.7000 mm
+    @(95.0000 mm, 88.8000 mm): Via [CP_RST] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0750 mm)
+    Local override; error
+    @(94.5000 mm, 87.4500 mm): Pad 8 [VBUS] of U8 on F.Cu
+    @(95.0000 mm, 87.4500 mm): Via [CP_RST] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0993 mm)
+    Local override; error
+    @(95.1500 mm, 86.8500 mm): Track [RTC_INT] on B.Cu, length 0.1500 mm
+    @(95.0000 mm, 87.4500 mm): Via [CP_RST] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0750 mm)
+    Local override; error
+    @(90.5500 mm, 69.9300 mm): Track [VBAT_RAW] on F.Cu, length 22.5700 mm
+    @(91.1000 mm, 90.7500 mm): Via [CP_VDD] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0500 mm)
+    Local override; error
+    @(95.6750 mm, 89.4050 mm): Track [VBAT_RAW] on F.Cu, length 10.0950 mm
+    @(96.2000 mm, 90.0000 mm): Via [CP_VDD] on F.Cu - B.Cu
+[shorting_items]: Items shorting two nets (nets U1_PROG and CP_VDD)
+    Local override; error
+    @(89.0250 mm, 86.8650 mm): Pad 2 [U1_PROG] of U1 on F.Cu
+    @(89.4500 mm, 87.3000 mm): Via [CP_VDD] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0600 mm)
+    Local override; error
+    @(89.0250 mm, 86.8650 mm): Pad 2 [U1_PROG] of U1 on F.Cu
+    @(89.4500 mm, 87.3000 mm): Track [CP_VDD] on F.Cu, length 0.0500 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0350 mm)
+    Local override; error
+    @(89.5000 mm, 87.3000 mm): Track [CP_VDD] on F.Cu, length 0.0250 mm
+    @(89.0250 mm, 86.8650 mm): Pad 2 [U1_PROG] of U1 on F.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,1078 mm)
+    Local override; error
+    @(96.3250 mm, 82.0500 mm): Track [N_Q4_B] on F.Cu, length 0.0500 mm
+    @(96.5000 mm, 82.5000 mm): Via [CP_RTS] on F.Cu - B.Cu
+[shorting_items]: Items shorting two nets (nets CP_RTS and N_Q4_B)
+    Local override; error
+    @(96.5000 mm, 82.5000 mm): Via [CP_RTS] on F.Cu - B.Cu
+    @(96.3500 mm, 82.0500 mm): Via [N_Q4_B] on F.Cu - B.Cu
+[shorting_items]: Items shorting two nets (nets CP_RTS and N_Q4_B)
+    Local override; error
+    @(96.5000 mm, 82.5000 mm): Via [CP_RTS] on F.Cu - B.Cu
+    @(96.3500 mm, 82.0500 mm): Via [N_Q4_B] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0993 mm)
+    Local override; error
+    @(95.1500 mm, 77.4000 mm): Track [N_Q4_B] on B.Cu, length 3.6000 mm
+    @(95.6000 mm, 81.1500 mm): Via [CP_RTS] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0754 mm)
+    Local override; error
+    @(94.5000 mm, 82.5500 mm): Pad 28 [CP_DTR] of U8 on F.Cu
+    @(94.7000 mm, 81.1500 mm): Track [CP_RTS] on F.Cu, length 0.9000 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0601 mm)
+    Local override; error
+    @(94.5000 mm, 82.5500 mm): Pad 28 [CP_DTR] of U8 on F.Cu
+    @(94.6750 mm, 82.0500 mm): Track [CP_RTS] on F.Cu, length 0.0500 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0601 mm)
+    Local override; error
+    @(94.5000 mm, 82.5500 mm): Pad 28 [CP_DTR] of U8 on F.Cu
+    @(94.7000 mm, 82.0500 mm): Track [CP_RTS] on F.Cu, length 0.0250 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,1290 mm)
+    Local override; error
+    @(96.0500 mm, 89.1000 mm): Track [CP_RST] on F.Cu, length 0.1500 mm
+    @(95.6750 mm, 89.4050 mm): Track [VBAT_RAW] on F.Cu, length 10.0950 mm
+[shorting_items]: Items shorting two nets (nets B_MINUS and VBAT_RAW)
+    Local override; error
+    @(101.2750 mm, 99.5000 mm): Pad 2 [B_MINUS] of C_VDD on F.Cu
+    @(95.6750 mm, 99.5000 mm): Track [VBAT_RAW] on F.Cu, length 18.0000 mm
+[shorting_items]: Items shorting two nets (nets CP_RTS and N_Q4_B)
+    Local override; error
+    @(96.5000 mm, 82.5000 mm): Via [CP_RTS] on F.Cu - B.Cu
+    @(96.3500 mm, 82.0500 mm): Via [N_Q4_B] on F.Cu - B.Cu
+[shorting_items]: Items shorting two nets (nets VBAT_RAW and )
+    Local override; error
+    @(79.2500 mm, 69.9300 mm): Track [VBAT_RAW] on F.Cu, length 11.3000 mm
+    @(83.7500 mm, 69.9300 mm): Pad 1 [<no net>] of SW1 on F.Cu
+[shorting_items]: Items shorting two nets (nets CP_RTS and N_Q4_B)
+    Local override; error
+    @(96.5000 mm, 82.5000 mm): Track [CP_RTS] on F.Cu, length 0.0500 mm
+    @(96.3250 mm, 82.0000 mm): Pad 2 [N_Q4_B] of R_RTS on F.Cu
+[shorting_items]: Items shorting two nets (nets VBAT_RAW and SW_NODE)
+    Local override; error
+    @(90.5500 mm, 92.5000 mm): Track [VBAT_RAW] on F.Cu, length 3.4250 mm
+    @(93.0000 mm, 93.0000 mm): Pad 2 [SW_NODE] of D1 on F.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0500 mm)
+    Local override; error
+    @(90.5500 mm, 69.9300 mm): Track [VBAT_RAW] on F.Cu, length 22.5700 mm
+    @(91.2125 mm, 83.0000 mm): Pad 1 [STDBY_LED] of D_STDBY on F.Cu
+[shorting_items]: Items shorting two nets (nets IO0 and VBAT_RAW)
+    Local override; error
+    @(113.1750 mm, 80.2600 mm): Pad 1 [IO0] of R_IO0 on F.Cu
+    @(113.6750 mm, 99.5000 mm): Track [VBAT_RAW] on F.Cu, length 22.5000 mm
+[shorting_items]: Items shorting two nets (nets SW_NODE and VBAT_RAW)
+    Local override; error
+    @(93.0000 mm, 93.0000 mm): Pad 2 [SW_NODE] of D1 on F.Cu
+    @(93.9750 mm, 92.5000 mm): Track [VBAT_RAW] on F.Cu, length 3.0950 mm
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(80.7500 mm, 69.9300 mm): Track [VBAT_SW] on F.Cu, length 6.1125 mm
+    @(79.2500 mm, 69.9300 mm): Track [VBAT_RAW] on F.Cu, length 11.3000 mm
+[shorting_items]: Items shorting two nets (nets VBAT_SW and GND)
+    Local override; error
+    @(80.7500 mm, 99.5000 mm): Track [VBAT_SW] on F.Cu, length 29.5700 mm
+    @(80.5450 mm, 86.2500 mm): Pad A12 [GND] of J_USB on F.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,1290 mm)
+    Local override; error
+    @(93.9750 mm, 89.4050 mm): Track [VBAT_RAW] on F.Cu, length 1.7000 mm
+    @(96.0500 mm, 89.1000 mm): Track [CP_RST] on F.Cu, length 0.1500 mm
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(80.5450 mm, 85.4500 mm): Track [VBUS] on F.Cu, length 6.5050 mm
+    @(86.8625 mm, 69.9300 mm): Track [VBAT_SW] on F.Cu, length 22.1200 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0993 mm)
+    Local override; error
+    @(108.9500 mm, 108.1500 mm): Via [I2C_SDA] on F.Cu - B.Cu
+    @(109.1000 mm, 107.7000 mm): Track [ONEWIRE_TEMP] on F.Cu, length 0.7500 mm
+[shorting_items]: Items shorting two nets (nets LM358B_OUT and +5V_ANA)
+    Local override; error
+    @(87.9500 mm, 105.1350 mm): Track [LM358B_OUT] on F.Cu, length 0.0150 mm
+    @(87.9750 mm, 110.0000 mm): Track [+5V_ANA] on F.Cu, length 7.4050 mm
+[shorting_items]: Items shorting two nets (nets GND and +5V_ANA)
+    Local override; error
+    @(86.2750 mm, 110.0000 mm): Pad 2 [GND] of C_U9_VCC on F.Cu
+    @(84.7250 mm, 110.0000 mm): Track [+5V_ANA] on F.Cu, length 3.2500 mm
+[shorting_items]: Items shorting two nets (nets LM358B_OUT and +5V_ANA)
+    Local override; error
+    @(87.9500 mm, 105.1500 mm): Track [LM358B_OUT] on F.Cu, length 0.3000 mm
+    @(87.9750 mm, 110.0000 mm): Track [+5V_ANA] on F.Cu, length 7.4050 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0750 mm)
+    Local override; error
+    @(83.5000 mm, 107.7875 mm): Track [+5V_ANA] on F.Cu, length 7.7625 mm
+    @(84.0500 mm, 108.6000 mm): Via [PH_SIGNAL] on F.Cu - B.Cu
+[shorting_items]: Items shorting two nets (nets LM358B_OUT and +5V_ANA)
+    Local override; error
+    @(87.5000 mm, 104.1000 mm): Track [LM358B_OUT] on F.Cu, length 0.4500 mm
+    @(87.9750 mm, 110.0000 mm): Track [+5V_ANA] on F.Cu, length 7.4050 mm
+[shorting_items]: Items shorting two nets (nets PH_AMP_OUT and PH_SIGNAL)
+    Local override; error
+    @(84.6500 mm, 105.3000 mm): Via [PH_AMP_OUT] on F.Cu - B.Cu
+    @(84.6500 mm, 104.5500 mm): Track [PH_SIGNAL] on B.Cu, length 0.4500 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0993 mm)
+    Local override; error
+    @(84.6500 mm, 105.3000 mm): Via [PH_AMP_OUT] on F.Cu - B.Cu
+    @(84.2000 mm, 105.0000 mm): Track [PH_SIGNAL] on B.Cu, length 0.1500 mm
+[shorting_items]: Items shorting two nets (nets PH_AMP_OUT and PH_SIGNAL)
+    Local override; error
+    @(84.6500 mm, 105.3000 mm): Via [PH_AMP_OUT] on F.Cu - B.Cu
+    @(84.6500 mm, 105.0000 mm): Track [PH_SIGNAL] on B.Cu, length 0.4500 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0993 mm)
+    Local override; error
+    @(84.2000 mm, 105.1500 mm): Track [PH_SIGNAL] on B.Cu, length 0.1500 mm
+    @(84.6500 mm, 105.3000 mm): Via [PH_AMP_OUT] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,1437 mm)
+    Local override; error
+    @(83.5000 mm, 107.7875 mm): Pad 2 [+5V_ANA] of FB1 on F.Cu
+    @(84.0500 mm, 108.6000 mm): Via [PH_SIGNAL] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0850 mm)
+    Local override; error
+    @(83.0250 mm, 103.8650 mm): Pad 2 [PH_AMP_OUT] of U9 on F.Cu
+    @(83.7500 mm, 104.5500 mm): Via [PH_SIGNAL] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0250 mm)
+    Local override; error
+    @(84.6750 mm, 104.5000 mm): Pad 2 [PH_SIGNAL] of R_PH_BIAS on B.Cu
+    @(84.6500 mm, 105.3000 mm): Via [PH_AMP_OUT] on F.Cu - B.Cu
+[shorting_items]: Items shorting two nets (nets VBAT_RAW and B_MINUS)
+    Local override; error
+    @(113.6750 mm, 99.5000 mm): Track [VBAT_RAW] on F.Cu, length 22.5000 mm
+    @(113.9000 mm, 85.9500 mm): Track [B_MINUS] on F.Cu, length 1.2000 mm
+[shorting_items]: Items shorting two nets (nets B_MINUS and VBAT_RAW)
+    Local override; error
+    @(101.7500 mm, 99.4500 mm): Track [B_MINUS] on F.Cu, length 0.4500 mm
+    @(95.6750 mm, 99.5000 mm): Track [VBAT_RAW] on F.Cu, length 18.0000 mm
+[shorting_items]: Items shorting two nets (nets B_MINUS and VBAT_RAW)
+    Local override; error
+    @(113.8625 mm, 85.9500 mm): Track [B_MINUS] on F.Cu, length 0.0375 mm
+    @(113.6750 mm, 99.5000 mm): Track [VBAT_RAW] on F.Cu, length 22.5000 mm
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(101.3000 mm, 99.5000 mm): Track [B_MINUS] on F.Cu, length 0.0500 mm
+    @(95.6750 mm, 99.5000 mm): Track [VBAT_RAW] on F.Cu, length 18.0000 mm
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(112.5500 mm, 85.9500 mm): Track [B_MINUS] on F.Cu, length 1.3500 mm
+    @(113.6750 mm, 99.5000 mm): Track [VBAT_RAW] on F.Cu, length 22.5000 mm
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(101.2750 mm, 99.5000 mm): Track [B_MINUS] on F.Cu, length 0.0250 mm
+    @(95.6750 mm, 99.5000 mm): Track [VBAT_RAW] on F.Cu, length 18.0000 mm
+[shorting_items]: Items shorting two nets (nets B_MINUS and VBAT_RAW)
+    Local override; error
+    @(101.3000 mm, 99.4500 mm): Track [B_MINUS] on F.Cu, length 0.4500 mm
+    @(95.6750 mm, 99.5000 mm): Track [VBAT_RAW] on F.Cu, length 18.0000 mm
+[shorting_items]: Items shorting two nets (nets B_MINUS and VBAT_RAW)
+    Local override; error
+    @(113.9000 mm, 85.9500 mm): Track [B_MINUS] on F.Cu, length 0.0375 mm
+    @(113.6750 mm, 99.5000 mm): Track [VBAT_RAW] on F.Cu, length 22.5000 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0250 mm)
+    Local override; error
+    @(101.2750 mm, 99.5000 mm): Pad 2 [B_MINUS] of C_VDD on F.Cu
+    @(101.3000 mm, 98.7000 mm): Via [DW01_VDD] on F.Cu - B.Cu
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(95.6750 mm, 99.5000 mm): Track [VBAT_RAW] on F.Cu, length 18.0000 mm
+    @(99.7250 mm, 99.5000 mm): Track [DW01_VDD] on F.Cu, length 0.0750 mm
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(95.6750 mm, 99.5000 mm): Track [VBAT_RAW] on F.Cu, length 18.0000 mm
+    @(99.7250 mm, 99.5000 mm): Track [DW01_VDD] on F.Cu, length 0.0750 mm
+[shorting_items]: Items shorting two nets (nets DW01_VDD and VBAT_RAW)
+    Local override; error
+    @(100.1000 mm, 99.4500 mm): Track [DW01_VDD] on F.Cu, length 0.4500 mm
+    @(95.6750 mm, 99.5000 mm): Track [VBAT_RAW] on F.Cu, length 18.0000 mm
+[shorting_items]: Items shorting two nets (nets DW01_VDD and VBAT_RAW)
+    Local override; error
+    @(99.3500 mm, 99.4500 mm): Track [DW01_VDD] on F.Cu, length 0.4500 mm
+    @(95.6750 mm, 99.5000 mm): Track [VBAT_RAW] on F.Cu, length 18.0000 mm
+[shorting_items]: Items shorting two nets (nets DW01_VDD and VBAT_RAW)
+    Local override; error
+    @(97.4000 mm, 99.4500 mm): Track [DW01_VDD] on F.Cu, length 0.0750 mm
+    @(95.6750 mm, 99.5000 mm): Track [VBAT_RAW] on F.Cu, length 18.0000 mm
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(99.6500 mm, 99.5000 mm): Track [DW01_VDD] on F.Cu, length 0.0500 mm
+    @(95.6750 mm, 99.5000 mm): Track [VBAT_RAW] on F.Cu, length 18.0000 mm
+[shorting_items]: Items shorting two nets (nets DW01_VDD and VBAT_RAW)
+    Local override; error
+    @(97.4000 mm, 99.0000 mm): Track [DW01_VDD] on F.Cu, length 0.4500 mm
+    @(95.6750 mm, 99.5000 mm): Track [VBAT_RAW] on F.Cu, length 18.0000 mm
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(97.3250 mm, 99.4500 mm): Track [DW01_VDD] on F.Cu, length 0.0500 mm
+    @(95.6750 mm, 99.5000 mm): Track [VBAT_RAW] on F.Cu, length 18.0000 mm
+[shorting_items]: Items shorting two nets (nets DW01_VDD and VBAT_RAW)
+    Local override; error
+    @(99.6500 mm, 99.4500 mm): Track [DW01_VDD] on F.Cu, length 0.3000 mm
+    @(95.6750 mm, 99.5000 mm): Track [VBAT_RAW] on F.Cu, length 18.0000 mm
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(99.6500 mm, 99.5000 mm): Track [DW01_VDD] on F.Cu, length 0.0500 mm
+    @(95.6750 mm, 99.5000 mm): Track [VBAT_RAW] on F.Cu, length 18.0000 mm
+[shorting_items]: Items shorting two nets (nets DW01_VDD and VBAT_RAW)
+    Local override; error
+    @(99.6500 mm, 99.4500 mm): Track [DW01_VDD] on F.Cu, length 0.4500 mm
+    @(95.6750 mm, 99.5000 mm): Track [VBAT_RAW] on F.Cu, length 18.0000 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0993 mm)
+    Local override; error
+    @(81.8000 mm, 77.8500 mm): Via [CC1] on F.Cu - B.Cu
+    @(82.2500 mm, 77.4000 mm): Track [CHIP_PU] on B.Cu, length 0.3000 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0993 mm)
+    Local override; error
+    @(81.8000 mm, 77.8500 mm): Via [CC1] on F.Cu - B.Cu
+    @(81.9500 mm, 77.4000 mm): Track [CHIP_PU] on B.Cu, length 0.3000 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0750 mm)
+    Local override; error
+    @(90.5500 mm, 69.9300 mm): Track [VBAT_RAW] on F.Cu, length 22.5700 mm
+    @(91.1000 mm, 79.0500 mm): Via [CHIP_PU] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0750 mm)
+    Local override; error
+    @(96.3250 mm, 82.0000 mm): Pad 2 [N_Q4_B] of R_RTS on F.Cu
+    @(96.5000 mm, 81.1500 mm): Via [CHIP_PU] on F.Cu - B.Cu
+[shorting_items]: Items shorting two nets (nets CHIP_PU and GND)
+    Local override; error
+    @(81.6500 mm, 76.0500 mm): Via [CHIP_PU] on F.Cu - B.Cu
+    @(81.2000 mm, 76.0000 mm): Pad 2 [GND] of SW_EN on F.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,1000 mm)
+    Local override; error
+    @(80.1500 mm, 76.0500 mm): Via [CHIP_PU] on F.Cu - B.Cu
+    @(80.7500 mm, 99.5000 mm): Track [VBAT_SW] on F.Cu, length 29.5700 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0500 mm)
+    Local override; error
+    @(114.2000 mm, 81.6000 mm): Via [CHIP_PU] on F.Cu - B.Cu
+    @(113.6750 mm, 99.5000 mm): Track [VBAT_RAW] on F.Cu, length 22.5000 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,1250 mm)
+    Local override; error
+    @(118.1000 mm, 81.7500 mm): Via [CHIP_PU] on F.Cu - B.Cu
+    @(117.5000 mm, 77.0000 mm): Track [VBAT_RAW] on F.Cu, length 6.0000 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,1375 mm)
+    Local override; error
+    @(87.5000 mm, 78.7500 mm): Via [CHIP_PU] on F.Cu - B.Cu
+    @(86.8625 mm, 69.9300 mm): Track [VBAT_SW] on F.Cu, length 22.1200 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,1150 mm)
+    Local override; error
+    @(113.0000 mm, 81.1500 mm): Via [CHIP_PU] on F.Cu - B.Cu
+    @(113.1750 mm, 80.2600 mm): Pad 1 [IO0] of R_IO0 on F.Cu
+[shorting_items]: Items shorting two nets (nets CHIP_PU and VBAT_RAW)
+    Local override; error
+    @(118.1000 mm, 81.7500 mm): Via [CHIP_PU] on F.Cu - B.Cu
+    @(117.5000 mm, 83.0000 mm): PTH pad 1 [VBAT_RAW] of J_BAT
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0993 mm)
+    Local override; error
+    @(82.8500 mm, 78.0000 mm): Via [CHIP_PU] on F.Cu - B.Cu
+    @(82.4000 mm, 77.5500 mm): Track [CC1] on F.Cu, length 0.3000 mm
+[shorting_items]: Items shorting two nets (nets CHIP_PU and VBAT_RAW)
+    Local override; error
+    @(118.1000 mm, 81.7500 mm): Via [CHIP_PU] on F.Cu - B.Cu
+    @(117.5000 mm, 83.0000 mm): PTH pad 1 [VBAT_RAW] of J_BAT
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,1250 mm)
+    Local override; error
+    @(116.9000 mm, 81.6000 mm): Via [CHIP_PU] on F.Cu - B.Cu
+    @(117.5000 mm, 77.0000 mm): Track [VBAT_RAW] on F.Cu, length 6.0000 mm
+[shorting_items]: Items shorting two nets (nets CHIP_PU and VBAT_RAW)
+    Local override; error
+    @(118.1000 mm, 81.7500 mm): Via [CHIP_PU] on F.Cu - B.Cu
+    @(117.5000 mm, 83.0000 mm): PTH pad 1 [VBAT_RAW] of J_BAT
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0993 mm)
+    Local override; error
+    @(81.8000 mm, 77.8500 mm): Via [CC1] on F.Cu - B.Cu
+    @(81.9500 mm, 78.3000 mm): Track [CHIP_PU] on F.Cu, length 0.7500 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,1000 mm)
+    Local override; error
+    @(116.9000 mm, 81.6000 mm): Via [CHIP_PU] on F.Cu - B.Cu
+    @(117.5000 mm, 83.0000 mm): PTH pad 1 [VBAT_RAW] of J_BAT
+[shorting_items]: Items shorting two nets (nets CHIP_PU and GND)
+    Local override; error
+    @(81.6500 mm, 76.0500 mm): Track [CHIP_PU] on F.Cu, length 0.0250 mm
+    @(81.2000 mm, 76.0000 mm): Pad 2 [GND] of SW_EN on F.Cu
+[shorting_items]: Items shorting two nets (nets CHIP_PU and GND)
+    Local override; error
+    @(81.6500 mm, 76.0000 mm): Track [CHIP_PU] on F.Cu, length 0.0500 mm
+    @(81.2000 mm, 76.0000 mm): Pad 2 [GND] of SW_EN on F.Cu
+[shorting_items]: Items shorting two nets (nets CHIP_PU and GND)
+    Local override; error
+    @(81.6750 mm, 76.0500 mm): Track [CHIP_PU] on F.Cu, length 0.0500 mm
+    @(81.2000 mm, 76.0000 mm): Pad 2 [GND] of SW_EN on F.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,1000 mm)
+    Local override; error
+    @(116.9000 mm, 81.6000 mm): Via [CHIP_PU] on F.Cu - B.Cu
+    @(117.5000 mm, 83.0000 mm): PTH pad 1 [VBAT_RAW] of J_BAT
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0458 mm)
+    Local override; error
+    @(120.0000 mm, 83.0000 mm): PTH pad 2 [B_MINUS] of J_BAT
+    @(120.2000 mm, 81.9000 mm): Track [CHIP_PU] on F.Cu, length 0.1500 mm
+[shorting_items]: Items shorting two nets (nets CHIP_PU and GND)
+    Local override; error
+    @(81.6750 mm, 76.0000 mm): Track [CHIP_PU] on F.Cu, length 0.0250 mm
+    @(81.2000 mm, 76.0000 mm): Pad 2 [GND] of SW_EN on F.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,1000 mm)
+    Local override; error
+    @(116.9000 mm, 81.6000 mm): Via [CHIP_PU] on F.Cu - B.Cu
+    @(117.5000 mm, 83.0000 mm): PTH pad 1 [VBAT_RAW] of J_BAT
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0993 mm)
+    Local override; error
+    @(81.8000 mm, 77.8500 mm): Via [CC1] on F.Cu - B.Cu
+    @(81.9500 mm, 78.4500 mm): Track [CHIP_PU] on F.Cu, length 0.1500 mm
+[shorting_items]: Items shorting two nets (nets CHIP_PU and GND)
+    Local override; error
+    @(81.6500 mm, 76.0500 mm): Track [CHIP_PU] on F.Cu, length 0.3000 mm
+    @(81.2000 mm, 76.0000 mm): Pad 2 [GND] of SW_EN on F.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0993 mm)
+    Local override; error
+    @(96.5000 mm, 82.5000 mm): Via [CP_RTS] on F.Cu - B.Cu
+    @(96.3500 mm, 83.1000 mm): Track [RX0] on B.Cu, length 0.1500 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0993 mm)
+    Local override; error
+    @(96.5000 mm, 82.5000 mm): Via [CP_RTS] on F.Cu - B.Cu
+    @(96.0500 mm, 82.9500 mm): Track [RX0] on B.Cu, length 0.3000 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0993 mm)
+    Local override; error
+    @(96.5000 mm, 82.5000 mm): Via [CP_RTS] on F.Cu - B.Cu
+    @(96.3500 mm, 82.9500 mm): Track [RX0] on B.Cu, length 0.3000 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0993 mm)
+    Local override; error
+    @(96.5000 mm, 82.5000 mm): Via [CP_RTS] on F.Cu - B.Cu
+    @(96.6500 mm, 82.9500 mm): Track [RX0] on B.Cu, length 0.1500 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0993 mm)
+    Local override; error
+    @(96.5000 mm, 82.5000 mm): Via [CP_RTS] on F.Cu - B.Cu
+    @(96.0500 mm, 82.6500 mm): Track [RX0] on B.Cu, length 0.1500 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0993 mm)
+    Local override; error
+    @(96.5000 mm, 82.5000 mm): Via [CP_RTS] on F.Cu - B.Cu
+    @(97.4000 mm, 82.9500 mm): Track [RX0] on B.Cu, length 0.7500 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,1051 mm)
+    Local override; error
+    @(102.6500 mm, 79.3500 mm): Via [RX0] on F.Cu - B.Cu
+    @(103.5625 mm, 79.9500 mm): Pad 2 [CP_RTS] of Q3 on F.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0250 mm)
+    Local override; error
+    @(95.0000 mm, 82.5500 mm): Pad 27 [<no net>] of U8 on F.Cu
+    @(95.4500 mm, 82.5000 mm): Via [RX0] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0993 mm)
+    Local override; error
+    @(110.6000 mm, 75.4500 mm): Track [RX0] on F.Cu, length 0.1500 mm
+    @(110.4500 mm, 75.0000 mm): Via [GPS_RX] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0750 mm)
+    Local override; error
+    @(95.4500 mm, 82.5000 mm): Via [RX0] on F.Cu - B.Cu
+    @(95.0000 mm, 82.0500 mm): Track [N_Q4_B] on B.Cu, length 1.3500 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0993 mm)
+    Local override; error
+    @(110.9000 mm, 75.4500 mm): Track [RX0] on F.Cu, length 0.3000 mm
+    @(110.4500 mm, 75.0000 mm): Via [GPS_RX] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0993 mm)
+    Local override; error
+    @(110.9000 mm, 75.1500 mm): Track [RX0] on F.Cu, length 0.3000 mm
+    @(110.4500 mm, 75.0000 mm): Via [GPS_RX] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0993 mm)
+    Local override; error
+    @(87.5000 mm, 91.5000 mm): Via [BST_FB] on F.Cu - B.Cu
+    @(87.9500 mm, 91.0500 mm): Track [SW_NODE] on B.Cu, length 0.3000 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0993 mm)
+    Local override; error
+    @(87.5000 mm, 91.5000 mm): Via [BST_FB] on F.Cu - B.Cu
+    @(87.9500 mm, 93.1500 mm): Track [SW_NODE] on B.Cu, length 1.5000 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0993 mm)
+    Local override; error
+    @(87.5000 mm, 91.5000 mm): Via [BST_FB] on F.Cu - B.Cu
+    @(87.6500 mm, 91.0500 mm): Track [SW_NODE] on B.Cu, length 0.1500 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0993 mm)
+    Local override; error
+    @(87.5000 mm, 91.5000 mm): Via [BST_FB] on F.Cu - B.Cu
+    @(87.9500 mm, 91.6500 mm): Track [SW_NODE] on B.Cu, length 0.1500 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0993 mm)
+    Local override; error
+    @(87.5000 mm, 91.5000 mm): Via [BST_FB] on F.Cu - B.Cu
+    @(87.9500 mm, 91.3500 mm): Track [SW_NODE] on B.Cu, length 0.3000 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0993 mm)
+    Local override; error
+    @(88.1000 mm, 91.3500 mm): Track [SW_NODE] on B.Cu, length 0.1500 mm
+    @(87.5000 mm, 91.5000 mm): Via [BST_FB] on F.Cu - B.Cu
+[shorting_items]: Items shorting two nets (nets GND and SW_NODE)
+    Local override; error
+    @(92.4500 mm, 92.5000 mm): Pad 2 [GND] of C_BAT_CHG on F.Cu
+    @(93.0000 mm, 93.0000 mm): Track [SW_NODE] on F.Cu, length 0.0500 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0259 mm)
+    Local override; error
+    @(93.0500 mm, 93.0000 mm): Track [SW_NODE] on F.Cu, length 0.4500 mm
+    @(92.4500 mm, 92.5000 mm): Pad 2 [GND] of C_BAT_CHG on F.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0993 mm)
+    Local override; error
+    @(95.1500 mm, 73.2000 mm): Track [TDS_ADC] on B.Cu, length 0.1500 mm
+    @(95.6000 mm, 73.0500 mm): Via [GPS_RX] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0993 mm)
+    Local override; error
+    @(95.1500 mm, 73.5000 mm): Track [TDS_ADC] on B.Cu, length 0.3000 mm
+    @(95.6000 mm, 73.0500 mm): Via [GPS_RX] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0993 mm)
+    Local override; error
+    @(98.9000 mm, 107.2500 mm): Track [TDS_SENSE] on F.Cu, length 0.1500 mm
+    @(99.0500 mm, 107.7000 mm): Via [TDS_ADC] on F.Cu - B.Cu
+[shorting_items]: Items shorting two nets (nets TDS_ADC and VBAT_RTC)
+    Local override; error
+    @(99.0500 mm, 106.2000 mm): Via [TDS_ADC] on F.Cu - B.Cu
+    @(100.0000 mm, 104.6500 mm): Pad 1 [VBAT_RTC] of BT1 on B.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0900 mm)
+    Local override; error
+    @(95.3000 mm, 76.6500 mm): Via [TDS_ADC] on F.Cu - B.Cu
+    @(95.5600 mm, 75.5100 mm): Pad 16 [GPS_TX] of U6 on F.Cu
+[shorting_items]: Items shorting two nets (nets TDS_ADC and VBAT_RTC)
+    Local override; error
+    @(99.0500 mm, 103.0500 mm): Via [TDS_ADC] on F.Cu - B.Cu
+    @(100.0000 mm, 104.6500 mm): Pad 1 [VBAT_RTC] of BT1 on B.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0993 mm)
+    Local override; error
+    @(95.1500 mm, 77.4000 mm): Via [N_Q4_B] on F.Cu - B.Cu
+    @(95.6000 mm, 77.2500 mm): Track [TDS_ADC] on F.Cu, length 0.3000 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0993 mm)
+    Local override; error
+    @(95.1500 mm, 77.4000 mm): Via [N_Q4_B] on F.Cu - B.Cu
+    @(95.6000 mm, 76.9500 mm): Track [TDS_ADC] on F.Cu, length 0.3000 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0993 mm)
+    Local override; error
+    @(95.1500 mm, 77.4000 mm): Via [N_Q4_B] on F.Cu - B.Cu
+    @(95.3000 mm, 76.9500 mm): Track [TDS_ADC] on F.Cu, length 0.3000 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0993 mm)
+    Local override; error
+    @(95.7500 mm, 77.2500 mm): Track [TDS_ADC] on F.Cu, length 0.1500 mm
+    @(95.1500 mm, 77.4000 mm): Via [N_Q4_B] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0993 mm)
+    Local override; error
+    @(109.7000 mm, 107.8500 mm): Via [ONEWIRE_TEMP] on F.Cu - B.Cu
+    @(110.1500 mm, 107.7000 mm): Track [TDS_SENSE] on B.Cu, length 0.1500 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0993 mm)
+    Local override; error
+    @(110.1500 mm, 107.4000 mm): Track [TDS_SENSE] on B.Cu, length 0.3000 mm
+    @(109.7000 mm, 107.8500 mm): Via [ONEWIRE_TEMP] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0233 mm)
+    Local override; error
+    @(110.4500 mm, 105.0000 mm): Pad 1 [+3V3] of C_RTC_VCC on B.Cu
+    @(110.0000 mm, 105.7500 mm): Via [TDS_SENSE] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0993 mm)
+    Local override; error
+    @(103.8500 mm, 106.9500 mm): Via [ONEWIRE_TEMP] on F.Cu - B.Cu
+    @(103.4000 mm, 106.8000 mm): Track [TDS_SENSE] on F.Cu, length 0.3000 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0993 mm)
+    Local override; error
+    @(98.6000 mm, 107.5500 mm): Track [TDS_SENSE] on F.Cu, length 0.3000 mm
+    @(99.0500 mm, 107.7000 mm): Via [TDS_ADC] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0993 mm)
+    Local override; error
+    @(103.8500 mm, 106.9500 mm): Via [ONEWIRE_TEMP] on F.Cu - B.Cu
+    @(103.4000 mm, 106.5000 mm): Track [TDS_SENSE] on F.Cu, length 0.3000 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0993 mm)
+    Local override; error
+    @(98.4500 mm, 107.5500 mm): Track [TDS_SENSE] on F.Cu, length 0.1500 mm
+    @(99.0500 mm, 107.7000 mm): Via [TDS_ADC] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0993 mm)
+    Local override; error
+    @(103.8500 mm, 106.9500 mm): Via [ONEWIRE_TEMP] on F.Cu - B.Cu
+    @(103.2500 mm, 106.8000 mm): Track [TDS_SENSE] on F.Cu, length 0.1500 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0993 mm)
+    Local override; error
+    @(103.8500 mm, 106.9500 mm): Via [ONEWIRE_TEMP] on F.Cu - B.Cu
+    @(103.7000 mm, 106.5000 mm): Track [TDS_SENSE] on F.Cu, length 0.1500 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0993 mm)
+    Local override; error
+    @(118.5500 mm, 75.1500 mm): Track [RX0] on F.Cu, length 0.3000 mm
+    @(118.1000 mm, 75.6000 mm): Via [IO0] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0878 mm)
+    Local override; error
+    @(91.2125 mm, 83.0000 mm): Pad 1 [STDBY_LED] of D_STDBY on F.Cu
+    @(91.7000 mm, 82.2000 mm): Via [STDBY_ANODE] on F.Cu - B.Cu
+[shorting_items]: Items shorting two nets (nets VBAT_RAW and STDBY_ANODE)
+    Local override; error
+    @(90.5500 mm, 69.9300 mm): Track [VBAT_RAW] on F.Cu, length 22.5700 mm
+    @(90.5000 mm, 85.2000 mm): Track [STDBY_ANODE] on F.Cu, length 0.0250 mm
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(90.5500 mm, 69.9300 mm): Track [VBAT_RAW] on F.Cu, length 22.5700 mm
+    @(91.7000 mm, 85.2000 mm): Track [STDBY_ANODE] on F.Cu, length 1.2000 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,1104 mm)
+    Local override; error
+    @(90.1500 mm, 82.2250 mm): Via [GND] on F.Cu - B.Cu
+    @(90.0500 mm, 81.7500 mm): Track [STDBY_LED] on B.Cu, length 0.3000 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0616 mm)
+    Local override; error
+    @(90.1500 mm, 82.2250 mm): Via [GND] on F.Cu - B.Cu
+    @(89.7500 mm, 82.0500 mm): Track [STDBY_LED] on B.Cu, length 0.1500 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0616 mm)
+    Local override; error
+    @(90.1500 mm, 82.2250 mm): Via [GND] on F.Cu - B.Cu
+    @(89.7500 mm, 81.7500 mm): Track [STDBY_LED] on B.Cu, length 0.3000 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0993 mm)
+    Local override; error
+    @(92.1500 mm, 85.3500 mm): Track [USB_D+] on B.Cu, length 0.3000 mm
+    @(91.7000 mm, 85.2000 mm): Via [STDBY_ANODE] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,1104 mm)
+    Local override; error
+    @(90.1500 mm, 82.2250 mm): Via [GND] on F.Cu - B.Cu
+    @(90.0500 mm, 81.6000 mm): Track [STDBY_LED] on B.Cu, length 0.1500 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0993 mm)
+    Local override; error
+    @(86.7500 mm, 82.9500 mm): Via [CHRG_LED] on F.Cu - B.Cu
+    @(86.6000 mm, 82.3500 mm): Track [STDBY_LED] on B.Cu, length 0.1500 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0993 mm)
+    Local override; error
+    @(86.7500 mm, 82.9500 mm): Via [CHRG_LED] on F.Cu - B.Cu
+    @(86.3000 mm, 82.8000 mm): Track [STDBY_LED] on B.Cu, length 0.1500 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0993 mm)
+    Local override; error
+    @(86.7500 mm, 82.9500 mm): Via [CHRG_LED] on F.Cu - B.Cu
+    @(86.6000 mm, 82.5000 mm): Track [STDBY_LED] on B.Cu, length 0.3000 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0993 mm)
+    Local override; error
+    @(86.7500 mm, 82.9500 mm): Via [CHRG_LED] on F.Cu - B.Cu
+    @(86.3000 mm, 82.5000 mm): Track [STDBY_LED] on B.Cu, length 0.3000 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0993 mm)
+    Local override; error
+    @(89.6000 mm, 86.7000 mm): Track [STDBY_LED] on B.Cu, length 0.1500 mm
+    @(89.4500 mm, 87.3000 mm): Via [CP_VDD] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0750 mm)
+    Local override; error
+    @(90.5500 mm, 69.9300 mm): Track [VBAT_RAW] on F.Cu, length 22.5700 mm
+    @(91.1000 mm, 81.6000 mm): Via [STDBY_LED] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0250 mm)
+    Local override; error
+    @(103.6750 mm, 82.0000 mm): Pad 1 [CP_DTR] of R_DTR on F.Cu
+    @(103.5500 mm, 82.8000 mm): Via [N_Q3_B] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0993 mm)
+    Local override; error
+    @(104.0000 mm, 83.2500 mm): Track [ONEWIRE_TEMP] on B.Cu, length 0.3000 mm
+    @(103.5500 mm, 82.8000 mm): Via [N_Q3_B] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0920 mm)
+    Local override; error
+    @(94.7000 mm, 82.0500 mm): Track [CP_RTS] on F.Cu, length 0.0250 mm
+    @(94.5500 mm, 82.5000 mm): Via [CP_DTR] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0993 mm)
+    Local override; error
+    @(93.3500 mm, 79.6500 mm): Track [RTC_INT] on B.Cu, length 3.0000 mm
+    @(93.8000 mm, 82.8000 mm): Via [CP_DTR] on F.Cu - B.Cu
+[shorting_items]: Items shorting two nets (nets CP_RTS and CP_DTR)
+    Local override; error
+    @(94.6750 mm, 82.0000 mm): Pad 1 [CP_RTS] of R_RTS on F.Cu
+    @(94.5000 mm, 82.5000 mm): Track [CP_DTR] on F.Cu, length 0.0500 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,1074 mm)
+    Local override; error
+    @(94.6750 mm, 82.0000 mm): Pad 1 [CP_RTS] of R_RTS on F.Cu
+    @(94.4000 mm, 82.6500 mm): Track [CP_DTR] on F.Cu, length 0.1500 mm
+[shorting_items]: Items shorting two nets (nets CP_DTR and CP_RTS)
+    Local override; error
+    @(94.5500 mm, 82.5000 mm): Track [CP_DTR] on F.Cu, length 0.0500 mm
+    @(94.6750 mm, 82.0000 mm): Pad 1 [CP_RTS] of R_RTS on F.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,1231 mm)
+    Local override; error
+    @(104.4250 mm, 61.5000 mm): Via [GND] on F.Cu - B.Cu
+    @(104.9000 mm, 80.4000 mm): Track [SPI_MOSI] on B.Cu, length 18.7500 mm
+[shorting_items]: Items shorting two nets (nets CP_DTR and CP_RTS)
+    Local override; error
+    @(94.5500 mm, 82.5000 mm): Track [CP_DTR] on F.Cu, length 0.1500 mm
+    @(94.6750 mm, 82.0000 mm): Pad 1 [CP_RTS] of R_RTS on F.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,1000 mm)
+    Local override; error
+    @(94.5500 mm, 82.6500 mm): Track [CP_DTR] on F.Cu, length 0.1500 mm
+    @(94.6750 mm, 82.0000 mm): Pad 1 [CP_RTS] of R_RTS on F.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0993 mm)
+    Local override; error
+    @(105.0500 mm, 88.3500 mm): Track [SPI_MOSI] on B.Cu, length 7.9500 mm
+    @(105.5000 mm, 80.2500 mm): Via [IO0] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0750 mm)
+    Local override; error
+    @(84.7250 mm, 110.0000 mm): Track [+5V_ANA] on F.Cu, length 3.2500 mm
+    @(87.5000 mm, 110.5500 mm): Via [SPI_MOSI] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0993 mm)
+    Local override; error
+    @(97.8500 mm, 80.4000 mm): Track [RX0] on B.Cu, length 0.1500 mm
+    @(98.3000 mm, 80.5500 mm): Via [CP_DTR] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,1174 mm)
+    Local override; error
+    @(85.7000 mm, 76.0000 mm): Via [+3V3] on F.Cu - B.Cu
+    @(86.1500 mm, 76.5000 mm): Track [SPI_SCK] on B.Cu, length 0.3000 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0993 mm)
+    Local override; error
+    @(82.8500 mm, 78.0000 mm): Via [CHIP_PU] on F.Cu - B.Cu
+    @(83.0000 mm, 78.4500 mm): Track [SPI_SCK] on B.Cu, length 0.3000 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0993 mm)
+    Local override; error
+    @(82.4000 mm, 84.7500 mm): Via [CC2] on F.Cu - B.Cu
+    @(82.5500 mm, 85.2000 mm): Track [SPI_SCK] on B.Cu, length 0.3000 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0993 mm)
+    Local override; error
+    @(82.8500 mm, 78.0000 mm): Via [CHIP_PU] on F.Cu - B.Cu
+    @(83.0000 mm, 84.9000 mm): Track [SPI_SCK] on B.Cu, length 6.4500 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,1470 mm)
+    Local override; error
+    @(85.7000 mm, 76.0000 mm): Via [+3V3] on F.Cu - B.Cu
+    @(85.8500 mm, 76.6500 mm): Track [SPI_SCK] on B.Cu, length 0.1500 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,1470 mm)
+    Local override; error
+    @(85.8500 mm, 76.5000 mm): Track [SPI_SCK] on B.Cu, length 0.3000 mm
+    @(85.7000 mm, 76.0000 mm): Via [+3V3] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0993 mm)
+    Local override; error
+    @(82.8500 mm, 78.0000 mm): Via [CHIP_PU] on F.Cu - B.Cu
+    @(83.3000 mm, 78.1500 mm): Track [SPI_SCK] on B.Cu, length 0.1500 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0993 mm)
+    Local override; error
+    @(82.4000 mm, 84.7500 mm): Via [CC2] on F.Cu - B.Cu
+    @(82.8500 mm, 84.9000 mm): Track [SPI_SCK] on B.Cu, length 0.1500 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0993 mm)
+    Local override; error
+    @(82.8500 mm, 85.2000 mm): Track [SPI_SCK] on B.Cu, length 0.3000 mm
+    @(82.4000 mm, 84.7500 mm): Via [CC2] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0993 mm)
+    Local override; error
+    @(82.8500 mm, 78.0000 mm): Via [CHIP_PU] on F.Cu - B.Cu
+    @(83.3000 mm, 78.4500 mm): Track [SPI_SCK] on B.Cu, length 0.3000 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,1174 mm)
+    Local override; error
+    @(86.1500 mm, 76.2000 mm): Track [SPI_SCK] on B.Cu, length 0.1500 mm
+    @(85.7000 mm, 76.0000 mm): Via [+3V3] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0993 mm)
+    Local override; error
+    @(82.5500 mm, 85.3500 mm): Track [SPI_SCK] on B.Cu, length 0.1500 mm
+    @(82.4000 mm, 84.7500 mm): Via [CC2] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0812 mm)
+    Local override; error
+    @(92.6000 mm, 70.7250 mm): Via [GND] on F.Cu - B.Cu
+    @(93.0500 mm, 70.8000 mm): Track [SPI_SCK] on F.Cu, length 0.1500 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,1231 mm)
+    Local override; error
+    @(85.5500 mm, 77.1000 mm): Via [SPI_SCK] on F.Cu - B.Cu
+    @(85.0500 mm, 76.0000 mm): Pad 1 [+3V3] of C_MCU_BULK on F.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0289 mm)
+    Local override; error
+    @(92.6000 mm, 70.7250 mm): Via [GND] on F.Cu - B.Cu
+    @(92.7500 mm, 71.1000 mm): Track [SPI_SCK] on F.Cu, length 0.3000 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0993 mm)
+    Local override; error
+    @(102.0500 mm, 67.5000 mm): Via [LCD_BL_PWM] on F.Cu - B.Cu
+    @(102.2000 mm, 68.1000 mm): Track [SPI_SCK] on F.Cu, length 0.1500 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0993 mm)
+    Local override; error
+    @(95.6000 mm, 69.3000 mm): Via [GPS_ANT] on F.Cu - B.Cu
+    @(96.0500 mm, 69.7500 mm): Track [SPI_SCK] on F.Cu, length 0.3000 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0993 mm)
+    Local override; error
+    @(102.0500 mm, 67.5000 mm): Via [LCD_BL_PWM] on F.Cu - B.Cu
+    @(102.2000 mm, 67.9500 mm): Track [SPI_SCK] on F.Cu, length 6.6000 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0993 mm)
+    Local override; error
+    @(95.6000 mm, 69.3000 mm): Via [GPS_ANT] on F.Cu - B.Cu
+    @(95.7500 mm, 69.9000 mm): Track [SPI_SCK] on F.Cu, length 0.1500 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0812 mm)
+    Local override; error
+    @(93.0500 mm, 71.1000 mm): Track [SPI_SCK] on F.Cu, length 0.3000 mm
+    @(92.6000 mm, 70.7250 mm): Via [GND] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0993 mm)
+    Local override; error
+    @(95.6000 mm, 69.3000 mm): Via [GPS_ANT] on F.Cu - B.Cu
+    @(96.0500 mm, 69.4500 mm): Track [SPI_SCK] on F.Cu, length 0.1500 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0289 mm)
+    Local override; error
+    @(92.7500 mm, 71.2500 mm): Track [SPI_SCK] on F.Cu, length 0.1500 mm
+    @(92.6000 mm, 70.7250 mm): Via [GND] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0993 mm)
+    Local override; error
+    @(95.6000 mm, 69.3000 mm): Via [GPS_ANT] on F.Cu - B.Cu
+    @(95.7500 mm, 69.7500 mm): Track [SPI_SCK] on F.Cu, length 0.3000 mm
+[shorting_items]: Items shorting two nets (nets GND and +5V)
+    Local override; error
+    @(105.1000 mm, 94.5000 mm): Via [GND] on F.Cu - B.Cu
+    @(102.5500 mm, 94.5000 mm): Track [+5V] on F.Cu, length 8.3000 mm
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(86.8625 mm, 92.0500 mm): Track [VBAT_SW] on F.Cu, length 0.9500 mm
+    @(86.8250 mm, 93.0000 mm): Track [+5V] on F.Cu, length 0.2250 mm
+[shorting_items]: Items shorting two nets (nets GND and +5V)
+    Local override; error
+    @(94.6000 mm, 98.5000 mm): Via [GND] on F.Cu - B.Cu
+    @(92.0500 mm, 98.5000 mm): Track [+5V] on F.Cu, length 4.9500 mm
+[shorting_items]: Items shorting two nets (nets +5V and +3V3)
+    Local override; error
+    @(110.8500 mm, 94.5000 mm): Track [+5V] on F.Cu, length 2.8000 mm
+    @(110.8500 mm, 95.0000 mm): Pad 2 [+3V3] of U5 on F.Cu
+[shorting_items]: Items shorting two nets (nets GND and +5V)
+    Local override; error
+    @(83.0250 mm, 106.4050 mm): Pad 4 [GND] of U9 on F.Cu
+    @(83.5000 mm, 106.2125 mm): Track [+5V] on F.Cu, length 3.3250 mm
+[shorting_items]: Items shorting two nets (nets +5V_ANA and +5V)
+    Local override; error
+    @(87.9750 mm, 102.5950 mm): Pad 8 [+5V_ANA] of U9 on F.Cu
+    @(86.8250 mm, 106.2125 mm): Track [+5V] on F.Cu, length 13.2125 mm
+[shorting_items]: Items shorting two nets (nets +5V and GND)
+    Local override; error
+    @(87.0500 mm, 93.0000 mm): Track [+5V] on F.Cu, length 5.5000 mm
+    @(87.5130 mm, 93.9500 mm): Via [GND] on F.Cu - B.Cu
+[shorting_items]: Items shorting two nets (nets GND and +5V)
+    Local override; error
+    @(88.9500 mm, 98.5000 mm): Pad 2 [GND] of C_BST_OUT1 on F.Cu
+    @(87.0500 mm, 98.5000 mm): Track [+5V] on F.Cu, length 1.7250 mm
+[shorting_items]: Items shorting two nets (nets GND and +5V)
+    Local override; error
+    @(88.9500 mm, 98.5000 mm): Pad 2 [GND] of C_BST_OUT1 on F.Cu
+    @(88.7750 mm, 98.5000 mm): Track [+5V] on F.Cu, length 2.0000 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0623 mm)
+    Local override; error
+    @(110.4500 mm, 105.5630 mm): Track [+3V3] on B.Cu, length 0.3250 mm
+    @(110.0000 mm, 105.7500 mm): Via [TDS_SENSE] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0113 mm)
+    Local override; error
+    @(86.0000 mm, 79.5000 mm): Pad 1 [CC2] of R_CC2 on F.Cu
+    @(85.2250 mm, 80.0000 mm): Track [+3V3] on F.Cu, length 0.3250 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0113 mm)
+    Local override; error
+    @(85.5500 mm, 80.0000 mm): Track [+3V3] on F.Cu, length 0.5630 mm
+    @(86.0000 mm, 79.5000 mm): Pad 1 [CC2] of R_CC2 on F.Cu
+[shorting_items]: Items shorting two nets (nets GND and )
+    Local override; error
+    @(97.1000 mm, 75.8500 mm): Track [GND] on B.Cu, length 1.1000 mm
+    @(97.1000 mm, 76.9500 mm): Pad 11 [<no net>] of U_GPS on B.Cu
+[shorting_items]: Items shorting two nets (nets GND and )
+    Local override; error
+    @(97.1000 mm, 76.9500 mm): Track [GND] on B.Cu, length 1.9050 mm
+    @(97.1000 mm, 76.9500 mm): Pad 11 [<no net>] of U_GPS on B.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,1231 mm)
+    Local override; error
+    @(92.1500 mm, 68.2500 mm): Track [RTC_INT] on F.Cu, length 0.3000 mm
+    @(92.6000 mm, 67.7750 mm): Via [GND] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,1470 mm)
+    Local override; error
+    @(104.6000 mm, 94.9500 mm): Track [DW01_CS] on B.Cu, length 0.3000 mm
+    @(105.1000 mm, 94.5000 mm): Via [GND] on F.Cu - B.Cu
+[shorting_items]: Items shorting two nets (nets +5V_ANA and GND)
+    Local override; error
+    @(84.7250 mm, 110.0000 mm): Track [+5V_ANA] on F.Cu, length 3.2500 mm
+    @(86.9250 mm, 110.0000 mm): Via [GND] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0401 mm)
+    Local override; error
+    @(88.1000 mm, 94.5000 mm): Track [SW_NODE] on B.Cu, length 1.3500 mm
+    @(88.4870 mm, 93.0000 mm): Via [GND] on F.Cu - B.Cu
+[shorting_items]: Items shorting two nets (nets VBAT_RAW and GND)
+    Local override; error
+    @(90.5500 mm, 69.9300 mm): Track [VBAT_RAW] on F.Cu, length 22.5700 mm
+    @(90.1500 mm, 82.2250 mm): Via [GND] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,1349 mm)
+    Local override; error
+    @(97.8500 mm, 77.5500 mm): Track [TDS_ADC] on F.Cu, length 0.1500 mm
+    @(97.7500 mm, 78.0500 mm): Via [GND] on F.Cu - B.Cu
+[shorting_items]: Items shorting two nets (nets +5V_ANA and GND)
+    Local override; error
+    @(97.5000 mm, 102.5950 mm): Track [+5V_ANA] on F.Cu, length 2.4050 mm
+    @(97.5180 mm, 103.7230 mm): Via [GND] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0569 mm)
+    Local override; error
+    @(99.0050 mm, 76.9500 mm): Via [GND] on F.Cu - B.Cu
+    @(98.4500 mm, 77.1000 mm): Track [GPS_TX] on F.Cu, length 0.1500 mm
+[shorting_items]: Items shorting two nets (nets GND and VBAT_SW)
+    Local override; error
+    @(86.8250 mm, 87.5000 mm): Via [GND] on F.Cu - B.Cu
+    @(86.8625 mm, 69.9300 mm): Track [VBAT_SW] on F.Cu, length 22.1200 mm
+[shorting_items]: Items shorting two nets (nets VBUS and GND)
+    Local override; error
+    @(89.5000 mm, 89.4050 mm): Track [VBUS] on F.Cu, length 5.6300 mm
+    @(89.6530 mm, 88.3030 mm): Via [GND] on F.Cu - B.Cu
+[shorting_items]: Items shorting two nets (nets VBUS and GND)
+    Local override; error
+    @(89.5000 mm, 89.4050 mm): Track [VBUS] on F.Cu, length 5.6300 mm
+    @(89.3320 mm, 85.0970 mm): Via [GND] on F.Cu - B.Cu
+[shorting_items]: Items shorting two nets (nets GND and VBAT_SW)
+    Local override; error
+    @(80.3770 mm, 86.8780 mm): Via [GND] on F.Cu - B.Cu
+    @(80.7500 mm, 99.5000 mm): Track [VBAT_SW] on F.Cu, length 29.5700 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,1231 mm)
+    Local override; error
+    @(108.9500 mm, 112.3500 mm): Track [DW01_CS] on F.Cu, length 0.1500 mm
+    @(108.3250 mm, 112.5000 mm): Via [GND] on F.Cu - B.Cu
+[shorting_items]: Items shorting two nets (nets GND and VBAT_SW)
+    Local override; error
+    @(80.7520 mm, 78.9770 mm): Via [GND] on F.Cu - B.Cu
+    @(80.7500 mm, 99.5000 mm): Track [VBAT_SW] on F.Cu, length 29.5700 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0839 mm)
+    Local override; error
+    @(82.5500 mm, 77.4000 mm): Track [CC1] on F.Cu, length 0.1500 mm
+    @(82.3250 mm, 77.0000 mm): Via [GND] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0373 mm)
+    Local override; error
+    @(91.1000 mm, 90.7500 mm): Track [CP_VDD] on B.Cu, length 3.1500 mm
+    @(91.5000 mm, 87.5000 mm): Via [GND] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0131 mm)
+    Local override; error
+    @(82.3250 mm, 77.0000 mm): Via [GND] on F.Cu - B.Cu
+    @(81.9500 mm, 77.4000 mm): Track [CHIP_PU] on B.Cu, length 0.3000 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0231 mm)
+    Local override; error
+    @(106.5500 mm, 104.5500 mm): Track [TDS_PROBE_DRIVE] on F.Cu, length 0.3000 mm
+    @(106.9750 mm, 104.9280 mm): Via [GND] on F.Cu - B.Cu
+[shorting_items]: Items shorting two nets (nets GND and VBAT_SW)
+    Local override; error
+    @(81.1730 mm, 86.4180 mm): Via [GND] on F.Cu - B.Cu
+    @(80.7500 mm, 99.5000 mm): Track [VBAT_SW] on F.Cu, length 29.5700 mm
+[shorting_items]: Items shorting two nets (nets VBUS and GND)
+    Local override; error
+    @(89.5000 mm, 89.4050 mm): Track [VBUS] on F.Cu, length 5.6300 mm
+    @(89.5880 mm, 85.9200 mm): Via [GND] on F.Cu - B.Cu
+[shorting_items]: Items shorting two nets (nets GND and VBAT_RAW)
+    Local override; error
+    @(93.8380 mm, 90.3250 mm): Via [GND] on F.Cu - B.Cu
+    @(93.9750 mm, 92.5000 mm): Track [VBAT_RAW] on F.Cu, length 3.0950 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,1130 mm)
+    Local override; error
+    @(93.9500 mm, 89.8500 mm): Track [CP_VDD] on B.Cu, length 0.1500 mm
+    @(93.8380 mm, 90.3250 mm): Via [GND] on F.Cu - B.Cu
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(87.0500 mm, 93.0000 mm): Track [+5V] on F.Cu, length 5.5000 mm
+    @(86.8625 mm, 93.9500 mm): Track [GND] on F.Cu, length 0.6505 mm
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(102.5500 mm, 94.5000 mm): Track [+5V] on F.Cu, length 8.3000 mm
+    @(104.4500 mm, 94.5000 mm): Track [GND] on F.Cu, length 0.6500 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0480 mm)
+    Local override; error
+    @(80.7500 mm, 99.5000 mm): Track [VBAT_SW] on F.Cu, length 29.5700 mm
+    @(80.3770 mm, 86.2500 mm): Track [GND] on F.Cu, length 0.6280 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,1404 mm)
+    Local override; error
+    @(119.4750 mm, 77.0000 mm): Via [GND] on F.Cu - B.Cu
+    @(119.6000 mm, 76.5000 mm): Track [RX0] on F.Cu, length 0.1500 mm
+[shorting_items]: Items shorting two nets (nets VBAT_SW and GND)
+    Local override; error
+    @(80.7500 mm, 99.5000 mm): Track [VBAT_SW] on F.Cu, length 29.5700 mm
+    @(80.7520 mm, 79.7500 mm): Track [GND] on F.Cu, length 0.7730 mm
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(84.7250 mm, 110.0000 mm): Track [+5V_ANA] on F.Cu, length 3.2500 mm
+    @(86.2750 mm, 110.0000 mm): Track [GND] on F.Cu, length 0.6500 mm
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(80.7500 mm, 99.5000 mm): Track [VBAT_SW] on F.Cu, length 29.5700 mm
+    @(80.5450 mm, 86.2500 mm): Track [GND] on F.Cu, length 0.6280 mm
+[shorting_items]: Items shorting two nets (nets +5V and GND)
+    Local override; error
+    @(87.0500 mm, 98.5000 mm): Track [+5V] on F.Cu, length 1.7250 mm
+    @(88.9500 mm, 98.5000 mm): Track [GND] on F.Cu, length 0.6500 mm
+[shorting_items]: Items shorting two nets (nets GND and VBAT_SW)
+    Local override; error
+    @(80.5450 mm, 79.7500 mm): Track [GND] on F.Cu, length 0.5630 mm
+    @(80.7500 mm, 99.5000 mm): Track [VBAT_SW] on F.Cu, length 29.5700 mm
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(80.5450 mm, 79.7500 mm): Track [GND] on F.Cu, length 0.2070 mm
+    @(80.7500 mm, 99.5000 mm): Track [VBAT_SW] on F.Cu, length 29.5700 mm
+[shorting_items]: Items shorting two nets (nets VBUS and GND)
+    Local override; error
+    @(89.5000 mm, 89.4050 mm): Track [VBUS] on F.Cu, length 5.6300 mm
+    @(89.6530 mm, 88.1350 mm): Track [GND] on F.Cu, length 0.1680 mm
+[shorting_items]: Items shorting two nets (nets GND and VBAT_RAW)
+    Local override; error
+    @(113.8625 mm, 85.0000 mm): Track [GND] on F.Cu, length 0.6505 mm
+    @(113.6750 mm, 99.5000 mm): Track [VBAT_RAW] on F.Cu, length 22.5000 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,1000 mm)
+    Local override; error
+    @(90.5500 mm, 69.9300 mm): Track [VBAT_RAW] on F.Cu, length 22.5700 mm
+    @(89.5000 mm, 82.2250 mm): Track [GND] on F.Cu, length 0.6500 mm
+[shorting_items]: Items shorting two nets (nets GND and VBAT_RAW)
+    Local override; error
+    @(93.8380 mm, 90.0000 mm): Track [GND] on F.Cu, length 0.3250 mm
+    @(93.9750 mm, 92.5000 mm): Track [VBAT_RAW] on F.Cu, length 3.0950 mm
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0980 mm)
+    Local override; error
+    @(81.1730 mm, 86.2500 mm): Track [GND] on F.Cu, length 0.1680 mm
+    @(80.7500 mm, 99.5000 mm): Track [VBAT_SW] on F.Cu, length 29.5700 mm
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(89.5000 mm, 89.4050 mm): Track [VBUS] on F.Cu, length 5.6300 mm
+    @(89.0250 mm, 88.1350 mm): Track [GND] on F.Cu, length 0.6280 mm
+[shorting_items]: Items shorting two nets (nets GND and VBAT_SW)
+    Local override; error
+    @(86.9500 mm, 76.0000 mm): Track [GND] on F.Cu, length 0.6500 mm
+    @(86.8625 mm, 69.9300 mm): Track [VBAT_SW] on F.Cu, length 22.1200 mm
+[shorting_items]: Items shorting two nets (nets VBUS and GND)
+    Local override; error
+    @(89.5000 mm, 89.4050 mm): Track [VBUS] on F.Cu, length 5.6300 mm
+    @(89.3320 mm, 85.7250 mm): Track [GND] on F.Cu, length 0.6280 mm
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(89.5000 mm, 89.4050 mm): Track [VBUS] on F.Cu, length 5.6300 mm
+    @(89.0250 mm, 85.5950 mm): Track [GND] on F.Cu, length 0.5630 mm
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(87.9750 mm, 106.4050 mm): Track [GND] on F.Cu, length 0.6500 mm
+    @(87.9750 mm, 110.0000 mm): Track [+5V_ANA] on F.Cu, length 7.4050 mm
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(93.9500 mm, 98.5000 mm): Track [GND] on F.Cu, length 0.6500 mm
+    @(92.0500 mm, 98.5000 mm): Track [+5V] on F.Cu, length 4.9500 mm
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(89.5000 mm, 89.4050 mm): Track [VBUS] on F.Cu, length 5.6300 mm
+    @(89.5000 mm, 85.7250 mm): Track [GND] on F.Cu, length 0.1680 mm
+[shorting_items]: Items shorting two nets (nets VBUS and GND)
+    Local override; error
+    @(89.5000 mm, 89.4050 mm): Track [VBUS] on F.Cu, length 5.6300 mm
+    @(89.5880 mm, 85.5950 mm): Track [GND] on F.Cu, length 0.3250 mm
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0,2500 mm; actual 0,1750 mm)
+    Rule: board setup constraints hole; error
+    @(103.6750 mm, 82.0000 mm): Pad 1 [CP_DTR] of R_DTR on F.Cu
+    @(103.5500 mm, 82.8000 mm): Via [N_Q3_B] on F.Cu - B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0,2500 mm; actual 0,2000 mm)
+    Rule: board setup constraints hole; error
+    @(113.8625 mm, 84.0500 mm): Pad 1 [DRAIN_U3] of U3 on F.Cu
+    @(114.2000 mm, 83.4000 mm): Via [OD_GATE] on F.Cu - B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0,2500 mm; actual 0,1750 mm)
+    Rule: board setup constraints hole; error
+    @(84.7250 mm, 110.0000 mm): Pad 1 [+5V_ANA] of C_U9_VCC on F.Cu
+    @(84.6500 mm, 109.2000 mm): Via [PH_ADC] on F.Cu - B.Cu
+[shorting_items]: Items shorting two nets (nets SW_NODE and GND)
+    Local override; error
+    @(93.0000 mm, 93.0000 mm): Pad 2 [SW_NODE] of D1 on F.Cu
+    @(92.4500 mm, 92.5000 mm): Pad 2 [GND] of C_BAT_CHG on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0,2500 mm; actual 0,1750 mm)
+    Rule: board setup constraints hole; error
+    @(86.2750 mm, 110.0000 mm): Pad 2 [GND] of C_U9_VCC on F.Cu
+    @(86.3000 mm, 109.2000 mm): Via [PH_ADC] on F.Cu - B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0,2500 mm; actual 0,1500 mm)
+    Rule: board setup constraints hole; error
+    @(113.8625 mm, 85.9500 mm): Pad 3 [B_MINUS] of U3 on F.Cu
+    @(114.2000 mm, 86.5500 mm): Via [OC_GATE] on F.Cu - B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0,2500 mm; actual 0,1750 mm)
+    Rule: board setup constraints hole; error
+    @(84.6750 mm, 104.5000 mm): Pad 2 [PH_SIGNAL] of R_PH_BIAS on B.Cu
+    @(84.6500 mm, 105.3000 mm): Via [PH_AMP_OUT] on F.Cu - B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0,2500 mm; actual 0,2082 mm)
+    Rule: board setup constraints hole; error
+    @(91.5000 mm, 70.7250 mm): Pad 2 [GND] of J_ANT on B.Cu
+    @(92.6000 mm, 71.5500 mm): Via [SPI_SCK] on F.Cu - B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0,2500 mm; actual 0,1750 mm)
+    Rule: board setup constraints hole; error
+    @(86.2750 mm, 110.0000 mm): Pad 2 [GND] of C_PH_FILT on B.Cu
+    @(86.3000 mm, 109.2000 mm): Via [PH_ADC] on F.Cu - B.Cu
+[shorting_items]: Items shorting two nets (nets DRAIN_U3 and VBAT_RAW)
+    Local override; error
+    @(116.1375 mm, 84.0500 mm): Pad 6 [DRAIN_U3] of U3 on F.Cu
+    @(117.5000 mm, 83.0000 mm): PTH pad 1 [VBAT_RAW] of J_BAT
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0,2500 mm; actual 0,1500 mm)
+    Rule: board setup constraints hole; error
+    @(100.0000 mm, 104.6500 mm): Pad 1 [VBAT_RTC] of BT1 on B.Cu
+    @(99.0500 mm, 103.0500 mm): Via [TDS_ADC] on F.Cu - B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0,2500 mm; actual 0,2000 mm)
+    Rule: board setup constraints hole; error
+    @(116.1375 mm, 84.0500 mm): Pad 6 [DRAIN_U3] of U3 on F.Cu
+    @(116.0000 mm, 83.4000 mm): Via [OD_GATE] on F.Cu - B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0,2500 mm; actual 0,1000 mm)
+    Rule: board setup constraints hole; error
+    @(100.0000 mm, 104.6500 mm): Pad 1 [VBAT_RTC] of BT1 on B.Cu
+    @(99.0500 mm, 106.2000 mm): Via [TDS_ADC] on F.Cu - B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0,2500 mm; actual 0,2384 mm)
+    Rule: board setup constraints hole; error
+    @(87.8250 mm, 87.5000 mm): Pad 1 [U1_PROG] of R_PROG on B.Cu
+    @(87.5000 mm, 88.3500 mm): Via [USB_D+] on F.Cu - B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0,2500 mm; actual 0,1733 mm)
+    Rule: board setup constraints hole; error
+    @(110.4500 mm, 105.0000 mm): Pad 1 [+3V3] of C_RTC_VCC on B.Cu
+    @(110.0000 mm, 105.7500 mm): Via [TDS_SENSE] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0000 mm)
+    Local override; error
+    @(97.3500 mm, 105.6350 mm): Pad 4 [<no net>] of U7 on B.Cu
+    @(100.0000 mm, 104.6500 mm): Pad 1 [VBAT_RTC] of BT1 on B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0,2500 mm; actual 0,2250 mm)
+    Rule: board setup constraints hole; error
+    @(86.1750 mm, 87.5000 mm): Pad 2 [GND] of R_PROG on B.Cu
+    @(86.3000 mm, 88.3500 mm): Via [USB_D+] on F.Cu - B.Cu
+[shorting_items]: Items shorting two nets (nets GND and VBAT_RTC)
+    Local override; error
+    @(97.3500 mm, 104.3650 mm): Pad 5 [GND] of U7 on B.Cu
+    @(100.0000 mm, 104.6500 mm): Pad 1 [VBAT_RTC] of BT1 on B.Cu
+[shorting_items]: Items shorting two nets (nets GND and VBAT_RTC)
+    Local override; error
+    @(97.3500 mm, 103.0950 mm): Pad 6 [GND] of U7 on B.Cu
+    @(100.0000 mm, 104.6500 mm): Pad 1 [VBAT_RTC] of BT1 on B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0,2500 mm; actual 0,0000 mm)
+    Rule: board setup constraints hole; error
+    @(81.2000 mm, 76.0000 mm): Pad 2 [GND] of SW_EN on F.Cu
+    @(81.6500 mm, 76.0500 mm): Via [CHIP_PU] on F.Cu - B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0,2500 mm; actual 0,1500 mm)
+    Rule: board setup constraints hole; error
+    @(81.2000 mm, 76.0000 mm): Pad 2 [GND] of SW_EN on F.Cu
+    @(81.3500 mm, 74.8500 mm): Via [CHIP_PU] on F.Cu - B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0,2500 mm; actual 0,2076 mm)
+    Rule: board setup constraints hole; error
+    @(105.1250 mm, 104.9500 mm): Pad 2 [GND] of Q1 on F.Cu
+    @(104.4500 mm, 105.6000 mm): Via [TDS_PROBE_DRIVE] on F.Cu - B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0,2500 mm; actual 0,1750 mm)
+    Rule: board setup constraints hole; error
+    @(106.6500 mm, 108.1750 mm): Pad 15 [I2C_SDA] of U7 on B.Cu
+    @(106.1000 mm, 107.5500 mm): Via [VBAT_RTC] on F.Cu - B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0,2500 mm; actual 0,0000 mm)
+    Rule: board setup constraints hole; error
+    @(94.6750 mm, 82.0000 mm): Pad 1 [CP_RTS] of R_RTS on F.Cu
+    @(94.5500 mm, 82.5000 mm): Via [CP_DTR] on F.Cu - B.Cu
+[shorting_items]: Items shorting two nets (nets VBUS and GND)
+    Local override; error
+    @(87.0500 mm, 80.5000 mm): Pad 1 [VBUS] of C_VBUS on F.Cu
+    @(86.7750 mm, 80.0000 mm): Pad 2 [GND] of C_MCU_DEC on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0,2500 mm; actual 0,2250 mm)
+    Rule: board setup constraints hole; error
+    @(96.3250 mm, 82.0000 mm): Pad 2 [N_Q4_B] of R_RTS on F.Cu
+    @(96.5000 mm, 81.1500 mm): Via [CHIP_PU] on F.Cu - B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0,2500 mm; actual 0,0000 mm)
+    Rule: board setup constraints hole; error
+    @(96.3250 mm, 82.0000 mm): Pad 2 [N_Q4_B] of R_RTS on F.Cu
+    @(96.5000 mm, 82.5000 mm): Via [CP_RTS] on F.Cu - B.Cu
+[shorting_items]: Items shorting two nets (nets +5V_ANA and VBAT_RTC)
+    Local override; error
+    @(97.5000 mm, 105.0000 mm): PTH pad 1 [+5V_ANA] of RV1
+    @(100.0000 mm, 104.6500 mm): Pad 1 [VBAT_RTC] of BT1 on B.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0000 mm)
+    Local override; error
+    @(97.5000 mm, 105.0000 mm): PTH pad 1 [+5V_ANA] of RV1
+    @(97.3500 mm, 105.6350 mm): Pad 4 [<no net>] of U7 on B.Cu
+[shorting_items]: Items shorting two nets (nets +5V_ANA and GND)
+    Local override; error
+    @(97.5000 mm, 105.0000 mm): PTH pad 1 [+5V_ANA] of RV1
+    @(97.3500 mm, 104.3650 mm): Pad 5 [GND] of U7 on B.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0507 mm)
+    Local override; error
+    @(90.5000 mm, 86.8250 mm): Pad 1 [VBUS] of R_STDBY on F.Cu
+    @(89.5000 mm, 87.2750 mm): Pad 1 [CP_VDD] of C_CP_VDD on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0,2500 mm; actual 0,2400 mm)
+    Rule: board setup constraints hole; error
+    @(95.5600 mm, 75.5100 mm): Pad 16 [GPS_TX] of U6 on F.Cu
+    @(95.3000 mm, 76.6500 mm): Via [TDS_ADC] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0662 mm)
+    Local override; error
+    @(90.5000 mm, 85.1750 mm): Pad 2 [STDBY_ANODE] of R_STDBY on F.Cu
+    @(89.5000 mm, 85.7250 mm): Pad 2 [GND] of C_CP_VDD on F.Cu
+[shorting_items]: Items shorting two nets (nets CHIP_PU and GND)
+    Local override; error
+    @(81.6750 mm, 76.0000 mm): Pad 1 [CHIP_PU] of R_EN on F.Cu
+    @(81.2000 mm, 76.0000 mm): Pad 2 [GND] of SW_EN on F.Cu
+[shorting_items]: Items shorting two nets (nets ONEWIRE_TEMP and GND)
+    Local override; error
+    @(118.0000 mm, 115.0000 mm): PTH pad 2 [ONEWIRE_TEMP] of J_TEMP
+    @(121.0000 mm, 115.5000 mm): PTH pad 1 [GND] of H4
+[shorting_items]: Items shorting two nets (nets ONEWIRE_TEMP and GND)
+    Local override; error
+    @(118.0000 mm, 115.0000 mm): PTH pad 2 [ONEWIRE_TEMP] of J_TEMP
+    @(121.0000 mm, 115.5000 mm): PTH pad 1 [GND] of H4
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0,2500 mm; actual 0,2264 mm)
+    Rule: board setup constraints hole; error
+    @(101.9100 mm, 75.5100 mm): Pad 21 [<no net>] of U6 on F.Cu
+    @(102.6500 mm, 76.5000 mm): Via [RX0] on F.Cu - B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0,2500 mm; actual 0,1191 mm)
+    Rule: board setup constraints hole; error
+    @(86.8625 mm, 92.0500 mm): Pad 4 [VBAT_SW] of U4 on F.Cu
+    @(87.5000 mm, 91.5000 mm): Via [BST_FB] on F.Cu - B.Cu
+[shorting_items]: Items shorting two nets (nets ONEWIRE_TEMP and GND)
+    Local override; error
+    @(118.0000 mm, 115.0000 mm): PTH pad 2 [ONEWIRE_TEMP] of J_TEMP
+    @(121.0000 mm, 115.5000 mm): PTH pad 1 [GND] of H4
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0,2500 mm; actual 0,1030 mm)
+    Rule: board setup constraints hole; error
+    @(103.1800 mm, 75.5100 mm): Pad 22 [<no net>] of U6 on F.Cu
+    @(102.6500 mm, 76.5000 mm): Via [RX0] on F.Cu - B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0,2500 mm; actual 0,1031 mm)
+    Rule: board setup constraints hole; error
+    @(86.8625 mm, 92.0500 mm): Pad 4 [VBAT_SW] of U4 on F.Cu
+    @(86.3000 mm, 91.5000 mm): Via [BST_FB] on F.Cu - B.Cu
+[shorting_items]: Items shorting two nets (nets ONEWIRE_TEMP and GND)
+    Local override; error
+    @(118.0000 mm, 115.0000 mm): PTH pad 2 [ONEWIRE_TEMP] of J_TEMP
+    @(121.0000 mm, 115.5000 mm): PTH pad 1 [GND] of H4
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0,2500 mm; actual 0,1000 mm)
+    Rule: board setup constraints hole; error
+    @(117.5000 mm, 83.0000 mm): PTH pad 1 [VBAT_RAW] of J_BAT
+    @(118.1000 mm, 81.7500 mm): Via [CHIP_PU] on F.Cu - B.Cu
+[shorting_items]: Items shorting two nets (nets +3V3 and GND)
+    Local override; error
+    @(120.5000 mm, 115.0000 mm): PTH pad 3 [+3V3] of J_TEMP
+    @(121.0000 mm, 115.5000 mm): PTH pad 1 [GND] of H4
+[shorting_items]: Items shorting two nets (nets CC2 and +3V3)
+    Local override; error
+    @(86.0000 mm, 79.5000 mm): Pad 1 [CC2] of R_CC2 on F.Cu
+    @(85.2250 mm, 80.0000 mm): Pad 1 [+3V3] of C_MCU_DEC on F.Cu
+[shorting_items]: Items shorting two nets (nets +3V3 and GND)
+    Local override; error
+    @(120.5000 mm, 115.0000 mm): PTH pad 3 [+3V3] of J_TEMP
+    @(121.0000 mm, 115.5000 mm): PTH pad 1 [GND] of H4
+[shorting_items]: Items shorting two nets (nets CC2 and GND)
+    Local override; error
+    @(86.0000 mm, 79.5000 mm): Pad 1 [CC2] of R_CC2 on F.Cu
+    @(86.7750 mm, 80.0000 mm): Pad 2 [GND] of C_MCU_DEC on F.Cu
+[shorting_items]: Items shorting two nets (nets +3V3 and GND)
+    Local override; error
+    @(120.5000 mm, 115.0000 mm): PTH pad 3 [+3V3] of J_TEMP
+    @(121.0000 mm, 115.5000 mm): PTH pad 1 [GND] of H4
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0,2500 mm; actual 0,1000 mm)
+    Rule: board setup constraints hole; error
+    @(117.5000 mm, 83.0000 mm): PTH pad 1 [VBAT_RAW] of J_BAT
+    @(118.1000 mm, 81.7500 mm): Via [CHIP_PU] on F.Cu - B.Cu
+[shorting_items]: Items shorting two nets (nets GND and VBUS)
+    Local override; error
+    @(87.6500 mm, 79.5000 mm): Pad 2 [GND] of R_CC2 on F.Cu
+    @(87.0500 mm, 80.5000 mm): Pad 1 [VBUS] of C_VBUS on F.Cu
+[shorting_items]: Items shorting two nets (nets +3V3 and GND)
+    Local override; error
+    @(120.5000 mm, 115.0000 mm): PTH pad 3 [+3V3] of J_TEMP
+    @(121.0000 mm, 115.5000 mm): PTH pad 1 [GND] of H4
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0,2500 mm; actual 0,1250 mm)
+    Rule: board setup constraints hole; error
+    @(87.6500 mm, 79.5000 mm): Pad 2 [GND] of R_CC2 on F.Cu
+    @(87.5000 mm, 78.7500 mm): Via [CHIP_PU] on F.Cu - B.Cu
+[shorting_items]: Items shorting two nets (nets GND and CHRG_ANODE)
+    Local override; error
+    @(89.0250 mm, 85.5950 mm): Pad 1 [GND] of U1 on F.Cu
+    @(88.2870 mm, 85.1750 mm): Pad 2 [CHRG_ANODE] of R_CHRG on F.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0500 mm)
+    Local override; error
+    @(83.3250 mm, 77.0000 mm): Pad 1 [CC1] of R_CC1 on F.Cu
+    @(83.3250 mm, 76.0000 mm): Pad 2 [+3V3] of R_EN on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0,2500 mm; actual 0,1000 mm)
+    Rule: board setup constraints hole; error
+    @(117.5000 mm, 83.0000 mm): PTH pad 1 [VBAT_RAW] of J_BAT
+    @(118.1000 mm, 81.7500 mm): Via [CHIP_PU] on F.Cu - B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0,2500 mm; actual 0,2250 mm)
+    Rule: board setup constraints hole; error
+    @(81.6750 mm, 77.0000 mm): Pad 2 [GND] of R_CC1 on F.Cu
+    @(81.8000 mm, 77.8500 mm): Via [CC1] on F.Cu - B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0,2500 mm; actual 0,2000 mm)
+    Rule: board setup constraints hole; error
+    @(95.0000 mm, 115.0000 mm): PTH pad 1 [PH_SIGNAL] of J_BNC
+    @(95.0000 mm, 113.4000 mm): Via [PH_OFFSET] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0315 mm)
+    Local override; error
+    @(89.0250 mm, 85.5950 mm): Pad 1 [GND] of U1 on F.Cu
+    @(90.5000 mm, 85.1750 mm): Pad 2 [STDBY_ANODE] of R_STDBY on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0,2500 mm; actual 0,2000 mm)
+    Rule: board setup constraints hole; error
+    @(95.0000 mm, 115.0000 mm): PTH pad 1 [PH_SIGNAL] of J_BNC
+    @(95.0000 mm, 113.4000 mm): Via [PH_OFFSET] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0500 mm)
+    Local override; error
+    @(81.6750 mm, 77.0000 mm): Pad 2 [GND] of R_CC1 on F.Cu
+    @(81.6750 mm, 76.0000 mm): Pad 1 [CHIP_PU] of R_EN on F.Cu
+[shorting_items]: Items shorting two nets (nets U1_PROG and VBUS)
+    Local override; error
+    @(89.0250 mm, 86.8650 mm): Pad 2 [U1_PROG] of U1 on F.Cu
+    @(88.2870 mm, 86.8250 mm): Pad 1 [VBUS] of R_CHRG on F.Cu
+[shorting_items]: Items shorting two nets (nets U1_PROG and CP_VDD)
+    Local override; error
+    @(89.0250 mm, 86.8650 mm): Pad 2 [U1_PROG] of U1 on F.Cu
+    @(89.5000 mm, 87.2750 mm): Pad 1 [CP_VDD] of C_CP_VDD on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0,2500 mm; actual 0,2000 mm)
+    Rule: board setup constraints hole; error
+    @(95.0000 mm, 115.0000 mm): PTH pad 1 [PH_SIGNAL] of J_BNC
+    @(95.0000 mm, 113.4000 mm): Via [PH_OFFSET] on F.Cu - B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0,2500 mm; actual 0,1000 mm)
+    Rule: board setup constraints hole; error
+    @(117.5000 mm, 83.0000 mm): PTH pad 1 [VBAT_RAW] of J_BAT
+    @(118.1000 mm, 81.7500 mm): Via [CHIP_PU] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0250 mm)
+    Local override; error
+    @(89.0250 mm, 86.8650 mm): Pad 2 [U1_PROG] of U1 on F.Cu
+    @(90.5000 mm, 86.8250 mm): Pad 1 [VBUS] of R_STDBY on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0,2500 mm; actual 0,0000 mm)
+    Rule: board setup constraints hole; error
+    @(89.0250 mm, 86.8650 mm): Pad 2 [U1_PROG] of U1 on F.Cu
+    @(89.4500 mm, 87.3000 mm): Via [CP_VDD] on F.Cu - B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0,2500 mm; actual 0,2000 mm)
+    Rule: board setup constraints hole; error
+    @(95.0000 mm, 115.0000 mm): PTH pad 1 [PH_SIGNAL] of J_BNC
+    @(95.0000 mm, 113.4000 mm): Via [PH_OFFSET] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,1100 mm)
+    Local override; error
+    @(89.0250 mm, 88.1350 mm): Pad 3 [GND] of U1 on F.Cu
+    @(89.5000 mm, 87.2750 mm): Pad 1 [CP_VDD] of C_CP_VDD on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0,2500 mm; actual 0,1970 mm)
+    Rule: board setup constraints hole; error
+    @(93.9750 mm, 89.4050 mm): Pad 5 [VBAT_RAW] of U1 on F.Cu
+    @(95.0000 mm, 88.8000 mm): Via [CP_RST] on F.Cu - B.Cu
+[shorting_items]: Items shorting two nets (nets VBAT_RAW and GND)
+    Local override; error
+    @(93.9750 mm, 89.4050 mm): Pad 5 [VBAT_RAW] of U1 on F.Cu
+    @(93.2750 mm, 90.0000 mm): Pad 2 [GND] of C_CP_DEC on F.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0050 mm)
+    Local override; error
+    @(81.7250 mm, 80.0000 mm): Pad 1 [CHIP_PU] of C_EN on F.Cu
+    @(80.5450 mm, 79.7500 mm): Pad A1 [GND] of J_USB on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0,2500 mm; actual 0,2350 mm)
+    Rule: board setup constraints hole; error
+    @(93.9750 mm, 88.1350 mm): Pad 6 [STDBY_LED] of U1 on F.Cu
+    @(93.3500 mm, 87.4500 mm): Via [CHRG_LED] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0050 mm)
+    Local override; error
+    @(81.7250 mm, 80.0000 mm): Pad 1 [CHIP_PU] of C_EN on F.Cu
+    @(80.5450 mm, 79.7500 mm): Pad B12 [GND] of J_USB on F.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0335 mm)
+    Local override; error
+    @(81.7250 mm, 80.0000 mm): Pad 1 [CHIP_PU] of C_EN on F.Cu
+    @(80.5450 mm, 80.5500 mm): Pad A4 [VBUS] of J_USB on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0,2500 mm; actual 0,1788 mm)
+    Rule: board setup constraints hole; error
+    @(93.9750 mm, 86.8650 mm): Pad 7 [CHRG_LED] of U1 on F.Cu
+    @(95.0000 mm, 87.4500 mm): Via [CP_RST] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0335 mm)
+    Local override; error
+    @(81.7250 mm, 80.0000 mm): Pad 1 [CHIP_PU] of C_EN on F.Cu
+    @(80.5450 mm, 80.5500 mm): Pad B9 [VBUS] of J_USB on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0,2500 mm; actual 0,2350 mm)
+    Rule: board setup constraints hole; error
+    @(83.0250 mm, 103.8650 mm): Pad 2 [PH_AMP_OUT] of U9 on F.Cu
+    @(83.7500 mm, 104.5500 mm): Via [PH_SIGNAL] on F.Cu - B.Cu
+[shorting_items]: Items shorting two nets (nets USB_D- and VBUS)
+    Local override; error
+    @(93.5500 mm, 85.5000 mm): Pad 5 [USB_D-] of U8 on F.Cu
+    @(93.9750 mm, 85.5950 mm): Pad 8 [VBUS] of U1 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0,2500 mm; actual 0,1750 mm)
+    Rule: board setup constraints hole; error
+    @(101.2750 mm, 99.5000 mm): Pad 2 [B_MINUS] of C_VDD on F.Cu
+    @(101.3000 mm, 98.7000 mm): Via [DW01_VDD] on F.Cu - B.Cu
+[shorting_items]: Items shorting two nets (nets CP_VDD and VBUS)
+    Local override; error
+    @(93.5500 mm, 86.0000 mm): Pad 6 [CP_VDD] of U8 on F.Cu
+    @(93.9750 mm, 85.5950 mm): Pad 8 [VBUS] of U1 on F.Cu
+[shorting_items]: Items shorting two nets (nets GND and VBUS)
+    Local override; error
+    @(91.5000 mm, 87.5000 mm): Pad 9 [GND] of U1 on F.Cu
+    @(90.5000 mm, 86.8250 mm): Pad 1 [VBUS] of R_STDBY on F.Cu
+[shorting_items]: Items shorting two nets (nets VBUS and CHRG_LED)
+    Local override; error
+    @(93.5500 mm, 86.5000 mm): Pad 7 [VBUS] of U8 on F.Cu
+    @(93.9750 mm, 86.8650 mm): Pad 7 [CHRG_LED] of U1 on F.Cu
+[shorting_items]: Items shorting two nets (nets GND and +5V)
+    Local override; error
+    @(83.0250 mm, 106.4050 mm): Pad 4 [GND] of U9 on F.Cu
+    @(83.5000 mm, 106.2125 mm): Pad 1 [+5V] of FB1 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0,2500 mm; actual 0,2250 mm)
+    Rule: board setup constraints hole; error
+    @(94.5000 mm, 87.4500 mm): Pad 8 [VBUS] of U8 on F.Cu
+    @(95.0000 mm, 87.4500 mm): Via [CP_RST] on F.Cu - B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0,2500 mm; actual 0,1350 mm)
+    Rule: board setup constraints hole; error
+    @(87.9750 mm, 105.1350 mm): Pad 6 [LM358B_OUT] of U9 on F.Cu
+    @(88.5500 mm, 104.5500 mm): Via [PH_OFFSET] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0684 mm)
+    Local override; error
+    @(122.2000 mm, 78.5000 mm): Pad 2 [GND] of SW_BOOT on F.Cu
+    @(121.0000 mm, 77.1200 mm): PTH pad 4 [RX0] of J_BOOT
+[shorting_items]: Items shorting two nets (nets GND and IO0)
+    Local override; error
+    @(122.2000 mm, 78.5000 mm): Pad 2 [GND] of SW_BOOT on F.Cu
+    @(121.0000 mm, 79.6600 mm): PTH pad 5 [IO0] of J_BOOT
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0,2500 mm; actual 0,2378 mm)
+    Rule: board setup constraints hole; error
+    @(91.2125 mm, 83.0000 mm): Pad 1 [STDBY_LED] of D_STDBY on F.Cu
+    @(91.7000 mm, 82.2000 mm): Via [STDBY_ANODE] on F.Cu - B.Cu
+[shorting_items]: Items shorting two nets (nets VBUS and STDBY_LED)
+    Local override; error
+    @(94.5000 mm, 87.4500 mm): Pad 8 [VBUS] of U8 on F.Cu
+    @(93.9750 mm, 88.1350 mm): Pad 6 [STDBY_LED] of U1 on F.Cu
+[shorting_items]: Items shorting two nets (nets VBUS and CHRG_LED)
+    Local override; error
+    @(94.5000 mm, 87.4500 mm): Pad 8 [VBUS] of U8 on F.Cu
+    @(93.9750 mm, 86.8650 mm): Pad 7 [CHRG_LED] of U1 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0,2500 mm; actual 0,2350 mm)
+    Rule: board setup constraints hole; error
+    @(87.9750 mm, 103.8650 mm): Pad 7 [LM358B_OUT] of U9 on F.Cu
+    @(88.5500 mm, 104.5500 mm): Via [PH_OFFSET] on F.Cu - B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0,2500 mm; actual 0,2250 mm)
+    Rule: board setup constraints hole; error
+    @(91.2125 mm, 83.0000 mm): Pad 1 [STDBY_LED] of D_STDBY on F.Cu
+    @(91.1000 mm, 83.8500 mm): Via [CHRG_LED] on F.Cu - B.Cu
+[shorting_items]: Items shorting two nets (nets +3V3 and GND)
+    Local override; error
+    @(79.5000 mm, 116.5400 mm): PTH pad 2 [+3V3] of J_LCD
+    @(79.0000 mm, 115.5000 mm): PTH pad 1 [GND] of H3
+[shorting_items]: Items shorting two nets (nets +3V3 and GND)
+    Local override; error
+    @(79.5000 mm, 116.5400 mm): PTH pad 2 [+3V3] of J_LCD
+    @(79.0000 mm, 115.5000 mm): PTH pad 1 [GND] of H3
+[shorting_items]: Items shorting two nets (nets +3V3 and GND)
+    Local override; error
+    @(79.5000 mm, 116.5400 mm): PTH pad 2 [+3V3] of J_LCD
+    @(79.0000 mm, 115.5000 mm): PTH pad 1 [GND] of H3
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0,2500 mm; actual 0,2250 mm)
+    Rule: board setup constraints hole; error
+    @(92.7875 mm, 83.0000 mm): Pad 2 [STDBY_ANODE] of D_STDBY on F.Cu
+    @(92.6000 mm, 83.8500 mm): Via [CHRG_LED] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0000 mm)
+    Local override; error
+    @(92.7875 mm, 83.0000 mm): Pad 2 [STDBY_ANODE] of D_STDBY on F.Cu
+    @(93.5500 mm, 83.5000 mm): Pad 1 [<no net>] of U8 on F.Cu
+[shorting_items]: Items shorting two nets (nets +3V3 and GND)
+    Local override; error
+    @(79.5000 mm, 116.5400 mm): PTH pad 2 [+3V3] of J_LCD
+    @(79.0000 mm, 115.5000 mm): PTH pad 1 [GND] of H3
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0282 mm)
+    Local override; error
+    @(95.0000 mm, 87.4500 mm): Pad 9 [CP_RST] of U8 on F.Cu
+    @(93.9750 mm, 88.1350 mm): Pad 6 [STDBY_LED] of U1 on F.Cu
+[shorting_items]: Items shorting two nets (nets CP_RST and CHRG_LED)
+    Local override; error
+    @(95.0000 mm, 87.4500 mm): Pad 9 [CP_RST] of U8 on F.Cu
+    @(93.9750 mm, 86.8650 mm): Pad 7 [CHRG_LED] of U1 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0,2500 mm; actual 0,2017 mm)
+    Rule: board setup constraints hole; error
+    @(95.5000 mm, 87.4500 mm): Pad 10 [<no net>] of U8 on F.Cu
+    @(95.6000 mm, 88.2000 mm): Via [RTC_INT] on F.Cu - B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0,2500 mm; actual 0,2250 mm)
+    Rule: board setup constraints hole; error
+    @(95.5000 mm, 87.4500 mm): Pad 10 [<no net>] of U8 on F.Cu
+    @(95.0000 mm, 87.4500 mm): Via [CP_RST] on F.Cu - B.Cu
+[shorting_items]: Items shorting two nets (nets CHIP_PU and B_MINUS)
+    Local override; error
+    @(121.0000 mm, 82.2000 mm): PTH pad 6 [CHIP_PU] of J_BOOT
+    @(120.0000 mm, 83.0000 mm): PTH pad 2 [B_MINUS] of J_BAT
+[shorting_items]: Items shorting two nets (nets CHIP_PU and B_MINUS)
+    Local override; error
+    @(121.0000 mm, 82.2000 mm): PTH pad 6 [CHIP_PU] of J_BOOT
+    @(120.0000 mm, 83.0000 mm): PTH pad 2 [B_MINUS] of J_BAT
+[shorting_items]: Items shorting two nets (nets CHIP_PU and B_MINUS)
+    Local override; error
+    @(121.0000 mm, 82.2000 mm): PTH pad 6 [CHIP_PU] of J_BOOT
+    @(120.0000 mm, 83.0000 mm): PTH pad 2 [B_MINUS] of J_BAT
+[shorting_items]: Items shorting two nets (nets CHIP_PU and B_MINUS)
+    Local override; error
+    @(121.0000 mm, 82.2000 mm): PTH pad 6 [CHIP_PU] of J_BOOT
+    @(120.0000 mm, 83.0000 mm): PTH pad 2 [B_MINUS] of J_BAT
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0,2500 mm; actual 0,2223 mm)
+    Rule: board setup constraints hole; error
+    @(97.0000 mm, 87.4500 mm): Pad 13 [<no net>] of U8 on F.Cu
+    @(96.8000 mm, 88.2000 mm): Via [RTC_INT] on F.Cu - B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0,2500 mm; actual 0,2250 mm)
+    Rule: board setup constraints hole; error
+    @(97.0000 mm, 82.5500 mm): Pad 23 [<no net>] of U8 on F.Cu
+    @(96.5000 mm, 82.5000 mm): Via [CP_RTS] on F.Cu - B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0,2500 mm; actual 0,0000 mm)
+    Rule: board setup constraints hole; error
+    @(96.5000 mm, 82.5500 mm): Pad 24 [CP_RTS] of U8 on F.Cu
+    @(96.3500 mm, 82.0500 mm): Via [N_Q4_B] on F.Cu - B.Cu
+[shorting_items]: Items shorting two nets (nets CP_RTS and N_Q4_B)
+    Local override; error
+    @(96.5000 mm, 82.5500 mm): Pad 24 [CP_RTS] of U8 on F.Cu
+    @(96.3250 mm, 82.0000 mm): Pad 2 [N_Q4_B] of R_RTS on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0,2500 mm; actual 0,2250 mm)
+    Rule: board setup constraints hole; error
+    @(96.0000 mm, 82.5500 mm): Pad 25 [TX0] of U8 on F.Cu
+    @(96.5000 mm, 82.5000 mm): Via [CP_RTS] on F.Cu - B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0,2500 mm; actual 0,1177 mm)
+    Rule: board setup constraints hole; error
+    @(96.0000 mm, 82.5500 mm): Pad 25 [TX0] of U8 on F.Cu
+    @(96.3500 mm, 82.0500 mm): Via [N_Q4_B] on F.Cu - B.Cu
+[shorting_items]: Items shorting two nets (nets TX0 and N_Q4_B)
+    Local override; error
+    @(96.0000 mm, 82.5500 mm): Pad 25 [TX0] of U8 on F.Cu
+    @(96.3250 mm, 82.0000 mm): Pad 2 [N_Q4_B] of R_RTS on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0,2500 mm; actual 0,1750 mm)
+    Rule: board setup constraints hole; error
+    @(95.0000 mm, 82.5500 mm): Pad 27 [<no net>] of U8 on F.Cu
+    @(94.5500 mm, 82.5000 mm): Via [CP_DTR] on F.Cu - B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0,2500 mm; actual 0,1750 mm)
+    Rule: board setup constraints hole; error
+    @(95.0000 mm, 82.5500 mm): Pad 27 [<no net>] of U8 on F.Cu
+    @(95.4500 mm, 82.5000 mm): Via [RX0] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0,1500 mm; actual 0,0000 mm)
+    Local override; error
+    @(95.0000 mm, 82.5500 mm): Pad 27 [<no net>] of U8 on F.Cu
+    @(94.6750 mm, 82.0000 mm): Pad 1 [CP_RTS] of R_RTS on F.Cu
+[shorting_items]: Items shorting two nets (nets CP_DTR and CP_RTS)
+    Local override; error
+    @(94.5000 mm, 82.5500 mm): Pad 28 [CP_DTR] of U8 on F.Cu
+    @(94.6750 mm, 82.0000 mm): Pad 1 [CP_RTS] of R_RTS on F.Cu
+[shorting_items]: Items shorting two nets (nets GND and VBUS)
+    Local override; error
+    @(96.0000 mm, 85.0000 mm): Pad 29 [GND] of U8 on F.Cu
+    @(93.9750 mm, 85.5950 mm): Pad 8 [VBUS] of U1 on F.Cu
+[shorting_items]: Items shorting two nets (nets GND and CHRG_LED)
+    Local override; error
+    @(96.0000 mm, 85.0000 mm): Pad 29 [GND] of U8 on F.Cu
+    @(93.9750 mm, 86.8650 mm): Pad 7 [CHRG_LED] of U1 on F.Cu
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(114.0000 mm, 95.0000 mm): Footprint U5
+    @(116.5000 mm, 99.0000 mm): Footprint R_LCD_GATE
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(114.0000 mm, 95.0000 mm): Footprint U5
+    @(119.5000 mm, 99.0000 mm): Footprint R_LCD_PD
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(79.5000 mm, 114.0000 mm): Footprint J_LCD
+    @(79.0000 mm, 115.5000 mm): Footprint H3
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(79.0000 mm, 115.5000 mm): PTH pad 1 [GND] of H3
+    @(79.5000 mm, 114.0000 mm): Footprint J_LCD
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(79.5000 mm, 114.0000 mm): PTH pad 1 [GND] of J_LCD
+    @(79.0000 mm, 115.5000 mm): Footprint H3
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(79.5000 mm, 116.5400 mm): PTH pad 2 [+3V3] of J_LCD
+    @(79.0000 mm, 115.5000 mm): Footprint H3
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(111.0000 mm, 112.5000 mm): Footprint FID3
+    @(106.0000 mm, 115.0000 mm): Footprint J_TDS
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(111.0000 mm, 112.5000 mm): Footprint FID3
+    @(108.5000 mm, 112.5000 mm): Footprint R_CS
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(92.0000 mm, 83.0000 mm): Footprint D_STDBY
+    @(96.0000 mm, 85.0000 mm): Footprint U8
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(114.0000 mm, 80.2600 mm): Footprint R_IO0
+    @(117.5000 mm, 83.0000 mm): Footprint J_BAT
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(120.5000 mm, 78.5000 mm): Footprint SW_BOOT
+    @(121.0000 mm, 69.5000 mm): Footprint J_BOOT
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(121.0000 mm, 77.1200 mm): PTH pad 4 [RX0] of J_BOOT
+    @(120.5000 mm, 78.5000 mm): Footprint SW_BOOT
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(121.0000 mm, 79.6600 mm): PTH pad 5 [IO0] of J_BOOT
+    @(120.5000 mm, 78.5000 mm): Footprint SW_BOOT
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(120.5000 mm, 78.5000 mm): Footprint SW_BOOT
+    @(117.5000 mm, 83.0000 mm): Footprint J_BAT
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(95.0000 mm, 93.0000 mm): Footprint D1
+    @(91.5000 mm, 92.5000 mm): Footprint C_BAT_CHG
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(121.0000 mm, 69.5000 mm): Footprint J_BOOT
+    @(117.5000 mm, 83.0000 mm): Footprint J_BAT
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(120.0000 mm, 83.0000 mm): PTH pad 2 [B_MINUS] of J_BAT
+    @(121.0000 mm, 69.5000 mm): Footprint J_BOOT
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(121.0000 mm, 79.6600 mm): PTH pad 5 [IO0] of J_BOOT
+    @(117.5000 mm, 83.0000 mm): Footprint J_BAT
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(121.0000 mm, 82.2000 mm): PTH pad 6 [CHIP_PU] of J_BOOT
+    @(117.5000 mm, 83.0000 mm): Footprint J_BAT
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(85.5000 mm, 104.5000 mm): Footprint U9
+    @(83.5000 mm, 107.0000 mm): Footprint FB1
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(82.5000 mm, 80.0000 mm): Footprint C_EN
+    @(76.5000 mm, 83.0000 mm): Footprint J_USB
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(104.5000 mm, 79.0000 mm): Footprint Q3
+    @(100.0000 mm, 66.0000 mm): Footprint U6
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(96.0000 mm, 85.0000 mm): Footprint U8
+    @(91.5000 mm, 87.5000 mm): Footprint U1
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(96.0000 mm, 85.0000 mm): Footprint U8
+    @(95.5000 mm, 82.0000 mm): Footprint R_RTS
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(82.5000 mm, 77.0000 mm): Footprint R_CC1
+    @(76.5000 mm, 83.0000 mm): Footprint J_USB
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(82.5000 mm, 77.0000 mm): Footprint R_CC1
+    @(82.5000 mm, 76.0000 mm): Footprint R_EN
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(82.5000 mm, 77.0000 mm): Footprint R_CC1
+    @(79.5000 mm, 76.0000 mm): Footprint SW_EN
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(91.5000 mm, 87.5000 mm): Footprint U1
+    @(90.5000 mm, 86.0000 mm): Footprint R_STDBY
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(91.5000 mm, 87.5000 mm): Footprint U1
+    @(88.2870 mm, 86.0000 mm): Footprint R_CHRG
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(91.5000 mm, 87.5000 mm): Footprint U1
+    @(92.5000 mm, 90.0000 mm): Footprint C_CP_DEC
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(91.5000 mm, 87.5000 mm): Footprint U1
+    @(89.5000 mm, 86.5000 mm): Footprint C_CP_VDD
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(86.8250 mm, 79.5000 mm): Footprint R_CC2
+    @(88.0000 mm, 80.5000 mm): Footprint C_VBUS
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(86.8250 mm, 79.5000 mm): Footprint R_CC2
+    @(86.0000 mm, 80.0000 mm): Footprint C_MCU_DEC
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(115.0000 mm, 85.0000 mm): Footprint U3
+    @(117.5000 mm, 83.0000 mm): Footprint J_BAT
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(117.0000 mm, 113.0000 mm): Footprint C_LCD_VCC
+    @(115.5000 mm, 115.0000 mm): Footprint J_TEMP
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(95.5000 mm, 79.0000 mm): Footprint Q4
+    @(100.0000 mm, 66.0000 mm): Footprint U6
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(100.0000 mm, 90.0000 mm): Footprint BT1
+    @(90.0000 mm, 93.0000 mm): Footprint R_FB2
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(97.5000 mm, 105.0000 mm): PTH pad 1 [+5V_ANA] of RV1
+    @(100.0000 mm, 90.0000 mm): Footprint BT1
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(100.0000 mm, 90.0000 mm): Footprint BT1
+    @(102.0000 mm, 105.0000 mm): Footprint U7
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(100.0000 mm, 90.0000 mm): Footprint BT1
+    @(103.0000 mm, 72.0000 mm): Footprint U_GPS
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(82.5000 mm, 76.0000 mm): Footprint R_EN
+    @(79.5000 mm, 76.0000 mm): Footprint SW_EN
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(115.5000 mm, 115.0000 mm): Footprint J_TEMP
+    @(121.0000 mm, 115.5000 mm): Footprint H4
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(121.0000 mm, 115.5000 mm): PTH pad 1 [GND] of H4
+    @(115.5000 mm, 115.0000 mm): Footprint J_TEMP
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(118.0000 mm, 115.0000 mm): PTH pad 2 [ONEWIRE_TEMP] of J_TEMP
+    @(121.0000 mm, 115.5000 mm): Footprint H4
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(120.5000 mm, 115.0000 mm): PTH pad 3 [+3V3] of J_TEMP
+    @(121.0000 mm, 115.5000 mm): Footprint H4
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(88.0000 mm, 93.0000 mm): Footprint U4
+    @(91.5000 mm, 92.5000 mm): Footprint C_BAT_CHG
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(90.5000 mm, 86.0000 mm): Footprint R_STDBY
+    @(89.5000 mm, 86.5000 mm): Footprint C_CP_VDD
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(87.5000 mm, 83.0000 mm): Footprint D_CHRG
+    @(89.5000 mm, 83.0000 mm): Footprint C_CP_VREG
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(97.5000 mm, 105.0000 mm): PTH pad 1 [+5V_ANA] of RV1
+    @(102.0000 mm, 105.0000 mm): Footprint U7
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(88.2870 mm, 86.0000 mm): Footprint R_CHRG
+    @(89.5000 mm, 86.5000 mm): Footprint C_CP_VDD
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(88.0000 mm, 80.5000 mm): Footprint C_VBUS
+    @(86.0000 mm, 80.0000 mm): Footprint C_MCU_DEC
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(106.0000 mm, 115.0000 mm): Footprint J_TDS
+    @(108.5000 mm, 112.5000 mm): Footprint R_CS
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0,3000 mm; actual 0,0000 mm)
+    Rule: board setup constraints edge; error
+    @(123.0000 mm, 120.0000 mm): Segment on Edge.Cuts
+    @(80.9000 mm, 121.6500 mm): Track [SPI_MOSI] on B.Cu, length 3.4500 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0,3000 mm; actual 0,0750 mm)
+    Rule: board setup constraints edge; error
+    @(123.0000 mm, 120.0000 mm): Segment on Edge.Cuts
+    @(89.9000 mm, 120.1500 mm): Track [PH_OFFSET] on F.Cu, length 0.0200 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0,3000 mm; actual 0,0050 mm)
+    Rule: board setup constraints edge; error
+    @(123.0000 mm, 120.0000 mm): Segment on Edge.Cuts
+    @(100.1000 mm, 120.0800 mm): Track [PH_OFFSET] on F.Cu, length 0.0700 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0,3000 mm; actual 0,0050 mm)
+    Rule: board setup constraints edge; error
+    @(123.0000 mm, 120.0000 mm): Segment on Edge.Cuts
+    @(100.0800 mm, 120.0800 mm): Track [PH_OFFSET] on F.Cu, length 0.0200 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0,3000 mm; actual 0,0050 mm)
+    Rule: board setup constraints edge; error
+    @(123.0000 mm, 120.0000 mm): Segment on Edge.Cuts
+    @(100.1000 mm, 120.0800 mm): Track [PH_OFFSET] on F.Cu, length 0.0700 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0,3000 mm; actual 0,0750 mm)
+    Rule: board setup constraints edge; error
+    @(123.0000 mm, 120.0000 mm): Segment on Edge.Cuts
+    @(100.1000 mm, 120.1500 mm): Track [PH_OFFSET] on F.Cu, length 10.2000 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0,3000 mm; actual 0,0750 mm)
+    Rule: board setup constraints edge; error
+    @(123.0000 mm, 120.0000 mm): Segment on Edge.Cuts
+    @(100.1000 mm, 120.1500 mm): Track [PH_OFFSET] on F.Cu, length 2.5500 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0,3000 mm; actual 0,0050 mm)
+    Rule: board setup constraints edge; error
+    @(123.0000 mm, 120.0000 mm): Segment on Edge.Cuts
+    @(100.0800 mm, 120.0800 mm): Track [PH_OFFSET] on F.Cu, length 0.0200 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0,3000 mm; actual 0,0050 mm)
+    Rule: board setup constraints edge; error
+    @(123.0000 mm, 120.0000 mm): Segment on Edge.Cuts
+    @(89.9200 mm, 120.1500 mm): Track [PH_OFFSET] on F.Cu, length 0.0700 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0,3000 mm; actual 0,0000 mm)
+    Rule: board setup constraints edge; error
+    @(123.0000 mm, 120.0000 mm): Segment on Edge.Cuts
+    @(97.5500 mm, 120.1500 mm): Via [PH_OFFSET] on F.Cu - B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0,3000 mm; actual 0,0000 mm)
+    Rule: board setup constraints edge; error
+    @(123.0000 mm, 120.0000 mm): Segment on Edge.Cuts
+    @(97.5500 mm, 120.1500 mm): Track [PH_OFFSET] on B.Cu, length 5.1000 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0,3000 mm; actual 0,0700 mm)
+    Rule: board setup constraints edge; error
+    @(123.0000 mm, 120.0000 mm): Segment on Edge.Cuts
+    @(79.5000 mm, 119.0800 mm): PTH pad 3 [SPI_SCK] of J_LCD
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0,3000 mm; actual 0,0000 mm)
+    Rule: board setup constraints edge; error
+    @(123.0000 mm, 120.0000 mm): Segment on Edge.Cuts
+    @(100.0800 mm, 120.0800 mm): PTH pad 2 [PH_OFFSET] of J_BNC
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0,3000 mm; actual 0,0000 mm)
+    Rule: board setup constraints edge; error
+    @(123.0000 mm, 120.0000 mm): Segment on Edge.Cuts
+    @(89.9200 mm, 120.0800 mm): PTH pad 2 [PH_OFFSET] of J_BNC
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0,2500 mm; actual 0,0000 mm)
+    Rule: board setup constraints; warning
+    @(99.9700 mm, 66.6150 mm): Via [GND] on F.Cu - B.Cu
+    @(100.0825 mm, 66.6150 mm): PTH pad 39 [GND] of U6
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0,2500 mm; actual 0,0000 mm)
+    Rule: board setup constraints; warning
+    @(100.0825 mm, 63.5650 mm): PTH pad 39 [GND] of U6
+    @(99.9700 mm, 63.5650 mm): Via [GND] on F.Cu - B.Cu
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0,2500 mm; actual 0,0000 mm)
+    Rule: board setup constraints; warning
+    @(100.0825 mm, 65.0900 mm): PTH pad 39 [GND] of U6
+    @(99.9700 mm, 65.0900 mm): Via [GND] on F.Cu - B.Cu
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0,2500 mm; actual 0,1313 mm)
+    Rule: board setup constraints; warning
+    @(97.7950 mm, 65.8525 mm): PTH pad 39 [GND] of U6
+    @(97.4700 mm, 66.0520 mm): Via [GND] on F.Cu - B.Cu
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0,2500 mm; actual 0,0000 mm)
+    Rule: board setup constraints; warning
+    @(98.4450 mm, 65.0900 mm): Via [GND] on F.Cu - B.Cu
+    @(98.5575 mm, 65.0900 mm): PTH pad 39 [GND] of U6
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0,2500 mm; actual 0,0000 mm)
+    Rule: board setup constraints; warning
+    @(99.3200 mm, 65.8525 mm): PTH pad 39 [GND] of U6
+    @(99.3200 mm, 65.7400 mm): Via [GND] on F.Cu - B.Cu
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0,2500 mm; actual 0,0000 mm)
+    Rule: board setup constraints; warning
+    @(98.5575 mm, 63.5650 mm): PTH pad 39 [GND] of U6
+    @(98.4450 mm, 63.5650 mm): Via [GND] on F.Cu - B.Cu
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0,2500 mm; actual 0,1743 mm)
+    Rule: board setup constraints; warning
+    @(96.5000 mm, 82.5000 mm): Via [CP_RTS] on F.Cu - B.Cu
+    @(96.3500 mm, 82.0500 mm): Via [N_Q4_B] on F.Cu - B.Cu
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0,2500 mm; actual 0,0000 mm)
+    Rule: board setup constraints; warning
+    @(79.0000 mm, 115.5000 mm): PTH pad 1 [GND] of H3
+    @(79.5000 mm, 114.0000 mm): PTH pad 1 [GND] of J_LCD
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0,2500 mm; actual 0,0000 mm)
+    Rule: board setup constraints; warning
+    @(79.0000 mm, 115.5000 mm): PTH pad 1 [GND] of H3
+    @(79.5000 mm, 116.5400 mm): PTH pad 2 [+3V3] of J_LCD
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0,2500 mm; actual 0,0000 mm)
+    Rule: board setup constraints; warning
+    @(120.5000 mm, 115.0000 mm): PTH pad 3 [+3V3] of J_TEMP
+    @(121.0000 mm, 115.5000 mm): PTH pad 1 [GND] of H4
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0,2500 mm; actual 0,1313 mm)
+    Rule: board setup constraints; warning
+    @(97.7950 mm, 65.8525 mm): PTH pad 39 [GND] of U6
+    @(97.4700 mm, 66.0520 mm): Via [GND] on F.Cu - B.Cu
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0,2500 mm; actual 0,0000 mm)
+    Rule: board setup constraints; warning
+    @(98.5575 mm, 63.5650 mm): PTH pad 39 [GND] of U6
+    @(98.4450 mm, 63.5650 mm): Via [GND] on F.Cu - B.Cu
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0,2500 mm; actual 0,0000 mm)
+    Rule: board setup constraints; warning
+    @(98.4450 mm, 65.0900 mm): Via [GND] on F.Cu - B.Cu
+    @(98.5575 mm, 65.0900 mm): PTH pad 39 [GND] of U6
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0,2500 mm; actual 0,0000 mm)
+    Rule: board setup constraints; warning
+    @(99.3200 mm, 65.8525 mm): PTH pad 39 [GND] of U6
+    @(99.3200 mm, 65.7400 mm): Via [GND] on F.Cu - B.Cu
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0,2500 mm; actual 0,0000 mm)
+    Rule: board setup constraints; warning
+    @(100.0825 mm, 63.5650 mm): PTH pad 39 [GND] of U6
+    @(99.9700 mm, 63.5650 mm): Via [GND] on F.Cu - B.Cu
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0,2500 mm; actual 0,0000 mm)
+    Rule: board setup constraints; warning
+    @(100.0825 mm, 65.0900 mm): PTH pad 39 [GND] of U6
+    @(99.9700 mm, 65.0900 mm): Via [GND] on F.Cu - B.Cu
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0,2500 mm; actual 0,0000 mm)
+    Rule: board setup constraints; warning
+    @(99.9700 mm, 66.6150 mm): Via [GND] on F.Cu - B.Cu
+    @(100.0825 mm, 66.6150 mm): PTH pad 39 [GND] of U6
+
+** Found 17 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(87.6500 mm, 79.5000 mm): Track [GND] on F.Cu, length 0.6500 mm
+    @(86.7750 mm, 80.0000 mm): Pad 2 [GND] of C_MCU_DEC on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(97.3500 mm, 104.3650 mm): Pad 5 [GND] of U7 on B.Cu
+    @(73.0000 mm, 53.0000 mm): Zone [GND] on B.Cu, priority 0
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(79.5000 mm, 116.5400 mm): PTH pad 2 [+3V3] of J_LCD
+    @(73.0000 mm, 53.0000 mm): Zone [+3V3] on In2.Cu, priority 0
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(120.5000 mm, 115.0000 mm): PTH pad 3 [+3V3] of J_TEMP
+    @(73.0000 mm, 53.0000 mm): Zone [+3V3] on In2.Cu, priority 0
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(86.8250 mm, 106.2125 mm): Track [+5V] on F.Cu, length 13.2125 mm
+    @(86.8250 mm, 93.0000 mm): Pad 1 [+5V] of R_FB1 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(88.7750 mm, 96.5000 mm): Track [+5V] on F.Cu, length 3.2750 mm
+    @(88.7750 mm, 96.5000 mm): Pad 1 [+5V] of C_FF on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(79.5000 mm, 124.1600 mm): PTH pad 5 [LCD_RST] of J_LCD
+    @(108.7500 mm, 70.4500 mm): Pad 28 [LCD_RST] of U6 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(79.5000 mm, 126.7000 mm): PTH pad 6 [LCD_DC] of J_LCD
+    @(108.7500 mm, 71.7200 mm): Pad 27 [LCD_DC] of U6 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(79.5000 mm, 129.2400 mm): PTH pad 7 [LCD_CS] of J_LCD
+    @(108.7500 mm, 69.1800 mm): Pad 29 [LCD_CS] of U6 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(79.5000 mm, 131.7800 mm): PTH pad 8 [LCD_LED_K] of J_LCD
+    @(120.3250 mm, 104.0000 mm): Pad 2 [LCD_LED_K] of R_BL_LIM on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(96.0000 mm, 82.5500 mm): Pad 25 [TX0] of U8 on F.Cu
+    @(120.9500 mm, 74.5500 mm): Track [TX0] on F.Cu, length 8.1000 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(113.6750 mm, 77.0000 mm): Track [VBAT_RAW] on F.Cu, length 3.8250 mm
+    @(113.6750 mm, 77.0000 mm): Pad 1 [VBAT_RAW] of R_BAT1 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(90.9500 mm, 87.6000 mm): Track [CP_VDD] on B.Cu, length 0.3000 mm
+    @(93.5500 mm, 86.0000 mm): Pad 6 [CP_VDD] of U8 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(80.5450 mm, 82.2500 mm): Pad B7 [USB_D-] of J_USB on F.Cu
+    @(80.5450 mm, 83.2500 mm): Pad A7 [USB_D-] of J_USB on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(80.5450 mm, 83.2500 mm): Pad A7 [USB_D-] of J_USB on F.Cu
+    @(93.5500 mm, 85.5000 mm): Pad 5 [USB_D-] of U8 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(87.8250 mm, 87.5000 mm): Pad 1 [U1_PROG] of R_PROG on B.Cu
+    @(89.0250 mm, 86.8650 mm): Pad 2 [U1_PROG] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(91.2500 mm, 70.4500 mm): Pad 11 [TDS_PWR_CTRL] of U6 on F.Cu
+    @(100.6750 mm, 104.5000 mm): Pad 1 [TDS_PWR_CTRL] of R_TDS_GATE on F.Cu
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Via is not connected or connected on only one layer
+    - Track has unconnected end
+    - Footprint has no courtyard defined
+    - Solder mask aperture bridges items with different nets
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Silkscreen clearance
+    - Silkscreen clipped by solder mask
+    - Silkscreen clipped by board edge
+    - Footprint component type doesn't match footprint pads
+    - Footprint not found in libraries
+    - Footprint doesn't match copy in library
+
+** End of Report **
