@@ -1,0 +1,58 @@
+﻿Item,Block,Designator,Qty,Value,Description,Footprint,Manufacturer,MPN,LCSC,Unit_Price_USD,Ext_Price_USD,Datasheet
+1,4.1 Input Power & Protection,J1,1,PJ-002A (6-12V),DC Barrel Jack 5.5x2.1mm THT (6-12V Input),BarrelJack_CUI_PJ-102AH_Horizontal,CUI Devices,PJ-002A,C720477,0.45,0.45,CUI Devices PJ-002A Datasheet
+2,4.1 Input Power & Protection,D1,1,SMBJ15CA,Bidirectional TVS Diode 15V Standoff 600W Surge Clamp,D_SMB,Littelfuse,SMBJ15CA,C123785,0.08,0.08,Littelfuse SMBJ Series Datasheet
+3,4.1 Input Power & Protection,Q1,1,AO3407A,P-Channel MOSFET -30V +/-20V VGS -4.3A RDS(on)<=48mOhm Reverse-Polarity Ideal Diode,SOT-23-3,Alpha & Omega Semiconductor,AO3407A,C347475,0.06,0.06,AOS AO3407A Datasheet
+4,4.1 Input Power & Protection,D2,1,BZT52C10 (10V),Zener Diode 10V 500mW Gate-Source Clamp for Q1,D_SOD-123,Diodes Incorporated,BZT52C10-7-F,C81598,0.04,0.04,Diodes Inc. BZT52C Series Datasheet
+5,4.1 Input Power & Protection,R1,1,47k 1%,Thick Film Resistor 0603 Q1 Gate Pull-Down,R_0603_1608Metric,Yageo,RC0603FR-0747KL,C25819,0.01,0.01,Yageo RC0603 Datasheet
+6,4.1 Input Power & Protection,C1,1,47uF/25V,Aluminum Electrolytic Capacitor SMD 6.3x5.4mm Input Bulk,CP_Elec_6.3x5.4,Panasonic,EEE-FK1E470P,C72485,0.22,0.22,Panasonic EEE-FK Series Datasheet
+7,4.1 Input Power & Protection,C2,1,100nF 50V X7R,MLCC Capacitor 0603 Input HF Bypass,C_0603_1608Metric,Samsung Electro-Mechanics,CL10B104KB8NNNC,C1591,0.01,0.01,Samsung CL10B104KB8NNNC Datasheet
+8,4.2 5V Buck Converter,U1,1,TPS54202DDCR,4.5-28V Input 2A Synchronous Step-Down Buck Converter 500kHz VFB=0.596V,SOT-23-6,Texas Instruments,TPS54202DDCR,C128249,0.65,0.65,TI TPS54202 Datasheet (SLVSDF5)
+9,4.2 5V Buck Converter,C3,1,10uF/25V X5R,MLCC Capacitor 0805 Buck Input Ceramic Cap,C_0805_2012Metric,Murata,GRM21BR61E106KA73L,C15850,0.06,0.06,Murata GRM21BR61E106KA73 Datasheet
+10,4.2 5V Buck Converter,C4,1,100nF 50V X7R,MLCC Capacitor 0603 Bootstrap Cap (BOOT-SW),C_0603_1608Metric,Samsung Electro-Mechanics,CL10B104KB8NNNC,C1591,0.01,0.01,Samsung CL10B104KB8NNNC Datasheet
+11,4.2 5V Buck Converter,L1,1,15uH (SRN6045),Shielded Power Inductor Isat>=2.9A Irms>=2.5A DCR~65mOhm 6x6mm,L_Bourns_SRN6045TA,Bourns,SRN6045TA-150M,C169400,0.42,0.42,Bourns SRN6045TA Datasheet
+12,4.2 5V Buck Converter,R2,1,100k 1%,Thick Film Resistor 0603 Buck EN Pull-Up,R_0603_1608Metric,Yageo,RC0603FR-07100KL,C25803,0.01,0.01,Yageo RC0603 Datasheet
+13,4.2 5V Buck Converter,R3,1,68.0k 1%,Thick Film Resistor 0603 Buck Feedback Top,R_0603_1608Metric,Yageo,RC0603FR-0768KL,C23231,0.01,0.01,Yageo RC0603 Datasheet
+14,4.2 5V Buck Converter,R4,1,9.10k 1%,Thick Film Resistor 0603 Buck Feedback Bottom,R_0603_1608Metric,Yageo,RC0603FR-079K1L,C23268,0.01,0.01,Yageo RC0603 Datasheet
+15,4.2 5V Buck Converter,"C5, C6",2,22uF/16V X5R,MLCC Capacitor 0805 Buck Output Filter (Parallel),C_0805_2012Metric,Murata,GRM21BR61C226ME44L,C45783,0.07,0.14,Murata GRM21BR61C226ME44 Datasheet
+16,4.3 USB/DC Power-Path,U2,1,TPS2116DRLR,1.6-5.5V 2.5A Priority Power Multiplexer Reverse Current Blocking RON=40mOhm,SOT-583-8,Texas Instruments,TPS2116DRLR,C2875184,0.88,0.88,TI TPS2116 Datasheet (SLVSFJ9)
+17,4.3 USB/DC Power-Path,R5,1,36.0k 1%,Thick Film Resistor 0603 PR1 Priority Top Divider,R_0603_1608Metric,Yageo,RC0603FR-0736KL,C23146,0.01,0.01,Yageo RC0603 Datasheet
+18,4.3 USB/DC Power-Path,R6,1,10.0k 1%,Thick Film Resistor 0603 PR1 Priority Bottom Divider,R_0603_1608Metric,Yageo,RC0603FR-0710KL,C25804,0.01,0.01,Yageo RC0603 Datasheet
+19,4.3 USB/DC Power-Path,C7,1,10uF/16V X5R,MLCC Capacitor 0805 +5V Rail Local Decoupling,C_0805_2012Metric,Samsung Electro-Mechanics,CL21A106KOQNNNE,C17024,0.04,0.04,Samsung CL21A106KOQNNNE Datasheet
+20,4.4 3.3V LDO Regulator,U3,1,AP2114H-3.3TRG1,1.0A Low-Noise CMOS LDO Regulator VDO=450mV typ IQ=60uA typ,SOT-223-3_TabPin2,Diodes Incorporated,AP2114H-3.3TRG1,C151275,0.28,0.28,Diodes Inc. AP2114 Datasheet
+21,4.4 3.3V LDO Regulator,C8,1,10uF/16V X5R,MLCC Capacitor 0805 LDO Input Decoupling,C_0805_2012Metric,Samsung Electro-Mechanics,CL21A106KOQNNNE,C17024,0.04,0.04,Samsung CL21A106KOQNNNE Datasheet
+22,4.4 3.3V LDO Regulator,C9,1,22uF/16V X5R,MLCC Capacitor 0805 LDO Output Decoupling,C_0805_2012Metric,Murata,GRM21BR61C226ME44L,C45783,0.07,0.07,Murata GRM21BR61C226ME44 Datasheet
+23,4.4 3.3V LDO Regulator,C10,1,100nF 50V X7R,MLCC Capacitor 0603 LDO Output HF Bypass,C_0603_1608Metric,Samsung Electro-Mechanics,CL10B104KB8NNNC,C1591,0.01,0.01,Samsung CL10B104KB8NNNC Datasheet
+24,4.4 3.3V LDO Regulator,D3,1,PWR_GREEN,0603 SMD Green LED Power Indicator (+3V3),LED_0603_1608Metric,Everlight Electronics,19-217/GHC-YR1S2/3T,C72043,0.04,0.04,Everlight 19-217/GHC Datasheet
+25,4.4 3.3V LDO Regulator,R11,1,470R 1%,Thick Film Resistor 0603 PWR LED Current Limiting (2.55mA),R_0603_1608Metric,Yageo,RC0603FR-07470RL,C23179,0.01,0.01,Yageo RC0603 Datasheet
+26,4.5 MCU ESP32-S3,U4,1,ESP32-S3-WROOM-1-N16R8,Dual-Core Xtensa LX7 240MHz Wi-Fi/BLE 5 16MB Flash 8MB Octal PSRAM PCB Ant,ESP32-S3-WROOM-1,Espressif Systems,ESP32-S3-WROOM-1-N16R8,C2913202,3.8,3.8,Espressif ESP32-S3-WROOM-1 Datasheet
+27,4.5 MCU ESP32-S3,C11,1,22uF/16V X5R,MLCC Capacitor 0805 MCU 3V3 Bulk Decoupling,C_0805_2012Metric,Murata,GRM21BR61C226ME44L,C45783,0.07,0.07,Murata GRM21BR61C226ME44 Datasheet
+28,4.5 MCU ESP32-S3,C12,1,100nF 50V X7R,MLCC Capacitor 0603 MCU 3V3 HF Bypass,C_0603_1608Metric,Samsung Electro-Mechanics,CL10B104KB8NNNC,C1591,0.01,0.01,Samsung CL10B104KB8NNNC Datasheet
+29,4.5 MCU ESP32-S3,R7,1,10.0k 1%,Thick Film Resistor 0603 EN Pull-Up to +3V3,R_0603_1608Metric,Yageo,RC0603FR-0710KL,C25804,0.01,0.01,Yageo RC0603 Datasheet
+30,4.5 MCU ESP32-S3,C13,1,1uF/16V X7R,MLCC Capacitor 0603 EN RC Delay Cap (tau=10ms),C_0603_1608Metric,Samsung Electro-Mechanics,CL10B105KO8NNNC,C15849,0.02,0.02,Samsung CL10B105KO8NNNC Datasheet
+31,4.5 MCU ESP32-S3,"SW1, SW2",2,TS-1187A-B-A-B,SMD Tactile Push Button Switch 5.1x5.1mm (RESET & BOOT),SW_Push_1P1T_XKB_TS-1187A,XKB Connectivity,TS-1187A-B-A-B,C318884,0.08,0.16,XKB TS-1187A Datasheet
+32,4.5 MCU ESP32-S3,R8,1,10.0k 1%,Thick Film Resistor 0603 GPIO0 BOOT Pull-Up,R_0603_1608Metric,Yageo,RC0603FR-0710KL,C25804,0.01,0.01,Yageo RC0603 Datasheet
+33,4.6 USB Type-C & ESD,J2,1,USB_C_16P,USB 2.0 Type-C 16-Pin Receptacle SMD,USB_C_Receptacle_HRO_TYPE-C-31-M-12,Korean Hroparts Elec,TYPE-C-31-M-12,C165948,0.24,0.24,HRO TYPE-C-31-M-12 Datasheet
+34,4.6 USB Type-C & ESD,"R9, R10",2,5.10k 1%,Thick Film Resistor 0603 CC1 & CC2 Independent Rd Pull-Downs,R_0603_1608Metric,Yageo,RC0603FR-075K1L,C23186,0.01,0.02,Yageo RC0603 Datasheet
+35,4.6 USB Type-C & ESD,U5,1,USBLC6-2SC6,Ultra-Low Capacitance 2.5pF USB 2.0 ESD Protection Array,SOT-23-6,STMicroelectronics,USBLC6-2SC6,C7519,0.14,0.14,ST USBLC6-2SC6 Datasheet
+36,4.6 USB Type-C & ESD,C14,1,100nF 50V X7R,MLCC Capacitor 0603 VBUS ESD Local Bypass,C_0603_1608Metric,Samsung Electro-Mechanics,CL10B104KB8NNNC,C1591,0.01,0.01,Samsung CL10B104KB8NNNC Datasheet
+37,4.7 Display LED & NeoPixel,D4,1,D13_RED,0603 SMD Red LED User D13 Indicator (GPIO48),LED_0603_1608Metric,Everlight Electronics,19-217/R6C-AL1M2VY/3T,C2286,0.03,0.03,Everlight 19-217/R6C Datasheet
+38,4.7 Display LED & NeoPixel,R12,1,270R 1%,Thick Film Resistor 0603 D13 LED Current Limiting (4.81mA),R_0603_1608Metric,Yageo,RC0603FR-07270RL,C22966,0.01,0.01,Yageo RC0603 Datasheet
+39,4.7 Display LED & NeoPixel,R13,1,10.0k (Strap PD),Thick Film Resistor 0603 GPIO45 Strapping Safety Pull-Down,R_0603_1608Metric,Yageo,RC0603FR-0710KL,C25804,0.01,0.01,Yageo RC0603 Datasheet
+40,4.7 Display LED & NeoPixel,U6,1,SN74LV1T34DBVR,Single Power-Supply CMOS Buffer 3.3V to 5V Level Shifter,SOT-23-5,Texas Instruments,SN74LV1T34DBVR,C100018,0.16,0.16,TI SN74LV1T34 Datasheet
+41,4.7 Display LED & NeoPixel,C15,1,100nF 50V X7R,MLCC Capacitor 0603 U6 +5V Bypass,C_0603_1608Metric,Samsung Electro-Mechanics,CL10B104KB8NNNC,C1591,0.01,0.01,Samsung CL10B104KB8NNNC Datasheet
+42,4.7 Display LED & NeoPixel,D5,1,WS2812B-B,Addressable RGB NeoPixel LED 5050 +5V Powered,LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm,Worldsemi,WS2812B-B/W,C114586,0.12,0.12,Worldsemi WS2812B Datasheet
+43,4.7 Display LED & NeoPixel,C16,1,100nF 50V X7R,MLCC Capacitor 0603 NeoPixel +5V Decoupling,C_0603_1608Metric,Samsung Electro-Mechanics,CL10B104KB8NNNC,C1591,0.01,0.01,Samsung CL10B104KB8NNNC Datasheet
+44,4.8 Peripherals & Headers,"R14, R15",2,1.50k 1%,Thick Film Resistor 0603 Shared I2C Bus (GPIO11/12) Pull-Ups,R_0603_1608Metric,Yageo,RC0603FR-071K5L,C22843,0.01,0.02,Yageo RC0603 Datasheet
+45,4.8 Peripherals & Headers,R16,1,6.80k 1%,Thick Film Resistor 0603 A0 0-5V Divider Top (E12),R_0603_1608Metric,Yageo,RC0603FR-076K8L,C23212,0.01,0.01,Yageo RC0603 Datasheet
+46,4.8 Peripherals & Headers,R17,1,10.0k 1%,Thick Film Resistor 0603 A0 0-5V Divider Bottom (E12),R_0603_1608Metric,Yageo,RC0603FR-0710KL,C25804,0.01,0.01,Yageo RC0603 Datasheet
+47,4.8 Peripherals & Headers,JP1,1,A0_3V3/5V,3-Pad Solder Jumper (1-2 Default Direct 3.3V / 2-3 Scaled 0-5V),SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm,Generic,SJ-3-1.3MM,N/A,0.0,0.0,KiCad Standard Footprint Library
+48,4.8 Peripherals & Headers,C17,1,100nF 50V X7R,MLCC Capacitor 0603 A0 ADC Charge-Reservoir & Filter,C_0603_1608Metric,Samsung Electro-Mechanics,CL10B104KB8NNNC,C1591,0.01,0.01,Samsung CL10B104KB8NNNC Datasheet
+49,4.8 Peripherals & Headers,C18,1,470uF/10V,Low-ESR Aluminum Electrolytic Bulk Capacitor Near Servo GVS Header,CP_Elec_8x10.5,Panasonic,EEE-FK1A471P,C134734,0.34,0.34,Panasonic EEE-FK Series Datasheet
+50,4.8 Peripherals & Headers,"J3, J4, J5, J6",4,Grove_Analog_4P (Yellow),Grove 4-Pin 2.0mm Vertical Connector (A6-A3/A3-A2/A2-A1/A1-A0),NS-Tech_Grove_1x04_P2mm_Vertical,Seeed Studio,110990030,C2906423,0.14,0.56,Seeed Grove 4-Pin Connector Spec
+51,4.8 Peripherals & Headers,"J7, J8, J9, J10",4,Grove_Digital_4P (White),Grove 4-Pin 2.0mm Vertical Connector (D10-D9/D8-D7/D6-D5/D4-D3),NS-Tech_Grove_1x04_P2mm_Vertical,Seeed Studio,112060001,C492401,0.14,0.56,Seeed Grove 4-Pin Connector Spec
+52,4.8 Peripherals & Headers,"J11, J12, J13, J14",4,Grove_I2C_4P (Red),Grove 4-Pin 2.0mm Vertical Connector (I2C4..I2C1 on GPIO11/12),NS-Tech_Grove_1x04_P2mm_Vertical,Seeed Studio,110990031,C2906424,0.14,0.56,Seeed Grove 4-Pin Connector Spec
+53,4.8 Peripherals & Headers,J15,1,QWIIC_SM04B,QWIIC / STEMMA QT 4-Pin 1.0mm Horizontal JST-SH Connector,JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal,JST,SM04B-SRSS-TB,C160404,0.18,0.18,JST SH Series Datasheet
+54,4.8 Peripherals & Headers,"J17, J20",2,UNO_1x08,Arduino UNO R3 8-Pin 2.54mm Female Socket (Power & Digital Low),PinSocket_1x08_P2.54mm_Vertical,Changjiang Connectors,FH-254-1x08,C49661,0.12,0.24,Arduino UNO R3 Mechanical Spec
+55,4.8 Peripherals & Headers,J18,1,UNO_ANALOG_1x06,Arduino UNO R3 6-Pin 2.54mm Female Socket (A0-A5),PinSocket_1x06_P2.54mm_Vertical,Changjiang Connectors,FH-254-1x06,C49659,0.1,0.1,Arduino UNO R3 Mechanical Spec
+56,4.8 Peripherals & Headers,J19,1,UNO_DIGH_1x10,Arduino UNO R3 10-Pin 2.54mm Female Socket (D8-D13/GND/AREF/SDA/SCL),PinSocket_1x10_P2.54mm_Vertical,Changjiang Connectors,FH-254-1x10,C49663,0.14,0.14,Arduino UNO R3 Mechanical Spec
+57,4.8 Peripherals & Headers,"J21, J22, J23, J24",4,Servo_GVS_1x03,3-Pin 2.54mm Male Pin Header for 4x Servo GVS (D2/D13/D12/D11),PinHeader_1x03_P2.54mm_Vertical,XKB Connectivity,X6511WV-1x3,C492405,0.04,0.16,Standard 2.54mm Pin Header Spec
